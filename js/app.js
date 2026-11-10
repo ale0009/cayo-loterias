@@ -3,7 +3,7 @@ import { cargarDatos, listaSorteos } from './datos.js';
 import { iniciarEscaner, detenerEscaner } from './escaner.js';
 import {
   leerCodigo, revisarLoteria, revisarBaloto, validarBaloto, buscarSorteo,
-  cifrasFinalesIguales, vence, diasHasta, pesos,
+  cifrasFinalesIguales, vence, diasHasta, pesos, codigosDesdePlanes,
 } from './motor.js';
 
 const $ = s => document.querySelector(s);
@@ -36,23 +36,24 @@ tabs.forEach((t, i) => {
 });
 
 // ------------------------------------------------------------------ código de 20 dígitos
-const NOMBRES = { medellin: 'Medellín', boyaca: 'Boyacá' };
+let CODS = {};
+const nombreCorto = id => (D?.planes.loterias[id]?.nombre ?? id).replace(/^Lotería (de |del )?/, '');
 function pintarPartes() {
   const v = $('#codigo').value.replace(/\D/g, '');
-  const c = leerCodigo(v);
+  const c = leerCodigo(v, CODS);
   if (!v) { $('#codigo-partes').innerHTML = ''; return; }
   if (!c) { $('#codigo-partes').innerHTML = `<span class="parte mal">${v.length}/20 dígitos${v[0] && v[0] !== '9' ? ' · debe empezar por 9' : ''}</span>`; return; }
   $('#codigo-partes').innerHTML = [
-    ['Lotería', c.loteria ? NOMBRES[c.loteria] : `código ${c.codigoLoteria}`],
+    ['Lotería', c.loteria ? nombreCorto(c.loteria) : `código ${c.codigoLoteria}`],
     ['Sorteo', c.sorteo], ['Número', c.numero], ['Serie', c.serie], ['Fracción', c.fraccion],
   ].map(([k, x]) => `<span class="parte ${k === 'Lotería' && !c.loteria ? 'mal' : ''}"><b>${k}</b>${esc(x)}</span>`).join('');
 }
 $('#codigo').addEventListener('input', pintarPartes);
 $('#p-codigo').addEventListener('submit', e => {
   e.preventDefault();
-  const c = leerCodigo($('#codigo').value);
+  const c = leerCodigo($('#codigo').value, CODS);
   if (!c) return mostrarError('Ese número no tiene la forma esperada: son 20 dígitos y empiezan por 9. Están impresos justo debajo del código de barras.');
-  if (!c.loteria) return mostrarError(`El código de lotería ${c.codigoLoteria} todavía no está soportado. Por ahora: Medellín (016) y Boyacá (004). Puedes usar la pestaña «Baloto» o esperar a que se agregue.`);
+  if (!c.loteria) return mostrarError(`Aún no sabemos a qué lotería corresponde el código ${c.codigoLoteria}. Conocidos: ${Object.entries(CODS).map(([k, v]) => `${nombreCorto(v)} (${k})`).join(', ')}. Usa la pestaña «Lotería a mano»: ahí están todas las loterías soportadas.`);
   $('#sello').hidden = $('#codigo').value.replace(/\D/g, '') !== EJEMPLO;
   revisarBillete({ loteria: c.loteria, sorteo: c.sorteo, numero: c.numero, serie: c.serie, fraccion: c.fraccion });
 });
@@ -173,7 +174,8 @@ function revisarBillete(b) {
   const marca = i => i >= 4 - k || i < marcarPrim || r.categoria === 'mayor' || r.categoria === 'mayor_sin_serie';
   $('#veredicto').innerHTML = r.gano ? '<span class="si">¡Cayó!</span>' : '<span class="no">No cayó</span>';
   $('#detalle').innerHTML = `${r.gano ? ESTALLIDO : ''}
-    ${r.gano ? `<p class="monto">${pesos(r.netoFraccion)} <small>neto por fracción · ${pesos(r.netoBillete)} el billete completo</small></p>
+    ${r.gano && r.desconocido ? `<p class="monto">Premio seco <small>la fuente no publica su valor: confírmalo en ${esc(new URL(plan.fuente_resultados).hostname)}</small></p>` : ''}
+    ${r.gano && !r.desconocido ? `<p class="monto">${pesos(r.netoFraccion)} <small>neto por fracción · ${pesos(r.netoBillete)} el billete completo</small></p>
       <div class="en-linea fracc" role="group" aria-label="Fracciones del billete"><span class="meta">Tu billete es de</span>${[1, 2, 3, 4].map(n =>
         `<button type="button" class="mini" data-fr="${n}" aria-pressed="${n === r.fracciones}">${n} fracc.</button>`).join('')}</div>
       <p><b>${esc(etq[r.categoria] || r.categoria)}</b>${r.otras.length ? ` · también cumple: ${r.otras.map(o => esc(etq[o.clave])).join(', ')} (no se suman)` : ''}</p>` : ''}
@@ -183,6 +185,7 @@ function revisarBillete(b) {
     </dl>
     <ul class="datos-cobro">
       <li>${esc(plan.nombre)} · sorteo ${s.id} · ${fechaLarga(s.fecha)} · ${s.secos.length} secos revisados.</li>
+      ${s.aviso ? `<li class="aviso-fuente"><b>Ojo:</b> ${esc(s.aviso)}. ${r.gano ? '' : 'Revisa el acta oficial antes de botar el billete.'}</li>` : ''}
       ${bloqueVence(s.fecha, r.gano)}
       ${r.gano ? `<li>${esc(plan.cobro)} Lleva el billete original, entero y legible: es un documento al portador.</li>` : ''}
       <li>Fuente: <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">${new URL(plan.fuente_resultados).hostname}</a></li>
@@ -335,6 +338,7 @@ function pintarUltimos() {
     $('#ultimos').innerHTML = '';
     return;
   }
+  CODS = codigosDesdePlanes(D.planes);
   $('#m-loteria').innerHTML = Object.entries(D.planes.loterias).map(([k, v]) => `<option value="${k}">${esc(v.nombre)}</option>`).join('');
   llenarSorteos();
   $('#b-sorteo').innerHTML = listaSorteos(D.baloto).map(s => `<option value="${s.id}">${s.id} · ${fechaLarga(s.fecha)}</option>`).join('');

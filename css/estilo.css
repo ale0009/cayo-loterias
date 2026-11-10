@@ -86,7 +86,7 @@ a:hover { color: var(--rojo-texto); }
 .consulta { grid-area: consulta; } .veredicto-caja { grid-area: veredicto; } .billetera { grid-area: billetera; }
 .buscador { grid-area: buscador; } .ultimos { grid-area: ultimos; }
 @media (min-width: 920px) {
-  .tablero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-areas: "consulta veredicto" "billetera billetera" "buscador ultimos"; align-items: start; }
+  .tablero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-areas: "consulta veredicto" "billetera buscador" "ultimos ultimos"; align-items: start; }
 }
 
 /* ---------- pestañas ---------- */
@@ -191,7 +191,7 @@ input::placeholder { color: var(--tinta-suave); opacity: 0.55; }
 .hallazgos b { font-family: var(--fuente-num); }
 .tag { display: inline-block; font: 700 0.72rem var(--fuente-num); text-transform: uppercase; letter-spacing: 0.08em; padding: 0.1rem 0.4rem; border: 2px solid var(--tinta); margin-right: 0.35rem; }
 .tag.mayor { background: var(--oro); color: var(--oro-tinta); }
-.tarjetas { display: grid; gap: 0.7rem; }
+.tarjetas { display: grid; gap: 0.6rem; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); }
 .tarjeta { border: 2px solid var(--tinta); padding: 0.6rem 0.75rem; border-radius: 3px; display: grid; gap: 0.25rem; }
 .tarjeta h3 { font-size: 1.2rem; }
 .tarjeta .meta { font-size: 0.82rem; color: var(--tinta-suave); }
@@ -214,3 +214,5 @@ input::placeholder { color: var(--tinta-suave); opacity: 0.55; }
 .mini[aria-pressed="true"] { background: var(--tinta); color: var(--papel); }
 .fracc { margin: 0.2rem 0 0.6rem; gap: 0.35rem; }
 .fracc .meta { font-size: 0.85rem; color: var(--tinta-suave); }
+.aviso-fuente { background: var(--rojo-tenue); padding: 0.4rem 0.6rem 0.4rem 1.6rem !important; border-left: 4px solid var(--rojo); }
+.aviso-fuente::before { left: 0.5rem !important; }

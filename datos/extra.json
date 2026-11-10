@@ -1,0 +1,2434 @@
+{
+ "juego": "Extra de Colombia",
+ "fuente": "https://extradecolombia.com.co/resultados/",
+ "sorteos": {
+  "2244": {
+   "fecha": "2025-10-25",
+   "mayor": {
+    "numero": "8513",
+    "serie": "399"
+   },
+   "secos": [
+    {
+     "numero": "3760",
+     "serie": "007",
+     "valor": 800000000
+    },
+    {
+     "numero": "6939",
+     "serie": "062",
+     "valor": 500000000
+    },
+    {
+     "numero": "1752",
+     "serie": "407",
+     "valor": 250000000
+    },
+    {
+     "numero": "5895",
+     "serie": "156",
+     "valor": 110000000
+    },
+    {
+     "numero": "7112",
+     "serie": "116",
+     "valor": 20000000
+    },
+    {
+     "numero": "7426",
+     "serie": "370",
+     "valor": 20000000
+    },
+    {
+     "numero": "1337",
+     "serie": "135",
+     "valor": 20000000
+    },
+    {
+     "numero": "0305",
+     "serie": "263",
+     "valor": 20000000
+    },
+    {
+     "numero": "9037",
+     "serie": "440",
+     "valor": 20000000
+    },
+    {
+     "numero": "3029",
+     "serie": "438",
+     "valor": 20000000
+    },
+    {
+     "numero": "1436",
+     "serie": "031",
+     "valor": 20000000
+    },
+    {
+     "numero": "8439",
+     "serie": "046",
+     "valor": 20000000
+    },
+    {
+     "numero": "4948",
+     "serie": "027",
+     "valor": 20000000
+    },
+    {
+     "numero": "4888",
+     "serie": "301",
+     "valor": 20000000
+    },
+    {
+     "numero": "3612",
+     "serie": "343",
+     "valor": 10000000
+    },
+    {
+     "numero": "4968",
+     "serie": "161",
+     "valor": 10000000
+    },
+    {
+     "numero": "0868",
+     "serie": "090",
+     "valor": 10000000
+    },
+    {
+     "numero": "1948",
+     "serie": "003",
+     "valor": 10000000
+    },
+    {
+     "numero": "5749",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "0270",
+     "serie": "312",
+     "valor": 10000000
+    },
+    {
+     "numero": "1539",
+     "serie": "365",
+     "valor": 10000000
+    },
+    {
+     "numero": "7832",
+     "serie": "001",
+     "valor": 10000000
+    },
+    {
+     "numero": "3112",
+     "serie": "200",
+     "valor": 10000000
+    },
+    {
+     "numero": "0214",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "1502",
+     "serie": "078",
+     "valor": 10000000
+    },
+    {
+     "numero": "1810",
+     "serie": "398",
+     "valor": 10000000
+    },
+    {
+     "numero": "5332",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "3828",
+     "serie": "097",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "6638",
+     "serie": "137"
+    },
+    {
+     "nombre": "1 BONO MOTO",
+     "numero": "0714",
+     "serie": "399"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "19",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 19000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 5000000,
+    "TRES ÚLTIMAS CIFRAS CON SERIE": 5000000,
+    "DOS PRIMERAS Y ÚLTIMA CON SERIE": 4000000,
+    "PRIMERA Y DOS ÚLTIMAS CON SERIE": 4000000,
+    "COMBINADO CON SERIE": 1800000,
+    "DOS PRIMERAS CON SERIE": 450000,
+    "DOS ÚLTIMAS CON SERIE": 450000,
+    "DOS DEL CENTRO CON SERIE": 300000,
+    "ÚLTIMA CON SERIE": 110000,
+    "SÓLO SERIE DEL MAYOR": 18000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 100000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ÚLTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ÚLTIMA SIN SERIE": 30000,
+    "PRIMERA Y DOS ÚLTIMAS SIN SERIE": 30000,
+    "DOS PRIMERAS SIN SERIE": 25000,
+    "DOS ÚLTIMAS SIN SERIE": 25000,
+    "DOS DEL CENTRO SIN SERIE": 20000,
+    "ÚLTIMA SIN SERIE": 18000,
+    "COMBINADO SIN SERIE": 18000,
+    "SECOS SIN SERIE": 25000
+   }
+  },
+  "2245": {
+   "fecha": "2025-11-29",
+   "mayor": {
+    "numero": "6823",
+    "serie": "407"
+   },
+   "secos": [
+    {
+     "numero": "3321",
+     "serie": "408",
+     "valor": 800000000
+    },
+    {
+     "numero": "1752",
+     "serie": "424",
+     "valor": 500000000
+    },
+    {
+     "numero": "8903",
+     "serie": "385",
+     "valor": 250000000
+    },
+    {
+     "numero": "1099",
+     "serie": "257",
+     "valor": 110000000
+    },
+    {
+     "numero": "7015",
+     "serie": "204",
+     "valor": 20000000
+    },
+    {
+     "numero": "8939",
+     "serie": "034",
+     "valor": 20000000
+    },
+    {
+     "numero": "0191",
+     "serie": "069",
+     "valor": 20000000
+    },
+    {
+     "numero": "2270",
+     "serie": "304",
+     "valor": 20000000
+    },
+    {
+     "numero": "7120",
+     "serie": "154",
+     "valor": 20000000
+    },
+    {
+     "numero": "6055",
+     "serie": "008",
+     "valor": 20000000
+    },
+    {
+     "numero": "1369",
+     "serie": "231",
+     "valor": 20000000
+    },
+    {
+     "numero": "0240",
+     "serie": "256",
+     "valor": 20000000
+    },
+    {
+     "numero": "3257",
+     "serie": "014",
+     "valor": 20000000
+    },
+    {
+     "numero": "2362",
+     "serie": "346",
+     "valor": 20000000
+    },
+    {
+     "numero": "8620",
+     "serie": "452",
+     "valor": 10000000
+    },
+    {
+     "numero": "9759",
+     "serie": "458",
+     "valor": 10000000
+    },
+    {
+     "numero": "5144",
+     "serie": "215",
+     "valor": 10000000
+    },
+    {
+     "numero": "9741",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "1634",
+     "serie": "479",
+     "valor": 10000000
+    },
+    {
+     "numero": "8864",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "9048",
+     "serie": "489",
+     "valor": 10000000
+    },
+    {
+     "numero": "9812",
+     "serie": "458",
+     "valor": 10000000
+    },
+    {
+     "numero": "6743",
+     "serie": "042",
+     "valor": 10000000
+    },
+    {
+     "numero": "2570",
+     "serie": "481",
+     "valor": 10000000
+    },
+    {
+     "numero": "5469",
+     "serie": "500",
+     "valor": 10000000
+    },
+    {
+     "numero": "4245",
+     "serie": "279",
+     "valor": 10000000
+    },
+    {
+     "numero": "6305",
+     "serie": "401",
+     "valor": 10000000
+    },
+    {
+     "numero": "8444",
+     "serie": "218",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "1593",
+     "serie": "297"
+    },
+    {
+     "nombre": "1 BONO MOTO",
+     "numero": "5319",
+     "serie": "375"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "54",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 19000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 5000000,
+    "TRES ÚLTIMAS CIFRAS CON SERIE": 5000000,
+    "DOS PRIMERAS Y ÚLTIMA CON SERIE": 4000000,
+    "PRIMERA Y DOS ÚLTIMAS CON SERIE": 4000000,
+    "COMBINADO CON SERIE": 1800000,
+    "DOS PRIMERAS CON SERIE": 450000,
+    "DOS ÚLTIMAS CON SERIE": 450000,
+    "DOS DEL CENTRO CON SERIE": 300000,
+    "ÚLTIMA CON SERIE": 110000,
+    "SÓLO SERIE DEL MAYOR": 18000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 100000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ÚLTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ÚLTIMA SIN SERIE": 30000,
+    "PRIMERA Y DOS ÚLTIMAS SIN SERIE": 30000,
+    "DOS PRIMERAS SIN SERIE": 25000,
+    "DOS ÚLTIMAS SIN SERIE": 25000,
+    "DOS DEL CENTRO SIN SERIE": 20000,
+    "ÚLTIMA SIN SERIE": 18000,
+    "COMBINADO SIN SERIE": 18000,
+    "SECOS SIN SERIE": 25000
+   }
+  },
+  "2246": {
+   "fecha": "2025-12-30",
+   "mayor": {
+    "numero": "6016",
+    "serie": "325"
+   },
+   "secos": [
+    {
+     "numero": "9379",
+     "serie": "105",
+     "valor": 1000000000
+    },
+    {
+     "numero": "5256",
+     "serie": "497",
+     "valor": 500000000
+    },
+    {
+     "numero": "9072",
+     "serie": "414",
+     "valor": 300000000
+    },
+    {
+     "numero": "0976",
+     "serie": "190",
+     "valor": 200000000
+    },
+    {
+     "numero": "6905",
+     "serie": "299",
+     "valor": 100000000
+    },
+    {
+     "numero": "2450",
+     "serie": "353",
+     "valor": 20000000
+    },
+    {
+     "numero": "4564",
+     "serie": "534",
+     "valor": 20000000
+    },
+    {
+     "numero": "4020",
+     "serie": "479",
+     "valor": 20000000
+    },
+    {
+     "numero": "2374",
+     "serie": "475",
+     "valor": 20000000
+    },
+    {
+     "numero": "6489",
+     "serie": "158",
+     "valor": 20000000
+    },
+    {
+     "numero": "9467",
+     "serie": "262",
+     "valor": 20000000
+    },
+    {
+     "numero": "6559",
+     "serie": "314",
+     "valor": 20000000
+    },
+    {
+     "numero": "4062",
+     "serie": "370",
+     "valor": 20000000
+    },
+    {
+     "numero": "5752",
+     "serie": "191",
+     "valor": 20000000
+    },
+    {
+     "numero": "8796",
+     "serie": "233",
+     "valor": 20000000
+    },
+    {
+     "numero": "2111",
+     "serie": "342",
+     "valor": 10000000
+    },
+    {
+     "numero": "1858",
+     "serie": "391",
+     "valor": 10000000
+    },
+    {
+     "numero": "0494",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "9474",
+     "serie": "001",
+     "valor": 10000000
+    },
+    {
+     "numero": "9930",
+     "serie": "172",
+     "valor": 10000000
+    },
+    {
+     "numero": "5584",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "1477",
+     "serie": "347",
+     "valor": 10000000
+    },
+    {
+     "numero": "5435",
+     "serie": "075",
+     "valor": 10000000
+    },
+    {
+     "numero": "9178",
+     "serie": "424",
+     "valor": 10000000
+    },
+    {
+     "numero": "8525",
+     "serie": "174",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "3377",
+     "serie": "401"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "4098",
+     "serie": "509"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "2623",
+     "serie": "423"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "1440",
+     "serie": "369"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "81",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2247": {
+   "fecha": "2026-01-31",
+   "mayor": {
+    "numero": "8890",
+    "serie": "250"
+   },
+   "secos": [
+    {
+     "numero": "1422",
+     "serie": "106",
+     "valor": 1000000000
+    },
+    {
+     "numero": "4409",
+     "serie": "451",
+     "valor": 500000000
+    },
+    {
+     "numero": "1309",
+     "serie": "012",
+     "valor": 300000000
+    },
+    {
+     "numero": "6465",
+     "serie": "002",
+     "valor": 200000000
+    },
+    {
+     "numero": "7295",
+     "serie": "378",
+     "valor": 100000000
+    },
+    {
+     "numero": "2425",
+     "serie": "098",
+     "valor": 20000000
+    },
+    {
+     "numero": "7269",
+     "serie": "087",
+     "valor": 20000000
+    },
+    {
+     "numero": "8109",
+     "serie": "530",
+     "valor": 20000000
+    },
+    {
+     "numero": "1117",
+     "serie": "004",
+     "valor": 20000000
+    },
+    {
+     "numero": "9480",
+     "serie": "050",
+     "valor": 20000000
+    },
+    {
+     "numero": "2140",
+     "serie": "195",
+     "valor": 20000000
+    },
+    {
+     "numero": "3640",
+     "serie": "355",
+     "valor": 20000000
+    },
+    {
+     "numero": "4278",
+     "serie": "043",
+     "valor": 20000000
+    },
+    {
+     "numero": "8103",
+     "serie": "238",
+     "valor": 20000000
+    },
+    {
+     "numero": "5707",
+     "serie": "484",
+     "valor": 20000000
+    },
+    {
+     "numero": "4075",
+     "serie": "535",
+     "valor": 10000000
+    },
+    {
+     "numero": "3976",
+     "serie": "464",
+     "valor": 10000000
+    },
+    {
+     "numero": "0215",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "5530",
+     "serie": "527",
+     "valor": 10000000
+    },
+    {
+     "numero": "1983",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "6619",
+     "serie": "334",
+     "valor": 10000000
+    },
+    {
+     "numero": "0556",
+     "serie": "116",
+     "valor": 10000000
+    },
+    {
+     "numero": "1734",
+     "serie": "505",
+     "valor": 10000000
+    },
+    {
+     "numero": "0055",
+     "serie": "480",
+     "valor": 10000000
+    },
+    {
+     "numero": "4697",
+     "serie": "428",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "5997",
+     "serie": "049"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "6479",
+     "serie": "027"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "8800",
+     "serie": "006"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "8728",
+     "serie": "164"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "92",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2248": {
+   "fecha": "2026-02-28",
+   "mayor": {
+    "numero": "0013",
+    "serie": "385"
+   },
+   "secos": [
+    {
+     "numero": "5055",
+     "serie": "037",
+     "valor": 1000000000
+    },
+    {
+     "numero": "7217",
+     "serie": "538",
+     "valor": 500000000
+    },
+    {
+     "numero": "7166",
+     "serie": "346",
+     "valor": 300000000
+    },
+    {
+     "numero": "6388",
+     "serie": "037",
+     "valor": 200000000
+    },
+    {
+     "numero": "9141",
+     "serie": "523",
+     "valor": 100000000
+    },
+    {
+     "numero": "5893",
+     "serie": "329",
+     "valor": 20000000
+    },
+    {
+     "numero": "9049",
+     "serie": "267",
+     "valor": 20000000
+    },
+    {
+     "numero": "0571",
+     "serie": "508",
+     "valor": 20000000
+    },
+    {
+     "numero": "7629",
+     "serie": "323",
+     "valor": 20000000
+    },
+    {
+     "numero": "9769",
+     "serie": "429",
+     "valor": 20000000
+    },
+    {
+     "numero": "7942",
+     "serie": "220",
+     "valor": 20000000
+    },
+    {
+     "numero": "5747",
+     "serie": "132",
+     "valor": 20000000
+    },
+    {
+     "numero": "3182",
+     "serie": "167",
+     "valor": 20000000
+    },
+    {
+     "numero": "3365",
+     "serie": "007",
+     "valor": 20000000
+    },
+    {
+     "numero": "1936",
+     "serie": "210",
+     "valor": 20000000
+    },
+    {
+     "numero": "4632",
+     "serie": "373",
+     "valor": 10000000
+    },
+    {
+     "numero": "8501",
+     "serie": "391",
+     "valor": 10000000
+    },
+    {
+     "numero": "2173",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "1622",
+     "serie": "409",
+     "valor": 10000000
+    },
+    {
+     "numero": "2195",
+     "serie": "164",
+     "valor": 10000000
+    },
+    {
+     "numero": "0470",
+     "serie": "411",
+     "valor": 10000000
+    },
+    {
+     "numero": "5077",
+     "serie": "215",
+     "valor": 10000000
+    },
+    {
+     "numero": "0011",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "4075",
+     "serie": "536",
+     "valor": 10000000
+    },
+    {
+     "numero": "5921",
+     "serie": "344",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "5425",
+     "serie": "273"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "6553",
+     "serie": "147"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "6194",
+     "serie": "254"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "7665",
+     "serie": "224"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "80",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2249": {
+   "fecha": "2026-03-28",
+   "mayor": {
+    "numero": "4716",
+    "serie": "470"
+   },
+   "secos": [
+    {
+     "numero": "4041",
+     "serie": "143",
+     "valor": 1000000000
+    },
+    {
+     "numero": "9556",
+     "serie": "280",
+     "valor": 500000000
+    },
+    {
+     "numero": "8770",
+     "serie": "089",
+     "valor": 300000000
+    },
+    {
+     "numero": "0544",
+     "serie": "495",
+     "valor": 200000000
+    },
+    {
+     "numero": "4831",
+     "serie": "017",
+     "valor": 100000000
+    },
+    {
+     "numero": "1942",
+     "serie": "403",
+     "valor": 20000000
+    },
+    {
+     "numero": "9262",
+     "serie": "447",
+     "valor": 20000000
+    },
+    {
+     "numero": "8743",
+     "serie": "288",
+     "valor": 20000000
+    },
+    {
+     "numero": "4585",
+     "serie": "510",
+     "valor": 20000000
+    },
+    {
+     "numero": "0971",
+     "serie": "065",
+     "valor": 20000000
+    },
+    {
+     "numero": "3727",
+     "serie": "387",
+     "valor": 20000000
+    },
+    {
+     "numero": "6333",
+     "serie": "455",
+     "valor": 20000000
+    },
+    {
+     "numero": "7132",
+     "serie": "461",
+     "valor": 20000000
+    },
+    {
+     "numero": "3678",
+     "serie": "369",
+     "valor": 20000000
+    },
+    {
+     "numero": "7685",
+     "serie": "022",
+     "valor": 20000000
+    },
+    {
+     "numero": "6363",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "6249",
+     "serie": "441",
+     "valor": 10000000
+    },
+    {
+     "numero": "7105",
+     "serie": "320",
+     "valor": 10000000
+    },
+    {
+     "numero": "2208",
+     "serie": "215",
+     "valor": 10000000
+    },
+    {
+     "numero": "9347",
+     "serie": "326",
+     "valor": 10000000
+    },
+    {
+     "numero": "3768",
+     "serie": "520",
+     "valor": 10000000
+    },
+    {
+     "numero": "4342",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "6296",
+     "serie": "445",
+     "valor": 10000000
+    },
+    {
+     "numero": "8722",
+     "serie": "213",
+     "valor": 10000000
+    },
+    {
+     "numero": "1086",
+     "serie": "405",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "0804",
+     "serie": "304"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "7153",
+     "serie": "344"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "2275",
+     "serie": "048"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "5023",
+     "serie": "334"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "71",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2250": {
+   "fecha": "2026-04-25",
+   "mayor": {
+    "numero": "1179",
+    "serie": "498"
+   },
+   "secos": [
+    {
+     "numero": "3577",
+     "serie": "374",
+     "valor": 1000000000
+    },
+    {
+     "numero": "1852",
+     "serie": "358",
+     "valor": 500000000
+    },
+    {
+     "numero": "7533",
+     "serie": "282",
+     "valor": 300000000
+    },
+    {
+     "numero": "1494",
+     "serie": "189",
+     "valor": 200000000
+    },
+    {
+     "numero": "7474",
+     "serie": "302",
+     "valor": 100000000
+    },
+    {
+     "numero": "9188",
+     "serie": "230",
+     "valor": 20000000
+    },
+    {
+     "numero": "0449",
+     "serie": "221",
+     "valor": 20000000
+    },
+    {
+     "numero": "0944",
+     "serie": "333",
+     "valor": 20000000
+    },
+    {
+     "numero": "4363",
+     "serie": "408",
+     "valor": 20000000
+    },
+    {
+     "numero": "9654",
+     "serie": "483",
+     "valor": 20000000
+    },
+    {
+     "numero": "5276",
+     "serie": "015",
+     "valor": 20000000
+    },
+    {
+     "numero": "3767",
+     "serie": "389",
+     "valor": 20000000
+    },
+    {
+     "numero": "3802",
+     "serie": "460",
+     "valor": 20000000
+    },
+    {
+     "numero": "6471",
+     "serie": "058",
+     "valor": 20000000
+    },
+    {
+     "numero": "5332",
+     "serie": "227",
+     "valor": 20000000
+    },
+    {
+     "numero": "5951",
+     "serie": "394",
+     "valor": 10000000
+    },
+    {
+     "numero": "9593",
+     "serie": "447",
+     "valor": 10000000
+    },
+    {
+     "numero": "2529",
+     "serie": "451",
+     "valor": 10000000
+    },
+    {
+     "numero": "0558",
+     "serie": "412",
+     "valor": 10000000
+    },
+    {
+     "numero": "3014",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "6896",
+     "serie": "415",
+     "valor": 10000000
+    },
+    {
+     "numero": "5443",
+     "serie": "485",
+     "valor": 10000000
+    },
+    {
+     "numero": "3691",
+     "serie": "380",
+     "valor": 10000000
+    },
+    {
+     "numero": "1652",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "3077",
+     "serie": "483",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "6340",
+     "serie": "178"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "0909",
+     "serie": "092"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "0051",
+     "serie": "450"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "0253",
+     "serie": "352"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "52",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2251": {
+   "fecha": "2026-05-30",
+   "mayor": {
+    "numero": "5003",
+    "serie": "160"
+   },
+   "secos": [
+    {
+     "numero": "5127",
+     "serie": "442",
+     "valor": 1000000000
+    },
+    {
+     "numero": "8445",
+     "serie": "400",
+     "valor": 500000000
+    },
+    {
+     "numero": "6365",
+     "serie": "482",
+     "valor": 300000000
+    },
+    {
+     "numero": "0044",
+     "serie": "303",
+     "valor": 200000000
+    },
+    {
+     "numero": "3525",
+     "serie": "124",
+     "valor": 100000000
+    },
+    {
+     "numero": "4270",
+     "serie": "026",
+     "valor": 20000000
+    },
+    {
+     "numero": "8688",
+     "serie": "493",
+     "valor": 20000000
+    },
+    {
+     "numero": "4443",
+     "serie": "411",
+     "valor": 20000000
+    },
+    {
+     "numero": "1255",
+     "serie": "391",
+     "valor": 20000000
+    },
+    {
+     "numero": "9246",
+     "serie": "173",
+     "valor": 20000000
+    },
+    {
+     "numero": "7426",
+     "serie": "063",
+     "valor": 20000000
+    },
+    {
+     "numero": "8699",
+     "serie": "099",
+     "valor": 20000000
+    },
+    {
+     "numero": "5965",
+     "serie": "507",
+     "valor": 20000000
+    },
+    {
+     "numero": "8068",
+     "serie": "055",
+     "valor": 20000000
+    },
+    {
+     "numero": "5011",
+     "serie": "152",
+     "valor": 20000000
+    },
+    {
+     "numero": "6247",
+     "serie": "070",
+     "valor": 10000000
+    },
+    {
+     "numero": "9404",
+     "serie": "525",
+     "valor": 10000000
+    },
+    {
+     "numero": "2973",
+     "serie": "039",
+     "valor": 10000000
+    },
+    {
+     "numero": "6717",
+     "serie": "128",
+     "valor": 10000000
+    },
+    {
+     "numero": "2644",
+     "serie": "225",
+     "valor": 10000000
+    },
+    {
+     "numero": "0143",
+     "serie": "322",
+     "valor": 10000000
+    },
+    {
+     "numero": "0588",
+     "serie": "150",
+     "valor": 10000000
+    },
+    {
+     "numero": "6140",
+     "serie": "378",
+     "valor": 10000000
+    },
+    {
+     "numero": "9792",
+     "serie": "185",
+     "valor": 10000000
+    },
+    {
+     "numero": "0236",
+     "serie": "241",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "8895",
+     "serie": "018"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "8619",
+     "serie": "353"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "6377",
+     "serie": "326"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "3892",
+     "serie": "312"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "25",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2252": {
+   "fecha": "2026-06-27",
+   "mayor": {
+    "numero": "3960",
+    "serie": "158"
+   },
+   "secos": [
+    {
+     "numero": "6957",
+     "serie": "363",
+     "valor": 1000000000
+    },
+    {
+     "numero": "0193",
+     "serie": "355",
+     "valor": 500000000
+    },
+    {
+     "numero": "9276",
+     "serie": "184",
+     "valor": 300000000
+    },
+    {
+     "numero": "4556",
+     "serie": "365",
+     "valor": 200000000
+    },
+    {
+     "numero": "5040",
+     "serie": "393",
+     "valor": 100000000
+    },
+    {
+     "numero": "4927",
+     "serie": "491",
+     "valor": 20000000
+    },
+    {
+     "numero": "9505",
+     "serie": "078",
+     "valor": 20000000
+    },
+    {
+     "numero": "4844",
+     "serie": "349",
+     "valor": 20000000
+    },
+    {
+     "numero": "3040",
+     "serie": "059",
+     "valor": 20000000
+    },
+    {
+     "numero": "3257",
+     "serie": "392",
+     "valor": 20000000
+    },
+    {
+     "numero": "6542",
+     "serie": "135",
+     "valor": 20000000
+    },
+    {
+     "numero": "0905",
+     "serie": "025",
+     "valor": 20000000
+    },
+    {
+     "numero": "9002",
+     "serie": "334",
+     "valor": 20000000
+    },
+    {
+     "numero": "4737",
+     "serie": "051",
+     "valor": 20000000
+    },
+    {
+     "numero": "6372",
+     "serie": "171",
+     "valor": 20000000
+    },
+    {
+     "numero": "0488",
+     "serie": "370",
+     "valor": 10000000
+    },
+    {
+     "numero": "0255",
+     "serie": "355",
+     "valor": 10000000
+    },
+    {
+     "numero": "4728",
+     "serie": "508",
+     "valor": 10000000
+    },
+    {
+     "numero": "8309",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "8150",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "2703",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "4369",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "2064",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "3251",
+     "serie": "388",
+     "valor": 10000000
+    },
+    {
+     "numero": "3328",
+     "serie": "322",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "6092",
+     "serie": "379"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "8634",
+     "serie": "046"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "0195",
+     "serie": "014"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "8251",
+     "serie": "031"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "34",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2253": {
+   "fecha": "2026-07-30",
+   "mayor": {
+    "numero": "9484",
+    "serie": "274"
+   },
+   "secos": [
+    {
+     "numero": "3174",
+     "serie": "037",
+     "valor": 1000000000
+    },
+    {
+     "numero": "9200",
+     "serie": "156",
+     "valor": 500000000
+    },
+    {
+     "numero": "9053",
+     "serie": "482",
+     "valor": 300000000
+    },
+    {
+     "numero": "9786",
+     "serie": "353",
+     "valor": 200000000
+    },
+    {
+     "numero": "6446",
+     "serie": "068",
+     "valor": 100000000
+    },
+    {
+     "numero": "0013",
+     "serie": "318",
+     "valor": 20000000
+    },
+    {
+     "numero": "7241",
+     "serie": "166",
+     "valor": 20000000
+    },
+    {
+     "numero": "4625",
+     "serie": "507",
+     "valor": 20000000
+    },
+    {
+     "numero": "9735",
+     "serie": "272",
+     "valor": 20000000
+    },
+    {
+     "numero": "9197",
+     "serie": "245",
+     "valor": 20000000
+    },
+    {
+     "numero": "2402",
+     "serie": "371",
+     "valor": 20000000
+    },
+    {
+     "numero": "2701",
+     "serie": "496",
+     "valor": 20000000
+    },
+    {
+     "numero": "0136",
+     "serie": "494",
+     "valor": 20000000
+    },
+    {
+     "numero": "9291",
+     "serie": "280",
+     "valor": 20000000
+    },
+    {
+     "numero": "6431",
+     "serie": "286",
+     "valor": 20000000
+    },
+    {
+     "numero": "3434",
+     "serie": "000",
+     "valor": 10000000
+    },
+    {
+     "numero": "1504",
+     "serie": "316",
+     "valor": 10000000
+    },
+    {
+     "numero": "7982",
+     "serie": "276",
+     "valor": 10000000
+    },
+    {
+     "numero": "6252",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "9884",
+     "serie": "373",
+     "valor": 10000000
+    },
+    {
+     "numero": "7013",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "6207",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "7955",
+     "serie": "347",
+     "valor": 10000000
+    },
+    {
+     "numero": "9723",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "6584",
+     "serie": "144",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "6674",
+     "serie": "173"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "7718",
+     "serie": "389"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "1582",
+     "serie": "387"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "6670",
+     "serie": "430"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "02",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2254": {
+   "fecha": "2026-08-29",
+   "mayor": {
+    "numero": "0782",
+    "serie": "215"
+   },
+   "secos": [
+    {
+     "numero": "7071",
+     "serie": "284",
+     "valor": 1000000000
+    },
+    {
+     "numero": "9479",
+     "serie": "087",
+     "valor": 500000000
+    },
+    {
+     "numero": "6542",
+     "serie": "089",
+     "valor": 300000000
+    },
+    {
+     "numero": "6103",
+     "serie": "348",
+     "valor": 200000000
+    },
+    {
+     "numero": "3956",
+     "serie": "432",
+     "valor": 100000000
+    },
+    {
+     "numero": "5455",
+     "serie": "118",
+     "valor": 20000000
+    },
+    {
+     "numero": "2709",
+     "serie": "499",
+     "valor": 20000000
+    },
+    {
+     "numero": "6498",
+     "serie": "182",
+     "valor": 20000000
+    },
+    {
+     "numero": "3777",
+     "serie": "003",
+     "valor": 20000000
+    },
+    {
+     "numero": "5701",
+     "serie": "254",
+     "valor": 20000000
+    },
+    {
+     "numero": "6030",
+     "serie": "238",
+     "valor": 20000000
+    },
+    {
+     "numero": "3724",
+     "serie": "393",
+     "valor": 20000000
+    },
+    {
+     "numero": "9523",
+     "serie": "045",
+     "valor": 20000000
+    },
+    {
+     "numero": "7315",
+     "serie": "445",
+     "valor": 20000000
+    },
+    {
+     "numero": "8960",
+     "serie": "176",
+     "valor": 20000000
+    },
+    {
+     "numero": "6592",
+     "serie": "515",
+     "valor": 10000000
+    },
+    {
+     "numero": "3361",
+     "serie": "493",
+     "valor": 10000000
+    },
+    {
+     "numero": "2015",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "4116",
+     "serie": "080",
+     "valor": 10000000
+    },
+    {
+     "numero": "4041",
+     "serie": "258",
+     "valor": 10000000
+    },
+    {
+     "numero": "7056",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "0900",
+     "serie": "374",
+     "valor": 10000000
+    },
+    {
+     "numero": "6978",
+     "serie": "515",
+     "valor": 10000000
+    },
+    {
+     "numero": "6900",
+     "serie": "099",
+     "valor": 10000000
+    },
+    {
+     "numero": "4941",
+     "serie": "063",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "2524",
+     "serie": "370"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "7602",
+     "serie": "270"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "2010",
+     "serie": "295"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "3910",
+     "serie": "161"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "67",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2255": {
+   "fecha": "2026-09-30",
+   "mayor": {
+    "numero": "2716",
+    "serie": "034"
+   },
+   "secos": [
+    {
+     "numero": "9692",
+     "serie": "477",
+     "valor": 1000000000
+    },
+    {
+     "numero": "0323",
+     "serie": "379",
+     "valor": 500000000
+    },
+    {
+     "numero": "1480",
+     "serie": "129",
+     "valor": 300000000
+    },
+    {
+     "numero": "9549",
+     "serie": "085",
+     "valor": 200000000
+    },
+    {
+     "numero": "5755",
+     "serie": "031",
+     "valor": 100000000
+    },
+    {
+     "numero": "5573",
+     "serie": "188",
+     "valor": 20000000
+    },
+    {
+     "numero": "0108",
+     "serie": "092",
+     "valor": 20000000
+    },
+    {
+     "numero": "0634",
+     "serie": "096",
+     "valor": 20000000
+    },
+    {
+     "numero": "5439",
+     "serie": "125",
+     "valor": 20000000
+    },
+    {
+     "numero": "8694",
+     "serie": "348",
+     "valor": 20000000
+    },
+    {
+     "numero": "0356",
+     "serie": "402",
+     "valor": 20000000
+    },
+    {
+     "numero": "9886",
+     "serie": "149",
+     "valor": 20000000
+    },
+    {
+     "numero": "5015",
+     "serie": "239",
+     "valor": 20000000
+    },
+    {
+     "numero": "0392",
+     "serie": "343",
+     "valor": 20000000
+    },
+    {
+     "numero": "1588",
+     "serie": "191",
+     "valor": 20000000
+    },
+    {
+     "numero": "3034",
+     "serie": "303",
+     "valor": 10000000
+    },
+    {
+     "numero": "6910",
+     "serie": "010",
+     "valor": 10000000
+    },
+    {
+     "numero": "4499",
+     "serie": "396",
+     "valor": 10000000
+    },
+    {
+     "numero": "6150",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "0148",
+     "serie": "520",
+     "valor": 10000000
+    },
+    {
+     "numero": "7784",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "0375",
+     "serie": "118",
+     "valor": 10000000
+    },
+    {
+     "numero": "8986",
+     "serie": "466",
+     "valor": 10000000
+    },
+    {
+     "numero": "9655",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "3290",
+     "serie": "423",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "3607",
+     "serie": "171"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "4512",
+     "serie": "063"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "2430",
+     "serie": "115"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "8064",
+     "serie": "395"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "39",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  },
+  "2256": {
+   "fecha": "2026-10-31",
+   "mayor": {
+    "numero": "8259",
+    "serie": "320"
+   },
+   "secos": [
+    {
+     "numero": "0764",
+     "serie": "353",
+     "valor": 1000000000
+    },
+    {
+     "numero": "9821",
+     "serie": "456",
+     "valor": 500000000
+    },
+    {
+     "numero": "7112",
+     "serie": "043",
+     "valor": 300000000
+    },
+    {
+     "numero": "5811",
+     "serie": "299",
+     "valor": 200000000
+    },
+    {
+     "numero": "1906",
+     "serie": "258",
+     "valor": 100000000
+    },
+    {
+     "numero": "1368",
+     "serie": "248",
+     "valor": 20000000
+    },
+    {
+     "numero": "2963",
+     "serie": "405",
+     "valor": 20000000
+    },
+    {
+     "numero": "5504",
+     "serie": "095",
+     "valor": 20000000
+    },
+    {
+     "numero": "5174",
+     "serie": "461",
+     "valor": 20000000
+    },
+    {
+     "numero": "8686",
+     "serie": "176",
+     "valor": 20000000
+    },
+    {
+     "numero": "2944",
+     "serie": "388",
+     "valor": 20000000
+    },
+    {
+     "numero": "8865",
+     "serie": "141",
+     "valor": 20000000
+    },
+    {
+     "numero": "7691",
+     "serie": "286",
+     "valor": 20000000
+    },
+    {
+     "numero": "7439",
+     "serie": "094",
+     "valor": 20000000
+    },
+    {
+     "numero": "1572",
+     "serie": "231",
+     "valor": 20000000
+    },
+    {
+     "numero": "1106",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "6970",
+     "serie": "238",
+     "valor": 10000000
+    },
+    {
+     "numero": "5364",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "0243",
+     "serie": "270",
+     "valor": 10000000
+    },
+    {
+     "numero": "3870",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "6726",
+     "serie": "034",
+     "valor": 10000000
+    },
+    {
+     "numero": "2594",
+     "serie": "419",
+     "valor": 10000000
+    },
+    {
+     "numero": "7606",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "6977",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "1113",
+     "serie": "153",
+     "valor": 10000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "1 BONO CASA",
+     "numero": "1042",
+     "serie": "138"
+    },
+    {
+     "nombre": "1 BONO CARRO",
+     "numero": "8058",
+     "serie": "528"
+    },
+    {
+     "nombre": "1 BONO VIAJE DE TUS SUEÑOS",
+     "numero": "4310",
+     "serie": "178"
+    },
+    {
+     "nombre": "1 BONO MOTOCICLETA",
+     "numero": "9057",
+     "serie": "184"
+    },
+    {
+     "nombre": "1 RECAMBIO GANADOR",
+     "numero": "38",
+     "serie": null
+    }
+   ],
+   "aproximaciones": {
+    "MAYOR INVERTIDO CON SERIE": 78000000,
+    "TRES PRIMERAS CIFRAS CON SERIE": 10000000,
+    "TRES ULTIMAS CIFRAS CON SERIE": 10000000,
+    "DOS PRIMERAS Y ULTIMA CIFRA CON SERIE": 7000000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS CON SERIE": 7000000,
+    "COMBINADO CON SERIE": 3000000,
+    "DOS PRIMERAS CIFRAS CON SERIE": 2000000,
+    "DOS ULTIMAS CIFRAS CON SERIE": 2000000,
+    "DOS DEL CENTRO CON SERIE": 2000000,
+    "ULTIMA CIFRA CON SERIE": 110000,
+    "SERIE DEL MAYOR": 20000,
+    "PREMIO MAYOR SIN SERIE": 2000000,
+    "MAYOR INVERTIDO SIN SERIE": 80000,
+    "TRES PRIMERAS CIFRAS SIN SERIE": 34000,
+    "TRES ULTIMAS CIFRAS SIN SERIE": 34000,
+    "DOS PRIMERAS Y ULTIMA CIFRA SIN SERIE": 30000,
+    "PRIMERA Y DOS ULTIMAS CIFRAS SIN SERIE": 30000,
+    "DOS PRIMERAS CIFRAS SIN SERIE": 24000,
+    "DOS ULTIMAS CIFRAS SIN SERIE": 24000,
+    "DOS CENTRO SIN SERIE": 20000,
+    "ULTIMA SIN SERIE": 20000,
+    "COMBINADO SIN SERIE": 20000,
+    "SECOS MISMO ORDEN DIFERENTE SERIE": 20000
+   }
+  }
+ }
+}

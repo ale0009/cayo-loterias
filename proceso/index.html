@@ -19,7 +19,7 @@
     <span class="kanji" aria-hidden="true">調</span>
     <div class="titulo">
       <p class="antetitulo">¿Cayó? · cómo se hizo</p>
-      <h1>De 80 fotos a una herramienta</h1>
+      <h1>De 80 fotos a 11 juegos</h1>
     </div>
     <nav class="nav">
       <a class="boton-linea" href="../">Volver a la herramienta</a>
@@ -77,17 +77,30 @@
     </section>
 
     <section id="fuentes" class="vineta">
-      <h2 class="rotulo">3 · Fuentes</h2>
+      <h2 class="rotulo">3 · Fuentes y cobertura</h2>
+      <p>Después del piloto se revisaron <b>las 16 loterías ordinarias y el Extra de Colombia</b>, una por una: el dominio oficial, su robots.txt, si tienen protección anti-robots, de dónde se pueden leer los resultados en texto y su plan de premios.</p>
       <table class="tabla">
-        <thead><tr><th>Juego</th><th>De dónde salen los datos</th><th>Tipo</th><th>robots.txt</th></tr></thead>
+        <thead><tr><th>Juego</th><th>De dónde salen los resultados</th><th>Estado</th></tr></thead>
         <tbody>
-          <tr><td>Baloto y Revancha</td><td><a href="https://www.baloto.com/resultados">baloto.com</a>, una página por sorteo con la tabla de ganadores y el valor por categoría</td><td>Oficial</td><td>Permitido</td></tr>
-          <tr><td>Lotería de Medellín</td><td><a href="https://loteriademedellin.com.co/historico-de-resultados/">Histórico oficial</a>: mayor y 44 secos por sorteo. <a href="https://loteriademedellin.com.co/institucional/plan-de-premios/">Plan de premios</a> de 2 y 3 fracciones</td><td>Oficial</td><td>Permitido</td></tr>
-          <tr><td>Lotería de Boyacá</td><td><a href="https://loteriadeboyaca.gov.co/resultados/">Resultados por fecha</a>: mayor y 59 secos. <a href="https://loteriadeboyaca.gov.co/como-jugar/plan-de-premios/">Plan de premios</a></td><td>Oficial</td><td>Permitido</td></tr>
-          <tr><td>Lotería del Meta</td><td>El sitio oficial pide una verificación anti-robots. En el piloto se usaron dos fuentes secundarias que coincidían</td><td>Secundaria</td><td>No aplica: no se evade</td></tr>
+          <tr><td>Baloto y Revancha</td><td><a href="https://www.baloto.com/resultados">baloto.com</a>: una página por sorteo, con la tabla de ganadores</td><td>Incluido · oficial</td></tr>
+          <tr><td>Medellín</td><td><a href="https://loteriademedellin.com.co/historico-de-resultados/">Histórico oficial</a> (admin-ajax): mayor y 44 secos</td><td>Incluido · oficial</td></tr>
+          <tr><td>Boyacá</td><td><a href="https://loteriadeboyaca.gov.co/resultados/">Resultados por fecha</a>: mayor y 59 secos</td><td>Incluido · oficial</td></tr>
+          <tr><td>Valle</td><td><a href="https://loteriadelvalle.com/resultado_v2/vistas/tabla.php">JSON de su propia tabla</a>. El valor de cada seco sale del código de la página y se comparó con el PDF oficial</td><td>Incluido · oficial</td></tr>
+          <tr><td>Huila</td><td><a href="https://loteriadelhuila.com/category/sorteos/">API de WordPress</a>: el año entero en una consulta, más el «gana fijo»</td><td>Incluido · oficial</td></tr>
+          <tr><td>Santander</td><td><a href="https://www.datos.gov.co/Comercio-Industria-y-Turismo/Resultados-por-sorteo-Loteria-Santander/4zwu-ra3f">Datos Abiertos Colombia</a>, publicados por la misma lotería</td><td>Incluido · datos abiertos</td></tr>
+          <tr><td>Cauca</td><td><a href="https://ingesoftingenieria.com/resultados/">Buscador del proveedor</a> enlazado desde la web oficial. <b>Publica 34 de los 36 secos</b>: la app avisa y enlaza el acta</td><td>Incluido con aviso</td></tr>
+          <tr><td>Tolima</td><td><a href="https://loteriadeltolima.com/resultados/">Resultados por sorteo</a>, más «El Travieso» (cualquier serie)</td><td>Incluido · oficial</td></tr>
+          <tr><td>Extra de Colombia</td><td><a href="https://extradecolombia.com.co/sorteos/">Sorteos mensuales</a>. La web no dice en cuántas fracciones se divide el billete</td><td>Incluido · oficial</td></tr>
+          <tr><td>Quindío</td><td><a href="https://www.loteriaquindio.com.co/">Formulario de consulta</a> (con token de sesión, sin CAPTCHA)</td><td>Incluido · oficial</td></tr>
+          <tr><td>Risaralda</td><td><a href="https://loteriadelrisaralda.com/sorteos/">Lista de sorteos y resultados</a>. La «Escalera Millonaria» se trata como un seco</td><td>Incluido · oficial</td></tr>
+          <tr><td>Bogotá</td><td>Responde con un reto de Cloudflare (HTTP 403)</td><td>Fuera: no se evade</td></tr>
+          <tr><td>Meta</td><td>Pide una verificación anti-robots</td><td>Fuera: no se evade</td></tr>
+          <tr><td>Cruz Roja</td><td><a href="https://lotecruz.org.co/">lotecruz.org.co</a> solo publica fotos del acta firmada. Leerlas exigiría OCR o IA</td><td>Fuera: sin texto</td></tr>
+          <tr><td>Cundinamarca</td><td>Solo actas escaneadas en PDF. Se probó leerlas con OCR (3 lecturas y voto por cifra): funciona, pero depende de un modelo de reconocimiento y un error de lectura daría un «No cayó» falso</td><td>Fuera: sin texto</td></tr>
+          <tr id="fila-manizales"><td>Manizales</td><td>En investigación</td><td>—</td></tr>
         </tbody>
       </table>
-      <p class="nota">Regla del proyecto: primero la fuente oficial. Nunca se evaden CAPTCHAs ni protecciones anti-robots. Una consulta por sorteo, con pausa de un segundo.</p>
+      <p class="nota">Reglas del proyecto: primero la fuente oficial, una consulta por sorteo con al menos un segundo de pausa, y nunca evadir CAPTCHAs ni protecciones anti-robots. Todas las fuentes incluidas permiten el acceso en su robots.txt.</p>
     </section>
 
     <section id="codigo" class="vineta">
@@ -194,7 +207,9 @@
     <section id="limites" class="vineta">
       <h2 class="rotulo">8 · Limitaciones y fe de erratas</h2>
       <ul class="puntos">
-        <li>Por ahora soporta Baloto, Revancha, Medellín y Boyacá. El Meta no se puede automatizar sin evadir su protección anti-robots, y eso no se hace.</li>
+        <li>Bogotá, Meta y Cruz Roja no están incluidas (ver la sección 3).</li>
+        <li>El código de barras solo se ha comprobado en billetes reales de Medellín (016) y Boyacá (004). Las demás loterías se revisan con el formulario «Lotería a mano».</li>
+        <li>Algunas loterías pagan categorías propias: anterior o posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro, «gana fijo». El motor las revisa solo si el plan de esa lotería las define. Algunos premios dependen de un número preimpreso extra en el billete (Escalera de Risaralda, bonos del Extra) y no se revisan.</li>
         <li>Los valores de las loterías son los <b>netos del plan vigente</b>. Si una lotería cambia su plan, hay que actualizar <code>planes.json</code>.</li>
         <li>Los valores de los secos de Medellín se asignan por el <b>orden</b> en que la plantilla oficial los publica (2 de $1.000 M, 2 de $700 M… 15 de $10 M). Si el conteo no da 44, el valor queda en blanco en lugar de inventarse.</li>
         <li>La fila «0 + SB» de Baloto se interpreta como "0 o 1 acierto + Superbalota" (ver la gráfica de la sección 5). Es una inferencia a partir de los datos, no una regla publicada.</li>
@@ -205,6 +220,10 @@
       <ul class="puntos">
         <li><b>Plan de Boyacá, tabla de 2 fracciones:</b> en la misma tabla, "tres primeras cifras, diferente serie" aparece con $18.072 bruto / $15.000 neto por fracción, y "tres últimas cifras, diferente serie" con $36.145 / $30.000. Ambas tienen el mismo valor por billete ($72.289). La primera fila parece copiada de la tabla de 4 fracciones. La herramienta usa el neto por billete y lo divide entre las fracciones, así que no hereda el error.</li>
         <li><b>Informe del piloto:</b> decía "56 secos revisados" en Boyacá. Al automatizar se contaron <b>59</b>. El resultado no cambia: el billete no estaba entre ellos.</li>
+        <li><b>Plan de Santander:</b> la columna «neto billete» descuenta siempre el 33,6 %. Pero la lotería liquida por fracción, y cuando el premio por fracción no supera 48 UVT solo descuenta el 17 %. Por eso el seco de $5 millones paga $4,15 millones por billete y no $3,32 millones. La herramienta usa 3 × el neto por fracción.</li>
+        <li><b>Plan del Huila:</b> las tres primeras cifras con serie pagan $7,8 millones y las tres últimas con serie $5,4 millones. Parece un error, pero así lo dice el plan oficial.</li>
+        <li><b>Calendario del Valle:</b> tiene años mal escritos y le falta el sorteo 4848. Por eso las fechas se toman de los resultados, no del calendario.</li>
+        <li><b>Quindío 3011:</b> la fuente publica la fecha 2027-04-23. El recolector la corrige a 2026 y deja constancia, igual que con cualquier fecha futura que tenga un año de más.</li>
         <li><b>Medellín 4829</b> se jugó un sábado (4 abr 2026) y no un viernes, por Semana Santa. El cronograma oficial lo confirma.</li>
       </ul>
     </section>

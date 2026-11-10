@@ -1,6 +1,6 @@
 // Motor de premios: funciones puras, sin red ni DOM. Se prueban con `node --test`.
 
-/** Códigos de lotería que aparecen en el código de barras de los billetes (comprobados en billetes reales). */
+/** Códigos de lotería del código de barras comprobados en billetes reales (los demás vienen de planes.json). */
 export const CODIGOS = { '016': 'medellin', '004': 'boyaca' };
 
 /**
@@ -8,13 +8,13 @@ export const CODIGOS = { '016': 'medellin', '004': 'boyaca' };
  * Estructura: 9 · lotería(3) · sorteo(7) · número(4) · serie(3) · fracción(2).
  * Acepta espacios o guiones. Devuelve null si no tiene esa forma.
  */
-export function leerCodigo(texto) {
+export function leerCodigo(texto, codigos = CODIGOS) {
   const c = String(texto ?? '').replace(/\D/g, '');
   if (c.length !== 20 || c[0] !== '9') return null;
   const codigo = c.slice(1, 4);
   return {
     codigoLoteria: codigo,
-    loteria: CODIGOS[codigo] ?? null,
+    loteria: codigos[codigo] ?? null,
     sorteo: Number(c.slice(4, 11)),
     numero: c.slice(11, 15),
     serie: c.slice(15, 18),
@@ -62,7 +62,11 @@ export function categoriasLoteria(boleto, sorteo, plan) {
   if (num === m && serie === ms) add('mayor', neto.mayor);
   for (const s of sorteo.secos ?? []) {
     if (num !== s.numero) continue;
-    if (serie === s.serie) add('seco', s.valor ? Math.round(s.valor * plan.factor_neto_secos) : null, `${s.numero}-${s.serie}`);
+    if (serie === s.serie) {
+      // Si la fuente no publica el valor del seco, igual se avisa: el premio existe aunque no sepamos cuánto es.
+      if (s.valor) add('seco', Math.round(s.valor * plan.factor_neto_secos), `${s.numero}-${s.serie}`);
+      else out.push({ clave: 'seco', netoBillete: Number.MAX_SAFE_INTEGER, desconocido: true, detalle: `${s.numero}-${s.serie}` });
+    }
     else add('seco_sin_serie', neto.seco_sin_serie, `${s.numero}-${s.serie}`);
   }
   const con = serie === ms;
@@ -76,6 +80,33 @@ export function categoriasLoteria(boleto, sorteo, plan) {
     if (ULTIMAS(num, m, 1)) add(con ? 'ultima_con_serie' : 'ultima_sin_serie', neto[con ? 'ultima_con_serie' : 'ultima_sin_serie']);
     if (con) add('serie_mayor', neto.serie_mayor);
   }
+  // Categorías propias de algunas loterías (Valle, Huila…): solo cuentan si el plan las define.
+  const extra = plan.neto_billete_extra ?? {};
+  const x = (clave, cumple) => { if (cumple && extra[clave]) add(clave, extra[clave]); };
+  const vecino = d => String((Number(m) + d + 10000) % 10000).padStart(4, '0');
+  const invertido = [...m].reverse().join('');
+  const mismasCifras = [...num].sort().join('') === [...m].sort().join('');
+  if (num !== m) {
+    for (const s of ['_con_serie', '_sin_serie']) {
+      if ((s === '_con_serie') !== con) continue;
+      x('anterior_al_mayor' + s, num === vecino(-1));
+      x('posterior_al_mayor' + s, num === vecino(1));
+      x('mayor_invertido' + s, invertido !== m && num === invertido);
+      x('combinado' + s, mismasCifras);
+      x('primera_y_ultima' + s, num[0] === m[0] && num[3] === m[3]);
+      x('primera_y_dos_ultimas' + s, num[0] === m[0] && num.slice(2) === m.slice(2));
+      x('dos_primeras_y_ultima' + s, num.slice(0, 2) === m.slice(0, 2) && num[3] === m[3]);
+      x('dos_del_centro' + s, num.slice(1, 3) === m.slice(1, 3));
+    }
+  }
+  // «Gana fijo» (Huila): un número que paga en cualquier serie.
+  if (sorteo.ganafijo?.numero === num) x('ganafijo_sin_serie', true);
+  // Premios especiales que publica la fuente (p. ej. «El Travieso del Tolima»): pagan en cualquier serie.
+  for (const e of sorteo.especiales ?? []) {
+    if (e.numero !== num || !(e.sin_serie || e.serie === serie)) continue;
+    if (extra.especial_sin_serie) add('especial_sin_serie', extra.especial_sin_serie, e.nombre ?? '');
+    else out.push({ clave: 'especial_sin_serie', netoBillete: Number.MAX_SAFE_INTEGER, desconocido: true, detalle: e.nombre ?? '' });
+  }
   return out.sort((a, b) => b.netoBillete - a.netoBillete);
 }
 
@@ -84,11 +115,13 @@ export function revisarLoteria(boleto, sorteo, plan) {
   const todas = categoriasLoteria(boleto, sorteo, plan);
   const fracciones = Number(boleto.fracciones) || plan.fracciones;
   const mejor = todas[0] ?? null;
+  const desconocido = Boolean(mejor?.desconocido);
   return {
     gano: Boolean(mejor),
     categoria: mejor?.clave ?? null,
-    netoBillete: mejor?.netoBillete ?? 0,
-    netoFraccion: mejor ? Math.round(mejor.netoBillete / fracciones) : 0,
+    desconocido,
+    netoBillete: desconocido ? 0 : mejor?.netoBillete ?? 0,
+    netoFraccion: mejor && !desconocido ? Math.round(mejor.netoBillete / fracciones) : 0,
     fracciones,
     otras: todas.slice(1),
     mayor: sorteo.mayor,
@@ -135,4 +168,11 @@ export function validarBaloto(numeros, sb) {
   const s = Number(sb);
   if (!Number.isInteger(s) || s < 1 || s > 16) return 'La Superbalota va del 1 al 16.';
   return null;
+}
+
+/** Mapa código de barras → id de lotería a partir de planes.json. */
+export function codigosDesdePlanes(planes) {
+  const m = { ...CODIGOS };
+  for (const [id, p] of Object.entries(planes.loterias)) if (p.codigo_barras) m[p.codigo_barras] = id;
+  return m;
 }

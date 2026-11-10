@@ -14,7 +14,47 @@
    "ok": true,
    "nuevos": 0,
    "revisado": "2026-11-10T23:34+00:00"
+  },
+  "valle": {
+   "ok": true,
+   "nuevos": 57,
+   "revisado": "2026-11-10T23:40+00:00"
+  },
+  "huila": {
+   "ok": true,
+   "nuevos": 54,
+   "revisado": "2026-11-10T23:41+00:00"
+  },
+  "santander": {
+   "ok": true,
+   "nuevos": 54,
+   "revisado": "2026-11-10T23:43+00:00"
+  },
+  "cauca": {
+   "ok": true,
+   "nuevos": 52,
+   "revisado": "2026-11-10T23:45+00:00"
+  },
+  "tolima": {
+   "ok": true,
+   "nuevos": 58,
+   "revisado": "2026-11-10T23:50+00:00"
+  },
+  "extra": {
+   "ok": true,
+   "nuevos": 13,
+   "revisado": "2026-11-10T23:50+00:00"
+  },
+  "quindio": {
+   "ok": true,
+   "nuevos": 2,
+   "revisado": "2026-11-10T23:56+00:00"
+  },
+  "risaralda": {
+   "ok": true,
+   "nuevos": 55,
+   "revisado": "2026-11-10T23:55+00:00"
   }
  },
- "actualizado": "2026-11-10T23:34+00:00"
+ "actualizado": "2026-11-10T23:56+00:00"
 }

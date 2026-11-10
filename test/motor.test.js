@@ -102,3 +102,46 @@ test('utilidades', () => {
   assert.equal(buscarSorteo(db, { fecha: '2026-01-01' }).id, '10');
   assert.equal(buscarSorteo(db, { sorteo: 11 }), null);
 });
+
+test('seco sin valor publicado: se reporta como premio por confirmar', () => {
+  const s = { mayor: { numero: '0000', serie: '000' }, secos: [{ numero: '1234', serie: '056', valor: null }] };
+  const r = revisarLoteria({ numero: '1234', serie: '056' }, s, MED);
+  assert.equal(r.gano, true);
+  assert.equal(r.categoria, 'seco');
+  assert.equal(r.desconocido, true);
+  assert.equal(r.netoFraccion, 0);
+});
+
+test('categorías extra: anterior, posterior, invertido, combinado, mixtas y gana fijo', () => {
+  const plan = { ...MED, neto_billete_extra: {
+    anterior_al_mayor_con_serie: 9e8, posterior_al_mayor_con_serie: 9e8, mayor_invertido_con_serie: 9e8,
+    combinado_con_serie: 5e8, primera_y_dos_ultimas_con_serie: 5760000, dos_primeras_y_ultima_sin_serie: 54000,
+    ganafijo_sin_serie: 3000000 } };
+  const s = { mayor: { numero: '2608', serie: '301' }, secos: [], ganafijo: { numero: '8862' } };
+  const cat = (n, se) => revisarLoteria({ numero: n, serie: se }, s, plan).categoria;
+  assert.equal(cat('2607', '301'), 'anterior_al_mayor_con_serie');
+  assert.equal(cat('2609', '301'), 'posterior_al_mayor_con_serie');
+  assert.equal(cat('8062', '301'), 'mayor_invertido_con_serie');
+  assert.equal(cat('2068', '301'), 'combinado_con_serie');
+  assert.equal(cat('2708', '301'), 'primera_y_dos_ultimas_con_serie');
+  assert.equal(cat('2698', '000'), 'dos_primeras_y_ultima_sin_serie');
+  assert.equal(cat('8862', '123'), 'ganafijo_sin_serie');
+  // sin la categoría en el plan, no paga
+  assert.notEqual(revisarLoteria({ numero: '2607', serie: '301' }, s, MED).categoria, 'anterior_al_mayor_con_serie');
+  // 9999 → 0000 es el posterior
+  assert.equal(revisarLoteria({ numero: '0000', serie: '001' }, { mayor: { numero: '9999', serie: '001' }, secos: [] }, plan).categoria, 'posterior_al_mayor_con_serie');
+});
+
+test('dos cifras del centro (Santander)', () => {
+  const plan = { ...MED, neto_billete: { ...MED.neto_billete, ultima_sin_serie: 0 }, neto_billete_extra: { dos_del_centro_sin_serie: 18000 } };
+  const s = { mayor: { numero: '8037', serie: '261' }, secos: [] };
+  assert.equal(revisarLoteria({ numero: '1032', serie: '000' }, s, plan).categoria, 'dos_del_centro_sin_serie');
+});
+
+test('premio especial en cualquier serie (Travieso del Tolima)', () => {
+  const s = { mayor: { numero: '0000', serie: '000' }, secos: [], especiales: [{ nombre: 'El Travieso', numero: '4321', sin_serie: true }] };
+  const plan = { ...MED, neto_billete_extra: { especial_sin_serie: 900000 } };
+  const r = revisarLoteria({ numero: '4321', serie: '199', fracciones: 3 }, s, plan);
+  assert.equal(r.categoria, 'especial_sin_serie');
+  assert.equal(r.netoFraccion, 300000);
+});

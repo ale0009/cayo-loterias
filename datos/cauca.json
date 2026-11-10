@@ -1,0 +1,9316 @@
+{
+ "juego": "Lotería del Cauca",
+ "fuente": "https://ingesoftingenieria.com/resultados/",
+ "sorteos": {
+  "2583": {
+   "fecha": "2025-11-01",
+   "mayor": {
+    "numero": "9648",
+    "serie": "082"
+   },
+   "secos": [
+    {
+     "numero": "1806",
+     "serie": "053",
+     "valor": 300000000
+    },
+    {
+     "numero": "6947",
+     "serie": "093",
+     "valor": 200000000
+    },
+    {
+     "numero": "4003",
+     "serie": "231",
+     "valor": 100000000
+    },
+    {
+     "numero": "2959",
+     "serie": "053",
+     "valor": 100000000
+    },
+    {
+     "numero": "5821",
+     "serie": "163",
+     "valor": 50000000
+    },
+    {
+     "numero": "8133",
+     "serie": "245",
+     "valor": 50000000
+    },
+    {
+     "numero": "1167",
+     "serie": "293",
+     "valor": 50000000
+    },
+    {
+     "numero": "9508",
+     "serie": "144",
+     "valor": 10000000
+    },
+    {
+     "numero": "9245",
+     "serie": "085",
+     "valor": 10000000
+    },
+    {
+     "numero": "8085",
+     "serie": "259",
+     "valor": 10000000
+    },
+    {
+     "numero": "2956",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "5501",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "9711",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "1471",
+     "serie": "189",
+     "valor": 10000000
+    },
+    {
+     "numero": "4376",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "1768",
+     "serie": "057",
+     "valor": 10000000
+    },
+    {
+     "numero": "7536",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "8113",
+     "serie": "272",
+     "valor": 10000000
+    },
+    {
+     "numero": "1099",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "8551",
+     "serie": "309",
+     "valor": 10000000
+    },
+    {
+     "numero": "5535",
+     "serie": "152",
+     "valor": 10000000
+    },
+    {
+     "numero": "6614",
+     "serie": "160",
+     "valor": 10000000
+    },
+    {
+     "numero": "7217",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "8298",
+     "serie": "270",
+     "valor": 10000000
+    },
+    {
+     "numero": "0069",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "5780",
+     "serie": "262",
+     "valor": 10000000
+    },
+    {
+     "numero": "0604",
+     "serie": "119",
+     "valor": 10000000
+    },
+    {
+     "numero": "0733",
+     "serie": "156",
+     "valor": 10000000
+    },
+    {
+     "numero": "2597",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "6592",
+     "serie": "286",
+     "valor": 10000000
+    },
+    {
+     "numero": "9035",
+     "serie": "109",
+     "valor": 10000000
+    },
+    {
+     "numero": "3174",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "0943",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "2410",
+     "serie": "201",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Noviembre/Acta%202583.pdf"
+  },
+  "2584": {
+   "fecha": "2025-11-08",
+   "mayor": {
+    "numero": "3631",
+    "serie": "227"
+   },
+   "secos": [
+    {
+     "numero": "6723",
+     "serie": "113",
+     "valor": 300000000
+    },
+    {
+     "numero": "7243",
+     "serie": "108",
+     "valor": 200000000
+    },
+    {
+     "numero": "9593",
+     "serie": "155",
+     "valor": 100000000
+    },
+    {
+     "numero": "5287",
+     "serie": "304",
+     "valor": 100000000
+    },
+    {
+     "numero": "6058",
+     "serie": "069",
+     "valor": 50000000
+    },
+    {
+     "numero": "4527",
+     "serie": "243",
+     "valor": 50000000
+    },
+    {
+     "numero": "9878",
+     "serie": "035",
+     "valor": 50000000
+    },
+    {
+     "numero": "4448",
+     "serie": "218",
+     "valor": 10000000
+    },
+    {
+     "numero": "1156",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "1020",
+     "serie": "309",
+     "valor": 10000000
+    },
+    {
+     "numero": "4403",
+     "serie": "109",
+     "valor": 10000000
+    },
+    {
+     "numero": "3124",
+     "serie": "077",
+     "valor": 10000000
+    },
+    {
+     "numero": "1112",
+     "serie": "159",
+     "valor": 10000000
+    },
+    {
+     "numero": "2954",
+     "serie": "114",
+     "valor": 10000000
+    },
+    {
+     "numero": "0423",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "9189",
+     "serie": "055",
+     "valor": 10000000
+    },
+    {
+     "numero": "0747",
+     "serie": "064",
+     "valor": 10000000
+    },
+    {
+     "numero": "3637",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "6289",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "5229",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "0768",
+     "serie": "274",
+     "valor": 10000000
+    },
+    {
+     "numero": "1632",
+     "serie": "205",
+     "valor": 10000000
+    },
+    {
+     "numero": "5634",
+     "serie": "283",
+     "valor": 10000000
+    },
+    {
+     "numero": "0669",
+     "serie": "275",
+     "valor": 10000000
+    },
+    {
+     "numero": "6172",
+     "serie": "096",
+     "valor": 10000000
+    },
+    {
+     "numero": "0778",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "1035",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "4608",
+     "serie": "292",
+     "valor": 10000000
+    },
+    {
+     "numero": "1849",
+     "serie": "283",
+     "valor": 10000000
+    },
+    {
+     "numero": "7450",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "7287",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "9414",
+     "serie": "011",
+     "valor": 10000000
+    },
+    {
+     "numero": "1410",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "5945",
+     "serie": "178",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Noviembre/Acta%202584.pdf"
+  },
+  "2585": {
+   "fecha": "2025-11-15",
+   "mayor": {
+    "numero": "7067",
+    "serie": "021"
+   },
+   "secos": [
+    {
+     "numero": "2218",
+     "serie": "004",
+     "valor": 300000000
+    },
+    {
+     "numero": "5186",
+     "serie": "142",
+     "valor": 200000000
+    },
+    {
+     "numero": "0517",
+     "serie": "244",
+     "valor": 100000000
+    },
+    {
+     "numero": "9240",
+     "serie": "220",
+     "valor": 100000000
+    },
+    {
+     "numero": "5297",
+     "serie": "287",
+     "valor": 50000000
+    },
+    {
+     "numero": "0575",
+     "serie": "183",
+     "valor": 50000000
+    },
+    {
+     "numero": "9933",
+     "serie": "294",
+     "valor": 50000000
+    },
+    {
+     "numero": "5580",
+     "serie": "193",
+     "valor": 10000000
+    },
+    {
+     "numero": "9089",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "8003",
+     "serie": "186",
+     "valor": 10000000
+    },
+    {
+     "numero": "5654",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "2829",
+     "serie": "249",
+     "valor": 10000000
+    },
+    {
+     "numero": "3301",
+     "serie": "013",
+     "valor": 10000000
+    },
+    {
+     "numero": "1844",
+     "serie": "164",
+     "valor": 10000000
+    },
+    {
+     "numero": "1341",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "3588",
+     "serie": "100",
+     "valor": 10000000
+    },
+    {
+     "numero": "7240",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "1676",
+     "serie": "182",
+     "valor": 10000000
+    },
+    {
+     "numero": "9591",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "3509",
+     "serie": "300",
+     "valor": 10000000
+    },
+    {
+     "numero": "5327",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "4986",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "7602",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "6016",
+     "serie": "285",
+     "valor": 10000000
+    },
+    {
+     "numero": "5167",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "8387",
+     "serie": "099",
+     "valor": 10000000
+    },
+    {
+     "numero": "7018",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "3281",
+     "serie": "300",
+     "valor": 10000000
+    },
+    {
+     "numero": "3309",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "8137",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "0169",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "0037",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "0482",
+     "serie": "269",
+     "valor": 10000000
+    },
+    {
+     "numero": "6177",
+     "serie": "149",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Noviembre/Acta%202585.pdf"
+  },
+  "2586": {
+   "fecha": "2025-11-22",
+   "mayor": {
+    "numero": "8532",
+    "serie": "085"
+   },
+   "secos": [
+    {
+     "numero": "5638",
+     "serie": "109",
+     "valor": 300000000
+    },
+    {
+     "numero": "1231",
+     "serie": "012",
+     "valor": 200000000
+    },
+    {
+     "numero": "7796",
+     "serie": "242",
+     "valor": 100000000
+    },
+    {
+     "numero": "8454",
+     "serie": "223",
+     "valor": 100000000
+    },
+    {
+     "numero": "9285",
+     "serie": "085",
+     "valor": 50000000
+    },
+    {
+     "numero": "7575",
+     "serie": "091",
+     "valor": 50000000
+    },
+    {
+     "numero": "3824",
+     "serie": "172",
+     "valor": 50000000
+    },
+    {
+     "numero": "6299",
+     "serie": "105",
+     "valor": 10000000
+    },
+    {
+     "numero": "3428",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "6904",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "0258",
+     "serie": "019",
+     "valor": 10000000
+    },
+    {
+     "numero": "0794",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "2396",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "5601",
+     "serie": "186",
+     "valor": 10000000
+    },
+    {
+     "numero": "5897",
+     "serie": "199",
+     "valor": 10000000
+    },
+    {
+     "numero": "5631",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "7197",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "1124",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "6246",
+     "serie": "042",
+     "valor": 10000000
+    },
+    {
+     "numero": "6322",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "2256",
+     "serie": "057",
+     "valor": 10000000
+    },
+    {
+     "numero": "7440",
+     "serie": "097",
+     "valor": 10000000
+    },
+    {
+     "numero": "7461",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "5078",
+     "serie": "249",
+     "valor": 10000000
+    },
+    {
+     "numero": "2454",
+     "serie": "024",
+     "valor": 10000000
+    },
+    {
+     "numero": "8454",
+     "serie": "089",
+     "valor": 10000000
+    },
+    {
+     "numero": "9181",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "8078",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "7464",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1949",
+     "serie": "048",
+     "valor": 10000000
+    },
+    {
+     "numero": "2543",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "4306",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "2732",
+     "serie": "187",
+     "valor": 10000000
+    },
+    {
+     "numero": "8485",
+     "serie": "290",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Noviembre/Acta%202586.pdf"
+  },
+  "2587": {
+   "fecha": "2025-11-29",
+   "mayor": {
+    "numero": "1790",
+    "serie": "274"
+   },
+   "secos": [
+    {
+     "numero": "5875",
+     "serie": "005",
+     "valor": 300000000
+    },
+    {
+     "numero": "6559",
+     "serie": "105",
+     "valor": 200000000
+    },
+    {
+     "numero": "1450",
+     "serie": "087",
+     "valor": 100000000
+    },
+    {
+     "numero": "0297",
+     "serie": "230",
+     "valor": 100000000
+    },
+    {
+     "numero": "4069",
+     "serie": "148",
+     "valor": 50000000
+    },
+    {
+     "numero": "9315",
+     "serie": "125",
+     "valor": 50000000
+    },
+    {
+     "numero": "4900",
+     "serie": "287",
+     "valor": 50000000
+    },
+    {
+     "numero": "7398",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "6607",
+     "serie": "007",
+     "valor": 10000000
+    },
+    {
+     "numero": "3881",
+     "serie": "259",
+     "valor": 10000000
+    },
+    {
+     "numero": "4784",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "3811",
+     "serie": "109",
+     "valor": 10000000
+    },
+    {
+     "numero": "1579",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "5609",
+     "serie": "108",
+     "valor": 10000000
+    },
+    {
+     "numero": "8243",
+     "serie": "172",
+     "valor": 10000000
+    },
+    {
+     "numero": "0775",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "3966",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "4156",
+     "serie": "034",
+     "valor": 10000000
+    },
+    {
+     "numero": "7661",
+     "serie": "075",
+     "valor": 10000000
+    },
+    {
+     "numero": "0195",
+     "serie": "130",
+     "valor": 10000000
+    },
+    {
+     "numero": "5489",
+     "serie": "155",
+     "valor": 10000000
+    },
+    {
+     "numero": "3270",
+     "serie": "120",
+     "valor": 10000000
+    },
+    {
+     "numero": "9932",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "7470",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "8319",
+     "serie": "100",
+     "valor": 10000000
+    },
+    {
+     "numero": "0026",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "1403",
+     "serie": "223",
+     "valor": 10000000
+    },
+    {
+     "numero": "0912",
+     "serie": "107",
+     "valor": 10000000
+    },
+    {
+     "numero": "8569",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "2555",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "4435",
+     "serie": "128",
+     "valor": 10000000
+    },
+    {
+     "numero": "5257",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "4808",
+     "serie": "206",
+     "valor": 10000000
+    },
+    {
+     "numero": "9003",
+     "serie": "161",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Noviembre/Acta%202587.pdf"
+  },
+  "2588": {
+   "fecha": "2025-12-06",
+   "mayor": {
+    "numero": "2336",
+    "serie": "213"
+   },
+   "secos": [
+    {
+     "numero": "6613",
+     "serie": "154",
+     "valor": 300000000
+    },
+    {
+     "numero": "9111",
+     "serie": "129",
+     "valor": 200000000
+    },
+    {
+     "numero": "2838",
+     "serie": "078",
+     "valor": 100000000
+    },
+    {
+     "numero": "6052",
+     "serie": "025",
+     "valor": 100000000
+    },
+    {
+     "numero": "9765",
+     "serie": "149",
+     "valor": 50000000
+    },
+    {
+     "numero": "4673",
+     "serie": "009",
+     "valor": 50000000
+    },
+    {
+     "numero": "7178",
+     "serie": "088",
+     "valor": 50000000
+    },
+    {
+     "numero": "1692",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "0082",
+     "serie": "176",
+     "valor": 10000000
+    },
+    {
+     "numero": "2999",
+     "serie": "152",
+     "valor": 10000000
+    },
+    {
+     "numero": "7327",
+     "serie": "286",
+     "valor": 10000000
+    },
+    {
+     "numero": "7609",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "0993",
+     "serie": "049",
+     "valor": 10000000
+    },
+    {
+     "numero": "2351",
+     "serie": "224",
+     "valor": 10000000
+    },
+    {
+     "numero": "2924",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "0977",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "7688",
+     "serie": "220",
+     "valor": 10000000
+    },
+    {
+     "numero": "6601",
+     "serie": "002",
+     "valor": 10000000
+    },
+    {
+     "numero": "8648",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "0244",
+     "serie": "007",
+     "valor": 10000000
+    },
+    {
+     "numero": "7376",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "6998",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "1215",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "6328",
+     "serie": "014",
+     "valor": 10000000
+    },
+    {
+     "numero": "6736",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "5482",
+     "serie": "234",
+     "valor": 10000000
+    },
+    {
+     "numero": "9780",
+     "serie": "171",
+     "valor": 10000000
+    },
+    {
+     "numero": "0256",
+     "serie": "100",
+     "valor": 10000000
+    },
+    {
+     "numero": "2122",
+     "serie": "211",
+     "valor": 10000000
+    },
+    {
+     "numero": "5074",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "9214",
+     "serie": "039",
+     "valor": 10000000
+    },
+    {
+     "numero": "1366",
+     "serie": "125",
+     "valor": 10000000
+    },
+    {
+     "numero": "9818",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "5620",
+     "serie": "055",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Diciembre/Acta%202588.pdf"
+  },
+  "2589": {
+   "fecha": "2025-12-13",
+   "mayor": {
+    "numero": "8706",
+    "serie": "017"
+   },
+   "secos": [
+    {
+     "numero": "8101",
+     "serie": "115",
+     "valor": 300000000
+    },
+    {
+     "numero": "4714",
+     "serie": "267",
+     "valor": 200000000
+    },
+    {
+     "numero": "4118",
+     "serie": "253",
+     "valor": 100000000
+    },
+    {
+     "numero": "5861",
+     "serie": "108",
+     "valor": 100000000
+    },
+    {
+     "numero": "3383",
+     "serie": "042",
+     "valor": 50000000
+    },
+    {
+     "numero": "6647",
+     "serie": "068",
+     "valor": 50000000
+    },
+    {
+     "numero": "4013",
+     "serie": "015",
+     "valor": 50000000
+    },
+    {
+     "numero": "8521",
+     "serie": "114",
+     "valor": 10000000
+    },
+    {
+     "numero": "7200",
+     "serie": "208",
+     "valor": 10000000
+    },
+    {
+     "numero": "3634",
+     "serie": "257",
+     "valor": 10000000
+    },
+    {
+     "numero": "7086",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "2795",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "0954",
+     "serie": "043",
+     "valor": 10000000
+    },
+    {
+     "numero": "9688",
+     "serie": "146",
+     "valor": 10000000
+    },
+    {
+     "numero": "5653",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "9589",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "8945",
+     "serie": "234",
+     "valor": 10000000
+    },
+    {
+     "numero": "0881",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "8151",
+     "serie": "012",
+     "valor": 10000000
+    },
+    {
+     "numero": "2469",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "9749",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "9176",
+     "serie": "116",
+     "valor": 10000000
+    },
+    {
+     "numero": "3471",
+     "serie": "297",
+     "valor": 10000000
+    },
+    {
+     "numero": "8386",
+     "serie": "280",
+     "valor": 10000000
+    },
+    {
+     "numero": "8875",
+     "serie": "266",
+     "valor": 10000000
+    },
+    {
+     "numero": "1573",
+     "serie": "068",
+     "valor": 10000000
+    },
+    {
+     "numero": "5017",
+     "serie": "058",
+     "valor": 10000000
+    },
+    {
+     "numero": "1406",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "5394",
+     "serie": "259",
+     "valor": 10000000
+    },
+    {
+     "numero": "2746",
+     "serie": "051",
+     "valor": 10000000
+    },
+    {
+     "numero": "2587",
+     "serie": "086",
+     "valor": 10000000
+    },
+    {
+     "numero": "2706",
+     "serie": "235",
+     "valor": 10000000
+    },
+    {
+     "numero": "1791",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "6752",
+     "serie": "260",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Diciembre/Acta%202589.pdf; fecha publicada «0000-00-00»: se usa la estimada 2025-12-13"
+  },
+  "2590": {
+   "fecha": "2025-12-20",
+   "mayor": {
+    "numero": "7173",
+    "serie": "230"
+   },
+   "secos": [
+    {
+     "numero": "4247",
+     "serie": "136",
+     "valor": 300000000
+    },
+    {
+     "numero": "8506",
+     "serie": "028",
+     "valor": 200000000
+    },
+    {
+     "numero": "5224",
+     "serie": "032",
+     "valor": 100000000
+    },
+    {
+     "numero": "1577",
+     "serie": "182",
+     "valor": 100000000
+    },
+    {
+     "numero": "9999",
+     "serie": "170",
+     "valor": 50000000
+    },
+    {
+     "numero": "5807",
+     "serie": "067",
+     "valor": 50000000
+    },
+    {
+     "numero": "9153",
+     "serie": "254",
+     "valor": 50000000
+    },
+    {
+     "numero": "6311",
+     "serie": "048",
+     "valor": 10000000
+    },
+    {
+     "numero": "1909",
+     "serie": "097",
+     "valor": 10000000
+    },
+    {
+     "numero": "6423",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "1100",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "4674",
+     "serie": "112",
+     "valor": 10000000
+    },
+    {
+     "numero": "0812",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "0504",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "0114",
+     "serie": "297",
+     "valor": 10000000
+    },
+    {
+     "numero": "5785",
+     "serie": "175",
+     "valor": 10000000
+    },
+    {
+     "numero": "9870",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "4131",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "9789",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "8172",
+     "serie": "200",
+     "valor": 10000000
+    },
+    {
+     "numero": "7454",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "6125",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "0974",
+     "serie": "209",
+     "valor": 10000000
+    },
+    {
+     "numero": "9165",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "5125",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "4071",
+     "serie": "236",
+     "valor": 10000000
+    },
+    {
+     "numero": "0772",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "6634",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "0856",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "9195",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "7694",
+     "serie": "074",
+     "valor": 10000000
+    },
+    {
+     "numero": "1426",
+     "serie": "105",
+     "valor": 10000000
+    },
+    {
+     "numero": "1730",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "5084",
+     "serie": "005",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Diciembre/Acta%202590.pdf; fecha publicada «0000-00-00»: se usa la estimada 2025-12-20"
+  },
+  "2591": {
+   "fecha": "2025-12-27",
+   "mayor": {
+    "numero": "4029",
+    "serie": "117"
+   },
+   "secos": [
+    {
+     "numero": "3704",
+     "serie": "090",
+     "valor": 300000000
+    },
+    {
+     "numero": "8959",
+     "serie": "137",
+     "valor": 200000000
+    },
+    {
+     "numero": "6617",
+     "serie": "156",
+     "valor": 100000000
+    },
+    {
+     "numero": "4920",
+     "serie": "304",
+     "valor": 100000000
+    },
+    {
+     "numero": "2469",
+     "serie": "231",
+     "valor": 50000000
+    },
+    {
+     "numero": "7120",
+     "serie": "118",
+     "valor": 50000000
+    },
+    {
+     "numero": "3666",
+     "serie": "274",
+     "valor": 50000000
+    },
+    {
+     "numero": "2378",
+     "serie": "157",
+     "valor": 10000000
+    },
+    {
+     "numero": "8982",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "8875",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "1761",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "2843",
+     "serie": "200",
+     "valor": 10000000
+    },
+    {
+     "numero": "1943",
+     "serie": "098",
+     "valor": 10000000
+    },
+    {
+     "numero": "5337",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "8608",
+     "serie": "275",
+     "valor": 10000000
+    },
+    {
+     "numero": "0469",
+     "serie": "217",
+     "valor": 10000000
+    },
+    {
+     "numero": "4119",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "4552",
+     "serie": "020",
+     "valor": 10000000
+    },
+    {
+     "numero": "5774",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "4898",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "4367",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "3490",
+     "serie": "048",
+     "valor": 10000000
+    },
+    {
+     "numero": "5291",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "2542",
+     "serie": "233",
+     "valor": 10000000
+    },
+    {
+     "numero": "8882",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "0753",
+     "serie": "193",
+     "valor": 10000000
+    },
+    {
+     "numero": "3374",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "8106",
+     "serie": "071",
+     "valor": 10000000
+    },
+    {
+     "numero": "1270",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "3139",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "0384",
+     "serie": "177",
+     "valor": 10000000
+    },
+    {
+     "numero": "7131",
+     "serie": "294",
+     "valor": 10000000
+    },
+    {
+     "numero": "9542",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "6331",
+     "serie": "142",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2025/Diciembre/Acta%202591.pdf; fecha publicada «0000-00-00»: se usa la estimada 2025-12-27"
+  },
+  "2592": {
+   "fecha": "2026-01-03",
+   "mayor": {
+    "numero": "8712",
+    "serie": "248"
+   },
+   "secos": [
+    {
+     "numero": "2876",
+     "serie": "155",
+     "valor": 300000000
+    },
+    {
+     "numero": "7745",
+     "serie": "175",
+     "valor": 200000000
+    },
+    {
+     "numero": "4453",
+     "serie": "024",
+     "valor": 100000000
+    },
+    {
+     "numero": "2273",
+     "serie": "025",
+     "valor": 100000000
+    },
+    {
+     "numero": "3331",
+     "serie": "063",
+     "valor": 50000000
+    },
+    {
+     "numero": "7046",
+     "serie": "155",
+     "valor": 50000000
+    },
+    {
+     "numero": "8253",
+     "serie": "179",
+     "valor": 50000000
+    },
+    {
+     "numero": "0896",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "2657",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "1072",
+     "serie": "282",
+     "valor": 10000000
+    },
+    {
+     "numero": "1289",
+     "serie": "257",
+     "valor": 10000000
+    },
+    {
+     "numero": "6584",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "1111",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "5072",
+     "serie": "144",
+     "valor": 10000000
+    },
+    {
+     "numero": "7949",
+     "serie": "150",
+     "valor": 10000000
+    },
+    {
+     "numero": "3691",
+     "serie": "303",
+     "valor": 10000000
+    },
+    {
+     "numero": "0995",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "0527",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "7948",
+     "serie": "136",
+     "valor": 10000000
+    },
+    {
+     "numero": "5506",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "9402",
+     "serie": "019",
+     "valor": 10000000
+    },
+    {
+     "numero": "7346",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "1311",
+     "serie": "087",
+     "valor": 10000000
+    },
+    {
+     "numero": "4155",
+     "serie": "064",
+     "valor": 10000000
+    },
+    {
+     "numero": "1682",
+     "serie": "189",
+     "valor": 10000000
+    },
+    {
+     "numero": "7594",
+     "serie": "239",
+     "valor": 10000000
+    },
+    {
+     "numero": "6369",
+     "serie": "150",
+     "valor": 10000000
+    },
+    {
+     "numero": "4007",
+     "serie": "278",
+     "valor": 10000000
+    },
+    {
+     "numero": "5896",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "7999",
+     "serie": "084",
+     "valor": 10000000
+    },
+    {
+     "numero": "7496",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "5251",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "6447",
+     "serie": "032",
+     "valor": 10000000
+    },
+    {
+     "numero": "3738",
+     "serie": "260",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Enero/Acta%202592.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-01-03"
+  },
+  "2593": {
+   "fecha": "2026-01-10",
+   "mayor": {
+    "numero": "0377",
+    "serie": "224"
+   },
+   "secos": [
+    {
+     "numero": "7610",
+     "serie": "164",
+     "valor": 300000000
+    },
+    {
+     "numero": "7716",
+     "serie": "005",
+     "valor": 200000000
+    },
+    {
+     "numero": "5649",
+     "serie": "286",
+     "valor": 100000000
+    },
+    {
+     "numero": "4252",
+     "serie": "098",
+     "valor": 100000000
+    },
+    {
+     "numero": "9188",
+     "serie": "277",
+     "valor": 50000000
+    },
+    {
+     "numero": "3600",
+     "serie": "245",
+     "valor": 50000000
+    },
+    {
+     "numero": "1458",
+     "serie": "292",
+     "valor": 50000000
+    },
+    {
+     "numero": "8792",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "1529",
+     "serie": "130",
+     "valor": 10000000
+    },
+    {
+     "numero": "5422",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "5695",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "7997",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "8997",
+     "serie": "205",
+     "valor": 10000000
+    },
+    {
+     "numero": "6001",
+     "serie": "298",
+     "valor": 10000000
+    },
+    {
+     "numero": "0016",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "3621",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "7772",
+     "serie": "189",
+     "valor": 10000000
+    },
+    {
+     "numero": "6503",
+     "serie": "018",
+     "valor": 10000000
+    },
+    {
+     "numero": "4339",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "7731",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "0862",
+     "serie": "303",
+     "valor": 10000000
+    },
+    {
+     "numero": "4097",
+     "serie": "186",
+     "valor": 10000000
+    },
+    {
+     "numero": "2202",
+     "serie": "105",
+     "valor": 10000000
+    },
+    {
+     "numero": "4118",
+     "serie": "120",
+     "valor": 10000000
+    },
+    {
+     "numero": "7461",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "6879",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "6213",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "4330",
+     "serie": "298",
+     "valor": 10000000
+    },
+    {
+     "numero": "3072",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "2717",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "6125",
+     "serie": "177",
+     "valor": 10000000
+    },
+    {
+     "numero": "3889",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "0683",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "8231",
+     "serie": "046",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Enero/Acta%202593.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-01-10"
+  },
+  "2594": {
+   "fecha": "2026-01-17",
+   "mayor": {
+    "numero": "9604",
+    "serie": "293"
+   },
+   "secos": [
+    {
+     "numero": "9261",
+     "serie": "142",
+     "valor": 300000000
+    },
+    {
+     "numero": "0012",
+     "serie": "070",
+     "valor": 200000000
+    },
+    {
+     "numero": "3648",
+     "serie": "080",
+     "valor": 100000000
+    },
+    {
+     "numero": "5559",
+     "serie": "041",
+     "valor": 100000000
+    },
+    {
+     "numero": "3927",
+     "serie": "208",
+     "valor": 50000000
+    },
+    {
+     "numero": "6536",
+     "serie": "190",
+     "valor": 50000000
+    },
+    {
+     "numero": "2206",
+     "serie": "253",
+     "valor": 50000000
+    },
+    {
+     "numero": "9345",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "8595",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "5253",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "5678",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "5686",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "6014",
+     "serie": "120",
+     "valor": 10000000
+    },
+    {
+     "numero": "9977",
+     "serie": "116",
+     "valor": 10000000
+    },
+    {
+     "numero": "2011",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "6699",
+     "serie": "285",
+     "valor": 10000000
+    },
+    {
+     "numero": "1458",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "4879",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "4894",
+     "serie": "059",
+     "valor": 10000000
+    },
+    {
+     "numero": "0100",
+     "serie": "248",
+     "valor": 10000000
+    },
+    {
+     "numero": "4140",
+     "serie": "252",
+     "valor": 10000000
+    },
+    {
+     "numero": "7342",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "6453",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "6437",
+     "serie": "286",
+     "valor": 10000000
+    },
+    {
+     "numero": "3780",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "8651",
+     "serie": "229",
+     "valor": 10000000
+    },
+    {
+     "numero": "0697",
+     "serie": "210",
+     "valor": 10000000
+    },
+    {
+     "numero": "1558",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "0583",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "0975",
+     "serie": "155",
+     "valor": 10000000
+    },
+    {
+     "numero": "2666",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "5345",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "2367",
+     "serie": "309",
+     "valor": 10000000
+    },
+    {
+     "numero": "8853",
+     "serie": "137",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Enero/Acta%202594.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-01-17"
+  },
+  "2595": {
+   "fecha": "2026-01-24",
+   "mayor": {
+    "numero": "8951",
+    "serie": "108"
+   },
+   "secos": [
+    {
+     "numero": "5621",
+     "serie": "085",
+     "valor": 300000000
+    },
+    {
+     "numero": "2339",
+     "serie": "180",
+     "valor": 200000000
+    },
+    {
+     "numero": "4116",
+     "serie": "243",
+     "valor": 100000000
+    },
+    {
+     "numero": "3684",
+     "serie": "132",
+     "valor": 100000000
+    },
+    {
+     "numero": "1350",
+     "serie": "232",
+     "valor": 50000000
+    },
+    {
+     "numero": "3675",
+     "serie": "028",
+     "valor": 50000000
+    },
+    {
+     "numero": "5859",
+     "serie": "151",
+     "valor": 50000000
+    },
+    {
+     "numero": "9753",
+     "serie": "239",
+     "valor": 10000000
+    },
+    {
+     "numero": "6436",
+     "serie": "155",
+     "valor": 10000000
+    },
+    {
+     "numero": "7937",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "5706",
+     "serie": "183",
+     "valor": 10000000
+    },
+    {
+     "numero": "1210",
+     "serie": "007",
+     "valor": 10000000
+    },
+    {
+     "numero": "9588",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "9889",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "1827",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "0498",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "9762",
+     "serie": "297",
+     "valor": 10000000
+    },
+    {
+     "numero": "4110",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "8725",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "5119",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "3031",
+     "serie": "012",
+     "valor": 10000000
+    },
+    {
+     "numero": "6304",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "3158",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "5309",
+     "serie": "134",
+     "valor": 10000000
+    },
+    {
+     "numero": "2478",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "3836",
+     "serie": "300",
+     "valor": 10000000
+    },
+    {
+     "numero": "2779",
+     "serie": "281",
+     "valor": 10000000
+    },
+    {
+     "numero": "1956",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "6415",
+     "serie": "035",
+     "valor": 10000000
+    },
+    {
+     "numero": "8146",
+     "serie": "162",
+     "valor": 10000000
+    },
+    {
+     "numero": "6845",
+     "serie": "175",
+     "valor": 10000000
+    },
+    {
+     "numero": "2740",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "5228",
+     "serie": "246",
+     "valor": 10000000
+    },
+    {
+     "numero": "8132",
+     "serie": "053",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Enero/Acta%202595.pdf"
+  },
+  "2596": {
+   "fecha": "2026-01-31",
+   "mayor": {
+    "numero": "4554",
+    "serie": "116"
+   },
+   "secos": [
+    {
+     "numero": "9520",
+     "serie": "121",
+     "valor": 300000000
+    },
+    {
+     "numero": "3990",
+     "serie": "204",
+     "valor": 200000000
+    },
+    {
+     "numero": "4475",
+     "serie": "165",
+     "valor": 100000000
+    },
+    {
+     "numero": "5249",
+     "serie": "070",
+     "valor": 100000000
+    },
+    {
+     "numero": "1408",
+     "serie": "240",
+     "valor": 50000000
+    },
+    {
+     "numero": "9594",
+     "serie": "297",
+     "valor": 50000000
+    },
+    {
+     "numero": "1268",
+     "serie": "101",
+     "valor": 50000000
+    },
+    {
+     "numero": "5044",
+     "serie": "232",
+     "valor": 10000000
+    },
+    {
+     "numero": "7334",
+     "serie": "217",
+     "valor": 10000000
+    },
+    {
+     "numero": "9988",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "0594",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "3814",
+     "serie": "185",
+     "valor": 10000000
+    },
+    {
+     "numero": "1623",
+     "serie": "056",
+     "valor": 10000000
+    },
+    {
+     "numero": "6374",
+     "serie": "061",
+     "valor": 10000000
+    },
+    {
+     "numero": "9571",
+     "serie": "061",
+     "valor": 10000000
+    },
+    {
+     "numero": "3888",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "8334",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "3442",
+     "serie": "081",
+     "valor": 10000000
+    },
+    {
+     "numero": "9311",
+     "serie": "091",
+     "valor": 10000000
+    },
+    {
+     "numero": "5586",
+     "serie": "148",
+     "valor": 10000000
+    },
+    {
+     "numero": "1834",
+     "serie": "017",
+     "valor": 10000000
+    },
+    {
+     "numero": "7149",
+     "serie": "030",
+     "valor": 10000000
+    },
+    {
+     "numero": "8188",
+     "serie": "229",
+     "valor": 10000000
+    },
+    {
+     "numero": "1501",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "8215",
+     "serie": "135",
+     "valor": 10000000
+    },
+    {
+     "numero": "4131",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "7757",
+     "serie": "248",
+     "valor": 10000000
+    },
+    {
+     "numero": "6580",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "0175",
+     "serie": "037",
+     "valor": 10000000
+    },
+    {
+     "numero": "4008",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "0037",
+     "serie": "171",
+     "valor": 10000000
+    },
+    {
+     "numero": "3801",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "5191",
+     "serie": "098",
+     "valor": 10000000
+    },
+    {
+     "numero": "7716",
+     "serie": "217",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Enero/Acta%202596.pdf"
+  },
+  "2598": {
+   "fecha": "2026-02-14",
+   "mayor": {
+    "numero": "9580",
+    "serie": "175"
+   },
+   "secos": [
+    {
+     "numero": "3903",
+     "serie": "144",
+     "valor": 300000000
+    },
+    {
+     "numero": "3914",
+     "serie": "036",
+     "valor": 200000000
+    },
+    {
+     "numero": "0713",
+     "serie": "117",
+     "valor": 100000000
+    },
+    {
+     "numero": "5435",
+     "serie": "130",
+     "valor": 100000000
+    },
+    {
+     "numero": "0404",
+     "serie": "278",
+     "valor": 50000000
+    },
+    {
+     "numero": "1955",
+     "serie": "024",
+     "valor": 50000000
+    },
+    {
+     "numero": "0430",
+     "serie": "044",
+     "valor": 50000000
+    },
+    {
+     "numero": "2737",
+     "serie": "156",
+     "valor": 10000000
+    },
+    {
+     "numero": "9638",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "3742",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "4362",
+     "serie": "266",
+     "valor": 10000000
+    },
+    {
+     "numero": "8792",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "1438",
+     "serie": "019",
+     "valor": 10000000
+    },
+    {
+     "numero": "3421",
+     "serie": "125",
+     "valor": 10000000
+    },
+    {
+     "numero": "6518",
+     "serie": "087",
+     "valor": 10000000
+    },
+    {
+     "numero": "2347",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "9957",
+     "serie": "172",
+     "valor": 10000000
+    },
+    {
+     "numero": "0657",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "5681",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "6272",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "2531",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "3015",
+     "serie": "128",
+     "valor": 10000000
+    },
+    {
+     "numero": "8261",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "6582",
+     "serie": "093",
+     "valor": 10000000
+    },
+    {
+     "numero": "5566",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "0918",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "1862",
+     "serie": "159",
+     "valor": 10000000
+    },
+    {
+     "numero": "9899",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "6025",
+     "serie": "281",
+     "valor": 10000000
+    },
+    {
+     "numero": "1819",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "3176",
+     "serie": "190",
+     "valor": 10000000
+    },
+    {
+     "numero": "4434",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "8800",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "7431",
+     "serie": "056",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Febrero/Acta%202598.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-02-14"
+  },
+  "2599": {
+   "fecha": "2026-02-21",
+   "mayor": {
+    "numero": "7711",
+    "serie": "199"
+   },
+   "secos": [
+    {
+     "numero": "4879",
+     "serie": "014",
+     "valor": 300000000
+    },
+    {
+     "numero": "3668",
+     "serie": "193",
+     "valor": 200000000
+    },
+    {
+     "numero": "3064",
+     "serie": "291",
+     "valor": 100000000
+    },
+    {
+     "numero": "7540",
+     "serie": "090",
+     "valor": 100000000
+    },
+    {
+     "numero": "8773",
+     "serie": "293",
+     "valor": 50000000
+    },
+    {
+     "numero": "9242",
+     "serie": "256",
+     "valor": 50000000
+    },
+    {
+     "numero": "8986",
+     "serie": "178",
+     "valor": 50000000
+    },
+    {
+     "numero": "7620",
+     "serie": "061",
+     "valor": 10000000
+    },
+    {
+     "numero": "9272",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "9087",
+     "serie": "302",
+     "valor": 10000000
+    },
+    {
+     "numero": "1702",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "4559",
+     "serie": "091",
+     "valor": 10000000
+    },
+    {
+     "numero": "1439",
+     "serie": "199",
+     "valor": 10000000
+    },
+    {
+     "numero": "4986",
+     "serie": "239",
+     "valor": 10000000
+    },
+    {
+     "numero": "1948",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "8008",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "5577",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "3697",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "1803",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "8476",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "8247",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "8522",
+     "serie": "000",
+     "valor": 10000000
+    },
+    {
+     "numero": "9217",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "3286",
+     "serie": "272",
+     "valor": 10000000
+    },
+    {
+     "numero": "2939",
+     "serie": "128",
+     "valor": 10000000
+    },
+    {
+     "numero": "2255",
+     "serie": "069",
+     "valor": 10000000
+    },
+    {
+     "numero": "8403",
+     "serie": "235",
+     "valor": 10000000
+    },
+    {
+     "numero": "1747",
+     "serie": "129",
+     "valor": 10000000
+    },
+    {
+     "numero": "1644",
+     "serie": "157",
+     "valor": 10000000
+    },
+    {
+     "numero": "9612",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "4970",
+     "serie": "129",
+     "valor": 10000000
+    },
+    {
+     "numero": "4690",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "7090",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "8040",
+     "serie": "160",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Febrero/Acta%202599.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-02-21"
+  },
+  "2600": {
+   "fecha": "2026-02-28",
+   "mayor": {
+    "numero": "7695",
+    "serie": "096"
+   },
+   "secos": [
+    {
+     "numero": "2603",
+     "serie": "127",
+     "valor": 300000000
+    },
+    {
+     "numero": "0525",
+     "serie": "124",
+     "valor": 200000000
+    },
+    {
+     "numero": "0144",
+     "serie": "281",
+     "valor": 100000000
+    },
+    {
+     "numero": "8473",
+     "serie": "104",
+     "valor": 100000000
+    },
+    {
+     "numero": "8600",
+     "serie": "006",
+     "valor": 50000000
+    },
+    {
+     "numero": "4422",
+     "serie": "085",
+     "valor": 50000000
+    },
+    {
+     "numero": "4014",
+     "serie": "229",
+     "valor": 50000000
+    },
+    {
+     "numero": "2750",
+     "serie": "259",
+     "valor": 10000000
+    },
+    {
+     "numero": "2911",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "4217",
+     "serie": "183",
+     "valor": 10000000
+    },
+    {
+     "numero": "1510",
+     "serie": "213",
+     "valor": 10000000
+    },
+    {
+     "numero": "9098",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "1676",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "9223",
+     "serie": "210",
+     "valor": 10000000
+    },
+    {
+     "numero": "7018",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "9542",
+     "serie": "006",
+     "valor": 10000000
+    },
+    {
+     "numero": "7164",
+     "serie": "244",
+     "valor": 10000000
+    },
+    {
+     "numero": "7692",
+     "serie": "215",
+     "valor": 10000000
+    },
+    {
+     "numero": "4602",
+     "serie": "236",
+     "valor": 10000000
+    },
+    {
+     "numero": "9683",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "5274",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "9355",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "2126",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "6541",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "7784",
+     "serie": "229",
+     "valor": 10000000
+    },
+    {
+     "numero": "9258",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "6051",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "1643",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "3286",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "8604",
+     "serie": "224",
+     "valor": 10000000
+    },
+    {
+     "numero": "8374",
+     "serie": "182",
+     "valor": 10000000
+    },
+    {
+     "numero": "1429",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "7836",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "4294",
+     "serie": "295",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Febrero/Acta%202600.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-02-28"
+  },
+  "2601": {
+   "fecha": "2026-03-07",
+   "mayor": {
+    "numero": "9499",
+    "serie": "137"
+   },
+   "secos": [
+    {
+     "numero": "9334",
+     "serie": "085",
+     "valor": 300000000
+    },
+    {
+     "numero": "4828",
+     "serie": "241",
+     "valor": 200000000
+    },
+    {
+     "numero": "0627",
+     "serie": "203",
+     "valor": 100000000
+    },
+    {
+     "numero": "7071",
+     "serie": "073",
+     "valor": 100000000
+    },
+    {
+     "numero": "1362",
+     "serie": "066",
+     "valor": 50000000
+    },
+    {
+     "numero": "9113",
+     "serie": "066",
+     "valor": 50000000
+    },
+    {
+     "numero": "0321",
+     "serie": "087",
+     "valor": 50000000
+    },
+    {
+     "numero": "0192",
+     "serie": "024",
+     "valor": 10000000
+    },
+    {
+     "numero": "6942",
+     "serie": "056",
+     "valor": 10000000
+    },
+    {
+     "numero": "6629",
+     "serie": "284",
+     "valor": 10000000
+    },
+    {
+     "numero": "6694",
+     "serie": "119",
+     "valor": 10000000
+    },
+    {
+     "numero": "3249",
+     "serie": "059",
+     "valor": 10000000
+    },
+    {
+     "numero": "8429",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "5090",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "5267",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "3446",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "7916",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "3649",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "0222",
+     "serie": "235",
+     "valor": 10000000
+    },
+    {
+     "numero": "9933",
+     "serie": "135",
+     "valor": 10000000
+    },
+    {
+     "numero": "3250",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "1447",
+     "serie": "103",
+     "valor": 10000000
+    },
+    {
+     "numero": "7430",
+     "serie": "223",
+     "valor": 10000000
+    },
+    {
+     "numero": "0814",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "5039",
+     "serie": "106",
+     "valor": 10000000
+    },
+    {
+     "numero": "4011",
+     "serie": "248",
+     "valor": 10000000
+    },
+    {
+     "numero": "1024",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "6813",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "7260",
+     "serie": "012",
+     "valor": 10000000
+    },
+    {
+     "numero": "2450",
+     "serie": "037",
+     "valor": 10000000
+    },
+    {
+     "numero": "4892",
+     "serie": "075",
+     "valor": 10000000
+    },
+    {
+     "numero": "4359",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "8462",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "3294",
+     "serie": "174",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Marzo/Acta%202601.pdf"
+  },
+  "2602": {
+   "fecha": "2026-03-14",
+   "mayor": {
+    "numero": "4704",
+    "serie": "073"
+   },
+   "secos": [
+    {
+     "numero": "1748",
+     "serie": "253",
+     "valor": 300000000
+    },
+    {
+     "numero": "0336",
+     "serie": "204",
+     "valor": 200000000
+    },
+    {
+     "numero": "5906",
+     "serie": "018",
+     "valor": 100000000
+    },
+    {
+     "numero": "0013",
+     "serie": "186",
+     "valor": 100000000
+    },
+    {
+     "numero": "9990",
+     "serie": "088",
+     "valor": 50000000
+    },
+    {
+     "numero": "8643",
+     "serie": "225",
+     "valor": 50000000
+    },
+    {
+     "numero": "8582",
+     "serie": "252",
+     "valor": 50000000
+    },
+    {
+     "numero": "7541",
+     "serie": "262",
+     "valor": 10000000
+    },
+    {
+     "numero": "8427",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "3417",
+     "serie": "205",
+     "valor": 10000000
+    },
+    {
+     "numero": "2539",
+     "serie": "157",
+     "valor": 10000000
+    },
+    {
+     "numero": "6516",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "1937",
+     "serie": "203",
+     "valor": 10000000
+    },
+    {
+     "numero": "2709",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "5420",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "6165",
+     "serie": "151",
+     "valor": 10000000
+    },
+    {
+     "numero": "2364",
+     "serie": "029",
+     "valor": 10000000
+    },
+    {
+     "numero": "8012",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "5070",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "1865",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "8969",
+     "serie": "020",
+     "valor": 10000000
+    },
+    {
+     "numero": "9235",
+     "serie": "187",
+     "valor": 10000000
+    },
+    {
+     "numero": "2949",
+     "serie": "209",
+     "valor": 10000000
+    },
+    {
+     "numero": "9760",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "7152",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "6424",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "2141",
+     "serie": "219",
+     "valor": 10000000
+    },
+    {
+     "numero": "8853",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "0530",
+     "serie": "049",
+     "valor": 10000000
+    },
+    {
+     "numero": "9178",
+     "serie": "088",
+     "valor": 10000000
+    },
+    {
+     "numero": "7320",
+     "serie": "248",
+     "valor": 10000000
+    },
+    {
+     "numero": "5568",
+     "serie": "134",
+     "valor": 10000000
+    },
+    {
+     "numero": "8382",
+     "serie": "146",
+     "valor": 10000000
+    },
+    {
+     "numero": "3852",
+     "serie": "077",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Marzo/Acta%202602.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-03-14"
+  },
+  "2603": {
+   "fecha": "2026-03-21",
+   "mayor": {
+    "numero": "0014",
+    "serie": "257"
+   },
+   "secos": [
+    {
+     "numero": "8406",
+     "serie": "288",
+     "valor": 300000000
+    },
+    {
+     "numero": "6360",
+     "serie": "273",
+     "valor": 200000000
+    },
+    {
+     "numero": "0424",
+     "serie": "168",
+     "valor": 100000000
+    },
+    {
+     "numero": "0924",
+     "serie": "029",
+     "valor": 100000000
+    },
+    {
+     "numero": "6456",
+     "serie": "022",
+     "valor": 50000000
+    },
+    {
+     "numero": "6537",
+     "serie": "307",
+     "valor": 50000000
+    },
+    {
+     "numero": "6809",
+     "serie": "201",
+     "valor": 50000000
+    },
+    {
+     "numero": "1833",
+     "serie": "033",
+     "valor": 10000000
+    },
+    {
+     "numero": "3774",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "6942",
+     "serie": "269",
+     "valor": 10000000
+    },
+    {
+     "numero": "6470",
+     "serie": "172",
+     "valor": 10000000
+    },
+    {
+     "numero": "4974",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "7876",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "9914",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "7763",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "2338",
+     "serie": "076",
+     "valor": 10000000
+    },
+    {
+     "numero": "9674",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "8917",
+     "serie": "160",
+     "valor": 10000000
+    },
+    {
+     "numero": "2464",
+     "serie": "069",
+     "valor": 10000000
+    },
+    {
+     "numero": "9256",
+     "serie": "070",
+     "valor": 10000000
+    },
+    {
+     "numero": "6968",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "6359",
+     "serie": "292",
+     "valor": 10000000
+    },
+    {
+     "numero": "4055",
+     "serie": "078",
+     "valor": 10000000
+    },
+    {
+     "numero": "8626",
+     "serie": "289",
+     "valor": 10000000
+    },
+    {
+     "numero": "3855",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "4312",
+     "serie": "051",
+     "valor": 10000000
+    },
+    {
+     "numero": "5388",
+     "serie": "284",
+     "valor": 10000000
+    },
+    {
+     "numero": "6267",
+     "serie": "033",
+     "valor": 10000000
+    },
+    {
+     "numero": "7585",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "4487",
+     "serie": "262",
+     "valor": 10000000
+    },
+    {
+     "numero": "1894",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "8593",
+     "serie": "074",
+     "valor": 10000000
+    },
+    {
+     "numero": "7739",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "2273",
+     "serie": "177",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Marzo/Acta%202603.pdf"
+  },
+  "2604": {
+   "fecha": "2026-03-28",
+   "mayor": {
+    "numero": "8606",
+    "serie": "057"
+   },
+   "secos": [
+    {
+     "numero": "8286",
+     "serie": "124",
+     "valor": 300000000
+    },
+    {
+     "numero": "4718",
+     "serie": "025",
+     "valor": 200000000
+    },
+    {
+     "numero": "7496",
+     "serie": "101",
+     "valor": 100000000
+    },
+    {
+     "numero": "2424",
+     "serie": "203",
+     "valor": 100000000
+    },
+    {
+     "numero": "5571",
+     "serie": "151",
+     "valor": 50000000
+    },
+    {
+     "numero": "9782",
+     "serie": "129",
+     "valor": 50000000
+    },
+    {
+     "numero": "5199",
+     "serie": "003",
+     "valor": 50000000
+    },
+    {
+     "numero": "3286",
+     "serie": "254",
+     "valor": 10000000
+    },
+    {
+     "numero": "1736",
+     "serie": "020",
+     "valor": 10000000
+    },
+    {
+     "numero": "1640",
+     "serie": "098",
+     "valor": 10000000
+    },
+    {
+     "numero": "6075",
+     "serie": "069",
+     "valor": 10000000
+    },
+    {
+     "numero": "1085",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "4686",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "7029",
+     "serie": "166",
+     "valor": 10000000
+    },
+    {
+     "numero": "0082",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "4996",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "2484",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "5584",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "2222",
+     "serie": "097",
+     "valor": 10000000
+    },
+    {
+     "numero": "6184",
+     "serie": "020",
+     "valor": 10000000
+    },
+    {
+     "numero": "7826",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "7803",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "4649",
+     "serie": "218",
+     "valor": 10000000
+    },
+    {
+     "numero": "6180",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "9097",
+     "serie": "096",
+     "valor": 10000000
+    },
+    {
+     "numero": "1571",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "9843",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "1265",
+     "serie": "017",
+     "valor": 10000000
+    },
+    {
+     "numero": "6368",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "2747",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "4237",
+     "serie": "292",
+     "valor": 10000000
+    },
+    {
+     "numero": "1677",
+     "serie": "246",
+     "valor": 10000000
+    },
+    {
+     "numero": "7283",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "9723",
+     "serie": "112",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Marzo/Acta%202604.pdf"
+  },
+  "2605": {
+   "fecha": "2026-04-04",
+   "mayor": {
+    "numero": "6281",
+    "serie": "108"
+   },
+   "secos": [
+    {
+     "numero": "6329",
+     "serie": "303",
+     "valor": 300000000
+    },
+    {
+     "numero": "3481",
+     "serie": "047",
+     "valor": 200000000
+    },
+    {
+     "numero": "9839",
+     "serie": "210",
+     "valor": 100000000
+    },
+    {
+     "numero": "1817",
+     "serie": "248",
+     "valor": 100000000
+    },
+    {
+     "numero": "9328",
+     "serie": "033",
+     "valor": 50000000
+    },
+    {
+     "numero": "5111",
+     "serie": "054",
+     "valor": 50000000
+    },
+    {
+     "numero": "1873",
+     "serie": "300",
+     "valor": 50000000
+    },
+    {
+     "numero": "9097",
+     "serie": "101",
+     "valor": 10000000
+    },
+    {
+     "numero": "8553",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "5530",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "6064",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "2831",
+     "serie": "198",
+     "valor": 10000000
+    },
+    {
+     "numero": "5804",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "3389",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "2454",
+     "serie": "288",
+     "valor": 10000000
+    },
+    {
+     "numero": "8959",
+     "serie": "014",
+     "valor": 10000000
+    },
+    {
+     "numero": "7031",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "9088",
+     "serie": "019",
+     "valor": 10000000
+    },
+    {
+     "numero": "7926",
+     "serie": "262",
+     "valor": 10000000
+    },
+    {
+     "numero": "2709",
+     "serie": "053",
+     "valor": 10000000
+    },
+    {
+     "numero": "0410",
+     "serie": "042",
+     "valor": 10000000
+    },
+    {
+     "numero": "7107",
+     "serie": "279",
+     "valor": 10000000
+    },
+    {
+     "numero": "8031",
+     "serie": "180",
+     "valor": 10000000
+    },
+    {
+     "numero": "6987",
+     "serie": "074",
+     "valor": 10000000
+    },
+    {
+     "numero": "9412",
+     "serie": "151",
+     "valor": 10000000
+    },
+    {
+     "numero": "6734",
+     "serie": "118",
+     "valor": 10000000
+    },
+    {
+     "numero": "4090",
+     "serie": "219",
+     "valor": 10000000
+    },
+    {
+     "numero": "8907",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "1500",
+     "serie": "006",
+     "valor": 10000000
+    },
+    {
+     "numero": "8367",
+     "serie": "209",
+     "valor": 10000000
+    },
+    {
+     "numero": "5652",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "3290",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "9894",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "0829",
+     "serie": "203",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Abril/Acta%202605.pdf"
+  },
+  "2606": {
+   "fecha": "2026-04-11",
+   "mayor": {
+    "numero": "3581",
+    "serie": "206"
+   },
+   "secos": [
+    {
+     "numero": "1089",
+     "serie": "139",
+     "valor": 300000000
+    },
+    {
+     "numero": "8391",
+     "serie": "076",
+     "valor": 200000000
+    },
+    {
+     "numero": "0227",
+     "serie": "118",
+     "valor": 100000000
+    },
+    {
+     "numero": "4815",
+     "serie": "225",
+     "valor": 100000000
+    },
+    {
+     "numero": "4062",
+     "serie": "149",
+     "valor": 50000000
+    },
+    {
+     "numero": "1113",
+     "serie": "221",
+     "valor": 50000000
+    },
+    {
+     "numero": "3362",
+     "serie": "182",
+     "valor": 50000000
+    },
+    {
+     "numero": "6220",
+     "serie": "018",
+     "valor": 10000000
+    },
+    {
+     "numero": "0470",
+     "serie": "160",
+     "valor": 10000000
+    },
+    {
+     "numero": "2646",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "8772",
+     "serie": "111",
+     "valor": 10000000
+    },
+    {
+     "numero": "4334",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "1828",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "5449",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "7029",
+     "serie": "242",
+     "valor": 10000000
+    },
+    {
+     "numero": "4981",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "0513",
+     "serie": "181",
+     "valor": 10000000
+    },
+    {
+     "numero": "0929",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "1075",
+     "serie": "111",
+     "valor": 10000000
+    },
+    {
+     "numero": "1279",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "6153",
+     "serie": "309",
+     "valor": 10000000
+    },
+    {
+     "numero": "6648",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "1958",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "5719",
+     "serie": "064",
+     "valor": 10000000
+    },
+    {
+     "numero": "4984",
+     "serie": "194",
+     "valor": 10000000
+    },
+    {
+     "numero": "3023",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "1188",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "5091",
+     "serie": "093",
+     "valor": 10000000
+    },
+    {
+     "numero": "3563",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "0425",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "3232",
+     "serie": "058",
+     "valor": 10000000
+    },
+    {
+     "numero": "8006",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "9126",
+     "serie": "024",
+     "valor": 10000000
+    },
+    {
+     "numero": "1521",
+     "serie": "205",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Abril/Acta%202606.pdf"
+  },
+  "2607": {
+   "fecha": "2026-04-25",
+   "mayor": {
+    "numero": "8454",
+    "serie": "127"
+   },
+   "secos": [
+    {
+     "numero": "6142",
+     "serie": "032",
+     "valor": 300000000
+    },
+    {
+     "numero": "4924",
+     "serie": "021",
+     "valor": 200000000
+    },
+    {
+     "numero": "1638",
+     "serie": "098",
+     "valor": 100000000
+    },
+    {
+     "numero": "5536",
+     "serie": "152",
+     "valor": 100000000
+    },
+    {
+     "numero": "6511",
+     "serie": "043",
+     "valor": 50000000
+    },
+    {
+     "numero": "6074",
+     "serie": "027",
+     "valor": 50000000
+    },
+    {
+     "numero": "1028",
+     "serie": "272",
+     "valor": 50000000
+    },
+    {
+     "numero": "1498",
+     "serie": "087",
+     "valor": 10000000
+    },
+    {
+     "numero": "5901",
+     "serie": "213",
+     "valor": 10000000
+    },
+    {
+     "numero": "4704",
+     "serie": "198",
+     "valor": 10000000
+    },
+    {
+     "numero": "1034",
+     "serie": "184",
+     "valor": 10000000
+    },
+    {
+     "numero": "9995",
+     "serie": "093",
+     "valor": 10000000
+    },
+    {
+     "numero": "8195",
+     "serie": "243",
+     "valor": 10000000
+    },
+    {
+     "numero": "6865",
+     "serie": "055",
+     "valor": 10000000
+    },
+    {
+     "numero": "5502",
+     "serie": "266",
+     "valor": 10000000
+    },
+    {
+     "numero": "4260",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "3162",
+     "serie": "011",
+     "valor": 10000000
+    },
+    {
+     "numero": "8490",
+     "serie": "176",
+     "valor": 10000000
+    },
+    {
+     "numero": "5766",
+     "serie": "141",
+     "valor": 10000000
+    },
+    {
+     "numero": "9622",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "9315",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "2835",
+     "serie": "156",
+     "valor": 10000000
+    },
+    {
+     "numero": "4981",
+     "serie": "279",
+     "valor": 10000000
+    },
+    {
+     "numero": "4802",
+     "serie": "003",
+     "valor": 10000000
+    },
+    {
+     "numero": "3508",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "5717",
+     "serie": "130",
+     "valor": 10000000
+    },
+    {
+     "numero": "9645",
+     "serie": "067",
+     "valor": 10000000
+    },
+    {
+     "numero": "2439",
+     "serie": "282",
+     "valor": 10000000
+    },
+    {
+     "numero": "5704",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "4830",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "0963",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "9019",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "3634",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "3278",
+     "serie": "169",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Abril/Acta%202607.pdf; fecha estimada 2026-04-18 distinta de la publicada 2026-04-25"
+  },
+  "2608": {
+   "fecha": "2026-04-25",
+   "mayor": {
+    "numero": "5572",
+    "serie": "090"
+   },
+   "secos": [
+    {
+     "numero": "4864",
+     "serie": "219",
+     "valor": 300000000
+    },
+    {
+     "numero": "8459",
+     "serie": "034",
+     "valor": 200000000
+    },
+    {
+     "numero": "0056",
+     "serie": "116",
+     "valor": 100000000
+    },
+    {
+     "numero": "6356",
+     "serie": "098",
+     "valor": 100000000
+    },
+    {
+     "numero": "2954",
+     "serie": "127",
+     "valor": 50000000
+    },
+    {
+     "numero": "9724",
+     "serie": "295",
+     "valor": 50000000
+    },
+    {
+     "numero": "0862",
+     "serie": "006",
+     "valor": 50000000
+    },
+    {
+     "numero": "5717",
+     "serie": "289",
+     "valor": 10000000
+    },
+    {
+     "numero": "7482",
+     "serie": "049",
+     "valor": 10000000
+    },
+    {
+     "numero": "4960",
+     "serie": "280",
+     "valor": 10000000
+    },
+    {
+     "numero": "5917",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "9073",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "2686",
+     "serie": "003",
+     "valor": 10000000
+    },
+    {
+     "numero": "2425",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "2503",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "5540",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "4251",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "6428",
+     "serie": "180",
+     "valor": 10000000
+    },
+    {
+     "numero": "4147",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "9893",
+     "serie": "067",
+     "valor": 10000000
+    },
+    {
+     "numero": "2951",
+     "serie": "108",
+     "valor": 10000000
+    },
+    {
+     "numero": "8081",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "1969",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "2191",
+     "serie": "177",
+     "valor": 10000000
+    },
+    {
+     "numero": "2311",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "9251",
+     "serie": "088",
+     "valor": 10000000
+    },
+    {
+     "numero": "7389",
+     "serie": "157",
+     "valor": 10000000
+    },
+    {
+     "numero": "2530",
+     "serie": "225",
+     "valor": 10000000
+    },
+    {
+     "numero": "7123",
+     "serie": "058",
+     "valor": 10000000
+    },
+    {
+     "numero": "9431",
+     "serie": "035",
+     "valor": 10000000
+    },
+    {
+     "numero": "0795",
+     "serie": "071",
+     "valor": 10000000
+    },
+    {
+     "numero": "8752",
+     "serie": "152",
+     "valor": 10000000
+    },
+    {
+     "numero": "4258",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "0832",
+     "serie": "025",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Abril/Acta%202608.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-04-25"
+  },
+  "2609": {
+   "fecha": "2026-05-02",
+   "mayor": {
+    "numero": "0496",
+    "serie": "158"
+   },
+   "secos": [
+    {
+     "numero": "9364",
+     "serie": "128",
+     "valor": 300000000
+    },
+    {
+     "numero": "0145",
+     "serie": "051",
+     "valor": 200000000
+    },
+    {
+     "numero": "2282",
+     "serie": "103",
+     "valor": 100000000
+    },
+    {
+     "numero": "9930",
+     "serie": "030",
+     "valor": 100000000
+    },
+    {
+     "numero": "9374",
+     "serie": "001",
+     "valor": 50000000
+    },
+    {
+     "numero": "5891",
+     "serie": "167",
+     "valor": 50000000
+    },
+    {
+     "numero": "7634",
+     "serie": "203",
+     "valor": 50000000
+    },
+    {
+     "numero": "8320",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "2384",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "2451",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "1937",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "0308",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "0890",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "5009",
+     "serie": "208",
+     "valor": 10000000
+    },
+    {
+     "numero": "1203",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "4057",
+     "serie": "117",
+     "valor": 10000000
+    },
+    {
+     "numero": "5083",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "0317",
+     "serie": "022",
+     "valor": 10000000
+    },
+    {
+     "numero": "8552",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "3320",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "9500",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "3421",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "0392",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "6341",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "7091",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "1096",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "2860",
+     "serie": "298",
+     "valor": 10000000
+    },
+    {
+     "numero": "1446",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "8789",
+     "serie": "236",
+     "valor": 10000000
+    },
+    {
+     "numero": "3912",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "1529",
+     "serie": "057",
+     "valor": 10000000
+    },
+    {
+     "numero": "3654",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "2772",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "4592",
+     "serie": "184",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Mayo/Acta%202609.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-05-02"
+  },
+  "2610": {
+   "fecha": "2026-05-09",
+   "mayor": {
+    "numero": "9702",
+    "serie": "306"
+   },
+   "secos": [
+    {
+     "numero": "0216",
+     "serie": "008",
+     "valor": 300000000
+    },
+    {
+     "numero": "4481",
+     "serie": "000",
+     "valor": 200000000
+    },
+    {
+     "numero": "1144",
+     "serie": "223",
+     "valor": 100000000
+    },
+    {
+     "numero": "3894",
+     "serie": "265",
+     "valor": 100000000
+    },
+    {
+     "numero": "5807",
+     "serie": "215",
+     "valor": 50000000
+    },
+    {
+     "numero": "3738",
+     "serie": "011",
+     "valor": 50000000
+    },
+    {
+     "numero": "3837",
+     "serie": "037",
+     "valor": 50000000
+    },
+    {
+     "numero": "2856",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "4403",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "0806",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "1017",
+     "serie": "257",
+     "valor": 10000000
+    },
+    {
+     "numero": "3494",
+     "serie": "089",
+     "valor": 10000000
+    },
+    {
+     "numero": "6796",
+     "serie": "224",
+     "valor": 10000000
+    },
+    {
+     "numero": "5370",
+     "serie": "151",
+     "valor": 10000000
+    },
+    {
+     "numero": "0714",
+     "serie": "129",
+     "valor": 10000000
+    },
+    {
+     "numero": "5528",
+     "serie": "187",
+     "valor": 10000000
+    },
+    {
+     "numero": "0030",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "5808",
+     "serie": "247",
+     "valor": 10000000
+    },
+    {
+     "numero": "5058",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "7615",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "3043",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "0541",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "7325",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1200",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "2720",
+     "serie": "107",
+     "valor": 10000000
+    },
+    {
+     "numero": "2157",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "0896",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "4692",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "8758",
+     "serie": "202",
+     "valor": 10000000
+    },
+    {
+     "numero": "1997",
+     "serie": "235",
+     "valor": 10000000
+    },
+    {
+     "numero": "5851",
+     "serie": "263",
+     "valor": 10000000
+    },
+    {
+     "numero": "1007",
+     "serie": "089",
+     "valor": 10000000
+    },
+    {
+     "numero": "6003",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "5873",
+     "serie": "170",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Mayo/Acta%202610.pdf"
+  },
+  "2611": {
+   "fecha": "2026-05-16",
+   "mayor": {
+    "numero": "2062",
+    "serie": "116"
+   },
+   "secos": [
+    {
+     "numero": "1309",
+     "serie": "156",
+     "valor": 300000000
+    },
+    {
+     "numero": "2803",
+     "serie": "222",
+     "valor": 200000000
+    },
+    {
+     "numero": "0793",
+     "serie": "204",
+     "valor": 100000000
+    },
+    {
+     "numero": "9744",
+     "serie": "273",
+     "valor": 100000000
+    },
+    {
+     "numero": "0034",
+     "serie": "306",
+     "valor": 50000000
+    },
+    {
+     "numero": "4522",
+     "serie": "084",
+     "valor": 50000000
+    },
+    {
+     "numero": "5311",
+     "serie": "086",
+     "valor": 50000000
+    },
+    {
+     "numero": "9249",
+     "serie": "200",
+     "valor": 10000000
+    },
+    {
+     "numero": "9269",
+     "serie": "099",
+     "valor": 10000000
+    },
+    {
+     "numero": "2144",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "0874",
+     "serie": "109",
+     "valor": 10000000
+    },
+    {
+     "numero": "1016",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "7155",
+     "serie": "051",
+     "valor": 10000000
+    },
+    {
+     "numero": "0764",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "5361",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "2077",
+     "serie": "036",
+     "valor": 10000000
+    },
+    {
+     "numero": "5106",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "7315",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "6712",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "4398",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "8044",
+     "serie": "183",
+     "valor": 10000000
+    },
+    {
+     "numero": "5759",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "7320",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "0310",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "4171",
+     "serie": "012",
+     "valor": 10000000
+    },
+    {
+     "numero": "9376",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "9103",
+     "serie": "198",
+     "valor": 10000000
+    },
+    {
+     "numero": "9983",
+     "serie": "030",
+     "valor": 10000000
+    },
+    {
+     "numero": "5359",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "7926",
+     "serie": "083",
+     "valor": 10000000
+    },
+    {
+     "numero": "5296",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "2786",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "0128",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "5632",
+     "serie": "157",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Mayo/Acta%202611.pdf"
+  },
+  "2612": {
+   "fecha": "2026-05-23",
+   "mayor": {
+    "numero": "8315",
+    "serie": "202"
+   },
+   "secos": [
+    {
+     "numero": "6974",
+     "serie": "155",
+     "valor": 300000000
+    },
+    {
+     "numero": "9463",
+     "serie": "149",
+     "valor": 200000000
+    },
+    {
+     "numero": "1886",
+     "serie": "212",
+     "valor": 100000000
+    },
+    {
+     "numero": "7562",
+     "serie": "035",
+     "valor": 100000000
+    },
+    {
+     "numero": "6676",
+     "serie": "066",
+     "valor": 50000000
+    },
+    {
+     "numero": "1514",
+     "serie": "016",
+     "valor": 50000000
+    },
+    {
+     "numero": "1693",
+     "serie": "068",
+     "valor": 50000000
+    },
+    {
+     "numero": "9039",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "1827",
+     "serie": "059",
+     "valor": 10000000
+    },
+    {
+     "numero": "8767",
+     "serie": "208",
+     "valor": 10000000
+    },
+    {
+     "numero": "9536",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "5330",
+     "serie": "197",
+     "valor": 10000000
+    },
+    {
+     "numero": "9469",
+     "serie": "100",
+     "valor": 10000000
+    },
+    {
+     "numero": "4854",
+     "serie": "175",
+     "valor": 10000000
+    },
+    {
+     "numero": "1097",
+     "serie": "214",
+     "valor": 10000000
+    },
+    {
+     "numero": "5077",
+     "serie": "017",
+     "valor": 10000000
+    },
+    {
+     "numero": "1691",
+     "serie": "100",
+     "valor": 10000000
+    },
+    {
+     "numero": "8584",
+     "serie": "013",
+     "valor": 10000000
+    },
+    {
+     "numero": "0708",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "7435",
+     "serie": "090",
+     "valor": 10000000
+    },
+    {
+     "numero": "4455",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "0684",
+     "serie": "269",
+     "valor": 10000000
+    },
+    {
+     "numero": "8513",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "7054",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "1562",
+     "serie": "154",
+     "valor": 10000000
+    },
+    {
+     "numero": "5413",
+     "serie": "135",
+     "valor": 10000000
+    },
+    {
+     "numero": "7652",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "2368",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "3260",
+     "serie": "035",
+     "valor": 10000000
+    },
+    {
+     "numero": "6542",
+     "serie": "258",
+     "valor": 10000000
+    },
+    {
+     "numero": "4686",
+     "serie": "067",
+     "valor": 10000000
+    },
+    {
+     "numero": "3919",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "9052",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "8357",
+     "serie": "111",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Mayo/Acta%202612.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-05-23"
+  },
+  "2613": {
+   "fecha": "2026-05-30",
+   "mayor": {
+    "numero": "3873",
+    "serie": "155"
+   },
+   "secos": [
+    {
+     "numero": "7406",
+     "serie": "251",
+     "valor": 300000000
+    },
+    {
+     "numero": "9539",
+     "serie": "229",
+     "valor": 200000000
+    },
+    {
+     "numero": "0623",
+     "serie": "102",
+     "valor": 100000000
+    },
+    {
+     "numero": "6564",
+     "serie": "218",
+     "valor": 100000000
+    },
+    {
+     "numero": "8102",
+     "serie": "288",
+     "valor": 50000000
+    },
+    {
+     "numero": "4448",
+     "serie": "286",
+     "valor": 50000000
+    },
+    {
+     "numero": "6539",
+     "serie": "155",
+     "valor": 50000000
+    },
+    {
+     "numero": "4287",
+     "serie": "280",
+     "valor": 10000000
+    },
+    {
+     "numero": "5407",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "3031",
+     "serie": "061",
+     "valor": 10000000
+    },
+    {
+     "numero": "9076",
+     "serie": "155",
+     "valor": 10000000
+    },
+    {
+     "numero": "4897",
+     "serie": "130",
+     "valor": 10000000
+    },
+    {
+     "numero": "9116",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "8535",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "5036",
+     "serie": "218",
+     "valor": 10000000
+    },
+    {
+     "numero": "1695",
+     "serie": "144",
+     "valor": 10000000
+    },
+    {
+     "numero": "3776",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "4178",
+     "serie": "274",
+     "valor": 10000000
+    },
+    {
+     "numero": "7423",
+     "serie": "001",
+     "valor": 10000000
+    },
+    {
+     "numero": "0816",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "7213",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "4422",
+     "serie": "114",
+     "valor": 10000000
+    },
+    {
+     "numero": "9782",
+     "serie": "013",
+     "valor": 10000000
+    },
+    {
+     "numero": "8825",
+     "serie": "055",
+     "valor": 10000000
+    },
+    {
+     "numero": "9641",
+     "serie": "037",
+     "valor": 10000000
+    },
+    {
+     "numero": "9334",
+     "serie": "091",
+     "valor": 10000000
+    },
+    {
+     "numero": "5718",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "3421",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "9655",
+     "serie": "257",
+     "valor": 10000000
+    },
+    {
+     "numero": "6868",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "6213",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "8824",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "1299",
+     "serie": "203",
+     "valor": 10000000
+    },
+    {
+     "numero": "8251",
+     "serie": "182",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Mayo/Acta%202613.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-05-30"
+  },
+  "2614": {
+   "fecha": "2026-06-06",
+   "mayor": {
+    "numero": "3654",
+    "serie": "273"
+   },
+   "secos": [
+    {
+     "numero": "9904",
+     "serie": "064",
+     "valor": 300000000
+    },
+    {
+     "numero": "8882",
+     "serie": "015",
+     "valor": 200000000
+    },
+    {
+     "numero": "2650",
+     "serie": "110",
+     "valor": 100000000
+    },
+    {
+     "numero": "6948",
+     "serie": "299",
+     "valor": 100000000
+    },
+    {
+     "numero": "9297",
+     "serie": "069",
+     "valor": 50000000
+    },
+    {
+     "numero": "6304",
+     "serie": "181",
+     "valor": 50000000
+    },
+    {
+     "numero": "0816",
+     "serie": "269",
+     "valor": 50000000
+    },
+    {
+     "numero": "2690",
+     "serie": "183",
+     "valor": 10000000
+    },
+    {
+     "numero": "6389",
+     "serie": "231",
+     "valor": 10000000
+    },
+    {
+     "numero": "6034",
+     "serie": "064",
+     "valor": 10000000
+    },
+    {
+     "numero": "3286",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "2768",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "4445",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "7833",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "7084",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "5724",
+     "serie": "029",
+     "valor": 10000000
+    },
+    {
+     "numero": "2420",
+     "serie": "184",
+     "valor": 10000000
+    },
+    {
+     "numero": "5852",
+     "serie": "030",
+     "valor": 10000000
+    },
+    {
+     "numero": "0220",
+     "serie": "289",
+     "valor": 10000000
+    },
+    {
+     "numero": "5232",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "9810",
+     "serie": "105",
+     "valor": 10000000
+    },
+    {
+     "numero": "5744",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "2785",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "4902",
+     "serie": "182",
+     "valor": 10000000
+    },
+    {
+     "numero": "8742",
+     "serie": "269",
+     "valor": 10000000
+    },
+    {
+     "numero": "6498",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "8882",
+     "serie": "074",
+     "valor": 10000000
+    },
+    {
+     "numero": "0071",
+     "serie": "237",
+     "valor": 10000000
+    },
+    {
+     "numero": "0759",
+     "serie": "157",
+     "valor": 10000000
+    },
+    {
+     "numero": "7746",
+     "serie": "034",
+     "valor": 10000000
+    },
+    {
+     "numero": "5519",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "7408",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "7285",
+     "serie": "186",
+     "valor": 10000000
+    },
+    {
+     "numero": "4421",
+     "serie": "232",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Junio/Acta%202614.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-06-06"
+  },
+  "2615": {
+   "fecha": "2026-06-13",
+   "mayor": {
+    "numero": "2293",
+    "serie": "178"
+   },
+   "secos": [
+    {
+     "numero": "0420",
+     "serie": "102",
+     "valor": 300000000
+    },
+    {
+     "numero": "9748",
+     "serie": "219",
+     "valor": 200000000
+    },
+    {
+     "numero": "0192",
+     "serie": "252",
+     "valor": 100000000
+    },
+    {
+     "numero": "3131",
+     "serie": "243",
+     "valor": 100000000
+    },
+    {
+     "numero": "3845",
+     "serie": "257",
+     "valor": 50000000
+    },
+    {
+     "numero": "2752",
+     "serie": "027",
+     "valor": 50000000
+    },
+    {
+     "numero": "1798",
+     "serie": "207",
+     "valor": 50000000
+    },
+    {
+     "numero": "9117",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "8257",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "9263",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "2518",
+     "serie": "103",
+     "valor": 10000000
+    },
+    {
+     "numero": "5047",
+     "serie": "020",
+     "valor": 10000000
+    },
+    {
+     "numero": "1559",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "3911",
+     "serie": "303",
+     "valor": 10000000
+    },
+    {
+     "numero": "3521",
+     "serie": "206",
+     "valor": 10000000
+    },
+    {
+     "numero": "3227",
+     "serie": "039",
+     "valor": 10000000
+    },
+    {
+     "numero": "6540",
+     "serie": "199",
+     "valor": 10000000
+    },
+    {
+     "numero": "2975",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "7743",
+     "serie": "078",
+     "valor": 10000000
+    },
+    {
+     "numero": "9203",
+     "serie": "249",
+     "valor": 10000000
+    },
+    {
+     "numero": "2749",
+     "serie": "029",
+     "valor": 10000000
+    },
+    {
+     "numero": "2421",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "0927",
+     "serie": "254",
+     "valor": 10000000
+    },
+    {
+     "numero": "8587",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "0090",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "9871",
+     "serie": "108",
+     "valor": 10000000
+    },
+    {
+     "numero": "0294",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "8950",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "7750",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "0493",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "0928",
+     "serie": "238",
+     "valor": 10000000
+    },
+    {
+     "numero": "3398",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "5848",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "6855",
+     "serie": "135",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Junio/Acta%202615.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-06-13"
+  },
+  "2616": {
+   "fecha": "2026-06-20",
+   "mayor": {
+    "numero": "5291",
+    "serie": "102"
+   },
+   "secos": [
+    {
+     "numero": "7223",
+     "serie": "306",
+     "valor": 300000000
+    },
+    {
+     "numero": "3551",
+     "serie": "254",
+     "valor": 200000000
+    },
+    {
+     "numero": "8159",
+     "serie": "198",
+     "valor": 100000000
+    },
+    {
+     "numero": "3987",
+     "serie": "197",
+     "valor": 100000000
+    },
+    {
+     "numero": "3336",
+     "serie": "284",
+     "valor": 50000000
+    },
+    {
+     "numero": "3467",
+     "serie": "042",
+     "valor": 50000000
+    },
+    {
+     "numero": "5742",
+     "serie": "041",
+     "valor": 50000000
+    },
+    {
+     "numero": "0889",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "0658",
+     "serie": "145",
+     "valor": 10000000
+    },
+    {
+     "numero": "8631",
+     "serie": "042",
+     "valor": 10000000
+    },
+    {
+     "numero": "4121",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "5389",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "7309",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "0478",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "7057",
+     "serie": "129",
+     "valor": 10000000
+    },
+    {
+     "numero": "5632",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "8715",
+     "serie": "164",
+     "valor": 10000000
+    },
+    {
+     "numero": "2465",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "5559",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "0598",
+     "serie": "196",
+     "valor": 10000000
+    },
+    {
+     "numero": "6557",
+     "serie": "000",
+     "valor": 10000000
+    },
+    {
+     "numero": "4927",
+     "serie": "254",
+     "valor": 10000000
+    },
+    {
+     "numero": "6912",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "8637",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "0632",
+     "serie": "266",
+     "valor": 10000000
+    },
+    {
+     "numero": "9350",
+     "serie": "255",
+     "valor": 10000000
+    },
+    {
+     "numero": "2871",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "9997",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "7797",
+     "serie": "146",
+     "valor": 10000000
+    },
+    {
+     "numero": "4160",
+     "serie": "080",
+     "valor": 10000000
+    },
+    {
+     "numero": "4384",
+     "serie": "203",
+     "valor": 10000000
+    },
+    {
+     "numero": "8454",
+     "serie": "258",
+     "valor": 10000000
+    },
+    {
+     "numero": "8136",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "0107",
+     "serie": "271",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Junio/Acta%202616.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-06-20"
+  },
+  "2617": {
+   "fecha": "2026-06-27",
+   "mayor": {
+    "numero": "8753",
+    "serie": "299"
+   },
+   "secos": [
+    {
+     "numero": "1306",
+     "serie": "179",
+     "valor": 300000000
+    },
+    {
+     "numero": "2628",
+     "serie": "039",
+     "valor": 200000000
+    },
+    {
+     "numero": "1209",
+     "serie": "194",
+     "valor": 100000000
+    },
+    {
+     "numero": "6053",
+     "serie": "171",
+     "valor": 100000000
+    },
+    {
+     "numero": "2163",
+     "serie": "233",
+     "valor": 50000000
+    },
+    {
+     "numero": "5595",
+     "serie": "185",
+     "valor": 50000000
+    },
+    {
+     "numero": "8615",
+     "serie": "215",
+     "valor": 50000000
+    },
+    {
+     "numero": "4501",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "0142",
+     "serie": "028",
+     "valor": 10000000
+    },
+    {
+     "numero": "7639",
+     "serie": "246",
+     "valor": 10000000
+    },
+    {
+     "numero": "6307",
+     "serie": "091",
+     "valor": 10000000
+    },
+    {
+     "numero": "6849",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "0541",
+     "serie": "298",
+     "valor": 10000000
+    },
+    {
+     "numero": "8808",
+     "serie": "185",
+     "valor": 10000000
+    },
+    {
+     "numero": "8250",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "7294",
+     "serie": "060",
+     "valor": 10000000
+    },
+    {
+     "numero": "3556",
+     "serie": "194",
+     "valor": 10000000
+    },
+    {
+     "numero": "7250",
+     "serie": "215",
+     "valor": 10000000
+    },
+    {
+     "numero": "3549",
+     "serie": "077",
+     "valor": 10000000
+    },
+    {
+     "numero": "7321",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "0276",
+     "serie": "232",
+     "valor": 10000000
+    },
+    {
+     "numero": "2134",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "2922",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "5535",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "9991",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "7255",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "6729",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "1523",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "7054",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "1953",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "8613",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "1448",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "7880",
+     "serie": "249",
+     "valor": 10000000
+    },
+    {
+     "numero": "5067",
+     "serie": "294",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Junio/Acta%202617.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-06-27"
+  },
+  "2618": {
+   "fecha": "2026-07-04",
+   "mayor": {
+    "numero": "0562",
+    "serie": "306"
+   },
+   "secos": [
+    {
+     "numero": "6788",
+     "serie": "164",
+     "valor": 300000000
+    },
+    {
+     "numero": "4432",
+     "serie": "214",
+     "valor": 200000000
+    },
+    {
+     "numero": "0227",
+     "serie": "167",
+     "valor": 100000000
+    },
+    {
+     "numero": "1563",
+     "serie": "204",
+     "valor": 100000000
+    },
+    {
+     "numero": "7684",
+     "serie": "074",
+     "valor": 50000000
+    },
+    {
+     "numero": "3005",
+     "serie": "190",
+     "valor": 50000000
+    },
+    {
+     "numero": "8187",
+     "serie": "097",
+     "valor": 50000000
+    },
+    {
+     "numero": "0766",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "0475",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "7158",
+     "serie": "171",
+     "valor": 10000000
+    },
+    {
+     "numero": "2360",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "5212",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "7703",
+     "serie": "002",
+     "valor": 10000000
+    },
+    {
+     "numero": "6286",
+     "serie": "130",
+     "valor": 10000000
+    },
+    {
+     "numero": "3150",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "7517",
+     "serie": "071",
+     "valor": 10000000
+    },
+    {
+     "numero": "8544",
+     "serie": "164",
+     "valor": 10000000
+    },
+    {
+     "numero": "2554",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "0279",
+     "serie": "137",
+     "valor": 10000000
+    },
+    {
+     "numero": "4183",
+     "serie": "088",
+     "valor": 10000000
+    },
+    {
+     "numero": "0136",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "3802",
+     "serie": "230",
+     "valor": 10000000
+    },
+    {
+     "numero": "1967",
+     "serie": "262",
+     "valor": 10000000
+    },
+    {
+     "numero": "7145",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "2259",
+     "serie": "187",
+     "valor": 10000000
+    },
+    {
+     "numero": "0382",
+     "serie": "002",
+     "valor": 10000000
+    },
+    {
+     "numero": "9321",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "3792",
+     "serie": "256",
+     "valor": 10000000
+    },
+    {
+     "numero": "2779",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "4151",
+     "serie": "172",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 6 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Julio/Acta%202618.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-07-04"
+  },
+  "2619": {
+   "fecha": "2026-07-11",
+   "mayor": {
+    "numero": "0232",
+    "serie": "006"
+   },
+   "secos": [
+    {
+     "numero": "7524",
+     "serie": "145",
+     "valor": 300000000
+    },
+    {
+     "numero": "1329",
+     "serie": "037",
+     "valor": 200000000
+    },
+    {
+     "numero": "4679",
+     "serie": "021",
+     "valor": 100000000
+    },
+    {
+     "numero": "0151",
+     "serie": "270",
+     "valor": 100000000
+    },
+    {
+     "numero": "4965",
+     "serie": "146",
+     "valor": 50000000
+    },
+    {
+     "numero": "0151",
+     "serie": "270",
+     "valor": 10000000
+    },
+    {
+     "numero": "2835",
+     "serie": "270",
+     "valor": 10000000
+    },
+    {
+     "numero": "2085",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "3803",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "9248",
+     "serie": "169",
+     "valor": 10000000
+    },
+    {
+     "numero": "6066",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "0948",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "2600",
+     "serie": "039",
+     "valor": 10000000
+    },
+    {
+     "numero": "8403",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "6324",
+     "serie": "284",
+     "valor": 10000000
+    },
+    {
+     "numero": "4263",
+     "serie": "078",
+     "valor": 10000000
+    },
+    {
+     "numero": "5381",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "4919",
+     "serie": "235",
+     "valor": 10000000
+    },
+    {
+     "numero": "3201",
+     "serie": "193",
+     "valor": 10000000
+    },
+    {
+     "numero": "4098",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "3286",
+     "serie": "248",
+     "valor": 10000000
+    },
+    {
+     "numero": "4899",
+     "serie": "219",
+     "valor": 10000000
+    },
+    {
+     "numero": "4406",
+     "serie": "205",
+     "valor": 10000000
+    },
+    {
+     "numero": "7744",
+     "serie": "162",
+     "valor": 10000000
+    },
+    {
+     "numero": "7364",
+     "serie": "219",
+     "valor": 10000000
+    },
+    {
+     "numero": "8961",
+     "serie": "094",
+     "valor": 10000000
+    },
+    {
+     "numero": "9800",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "3278",
+     "serie": "186",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 8 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Julio/Acta%202619.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-07-11"
+  },
+  "2620": {
+   "fecha": "2026-07-18",
+   "mayor": {
+    "numero": "7643",
+    "serie": "296"
+   },
+   "secos": [
+    {
+     "numero": "2182",
+     "serie": "004",
+     "valor": 300000000
+    },
+    {
+     "numero": "3346",
+     "serie": "276",
+     "valor": 200000000
+    },
+    {
+     "numero": "1162",
+     "serie": "118",
+     "valor": 100000000
+    },
+    {
+     "numero": "3865",
+     "serie": "067",
+     "valor": 100000000
+    },
+    {
+     "numero": "8825",
+     "serie": "296",
+     "valor": 50000000
+    },
+    {
+     "numero": "7793",
+     "serie": "209",
+     "valor": 50000000
+    },
+    {
+     "numero": "5183",
+     "serie": "130",
+     "valor": 50000000
+    },
+    {
+     "numero": "0700",
+     "serie": "278",
+     "valor": 10000000
+    },
+    {
+     "numero": "9697",
+     "serie": "266",
+     "valor": 10000000
+    },
+    {
+     "numero": "8695",
+     "serie": "203",
+     "valor": 10000000
+    },
+    {
+     "numero": "5007",
+     "serie": "223",
+     "valor": 10000000
+    },
+    {
+     "numero": "5652",
+     "serie": "057",
+     "valor": 10000000
+    },
+    {
+     "numero": "0644",
+     "serie": "118",
+     "valor": 10000000
+    },
+    {
+     "numero": "2776",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "4500",
+     "serie": "103",
+     "valor": 10000000
+    },
+    {
+     "numero": "1631",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "0447",
+     "serie": "055",
+     "valor": 10000000
+    },
+    {
+     "numero": "9176",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "7214",
+     "serie": "205",
+     "valor": 10000000
+    },
+    {
+     "numero": "4565",
+     "serie": "097",
+     "valor": 10000000
+    },
+    {
+     "numero": "5337",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "8646",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "8793",
+     "serie": "302",
+     "valor": 10000000
+    },
+    {
+     "numero": "1609",
+     "serie": "135",
+     "valor": 10000000
+    },
+    {
+     "numero": "7176",
+     "serie": "086",
+     "valor": 10000000
+    },
+    {
+     "numero": "5246",
+     "serie": "162",
+     "valor": 10000000
+    },
+    {
+     "numero": "6753",
+     "serie": "288",
+     "valor": 10000000
+    },
+    {
+     "numero": "2177",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "0524",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "5604",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "1175",
+     "serie": "154",
+     "valor": 10000000
+    },
+    {
+     "numero": "8195",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "8083",
+     "serie": "206",
+     "valor": 10000000
+    },
+    {
+     "numero": "4252",
+     "serie": "153",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Julio/Acta%202620.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-07-18"
+  },
+  "2621": {
+   "fecha": "2026-07-25",
+   "mayor": {
+    "numero": "9708",
+    "serie": "004"
+   },
+   "secos": [
+    {
+     "numero": "8038",
+     "serie": "176",
+     "valor": 300000000
+    },
+    {
+     "numero": "1771",
+     "serie": "176",
+     "valor": 200000000
+    },
+    {
+     "numero": "6982",
+     "serie": "107",
+     "valor": 100000000
+    },
+    {
+     "numero": "1398",
+     "serie": "156",
+     "valor": 100000000
+    },
+    {
+     "numero": "2259",
+     "serie": "245",
+     "valor": 50000000
+    },
+    {
+     "numero": "9321",
+     "serie": "047",
+     "valor": 50000000
+    },
+    {
+     "numero": "0389",
+     "serie": "173",
+     "valor": 50000000
+    },
+    {
+     "numero": "8998",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "5683",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "3021",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "9859",
+     "serie": "102",
+     "valor": 10000000
+    },
+    {
+     "numero": "3568",
+     "serie": "066",
+     "valor": 10000000
+    },
+    {
+     "numero": "7536",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "5513",
+     "serie": "254",
+     "valor": 10000000
+    },
+    {
+     "numero": "7219",
+     "serie": "201",
+     "valor": 10000000
+    },
+    {
+     "numero": "9900",
+     "serie": "200",
+     "valor": 10000000
+    },
+    {
+     "numero": "6196",
+     "serie": "070",
+     "valor": 10000000
+    },
+    {
+     "numero": "9715",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "4735",
+     "serie": "225",
+     "valor": 10000000
+    },
+    {
+     "numero": "1780",
+     "serie": "219",
+     "valor": 10000000
+    },
+    {
+     "numero": "2454",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "9194",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "2121",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "3085",
+     "serie": "006",
+     "valor": 10000000
+    },
+    {
+     "numero": "7924",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "3190",
+     "serie": "193",
+     "valor": 10000000
+    },
+    {
+     "numero": "3705",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "4459",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1551",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "6356",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "9788",
+     "serie": "053",
+     "valor": 10000000
+    },
+    {
+     "numero": "7757",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "1952",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "1621",
+     "serie": "178",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Julio/Acta%202621.pdf"
+  },
+  "2622": {
+   "fecha": "2026-08-01",
+   "mayor": {
+    "numero": "1378",
+    "serie": "178"
+   },
+   "secos": [
+    {
+     "numero": "9595",
+     "serie": "194",
+     "valor": 300000000
+    },
+    {
+     "numero": "7950",
+     "serie": "024",
+     "valor": 200000000
+    },
+    {
+     "numero": "0176",
+     "serie": "025",
+     "valor": 100000000
+    },
+    {
+     "numero": "5437",
+     "serie": "061",
+     "valor": 100000000
+    },
+    {
+     "numero": "3209",
+     "serie": "170",
+     "valor": 50000000
+    },
+    {
+     "numero": "4757",
+     "serie": "241",
+     "valor": 50000000
+    },
+    {
+     "numero": "8986",
+     "serie": "302",
+     "valor": 50000000
+    },
+    {
+     "numero": "1396",
+     "serie": "237",
+     "valor": 10000000
+    },
+    {
+     "numero": "6813",
+     "serie": "206",
+     "valor": 10000000
+    },
+    {
+     "numero": "2650",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "4533",
+     "serie": "151",
+     "valor": 10000000
+    },
+    {
+     "numero": "4767",
+     "serie": "181",
+     "valor": 10000000
+    },
+    {
+     "numero": "9823",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "9560",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "4709",
+     "serie": "300",
+     "valor": 10000000
+    },
+    {
+     "numero": "8898",
+     "serie": "288",
+     "valor": 10000000
+    },
+    {
+     "numero": "8766",
+     "serie": "214",
+     "valor": 10000000
+    },
+    {
+     "numero": "3508",
+     "serie": "103",
+     "valor": 10000000
+    },
+    {
+     "numero": "4174",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "6278",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "5252",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "4276",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "1198",
+     "serie": "244",
+     "valor": 10000000
+    },
+    {
+     "numero": "9244",
+     "serie": "178",
+     "valor": 10000000
+    },
+    {
+     "numero": "8331",
+     "serie": "302",
+     "valor": 10000000
+    },
+    {
+     "numero": "3771",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "0875",
+     "serie": "085",
+     "valor": 10000000
+    },
+    {
+     "numero": "4738",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "5819",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "3354",
+     "serie": "281",
+     "valor": 10000000
+    },
+    {
+     "numero": "1040",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "1563",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "2733",
+     "serie": "083",
+     "valor": 10000000
+    },
+    {
+     "numero": "1202",
+     "serie": "156",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Agosto/Acta%202622.pdf"
+  },
+  "2623": {
+   "fecha": "2026-08-08",
+   "mayor": {
+    "numero": "7411",
+    "serie": "037"
+   },
+   "secos": [
+    {
+     "numero": "3821",
+     "serie": "114",
+     "valor": 300000000
+    },
+    {
+     "numero": "2880",
+     "serie": "094",
+     "valor": 200000000
+    },
+    {
+     "numero": "3339",
+     "serie": "070",
+     "valor": 100000000
+    },
+    {
+     "numero": "2811",
+     "serie": "235",
+     "valor": 100000000
+    },
+    {
+     "numero": "1862",
+     "serie": "139",
+     "valor": 50000000
+    },
+    {
+     "numero": "1782",
+     "serie": "138",
+     "valor": 50000000
+    },
+    {
+     "numero": "7940",
+     "serie": "105",
+     "valor": 50000000
+    },
+    {
+     "numero": "0261",
+     "serie": "220",
+     "valor": 10000000
+    },
+    {
+     "numero": "9700",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "1656",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "8426",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "1445",
+     "serie": "087",
+     "valor": 10000000
+    },
+    {
+     "numero": "2996",
+     "serie": "002",
+     "valor": 10000000
+    },
+    {
+     "numero": "5050",
+     "serie": "309",
+     "valor": 10000000
+    },
+    {
+     "numero": "7522",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "7527",
+     "serie": "001",
+     "valor": 10000000
+    },
+    {
+     "numero": "2931",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "5044",
+     "serie": "018",
+     "valor": 10000000
+    },
+    {
+     "numero": "9105",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "3815",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "3987",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "6144",
+     "serie": "029",
+     "valor": 10000000
+    },
+    {
+     "numero": "1367",
+     "serie": "199",
+     "valor": 10000000
+    },
+    {
+     "numero": "1816",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "1831",
+     "serie": "134",
+     "valor": 10000000
+    },
+    {
+     "numero": "1957",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "1413",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "0733",
+     "serie": "080",
+     "valor": 10000000
+    },
+    {
+     "numero": "9629",
+     "serie": "152",
+     "valor": 10000000
+    },
+    {
+     "numero": "0024",
+     "serie": "083",
+     "valor": 10000000
+    },
+    {
+     "numero": "9473",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "5746",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "6599",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "2958",
+     "serie": "170",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Agosto/Acta%202623.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-08-08"
+  },
+  "2624": {
+   "fecha": "2026-08-15",
+   "mayor": {
+    "numero": "8215",
+    "serie": "031"
+   },
+   "secos": [
+    {
+     "numero": "2402",
+     "serie": "019",
+     "valor": 300000000
+    },
+    {
+     "numero": "7663",
+     "serie": "071",
+     "valor": 200000000
+    },
+    {
+     "numero": "4130",
+     "serie": "101",
+     "valor": 100000000
+    },
+    {
+     "numero": "2482",
+     "serie": "195",
+     "valor": 100000000
+    },
+    {
+     "numero": "9874",
+     "serie": "221",
+     "valor": 50000000
+    },
+    {
+     "numero": "2874",
+     "serie": "048",
+     "valor": 50000000
+    },
+    {
+     "numero": "2955",
+     "serie": "140",
+     "valor": 50000000
+    },
+    {
+     "numero": "0337",
+     "serie": "045",
+     "valor": 10000000
+    },
+    {
+     "numero": "6077",
+     "serie": "234",
+     "valor": 10000000
+    },
+    {
+     "numero": "8170",
+     "serie": "232",
+     "valor": 10000000
+    },
+    {
+     "numero": "8733",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "4331",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "9845",
+     "serie": "121",
+     "valor": 10000000
+    },
+    {
+     "numero": "5835",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "6545",
+     "serie": "000",
+     "valor": 10000000
+    },
+    {
+     "numero": "2073",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "1345",
+     "serie": "302",
+     "valor": 10000000
+    },
+    {
+     "numero": "6869",
+     "serie": "047",
+     "valor": 10000000
+    },
+    {
+     "numero": "9548",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "5676",
+     "serie": "086",
+     "valor": 10000000
+    },
+    {
+     "numero": "0914",
+     "serie": "001",
+     "valor": 10000000
+    },
+    {
+     "numero": "6316",
+     "serie": "174",
+     "valor": 10000000
+    },
+    {
+     "numero": "2079",
+     "serie": "049",
+     "valor": 10000000
+    },
+    {
+     "numero": "7044",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "8995",
+     "serie": "192",
+     "valor": 10000000
+    },
+    {
+     "numero": "2852",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "8664",
+     "serie": "285",
+     "valor": 10000000
+    },
+    {
+     "numero": "2726",
+     "serie": "062",
+     "valor": 10000000
+    },
+    {
+     "numero": "6845",
+     "serie": "243",
+     "valor": 10000000
+    },
+    {
+     "numero": "1780",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "8058",
+     "serie": "068",
+     "valor": 10000000
+    },
+    {
+     "numero": "3586",
+     "serie": "030",
+     "valor": 10000000
+    },
+    {
+     "numero": "0401",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "6260",
+     "serie": "269",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Agosto/Acta%202624.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-08-15"
+  },
+  "2625": {
+   "fecha": "2026-08-22",
+   "mayor": {
+    "numero": "3856",
+    "serie": "078"
+   },
+   "secos": [
+    {
+     "numero": "0263",
+     "serie": "273",
+     "valor": 300000000
+    },
+    {
+     "numero": "0319",
+     "serie": "131",
+     "valor": 200000000
+    },
+    {
+     "numero": "8140",
+     "serie": "084",
+     "valor": 100000000
+    },
+    {
+     "numero": "8498",
+     "serie": "270",
+     "valor": 100000000
+    },
+    {
+     "numero": "4825",
+     "serie": "156",
+     "valor": 50000000
+    },
+    {
+     "numero": "9231",
+     "serie": "138",
+     "valor": 50000000
+    },
+    {
+     "numero": "4880",
+     "serie": "239",
+     "valor": 50000000
+    },
+    {
+     "numero": "5315",
+     "serie": "115",
+     "valor": 10000000
+    },
+    {
+     "numero": "4498",
+     "serie": "050",
+     "valor": 10000000
+    },
+    {
+     "numero": "1155",
+     "serie": "272",
+     "valor": 10000000
+    },
+    {
+     "numero": "7214",
+     "serie": "277",
+     "valor": 10000000
+    },
+    {
+     "numero": "9327",
+     "serie": "166",
+     "valor": 10000000
+    },
+    {
+     "numero": "8697",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "5284",
+     "serie": "255",
+     "valor": 10000000
+    },
+    {
+     "numero": "0706",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "3576",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "6494",
+     "serie": "166",
+     "valor": 10000000
+    },
+    {
+     "numero": "7134",
+     "serie": "003",
+     "valor": 10000000
+    },
+    {
+     "numero": "2642",
+     "serie": "208",
+     "valor": 10000000
+    },
+    {
+     "numero": "9745",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "9069",
+     "serie": "052",
+     "valor": 10000000
+    },
+    {
+     "numero": "3288",
+     "serie": "254",
+     "valor": 10000000
+    },
+    {
+     "numero": "2486",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "1861",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "6992",
+     "serie": "037",
+     "valor": 10000000
+    },
+    {
+     "numero": "1824",
+     "serie": "201",
+     "valor": 10000000
+    },
+    {
+     "numero": "7672",
+     "serie": "214",
+     "valor": 10000000
+    },
+    {
+     "numero": "8725",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "6186",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "1395",
+     "serie": "211",
+     "valor": 10000000
+    },
+    {
+     "numero": "5417",
+     "serie": "139",
+     "valor": 10000000
+    },
+    {
+     "numero": "0161",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "4868",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "7648",
+     "serie": "203",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Agosto/Acta%202625.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-08-22"
+  },
+  "2626": {
+   "fecha": "2026-08-29",
+   "mayor": {
+    "numero": "8591",
+    "serie": "123"
+   },
+   "secos": [
+    {
+     "numero": "2123",
+     "serie": "028",
+     "valor": 300000000
+    },
+    {
+     "numero": "7777",
+     "serie": "258",
+     "valor": 200000000
+    },
+    {
+     "numero": "6174",
+     "serie": "169",
+     "valor": 100000000
+    },
+    {
+     "numero": "2303",
+     "serie": "102",
+     "valor": 100000000
+    },
+    {
+     "numero": "3346",
+     "serie": "173",
+     "valor": 50000000
+    },
+    {
+     "numero": "1553",
+     "serie": "306",
+     "valor": 50000000
+    },
+    {
+     "numero": "0918",
+     "serie": "217",
+     "valor": 50000000
+    },
+    {
+     "numero": "7218",
+     "serie": "220",
+     "valor": 10000000
+    },
+    {
+     "numero": "9517",
+     "serie": "238",
+     "valor": 10000000
+    },
+    {
+     "numero": "7974",
+     "serie": "217",
+     "valor": 10000000
+    },
+    {
+     "numero": "6760",
+     "serie": "011",
+     "valor": 10000000
+    },
+    {
+     "numero": "0368",
+     "serie": "036",
+     "valor": 10000000
+    },
+    {
+     "numero": "2397",
+     "serie": "024",
+     "valor": 10000000
+    },
+    {
+     "numero": "8101",
+     "serie": "283",
+     "valor": 10000000
+    },
+    {
+     "numero": "0593",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "7792",
+     "serie": "190",
+     "valor": 10000000
+    },
+    {
+     "numero": "4370",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "7448",
+     "serie": "181",
+     "valor": 10000000
+    },
+    {
+     "numero": "7030",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1048",
+     "serie": "043",
+     "valor": 10000000
+    },
+    {
+     "numero": "7688",
+     "serie": "099",
+     "valor": 10000000
+    },
+    {
+     "numero": "5953",
+     "serie": "176",
+     "valor": 10000000
+    },
+    {
+     "numero": "3697",
+     "serie": "256",
+     "valor": 10000000
+    },
+    {
+     "numero": "0723",
+     "serie": "110",
+     "valor": 10000000
+    },
+    {
+     "numero": "9811",
+     "serie": "046",
+     "valor": 10000000
+    },
+    {
+     "numero": "1460",
+     "serie": "283",
+     "valor": 10000000
+    },
+    {
+     "numero": "3552",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "7348",
+     "serie": "252",
+     "valor": 10000000
+    },
+    {
+     "numero": "3715",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "3921",
+     "serie": "281",
+     "valor": 10000000
+    },
+    {
+     "numero": "0269",
+     "serie": "170",
+     "valor": 10000000
+    },
+    {
+     "numero": "7358",
+     "serie": "079",
+     "valor": 10000000
+    },
+    {
+     "numero": "4673",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "6277",
+     "serie": "271",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Agosto/Acta%202626.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-08-29"
+  },
+  "2627": {
+   "fecha": "2026-09-05",
+   "mayor": {
+    "numero": "1528",
+    "serie": "032"
+   },
+   "secos": [
+    {
+     "numero": "6363",
+     "serie": "267",
+     "valor": 300000000
+    },
+    {
+     "numero": "2791",
+     "serie": "166",
+     "valor": 200000000
+    },
+    {
+     "numero": "3840",
+     "serie": "025",
+     "valor": 100000000
+    },
+    {
+     "numero": "3029",
+     "serie": "117",
+     "valor": 100000000
+    },
+    {
+     "numero": "9026",
+     "serie": "041",
+     "valor": 50000000
+    },
+    {
+     "numero": "9504",
+     "serie": "178",
+     "valor": 50000000
+    },
+    {
+     "numero": "1387",
+     "serie": "093",
+     "valor": 50000000
+    },
+    {
+     "numero": "1920",
+     "serie": "293",
+     "valor": 10000000
+    },
+    {
+     "numero": "0294",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "3382",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "1741",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "2902",
+     "serie": "107",
+     "valor": 10000000
+    },
+    {
+     "numero": "8723",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "6974",
+     "serie": "209",
+     "valor": 10000000
+    },
+    {
+     "numero": "8260",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "4671",
+     "serie": "160",
+     "valor": 10000000
+    },
+    {
+     "numero": "3088",
+     "serie": "247",
+     "valor": 10000000
+    },
+    {
+     "numero": "5542",
+     "serie": "023",
+     "valor": 10000000
+    },
+    {
+     "numero": "8903",
+     "serie": "296",
+     "valor": 10000000
+    },
+    {
+     "numero": "5525",
+     "serie": "105",
+     "valor": 10000000
+    },
+    {
+     "numero": "0474",
+     "serie": "035",
+     "valor": 10000000
+    },
+    {
+     "numero": "2782",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "6244",
+     "serie": "246",
+     "valor": 10000000
+    },
+    {
+     "numero": "5825",
+     "serie": "172",
+     "valor": 10000000
+    },
+    {
+     "numero": "1351",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "1105",
+     "serie": "242",
+     "valor": 10000000
+    },
+    {
+     "numero": "1771",
+     "serie": "242",
+     "valor": 10000000
+    },
+    {
+     "numero": "0144",
+     "serie": "184",
+     "valor": 10000000
+    },
+    {
+     "numero": "5702",
+     "serie": "306",
+     "valor": 10000000
+    },
+    {
+     "numero": "6278",
+     "serie": "044",
+     "valor": 10000000
+    },
+    {
+     "numero": "4209",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "8395",
+     "serie": "013",
+     "valor": 10000000
+    },
+    {
+     "numero": "3797",
+     "serie": "043",
+     "valor": 10000000
+    },
+    {
+     "numero": "4952",
+     "serie": "249",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Septiembre/Acta%202627.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-09-05"
+  },
+  "2629": {
+   "fecha": "2026-09-19",
+   "mayor": {
+    "numero": "3409",
+    "serie": "260"
+   },
+   "secos": [
+    {
+     "numero": "0626",
+     "serie": "166",
+     "valor": 300000000
+    },
+    {
+     "numero": "5259",
+     "serie": "085",
+     "valor": 200000000
+    },
+    {
+     "numero": "9126",
+     "serie": "049",
+     "valor": 100000000
+    },
+    {
+     "numero": "8110",
+     "serie": "065",
+     "valor": 100000000
+    },
+    {
+     "numero": "5195",
+     "serie": "286",
+     "valor": 50000000
+    },
+    {
+     "numero": "3593",
+     "serie": "019",
+     "valor": 50000000
+    },
+    {
+     "numero": "7831",
+     "serie": "093",
+     "valor": 50000000
+    },
+    {
+     "numero": "9125",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "1402",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "0300",
+     "serie": "126",
+     "valor": 10000000
+    },
+    {
+     "numero": "4515",
+     "serie": "224",
+     "valor": 10000000
+    },
+    {
+     "numero": "1824",
+     "serie": "003",
+     "valor": 10000000
+    },
+    {
+     "numero": "8020",
+     "serie": "135",
+     "valor": 10000000
+    },
+    {
+     "numero": "5741",
+     "serie": "064",
+     "valor": 10000000
+    },
+    {
+     "numero": "0036",
+     "serie": "259",
+     "valor": 10000000
+    },
+    {
+     "numero": "2224",
+     "serie": "057",
+     "valor": 10000000
+    },
+    {
+     "numero": "6833",
+     "serie": "196",
+     "valor": 10000000
+    },
+    {
+     "numero": "7421",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "0301",
+     "serie": "272",
+     "valor": 10000000
+    },
+    {
+     "numero": "0159",
+     "serie": "011",
+     "valor": 10000000
+    },
+    {
+     "numero": "4329",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "0137",
+     "serie": "193",
+     "valor": 10000000
+    },
+    {
+     "numero": "0939",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "1291",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "7963",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "0143",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "8885",
+     "serie": "080",
+     "valor": 10000000
+    },
+    {
+     "numero": "9952",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "7529",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "3391",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "9027",
+     "serie": "042",
+     "valor": 10000000
+    },
+    {
+     "numero": "3187",
+     "serie": "146",
+     "valor": 10000000
+    },
+    {
+     "numero": "1569",
+     "serie": "206",
+     "valor": 10000000
+    },
+    {
+     "numero": "2827",
+     "serie": "032",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Septiembre/Acta%202629.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-09-19"
+  },
+  "2630": {
+   "fecha": "2026-09-26",
+   "mayor": {
+    "numero": "7567",
+    "serie": "058"
+   },
+   "secos": [
+    {
+     "numero": "5920",
+     "serie": "043",
+     "valor": 300000000
+    },
+    {
+     "numero": "9893",
+     "serie": "301",
+     "valor": 200000000
+    },
+    {
+     "numero": "1228",
+     "serie": "090",
+     "valor": 100000000
+    },
+    {
+     "numero": "9365",
+     "serie": "302",
+     "valor": 100000000
+    },
+    {
+     "numero": "7072",
+     "serie": "286",
+     "valor": 50000000
+    },
+    {
+     "numero": "5008",
+     "serie": "159",
+     "valor": 50000000
+    },
+    {
+     "numero": "1969",
+     "serie": "119",
+     "valor": 50000000
+    },
+    {
+     "numero": "5179",
+     "serie": "164",
+     "valor": 10000000
+    },
+    {
+     "numero": "8353",
+     "serie": "211",
+     "valor": 10000000
+    },
+    {
+     "numero": "8931",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "8404",
+     "serie": "112",
+     "valor": 10000000
+    },
+    {
+     "numero": "6045",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "6257",
+     "serie": "268",
+     "valor": 10000000
+    },
+    {
+     "numero": "2008",
+     "serie": "146",
+     "valor": 10000000
+    },
+    {
+     "numero": "6296",
+     "serie": "054",
+     "valor": 10000000
+    },
+    {
+     "numero": "0954",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "5151",
+     "serie": "179",
+     "valor": 10000000
+    },
+    {
+     "numero": "5635",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "6060",
+     "serie": "107",
+     "valor": 10000000
+    },
+    {
+     "numero": "0572",
+     "serie": "304",
+     "valor": 10000000
+    },
+    {
+     "numero": "9220",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "4970",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "5966",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "0422",
+     "serie": "026",
+     "valor": 10000000
+    },
+    {
+     "numero": "4320",
+     "serie": "294",
+     "valor": 10000000
+    },
+    {
+     "numero": "2874",
+     "serie": "221",
+     "valor": 10000000
+    },
+    {
+     "numero": "2299",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "3433",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "1715",
+     "serie": "013",
+     "valor": 10000000
+    },
+    {
+     "numero": "9552",
+     "serie": "287",
+     "valor": 10000000
+    },
+    {
+     "numero": "8486",
+     "serie": "272",
+     "valor": 10000000
+    },
+    {
+     "numero": "4882",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "0950",
+     "serie": "029",
+     "valor": 10000000
+    },
+    {
+     "numero": "6986",
+     "serie": "305",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Septiembre/Acta%202630.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-09-26"
+  },
+  "2631": {
+   "fecha": "2026-10-03",
+   "mayor": {
+    "numero": "2476",
+    "serie": "111"
+   },
+   "secos": [
+    {
+     "numero": "0962",
+     "serie": "209",
+     "valor": 300000000
+    },
+    {
+     "numero": "8842",
+     "serie": "258",
+     "valor": 200000000
+    },
+    {
+     "numero": "5182",
+     "serie": "276",
+     "valor": 100000000
+    },
+    {
+     "numero": "2496",
+     "serie": "292",
+     "valor": 100000000
+    },
+    {
+     "numero": "7042",
+     "serie": "253",
+     "valor": 50000000
+    },
+    {
+     "numero": "1663",
+     "serie": "262",
+     "valor": 50000000
+    },
+    {
+     "numero": "7951",
+     "serie": "262",
+     "valor": 50000000
+    },
+    {
+     "numero": "0264",
+     "serie": "056",
+     "valor": 10000000
+    },
+    {
+     "numero": "3150",
+     "serie": "149",
+     "valor": 10000000
+    },
+    {
+     "numero": "7654",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "5019",
+     "serie": "114",
+     "valor": 10000000
+    },
+    {
+     "numero": "9236",
+     "serie": "292",
+     "valor": 10000000
+    },
+    {
+     "numero": "6204",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "1370",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "1983",
+     "serie": "134",
+     "valor": 10000000
+    },
+    {
+     "numero": "3114",
+     "serie": "247",
+     "valor": 10000000
+    },
+    {
+     "numero": "1171",
+     "serie": "043",
+     "valor": 10000000
+    },
+    {
+     "numero": "0756",
+     "serie": "056",
+     "valor": 10000000
+    },
+    {
+     "numero": "7162",
+     "serie": "145",
+     "valor": 10000000
+    },
+    {
+     "numero": "7765",
+     "serie": "150",
+     "valor": 10000000
+    },
+    {
+     "numero": "4926",
+     "serie": "212",
+     "valor": 10000000
+    },
+    {
+     "numero": "0266",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "9892",
+     "serie": "147",
+     "valor": 10000000
+    },
+    {
+     "numero": "3256",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "3788",
+     "serie": "093",
+     "valor": 10000000
+    },
+    {
+     "numero": "6451",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "3531",
+     "serie": "204",
+     "valor": 10000000
+    },
+    {
+     "numero": "1654",
+     "serie": "112",
+     "valor": 10000000
+    },
+    {
+     "numero": "6132",
+     "serie": "197",
+     "valor": 10000000
+    },
+    {
+     "numero": "2989",
+     "serie": "267",
+     "valor": 10000000
+    },
+    {
+     "numero": "4387",
+     "serie": "239",
+     "valor": 10000000
+    },
+    {
+     "numero": "6946",
+     "serie": "243",
+     "valor": 10000000
+    },
+    {
+     "numero": "6670",
+     "serie": "145",
+     "valor": 10000000
+    },
+    {
+     "numero": "3955",
+     "serie": "126",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Octubre/Acta%202631.pdf; fecha publicada «0000-00-00»: se usa la estimada 2026-10-03"
+  },
+  "2632": {
+   "fecha": "2026-10-10",
+   "mayor": {
+    "numero": "1618",
+    "serie": "186"
+   },
+   "secos": [
+    {
+     "numero": "9014",
+     "serie": "142",
+     "valor": 300000000
+    },
+    {
+     "numero": "5695",
+     "serie": "180",
+     "valor": 200000000
+    },
+    {
+     "numero": "7732",
+     "serie": "156",
+     "valor": 100000000
+    },
+    {
+     "numero": "4079",
+     "serie": "006",
+     "valor": 100000000
+    },
+    {
+     "numero": "4409",
+     "serie": "128",
+     "valor": 50000000
+    },
+    {
+     "numero": "3832",
+     "serie": "100",
+     "valor": 50000000
+    },
+    {
+     "numero": "2676",
+     "serie": "022",
+     "valor": 50000000
+    },
+    {
+     "numero": "3621",
+     "serie": "117",
+     "valor": 10000000
+    },
+    {
+     "numero": "6324",
+     "serie": "070",
+     "valor": 10000000
+    },
+    {
+     "numero": "5353",
+     "serie": "060",
+     "valor": 10000000
+    },
+    {
+     "numero": "1980",
+     "serie": "226",
+     "valor": 10000000
+    },
+    {
+     "numero": "3372",
+     "serie": "209",
+     "valor": 10000000
+    },
+    {
+     "numero": "3310",
+     "serie": "161",
+     "valor": 10000000
+    },
+    {
+     "numero": "6409",
+     "serie": "114",
+     "valor": 10000000
+    },
+    {
+     "numero": "9773",
+     "serie": "080",
+     "valor": 10000000
+    },
+    {
+     "numero": "9410",
+     "serie": "213",
+     "valor": 10000000
+    },
+    {
+     "numero": "5604",
+     "serie": "138",
+     "valor": 10000000
+    },
+    {
+     "numero": "3499",
+     "serie": "071",
+     "valor": 10000000
+    },
+    {
+     "numero": "5862",
+     "serie": "260",
+     "valor": 10000000
+    },
+    {
+     "numero": "7953",
+     "serie": "302",
+     "valor": 10000000
+    },
+    {
+     "numero": "3482",
+     "serie": "251",
+     "valor": 10000000
+    },
+    {
+     "numero": "6316",
+     "serie": "182",
+     "valor": 10000000
+    },
+    {
+     "numero": "7220",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "2201",
+     "serie": "250",
+     "valor": 10000000
+    },
+    {
+     "numero": "6259",
+     "serie": "053",
+     "valor": 10000000
+    },
+    {
+     "numero": "4085",
+     "serie": "307",
+     "valor": 10000000
+    },
+    {
+     "numero": "9329",
+     "serie": "189",
+     "valor": 10000000
+    },
+    {
+     "numero": "9481",
+     "serie": "018",
+     "valor": 10000000
+    },
+    {
+     "numero": "7987",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "8851",
+     "serie": "288",
+     "valor": 10000000
+    },
+    {
+     "numero": "5583",
+     "serie": "065",
+     "valor": 10000000
+    },
+    {
+     "numero": "2679",
+     "serie": "133",
+     "valor": 10000000
+    },
+    {
+     "numero": "7376",
+     "serie": "283",
+     "valor": 10000000
+    },
+    {
+     "numero": "3468",
+     "serie": "156",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Octubre/Acta%202632.pdf"
+  },
+  "2633": {
+   "fecha": "2026-10-17",
+   "mayor": {
+    "numero": "0869",
+    "serie": "197"
+   },
+   "secos": [
+    {
+     "numero": "2359",
+     "serie": "262",
+     "valor": 300000000
+    },
+    {
+     "numero": "9718",
+     "serie": "288",
+     "valor": 200000000
+    },
+    {
+     "numero": "7412",
+     "serie": "083",
+     "valor": 100000000
+    },
+    {
+     "numero": "5913",
+     "serie": "167",
+     "valor": 100000000
+    },
+    {
+     "numero": "6299",
+     "serie": "072",
+     "valor": 50000000
+    },
+    {
+     "numero": "6715",
+     "serie": "069",
+     "valor": 50000000
+    },
+    {
+     "numero": "1617",
+     "serie": "102",
+     "valor": 50000000
+    },
+    {
+     "numero": "4982",
+     "serie": "092",
+     "valor": 10000000
+    },
+    {
+     "numero": "1792",
+     "serie": "185",
+     "valor": 10000000
+    },
+    {
+     "numero": "3487",
+     "serie": "088",
+     "valor": 10000000
+    },
+    {
+     "numero": "7654",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "5353",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "3076",
+     "serie": "188",
+     "valor": 10000000
+    },
+    {
+     "numero": "1963",
+     "serie": "136",
+     "valor": 10000000
+    },
+    {
+     "numero": "4906",
+     "serie": "201",
+     "valor": 10000000
+    },
+    {
+     "numero": "7645",
+     "serie": "190",
+     "valor": 10000000
+    },
+    {
+     "numero": "7216",
+     "serie": "145",
+     "valor": 10000000
+    },
+    {
+     "numero": "1297",
+     "serie": "261",
+     "valor": 10000000
+    },
+    {
+     "numero": "0378",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "3389",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "4651",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1315",
+     "serie": "292",
+     "valor": 10000000
+    },
+    {
+     "numero": "5204",
+     "serie": "016",
+     "valor": 10000000
+    },
+    {
+     "numero": "5561",
+     "serie": "265",
+     "valor": 10000000
+    },
+    {
+     "numero": "3946",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "7605",
+     "serie": "299",
+     "valor": 10000000
+    },
+    {
+     "numero": "4715",
+     "serie": "291",
+     "valor": 10000000
+    },
+    {
+     "numero": "2437",
+     "serie": "160",
+     "valor": 10000000
+    },
+    {
+     "numero": "0093",
+     "serie": "112",
+     "valor": 10000000
+    },
+    {
+     "numero": "2686",
+     "serie": "213",
+     "valor": 10000000
+    },
+    {
+     "numero": "7212",
+     "serie": "060",
+     "valor": 10000000
+    },
+    {
+     "numero": "8868",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "0817",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "6363",
+     "serie": "202",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Octubre/Acta%202633.pdf"
+  },
+  "2634": {
+   "fecha": "2026-10-24",
+   "mayor": {
+    "numero": "9458",
+    "serie": "226"
+   },
+   "secos": [
+    {
+     "numero": "8390",
+     "serie": "264",
+     "valor": 300000000
+    },
+    {
+     "numero": "2280",
+     "serie": "029",
+     "valor": 200000000
+    },
+    {
+     "numero": "0493",
+     "serie": "054",
+     "valor": 100000000
+    },
+    {
+     "numero": "3283",
+     "serie": "103",
+     "valor": 100000000
+    },
+    {
+     "numero": "3412",
+     "serie": "010",
+     "valor": 50000000
+    },
+    {
+     "numero": "3952",
+     "serie": "150",
+     "valor": 50000000
+    },
+    {
+     "numero": "5812",
+     "serie": "004",
+     "valor": 50000000
+    },
+    {
+     "numero": "8296",
+     "serie": "002",
+     "valor": 10000000
+    },
+    {
+     "numero": "8425",
+     "serie": "175",
+     "valor": 10000000
+    },
+    {
+     "numero": "6945",
+     "serie": "019",
+     "valor": 10000000
+    },
+    {
+     "numero": "3679",
+     "serie": "258",
+     "valor": 10000000
+    },
+    {
+     "numero": "0920",
+     "serie": "125",
+     "valor": 10000000
+    },
+    {
+     "numero": "5934",
+     "serie": "060",
+     "valor": 10000000
+    },
+    {
+     "numero": "0447",
+     "serie": "233",
+     "valor": 10000000
+    },
+    {
+     "numero": "5770",
+     "serie": "113",
+     "valor": 10000000
+    },
+    {
+     "numero": "2758",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "4096",
+     "serie": "295",
+     "valor": 10000000
+    },
+    {
+     "numero": "8449",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "6854",
+     "serie": "081",
+     "valor": 10000000
+    },
+    {
+     "numero": "2908",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "0120",
+     "serie": "190",
+     "valor": 10000000
+    },
+    {
+     "numero": "2505",
+     "serie": "132",
+     "valor": 10000000
+    },
+    {
+     "numero": "3072",
+     "serie": "246",
+     "valor": 10000000
+    },
+    {
+     "numero": "0773",
+     "serie": "301",
+     "valor": 10000000
+    },
+    {
+     "numero": "0123",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1423",
+     "serie": "184",
+     "valor": 10000000
+    },
+    {
+     "numero": "4819",
+     "serie": "008",
+     "valor": 10000000
+    },
+    {
+     "numero": "6219",
+     "serie": "060",
+     "valor": 10000000
+    },
+    {
+     "numero": "7780",
+     "serie": "090",
+     "valor": 10000000
+    },
+    {
+     "numero": "8465",
+     "serie": "186",
+     "valor": 10000000
+    },
+    {
+     "numero": "5039",
+     "serie": "253",
+     "valor": 10000000
+    },
+    {
+     "numero": "9582",
+     "serie": "224",
+     "valor": 10000000
+    },
+    {
+     "numero": "8468",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "6794",
+     "serie": "130",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Octubre/Acta%202634.pdf"
+  },
+  "2635": {
+   "fecha": "2026-10-31",
+   "mayor": {
+    "numero": "1355",
+    "serie": "147"
+   },
+   "secos": [
+    {
+     "numero": "2382",
+     "serie": "286",
+     "valor": 300000000
+    },
+    {
+     "numero": "9184",
+     "serie": "050",
+     "valor": 200000000
+    },
+    {
+     "numero": "8639",
+     "serie": "023",
+     "valor": 100000000
+    },
+    {
+     "numero": "2776",
+     "serie": "101",
+     "valor": 100000000
+    },
+    {
+     "numero": "0454",
+     "serie": "145",
+     "valor": 50000000
+    },
+    {
+     "numero": "5447",
+     "serie": "101",
+     "valor": 50000000
+    },
+    {
+     "numero": "9257",
+     "serie": "199",
+     "valor": 50000000
+    },
+    {
+     "numero": "0214",
+     "serie": "119",
+     "valor": 10000000
+    },
+    {
+     "numero": "0329",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "5923",
+     "serie": "024",
+     "valor": 10000000
+    },
+    {
+     "numero": "9214",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "9805",
+     "serie": "076",
+     "valor": 10000000
+    },
+    {
+     "numero": "7576",
+     "serie": "234",
+     "valor": 10000000
+    },
+    {
+     "numero": "3839",
+     "serie": "234",
+     "valor": 10000000
+    },
+    {
+     "numero": "6367",
+     "serie": "048",
+     "valor": 10000000
+    },
+    {
+     "numero": "8279",
+     "serie": "240",
+     "valor": 10000000
+    },
+    {
+     "numero": "4723",
+     "serie": "161",
+     "valor": 10000000
+    },
+    {
+     "numero": "1968",
+     "serie": "075",
+     "valor": 10000000
+    },
+    {
+     "numero": "2069",
+     "serie": "244",
+     "valor": 10000000
+    },
+    {
+     "numero": "0633",
+     "serie": "038",
+     "valor": 10000000
+    },
+    {
+     "numero": "1960",
+     "serie": "033",
+     "valor": 10000000
+    },
+    {
+     "numero": "5592",
+     "serie": "225",
+     "valor": 10000000
+    },
+    {
+     "numero": "5940",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "4353",
+     "serie": "078",
+     "valor": 10000000
+    },
+    {
+     "numero": "4164",
+     "serie": "021",
+     "valor": 10000000
+    },
+    {
+     "numero": "4679",
+     "serie": "040",
+     "valor": 10000000
+    },
+    {
+     "numero": "4828",
+     "serie": "238",
+     "valor": 10000000
+    },
+    {
+     "numero": "9637",
+     "serie": "195",
+     "valor": 10000000
+    },
+    {
+     "numero": "9886",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "1904",
+     "serie": "300",
+     "valor": 10000000
+    },
+    {
+     "numero": "2580",
+     "serie": "271",
+     "valor": 10000000
+    },
+    {
+     "numero": "4952",
+     "serie": "163",
+     "valor": 10000000
+    },
+    {
+     "numero": "3464",
+     "serie": "222",
+     "valor": 10000000
+    },
+    {
+     "numero": "5007",
+     "serie": "126",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Octubre/Acta%202635.pdf"
+  },
+  "2636": {
+   "fecha": "2026-11-07",
+   "mayor": {
+    "numero": "2073",
+    "serie": "040"
+   },
+   "secos": [
+    {
+     "numero": "7837",
+     "serie": "098",
+     "valor": 300000000
+    },
+    {
+     "numero": "5456",
+     "serie": "014",
+     "valor": 200000000
+    },
+    {
+     "numero": "1008",
+     "serie": "078",
+     "valor": 100000000
+    },
+    {
+     "numero": "9047",
+     "serie": "129",
+     "valor": 100000000
+    },
+    {
+     "numero": "4322",
+     "serie": "036",
+     "valor": 50000000
+    },
+    {
+     "numero": "7435",
+     "serie": "273",
+     "valor": 50000000
+    },
+    {
+     "numero": "2498",
+     "serie": "100",
+     "valor": 50000000
+    },
+    {
+     "numero": "8944",
+     "serie": "104",
+     "valor": 10000000
+    },
+    {
+     "numero": "1952",
+     "serie": "236",
+     "valor": 10000000
+    },
+    {
+     "numero": "6153",
+     "serie": "168",
+     "valor": 10000000
+    },
+    {
+     "numero": "9258",
+     "serie": "273",
+     "valor": 10000000
+    },
+    {
+     "numero": "5760",
+     "serie": "175",
+     "valor": 10000000
+    },
+    {
+     "numero": "8087",
+     "serie": "176",
+     "valor": 10000000
+    },
+    {
+     "numero": "8738",
+     "serie": "298",
+     "valor": 10000000
+    },
+    {
+     "numero": "5684",
+     "serie": "191",
+     "valor": 10000000
+    },
+    {
+     "numero": "2951",
+     "serie": "233",
+     "valor": 10000000
+    },
+    {
+     "numero": "4169",
+     "serie": "134",
+     "valor": 10000000
+    },
+    {
+     "numero": "2152",
+     "serie": "027",
+     "valor": 10000000
+    },
+    {
+     "numero": "9893",
+     "serie": "123",
+     "valor": 10000000
+    },
+    {
+     "numero": "2433",
+     "serie": "216",
+     "valor": 10000000
+    },
+    {
+     "numero": "0974",
+     "serie": "127",
+     "valor": 10000000
+    },
+    {
+     "numero": "6164",
+     "serie": "162",
+     "valor": 10000000
+    },
+    {
+     "numero": "5411",
+     "serie": "095",
+     "valor": 10000000
+    },
+    {
+     "numero": "6108",
+     "serie": "244",
+     "valor": 10000000
+    },
+    {
+     "numero": "4571",
+     "serie": "072",
+     "valor": 10000000
+    },
+    {
+     "numero": "5695",
+     "serie": "049",
+     "valor": 10000000
+    },
+    {
+     "numero": "4715",
+     "serie": "189",
+     "valor": 10000000
+    },
+    {
+     "numero": "3863",
+     "serie": "015",
+     "valor": 10000000
+    },
+    {
+     "numero": "1456",
+     "serie": "125",
+     "valor": 10000000
+    },
+    {
+     "numero": "8813",
+     "serie": "227",
+     "valor": 10000000
+    },
+    {
+     "numero": "2973",
+     "serie": "107",
+     "valor": 10000000
+    },
+    {
+     "numero": "8348",
+     "serie": "125",
+     "valor": 10000000
+    },
+    {
+     "numero": "9946",
+     "serie": "185",
+     "valor": 10000000
+    },
+    {
+     "numero": "2192",
+     "serie": "293",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Noviembre/Acta%202636.pdf"
+  }
+ }
+}

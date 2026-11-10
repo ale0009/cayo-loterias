@@ -21,6 +21,7 @@ import urllib.parse
 import urllib.request
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 DATOS = RAIZ / "datos"
 AGENTE = "cayo-loterias/1.0 (+https://github.com/ale0009; recolector de resultados publicos)"
 PAUSA = 1.0  # segundos entre consultas: una por sorteo, sin prisa
@@ -66,8 +67,17 @@ def cargar(nombre, base):
     return json.loads(ruta.read_text()) if ruta.exists() else base
 
 
+DIAS = 400  # los premios vencen al año: se guarda un poco más y se poda lo viejo
+
+
+def limite_por_defecto():
+    return (dt.date.today() - dt.timedelta(days=DIAS)).isoformat()
+
+
 def guardar(nombre, obj):
-    obj["sorteos"] = dict(sorted(obj["sorteos"].items(), key=lambda kv: int(kv[0])))
+    corte = limite_por_defecto()
+    obj["sorteos"] = dict(sorted(((k, v) for k, v in obj["sorteos"].items() if v.get("fecha", "9") >= corte),
+                                 key=lambda kv: int(kv[0])))
     (DATOS / f"{nombre}.json").write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n")
 
 
@@ -209,8 +219,7 @@ def boyaca_fecha(fecha):
 def actualizar_boyaca(desde):
     db = cargar("boyaca", {"juego": "Lotería de Boyacá", "fuente": BOY, "sorteos": {}})
     ya = {v["fecha"] for v in db["sorteos"].values()}
-    hoy = dt.date.today()
-    limite = desde or (hoy - dt.timedelta(days=380)).isoformat()
+    limite = desde
     nuevos = 0
     for f in boyaca_fechas():
         if f in ya or f < limite:
@@ -227,8 +236,49 @@ def actualizar_boyaca(desde):
     return nuevos
 
 
+# ---------------------------------------------------------------- loterías en módulos aparte
+# Cada archivo recolectores/loterias/<id>.py define:
+#   NOMBRE, FUENTE, lista() -> [(sorteo, 'AAAA-MM-DD')], sorteo(s, fecha) -> {"mayor": {...}, "secos": [...]} | None
+def actualizar_modulo(ident, desde):
+    import importlib
+    mod = importlib.import_module(f"loterias.{ident}")
+    db = cargar(ident, {"juego": mod.NOMBRE, "fuente": mod.FUENTE, "sorteos": {}})
+    nuevos = 0
+    for s, fecha in mod.lista():
+        if str(s) in db["sorteos"] or fecha < desde or fecha > dt.date.today().isoformat():
+            continue
+        r = mod.sorteo(s, fecha); time.sleep(PAUSA)
+        if r and r.get("mayor", {}).get("numero"):
+            r = corregir_fecha(r)
+            db["sorteos"][str(s)] = {"fecha": fecha, **r}
+            nuevos += 1
+            print(f"  {ident} {s} {fecha}", flush=True)
+    guardar(ident, db)
+    return nuevos
+
+
+def corregir_fecha(r):
+    """Algunas fuentes publican el año mal digitado (p. ej. 2027 en vez de 2026). Si la fecha cae en
+    el futuro y un año antes es una fecha ya pasada, se corrige y se deja constancia en «aviso»."""
+    f = r.get("fecha")
+    hoy = dt.date.today().isoformat()
+    if f and f > hoy:
+        antes = f"{int(f[:4]) - 1}{f[4:]}"
+        if antes <= hoy:
+            r = {**r, "fecha": antes}
+            r["aviso"] = "; ".join(filter(None, [r.get("aviso"), f"la fuente publica la fecha {f}; se corrigió a {antes}"]))
+    return r
+
+
+def modulos():
+    carpeta = pathlib.Path(__file__).resolve().parent / "loterias"
+    return sorted(p.stem for p in carpeta.glob("*.py") if not p.stem.startswith("_"))
+
+
 # ---------------------------------------------------------------- principal
 JUEGOS = {"baloto": actualizar_baloto, "medellin": actualizar_medellin, "boyaca": actualizar_boyaca}
+for _m in modulos():
+    JUEGOS[_m] = (lambda ident: (lambda desde: actualizar_modulo(ident, desde)))(_m)
 
 
 def main(argv):
@@ -236,6 +286,7 @@ def main(argv):
     if "--desde" in argv:
         desde = argv[argv.index("--desde") + 1]
         argv = [a for a in argv if a not in ("--desde", desde)]
+    desde = desde or limite_por_defecto()
     elegidos = argv or list(JUEGOS)
     DATOS.mkdir(exist_ok=True)
     estado = cargar("estado", {"fuentes": {}})
