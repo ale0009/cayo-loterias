@@ -2,19 +2,19 @@
  "fuentes": {
   "baloto": {
    "ok": true,
-   "nuevos": 160,
-   "revisado": "2026-11-10T22:38+00:00"
+   "nuevos": 0,
+   "revisado": "2026-11-10T23:30+00:00"
   },
   "medellin": {
    "ok": true,
-   "nuevos": 52,
-   "revisado": "2026-11-10T22:39+00:00"
+   "nuevos": 118,
+   "revisado": "2026-11-10T23:34+00:00"
   },
   "boyaca": {
    "ok": true,
-   "nuevos": 2,
-   "revisado": "2026-11-10T22:42+00:00"
+   "nuevos": 0,
+   "revisado": "2026-11-10T23:34+00:00"
   }
  },
- "actualizado": "2026-11-10T22:42+00:00"
+ "actualizado": "2026-11-10T23:34+00:00"
 }
