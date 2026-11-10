@@ -1,0 +1,62 @@
+name: Recolectar y publicar
+
+# Cada noche trae los sorteos nuevos de las fuentes oficiales, los guarda en datos/
+# y vuelve a publicar la página en GitHub Pages. Sin servidor y sin claves.
+# (Configura Pages con «Source: GitHub Actions».)
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 05:00 UTC = medianoche en Colombia, después de los sorteos
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: recolectar
+  cancel-in-progress: false
+
+jobs:
+  recolectar:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Traer sorteos nuevos
+        run: python3 recolectores/actualizar.py
+      - name: Guardar si hay cambios
+        run: |
+          git config user.name "cayo-recolector"
+          git config user.email "cayo-recolector@users.noreply.github.com"
+          git add datos/
+          if git diff --cached --quiet -- datos/baloto.json datos/medellin.json datos/boyaca.json; then
+            echo "Sin sorteos nuevos."
+          else
+            git commit -m "Datos: resultados del $(date -u +%F)"
+            git push
+          fi
+
+  publicar:
+    needs: recolectar
+    if: always() && (needs.recolectar.result == 'success' || needs.recolectar.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: despliegue
+        uses: actions/deploy-pages@v4

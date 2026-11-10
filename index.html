@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Cayó? · Revisa tu lotería</title>
+  <meta name="description" content="Revisa si tu billete de lotería o tu tiquete de Baloto ganó, con el número del código de barras o a mano. Resultados oficiales de Colombia que se actualizan solos cada noche. Sin registro, sin servidor y sin IA.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bangers&family=IBM+Plex+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F9F9F7'/%3E%3Crect x='4' y='8' width='24' height='16' rx='2' fill='none' stroke='%230A090A' stroke-width='2.5'/%3E%3Cpath d='M9 12v8M12 12v8M14 12v8M18 12v8M21 12v8M23 12v8' stroke='%23CB433E' stroke-width='1.6'/%3E%3C/svg%3E">
+  <script src="vendor/zxing.min.js" defer></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#consulta">Saltar a la consulta</a>
+  <header class="cabecera">
+    <span class="kanji" aria-hidden="true">当</span>
+    <div class="titulo">
+      <p class="antetitulo">Loterías de Colombia · resultados oficiales</p>
+      <h1>¿Cayó?</h1>
+    </div>
+    <nav class="nav">
+      <a class="boton-linea" href="proceso/">Cómo se hizo</a>
+      <button type="button" class="boton-linea" id="tema" aria-label="Cambiar tema">Tema: auto</button>
+    </nav>
+  </header>
+
+  <main class="tablero">
+    <!-- ===================== CONSULTA ===================== -->
+    <section class="consulta vineta" id="consulta" aria-labelledby="t-consulta">
+      <h2 id="t-consulta" class="rotulo">Revisa tu boleto</h2>
+      <div class="pestanas" role="tablist" aria-label="Forma de consulta">
+        <button role="tab" id="tab-codigo" aria-controls="p-codigo" aria-selected="true">Código de barras</button>
+        <button role="tab" id="tab-manual" aria-controls="p-manual" aria-selected="false" tabindex="-1">Lotería a mano</button>
+        <button role="tab" id="tab-baloto" aria-controls="p-baloto" aria-selected="false" tabindex="-1">Baloto</button>
+      </div>
+
+      <!-- Código de 20 dígitos -->
+      <form class="panel" id="p-codigo" role="tabpanel" aria-labelledby="tab-codigo" autocomplete="off">
+        <label for="codigo" class="etiqueta">Los 20 números impresos bajo el código de barras</label>
+        <input id="codigo" class="codigo" inputmode="numeric" maxlength="30" placeholder="9 016 0004850 1048 367 02" spellcheck="false" aria-describedby="codigo-ayuda codigo-partes">
+        <div class="partes" id="codigo-partes" aria-live="polite"></div>
+        <p class="ayuda" id="codigo-ayuda">Funciona con billetes de <b>Medellín</b> y <b>Boyacá</b>. El número trae la lotería, el sorteo, tu número, la serie y la fracción.</p>
+        <figure class="guia" aria-hidden="true">
+          <svg viewBox="0 0 320 92" role="presentation">
+            <rect x="2" y="2" width="316" height="88" rx="4" class="g-billete"/>
+            <text x="14" y="26" class="g-txt">TU BILLETE</text>
+            <g class="g-barras">
+              <rect x="150" y="14" width="2" height="40"/><rect x="155" y="14" width="4" height="40"/><rect x="162" y="14" width="1.5" height="40"/>
+              <rect x="166" y="14" width="3" height="40"/><rect x="172" y="14" width="2" height="40"/><rect x="177" y="14" width="5" height="40"/>
+              <rect x="185" y="14" width="1.5" height="40"/><rect x="189" y="14" width="3" height="40"/><rect x="195" y="14" width="2" height="40"/>
+              <rect x="200" y="14" width="4" height="40"/><rect x="207" y="14" width="1.5" height="40"/><rect x="211" y="14" width="3" height="40"/>
+              <rect x="217" y="14" width="2" height="40"/><rect x="222" y="14" width="5" height="40"/><rect x="230" y="14" width="2" height="40"/>
+              <rect x="235" y="14" width="3" height="40"/><rect x="241" y="14" width="1.5" height="40"/><rect x="245" y="14" width="4" height="40"/>
+              <rect x="252" y="14" width="2" height="40"/><rect x="257" y="14" width="3" height="40"/><rect x="263" y="14" width="1.5" height="40"/>
+              <rect x="267" y="14" width="4" height="40"/><rect x="274" y="14" width="2" height="40"/><rect x="279" y="14" width="3" height="40"/><rect x="285" y="14" width="2" height="40"/>
+            </g>
+            <rect x="146" y="60" width="146" height="18" rx="3" class="g-marca"/>
+            <text x="150" y="73" class="g-num">90160004850104836702</text>
+            <path d="M120 69 H 140" class="g-flecha"/><path d="M134 64 L141 69 L134 74" class="g-flecha"/>
+            <text x="14" y="73" class="g-txt">copia este número</text>
+          </svg>
+        </figure>
+        <div class="acciones">
+          <button type="submit" class="boton">Revisar</button>
+          <button type="button" class="boton-linea" id="abrir-camara">Escanear con la cámara</button>
+          <button type="button" class="boton-texto" id="ejemplo-codigo">Cargar ejemplo</button>
+        </div>
+        <div class="camara" id="camara" hidden>
+          <video id="video" playsinline muted></video>
+          <div class="mira" aria-hidden="true"></div>
+          <p class="ayuda" id="camara-estado" aria-live="polite">Acerca el código de barras a la cámara (a unos 10 cm), con buena luz.</p>
+          <button type="button" class="boton-linea" id="cerrar-camara">Cerrar cámara</button>
+        </div>
+      </form>
+
+      <!-- Lotería a mano -->
+      <form class="panel" id="p-manual" role="tabpanel" aria-labelledby="tab-manual" hidden autocomplete="off">
+        <div class="campos">
+          <label>Lotería
+            <select id="m-loteria"></select>
+          </label>
+          <label>Sorteo
+            <select id="m-sorteo"></select>
+          </label>
+          <label>Número <input id="m-numero" class="num4" inputmode="numeric" maxlength="4" pattern="\d{4}" placeholder="0000" required></label>
+          <label>Serie <input id="m-serie" class="num3" inputmode="numeric" maxlength="3" pattern="\d{3}" placeholder="000" required></label>
+          <label>Fracciones del billete
+            <select id="m-fracciones"><option value="">Según el plan</option><option>1</option><option>2</option><option>3</option><option>4</option></select>
+          </label>
+        </div>
+        <div class="acciones"><button type="submit" class="boton">Revisar</button></div>
+      </form>
+
+      <!-- Baloto -->
+      <form class="panel" id="p-baloto" role="tabpanel" aria-labelledby="tab-baloto" hidden autocomplete="off">
+        <label class="etiqueta">Sorteo <select id="b-sorteo"></select></label>
+        <fieldset class="bolillero">
+          <legend>Tus 5 números (1 a 43) <output id="b-cuenta">0/5</output></legend>
+          <div class="bolas" id="b-bolas"></div>
+        </fieldset>
+        <fieldset class="bolillero">
+          <legend>Superbalota (1 a 16)</legend>
+          <div class="bolas sb" id="b-sb"></div>
+        </fieldset>
+        <div class="acciones">
+          <button type="submit" class="boton">Revisar Baloto y Revancha</button>
+          <button type="button" class="boton-texto" id="b-limpiar">Limpiar</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- ===================== VEREDICTO ===================== -->
+    <section class="veredicto-caja vineta" aria-live="polite" aria-labelledby="veredicto">
+      <p class="sello" id="sello" hidden>Ejemplo</p>
+      <p class="veredicto" id="veredicto"><span class="espera">Escribe o escanea un boleto</span></p>
+      <div id="detalle" class="detalle"></div>
+    </section>
+
+    <!-- ===================== BILLETERA ===================== -->
+    <section class="billetera vineta" aria-labelledby="t-billetera">
+      <div class="fila-titulo">
+        <h2 id="t-billetera" class="rotulo">Mi billetera</h2>
+        <div class="hud" id="hud"></div>
+      </div>
+      <p class="ayuda">Se guarda solo en este navegador. Los boletos de sorteos que aún no se juegan se revisan solos cuando lleguen los resultados.</p>
+      <ol class="lista-boletos" id="lista"></ol>
+      <div class="acciones">
+        <button type="button" class="mini" id="exportar">Exportar</button>
+        <label class="mini archivo">Importar<input type="file" id="importar" accept="application/json" hidden></label>
+        <button type="button" class="mini" id="vaciar">Vaciar</button>
+      </div>
+    </section>
+
+    <!-- ===================== ¿CUÁNDO CAYÓ? ===================== -->
+    <section class="buscador vineta" aria-labelledby="t-buscar">
+      <h2 id="t-buscar" class="rotulo">¿Cuándo cayó mi número?</h2>
+      <form id="f-buscar" class="en-linea" autocomplete="off">
+        <label for="q" class="etiqueta">Un número de 4 cifras, en todo el último año (mayores y secos)</label>
+        <div class="en-linea">
+          <input id="q" class="num4 grande" inputmode="numeric" maxlength="4" pattern="\d{4}" placeholder="2608" required>
+          <button class="boton" type="submit">Buscar</button>
+        </div>
+      </form>
+      <div id="r-buscar" aria-live="polite"></div>
+    </section>
+
+    <!-- ===================== ÚLTIMOS RESULTADOS ===================== -->
+    <section class="ultimos vineta" aria-labelledby="t-ultimos">
+      <h2 id="t-ultimos" class="rotulo">Último sorteo</h2>
+      <div id="ultimos" class="tarjetas"><p class="ayuda">Cargando resultados…</p></div>
+      <p class="estado-datos" id="estado-datos"></p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>Herramienta independiente: no está afiliada a ninguna lotería ni a Coljuegos. Antes de cobrar, verifica en la fuente oficial. Los premios vencen 1 año después del sorteo (Ley 1393 de 2010, art. 12). Juega con responsabilidad; prohibida la venta a menores de edad.</p>
+    <p><a href="https://github.com/ale0009">Mario Puerta «ale0009»</a> × <a href="https://www.linkedin.com/in/davidalexanderrinconcorredorkuronoma/">David Rincón «Kuronoma»</a> · <a href="#">Portafolio</a> · <a href="proceso/">Cómo se hizo</a></p>
+  </footer>
+</body>
+</html>

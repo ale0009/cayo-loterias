@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo se hizo · ¿Cayó?</title>
+  <meta name="description" content="La investigación detrás de ¿Cayó?: un piloto con 20 boletos reales, las fuentes oficiales, el hallazgo del código de barras y por qué la herramienta funciona sola, sin servidor y sin IA.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bangers&family=IBM+Plex+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="../css/estilo.css">
+  <link rel="stylesheet" href="../css/proceso.css">
+  <script type="module" src="../js/proceso.js"></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="cabecera">
+    <span class="kanji" aria-hidden="true">調</span>
+    <div class="titulo">
+      <p class="antetitulo">¿Cayó? · cómo se hizo</p>
+      <h1>De 80 fotos a una herramienta</h1>
+    </div>
+    <nav class="nav">
+      <a class="boton-linea" href="../">Volver a la herramienta</a>
+      <button type="button" class="boton-linea" id="tema" aria-label="Cambiar tema">Tema: auto</button>
+    </nav>
+  </header>
+
+  <main class="lectura" id="contenido">
+    <nav class="indice vineta" aria-label="Contenido">
+      <ol>
+        <li><a href="#problema">El problema</a></li>
+        <li><a href="#piloto">El piloto: 20 boletos</a></li>
+        <li><a href="#fuentes">Fuentes</a></li>
+        <li><a href="#codigo">El hallazgo del código de barras</a></li>
+        <li><a href="#analisis">Análisis</a></li>
+        <li><a href="#diseno">Decisiones de diseño</a></li>
+        <li><a href="#sola">Cómo se sostiene sola</a></li>
+        <li><a href="#limites">Limitaciones y fe de erratas</a></li>
+      </ol>
+    </nav>
+
+    <section id="problema" class="vineta">
+      <h2 class="rotulo">1 · El problema</h2>
+      <p class="entrada">Una persona tenía una bolsa de boletos viejos (Baloto, Medellín, Meta, Boyacá) y una pregunta simple: <b>¿alguno ganó algo?</b> Responderla a mano fue más difícil de lo esperado.</p>
+      <ul class="puntos">
+        <li>Cada lotería publica sus resultados en un sitio distinto y con un formato distinto. Ninguna los ofrece como datos abiertos.</li>
+        <li>Ganar no es solo acertar el mayor. Hay <b>secos</b> (de 44 a 59 premios fijos por sorteo) y <b>aproximaciones</b>: tres, dos o una cifra del mayor, con o sin serie. Casi nadie las revisa.</li>
+        <li>Los premios <b>vencen en un año</b> (Ley 1393 de 2010, art. 12). El dinero que no se cobra se pierde.</li>
+      </ul>
+    </section>
+
+    <section id="piloto" class="vineta">
+      <h2 class="rotulo">2 · El piloto: 20 boletos reales</h2>
+      <p>Llegaron <b>80 fotos</b> por Telegram. Al comparar su huella digital (hash MD5) resultaron ser <b>20 boletos distintos</b>: 10 tiquetes de Baloto y Revancha, 7 fracciones de Medellín, 2 del Meta y 1 de Boyacá. Cada uno se leyó a ojo y se cruzó con el resultado oficial y con el plan de premios completo.</p>
+      <div class="cifras-grandes">
+        <div><b>20</b><span>boletos únicos</span></div>
+        <div><b>3</b><span>con premio</span></div>
+        <div><b>$21.650</b><span>por cobrar</span></div>
+        <div><b>0</b><span>de los 3 se veían a simple vista</span></div>
+      </div>
+      <figure class="grafica">
+        <figcaption>Lo apostado frente a lo recuperado en el piloto <span class="nota">(precios impresos en cada boleto; calculado aquí)</span></figcaption>
+        <div id="g-piloto"></div>
+      </figure>
+      <table class="tabla">
+        <caption>Los tres premios encontrados</caption>
+        <thead><tr><th>Juego</th><th>Sorteo</th><th>Qué pasó</th><th>Premio</th></tr></thead>
+        <tbody>
+          <tr><td>Baloto</td><td>2648 · 25 abr 2026</td><td>3 aciertos sin Superbalota</td><td class="n">$7.450</td></tr>
+          <tr><td>Revancha</td><td>2671 · 17 jun 2026</td><td>2 aciertos + Superbalota, en la Revancha (no en el Baloto)</td><td class="n">$3.700</td></tr>
+          <tr><td>Lotería de Medellín</td><td>4850 · 28 ago 2026</td><td>Última cifra del mayor (8), sin serie</td><td class="n">$10.500</td></tr>
+        </tbody>
+      </table>
+      <p class="nota">Ninguno de los tres coincidía con el número del mayor. Los tres son premios "invisibles" si solo se mira el mayor.</p>
+    </section>
+
+    <section id="fuentes" class="vineta">
+      <h2 class="rotulo">3 · Fuentes</h2>
+      <table class="tabla">
+        <thead><tr><th>Juego</th><th>De dónde salen los datos</th><th>Tipo</th><th>robots.txt</th></tr></thead>
+        <tbody>
+          <tr><td>Baloto y Revancha</td><td><a href="https://www.baloto.com/resultados">baloto.com</a>, una página por sorteo con la tabla de ganadores y el valor por categoría</td><td>Oficial</td><td>Permitido</td></tr>
+          <tr><td>Lotería de Medellín</td><td><a href="https://loteriademedellin.com.co/historico-de-resultados/">Histórico oficial</a>: mayor y 44 secos por sorteo. <a href="https://loteriademedellin.com.co/institucional/plan-de-premios/">Plan de premios</a> de 2 y 3 fracciones</td><td>Oficial</td><td>Permitido</td></tr>
+          <tr><td>Lotería de Boyacá</td><td><a href="https://loteriadeboyaca.gov.co/resultados/">Resultados por fecha</a>: mayor y 59 secos. <a href="https://loteriadeboyaca.gov.co/como-jugar/plan-de-premios/">Plan de premios</a></td><td>Oficial</td><td>Permitido</td></tr>
+          <tr><td>Lotería del Meta</td><td>El sitio oficial pide una verificación anti-robots. En el piloto se usaron dos fuentes secundarias que coincidían</td><td>Secundaria</td><td>No aplica: no se evade</td></tr>
+        </tbody>
+      </table>
+      <p class="nota">Regla del proyecto: primero la fuente oficial. Nunca se evaden CAPTCHAs ni protecciones anti-robots. Una consulta por sorteo, con pausa de un segundo.</p>
+    </section>
+
+    <section id="codigo" class="vineta">
+      <h2 class="rotulo">4 · El hallazgo del código de barras</h2>
+      <p>Al ampliar las fotos apareció un patrón. El número impreso bajo el código de barras de los billetes de Medellín y Boyacá <b>trae todo lo necesario para revisar el billete</b>. Se comprobó en 3 billetes reales:</p>
+      <figure class="anatomia" aria-label="Partes del código: 9, lotería 016, sorteo 0004850, número 1048, serie 367, fracción 02">
+        <div class="seg"><b>9</b><span>prefijo</span></div>
+        <div class="seg rojo"><b>016</b><span>lotería</span></div>
+        <div class="seg"><b>0004850</b><span>sorteo</span></div>
+        <div class="seg oro"><b>1048</b><span>número</span></div>
+        <div class="seg cian"><b>367</b><span>serie</span></div>
+        <div class="seg"><b>02</b><span>fracción</span></div>
+      </figure>
+      <table class="tabla">
+        <thead><tr><th>Billete</th><th>Número bajo el código</th><th>Lectura</th></tr></thead>
+        <tbody>
+          <tr><td>Medellín</td><td class="mono">9 016 0004831 8057 160 02</td><td>sorteo 4831 · 8057 · serie 160 · fracción 2</td></tr>
+          <tr><td>Medellín</td><td class="mono">9 016 0004851 3785 294 01</td><td>sorteo 4851 · 3785 · serie 294 · fracción 1</td></tr>
+          <tr><td>Boyacá</td><td class="mono">9 004 0004616 1675 185 02</td><td>sorteo 4616 · 1675 · serie 185 · fracción 2</td></tr>
+        </tbody>
+      </table>
+      <h3 class="sub">¿Y leerlo desde la foto?</h3>
+      <p>Se probó con <a href="https://github.com/zxing-js/library">ZXing</a> sobre las fotos originales (1280 × 960 px), completas y recortadas por franjas ampliadas al doble. <b>No funcionó</b>. En una foto tomada de lejos, el código de barras ocupa unos 250 px para 20 dígitos: no hay resolución suficiente. Peor aún, el lector devolvió una lectura <b>falsa e idéntica</b> en los tres billetes (formato RSS-14).</p>
+      <p>De ahí salieron tres decisiones:</p>
+      <ol class="puntos">
+        <li>La cámara se usa <b>en vivo y de cerca</b>, no sobre una foto ya tomada.</li>
+        <li>Solo se acepta una lectura con la estructura exacta de 20 dígitos que empieza por 9. Las lecturas falsas se descartan solas.</li>
+        <li>La forma principal de consulta es <b>escribir los 20 números</b>, que están impresos en texto: no falla nunca.</li>
+      </ol>
+      <p class="nota">El código no dice <i>de cuántas</i> fracciones es el billete (Medellín vendió en 2026 billetes de 2 y de 3). Por eso el resultado pregunta ese dato con un clic.</p>
+    </section>
+
+    <section id="analisis" class="vineta">
+      <h2 class="rotulo">5 · Análisis</h2>
+      <p class="estado-proceso" id="estado-proceso">Calculando con los datos del último año…</p>
+
+      <figure class="grafica">
+        <figcaption>Lotería de Medellín: cuántos premios hay de cada tipo en un sorteo <span class="nota">(plan de premios oficial, escala logarítmica)</span></figcaption>
+        <div id="g-plan"></div>
+        <p class="nota">Hay un mayor y 444.609 premios por la última cifra. La mayoría de los boletos ganadores son de esa franja, la que nadie revisa.</p>
+      </figure>
+
+      <figure class="grafica">
+        <figcaption>Baloto: probabilidad de acertar k de los 5 números <span class="nota">(combinatoria, calculado aquí)</span></figcaption>
+        <div id="g-prob"></div>
+      </figure>
+
+      <figure class="grafica">
+        <figcaption>¿La fila «0 + SB» de la tabla oficial incluye a quien acierta 1 número + Superbalota? <span class="nota">(ganadores reales de cada sorteo, calculado aquí)</span></figcaption>
+        <div id="g-sb"></div>
+        <p class="nota" id="t-sb"></p>
+      </figure>
+
+      <figure class="grafica">
+        <figcaption>Premio real por categoría en cada sorteo de Baloto: el valor cambia porque se reparte entre los ganadores <span class="nota">(mediana y rango del último año)</span></figcaption>
+        <div id="g-categorias"></div>
+      </figure>
+    </section>
+
+    <section id="diseno" class="vineta">
+      <h2 class="rotulo">6 · Decisiones de diseño</h2>
+      <div class="dos">
+        <div>
+          <h3 class="sub">Sin IA, a propósito</h3>
+          <p>Un modelo de visión podría "leer" la foto, pero cuesta dinero o una GPU, falla sin avisar y no se puede auditar. Revisar un boleto es aritmética: comparar cifras con una tabla. Todo el motor son funciones puras con pruebas sobre los casos reales del piloto.</p>
+          <h3 class="sub">El boleto es dinero</h3>
+          <p>Un billete es un documento al portador: lo cobra quien lo tenga. Por eso nada sale del teléfono. No hay servidor, no se suben fotos y la billetera vive en el navegador (localStorage), con exportar e importar.</p>
+          <h3 class="sub">Responder primero, explicar después</h3>
+          <p>La pantalla abre con un ejemplo real resuelto. El veredicto es una onomatopeya de cómic (<i>¡Cayó!</i> / <i>No cayó</i>) y debajo están el valor neto, la categoría, la fecha límite con un medidor de días y dónde cobrar.</p>
+        </div>
+        <div>
+          <h3 class="sub">Versiones</h3>
+          <figure class="versiones">
+            <div class="v v1"><span>v1 · piloto</span><i></i><i></i><i></i><p>Lista de tarjetas con foto y tabla. Servía para un informe, no para revisar boletos nuevos.</p></div>
+            <div class="v v2"><span>v2 · ¿Cayó?</span><b>¡CAYÓ!</b><p>Consulta y veredicto lado a lado, billetera, buscador y últimos sorteos.</p></div>
+          </figure>
+          <h3 class="sub">Paleta</h3>
+          <div class="paleta" aria-label="Paleta: papel, tinta, rojo, cian, oro, noche">
+            <span style="--c:#F9F9F7">papel</span><span style="--c:#0A090A;color:#fff">tinta</span><span style="--c:#CB433E;color:#fff">rojo</span>
+            <span style="--c:#438FB8;color:#fff">cian</span><span style="--c:#E9B73A">oro</span><span style="--c:#141C33;color:#fff">noche</span>
+          </div>
+          <p class="nota">El oro es el color del acierto. El rojo es la acción y la alerta de vencimiento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sola" class="vineta">
+      <h2 class="rotulo">7 · Cómo se sostiene sola</h2>
+      <figure class="flujo" aria-label="Flujo: GitHub Actions cada noche, recolector Python, JSON en el repositorio, GitHub Pages, navegador">
+        <div><b>GitHub Actions</b><span>cada noche, 05:00 UTC</span></div>
+        <div><b>Recolector</b><span>Python, solo biblioteca estándar</span></div>
+        <div><b>datos/*.json</b><span>commit automático si hay sorteos nuevos</span></div>
+        <div><b>GitHub Pages</b><span>página estática</span></div>
+        <div><b>Tu navegador</b><span>revisa y guarda en local</span></div>
+      </figure>
+      <ul class="puntos">
+        <li><b>Costo $0:</b> no hay servidor, base de datos, claves ni dependencias que pagar o renovar.</li>
+        <li><b>Tolerante a fallas:</b> si una fuente se cae, las demás se actualizan igual, y la página muestra el estado de cada fuente con un punto verde o rojo.</li>
+        <li><b>Agregar una lotería</b> es escribir su recolector y su plan en <code>datos/planes.json</code>. Es una tarea pequeña e independiente, ideal para quien contribuye por primera vez.</li>
+        <li>Los resultados quedan como <b>datos abiertos</b> en el repositorio, con historial en git.</li>
+      </ul>
+    </section>
+
+    <section id="limites" class="vineta">
+      <h2 class="rotulo">8 · Limitaciones y fe de erratas</h2>
+      <ul class="puntos">
+        <li>Por ahora soporta Baloto, Revancha, Medellín y Boyacá. El Meta no se puede automatizar sin evadir su protección anti-robots, y eso no se hace.</li>
+        <li>Los valores de las loterías son los <b>netos del plan vigente</b>. Si una lotería cambia su plan, hay que actualizar <code>planes.json</code>.</li>
+        <li>Los valores de los secos de Medellín se asignan por el <b>orden</b> en que la plantilla oficial los publica (2 de $1.000 M, 2 de $700 M… 15 de $10 M). Si el conteo no da 44, el valor queda en blanco en lugar de inventarse.</li>
+        <li>La fila «0 + SB» de Baloto se interpreta como "0 o 1 acierto + Superbalota" (ver la gráfica de la sección 5). Es una inferencia a partir de los datos, no una regla publicada.</li>
+        <li>Los <b>sorteos extraordinarios</b> (por ejemplo, el sorteo 18 de Boyacá del 15 de julio de 2026) tienen otro plan de premios y por ahora se omiten.</li>
+        <li>La herramienta no reemplaza la verificación oficial: siempre enlaza la fuente.</li>
+      </ul>
+      <h3 class="sub">Fe de erratas</h3>
+      <ul class="puntos">
+        <li><b>Plan de Boyacá, tabla de 2 fracciones:</b> en la misma tabla, "tres primeras cifras, diferente serie" aparece con $18.072 bruto / $15.000 neto por fracción, y "tres últimas cifras, diferente serie" con $36.145 / $30.000. Ambas tienen el mismo valor por billete ($72.289). La primera fila parece copiada de la tabla de 4 fracciones. La herramienta usa el neto por billete y lo divide entre las fracciones, así que no hereda el error.</li>
+        <li><b>Informe del piloto:</b> decía "56 secos revisados" en Boyacá. Al automatizar se contaron <b>59</b>. El resultado no cambia: el billete no estaba entre ellos.</li>
+        <li><b>Medellín 4829</b> se jugó un sábado (4 abr 2026) y no un viernes, por Semana Santa. El cronograma oficial lo confirma.</li>
+      </ul>
+    </section>
+
+    <p class="volver"><a class="boton" href="../">Volver a revisar mis boletos</a></p>
+  </main>
+
+  <footer class="pie">
+    <p><a href="https://github.com/ale0009">Mario Puerta «ale0009»</a> × <a href="https://www.linkedin.com/in/davidalexanderrinconcorredorkuronoma/">David Rincón «Kuronoma»</a> · <a href="#">Portafolio</a> · <a href="../">¿Cayó?</a></p>
+  </footer>
+</body>
+</html>

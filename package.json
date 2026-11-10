@@ -1,0 +1,11 @@
+{
+  "name": "cayo-loterias",
+  "version": "1.0.0",
+  "description": "¿Cayó? Revisa boletos de lotería y Baloto de Colombia con el código de barras o a mano, contra resultados oficiales que se actualizan solos cada noche. Página estática sin build ni IA.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Mario Alejandro Puerta Alarcón",
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" }
+}

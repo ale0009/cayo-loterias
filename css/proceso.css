@@ -1,0 +1,55 @@
+/* Página /proceso/: lectura larga en viñetas. */
+.lectura { max-width: 900px; margin: 0 auto; padding: 0.6rem 16px 2rem; display: grid; gap: 1.2rem; }
+.lectura section { scroll-margin-top: 1rem; }
+.entrada { font-size: 1.12rem; }
+.puntos { padding-left: 1.2rem; display: grid; gap: 0.4rem; margin: 0.4rem 0 0.8rem; }
+.sub { font-size: 1.35rem; margin: 1rem 0 0.4rem; color: var(--rojo-texto); }
+.nota { font-size: 0.86rem; color: var(--tinta-suave); }
+.indice ol { margin: 0; padding-left: 1.3rem; columns: 2 220px; column-gap: 2rem; }
+.indice li { margin: 0.15rem 0; font-weight: 700; }
+.cifras-grandes { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.6rem; margin: 0.9rem 0; }
+.cifras-grandes div { border: 2px solid var(--tinta); padding: 0.6rem 0.7rem; background: var(--papel-2); box-shadow: 3px 3px 0 var(--tinta); }
+.cifras-grandes b { display: block; font: 600 1.8rem var(--fuente-num); }
+.cifras-grandes span { font-size: 0.85rem; color: var(--tinta-suave); }
+.tabla { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.92rem; display: block; overflow-x: auto; }
+.tabla caption { text-align: left; font-weight: 700; margin-bottom: 0.3rem; }
+.tabla th, .tabla td { border: 2px solid var(--tinta); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+.tabla th { background: var(--tinta); color: var(--papel); }
+.tabla .n, .mono { font-family: var(--fuente-num); white-space: nowrap; }
+.grafica { margin: 1rem 0 1.2rem; }
+.grafica figcaption { font-weight: 700; margin-bottom: 0.5rem; }
+.grafica svg { width: 100%; height: auto; display: block; overflow: visible; }
+.grafica .eje { stroke: var(--tinta); stroke-width: 2; }
+.grafica .reja { stroke: var(--trama); stroke-width: 1; }
+.grafica .barra { fill: var(--cian); stroke: var(--tinta); stroke-width: 2; }
+.grafica .barra.oro { fill: var(--oro); }
+.grafica .barra.rojo { fill: var(--rojo); }
+.grafica text { fill: var(--tinta); font: 12px var(--fuente); }
+.grafica text.num { font: 600 12px var(--fuente-num); }
+.grafica .linea-ref { stroke: var(--rojo); stroke-width: 2.5; stroke-dasharray: 6 4; }
+.grafica .linea-ref.cian { stroke: var(--cian); }
+.grafica .punto-dato { fill: var(--tinta); opacity: 0.45; }
+.grafica .rango { stroke: var(--tinta); stroke-width: 2; }
+.grafica .mediana { fill: var(--oro); stroke: var(--tinta); stroke-width: 2; }
+.anatomia { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.8rem 0; }
+.anatomia .seg { border: 2px solid var(--tinta); padding: 0.4rem 0.6rem; text-align: center; background: var(--papel-2); }
+.anatomia .seg b { display: block; font: 600 1.25rem var(--fuente-num); letter-spacing: 0.05em; }
+.anatomia .seg span { font-size: 0.78rem; color: var(--tinta-suave); }
+.anatomia .rojo { background: var(--rojo-tenue); } .anatomia .oro { background: var(--oro); color: var(--oro-tinta); }
+.anatomia .oro span { color: var(--oro-tinta); } .anatomia .cian { background: var(--cian-tenue); }
+.dos { display: grid; gap: 1.2rem; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 760px) { .dos { grid-template-columns: 1.2fr 1fr; } }
+.versiones { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; margin: 0; }
+.versiones .v { border: 2px solid var(--tinta); padding: 0.5rem; min-height: 150px; background: var(--papel-2); position: relative; }
+.versiones .v span { font: 700 0.75rem var(--fuente-num); text-transform: uppercase; display: block; margin-bottom: 0.4rem; }
+.versiones .v1 i { display: block; height: 14px; margin: 5px 0; border: 2px solid var(--tinta-suave); background: var(--papel); }
+.versiones .v2 b { font: 400 2rem var(--fuente-titulo); color: var(--rojo-texto); text-shadow: 2px 2px 0 var(--oro); display: block; transform: rotate(-3deg); }
+.versiones p { font-size: 0.8rem; margin: 0.4rem 0 0; }
+.paleta { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.3rem; margin-top: 0.4rem; }
+.paleta span { background: var(--c); border: 2px solid var(--tinta); padding: 0.9rem 0.4rem 0.3rem; font: 600 0.75rem var(--fuente-num); color: #0A090A; }
+.flujo { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.5rem; margin: 0.6rem 0 1rem; counter-reset: paso; }
+.flujo div { border: 2px solid var(--tinta); padding: 0.55rem 0.6rem; background: var(--papel-2); position: relative; counter-increment: paso; }
+.flujo div::before { content: counter(paso); position: absolute; top: -0.7rem; left: -0.5rem; background: var(--rojo); color: #fff; font: 700 0.8rem var(--fuente-num); width: 1.4rem; height: 1.4rem; display: grid; place-items: center; border: 2px solid var(--tinta); }
+.flujo b { display: block; } .flujo span { font-size: 0.82rem; color: var(--tinta-suave); }
+.estado-proceso { font: 400 0.85rem var(--fuente-num); color: var(--tinta-suave); }
+.volver { text-align: center; margin: 0.5rem 0 0; }

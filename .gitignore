@@ -1,0 +1,11 @@
+# Material de trabajo: no se publica.
+fuente/
+HANDOFF.md
+node_modules/
+__pycache__/
+.DS_Store
+*.log
+# Nunca se suben fotos de boletos: son documentos al portador.
+*.jpg
+*.jpeg
+*.heic
