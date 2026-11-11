@@ -10,7 +10,7 @@
 - **Wallet:** tickets are saved in your browser. Tickets for future draws are checked automatically when results arrive. Export and import supported.
 - **When did my number hit?:** search a 4-digit number across every jackpot and seco of the last year.
 - **11 games supported:** Baloto, Revancha, and the Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda and Extra de Colombia lotteries, including each plan's special categories.
-- **Not yet:** Bogotá and Meta use anti-bot protection (never bypassed); Cundinamarca and Cruz Roja only publish scanned records.
+- **Not yet:** Bogotá and Meta use anti-bot protection (never bypassed); Cundinamarca, Manizales and Cruz Roja only publish scanned records or images.
 
 ## Self-sustaining by design
 No server, no database, no API keys, no AI. A Python collector (standard library only) runs nightly on GitHub Actions. It fetches new draws from the official sources and commits them as JSON in `datos/`. The page is static (GitHub Pages) and does all the math in the browser.

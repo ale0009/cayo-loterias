@@ -10,7 +10,7 @@
 - **Billetera:** guarda tus boletos en el navegador. Los de sorteos futuros se revisan solos cuando llegan los resultados. Se puede exportar e importar.
 - **¿Cuándo cayó mi número?:** busca un número de 4 cifras en todos los mayores y secos del último año.
 - **Soporta 11 juegos:** Baloto, Revancha y las loterías de Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda y el Extra de Colombia. Incluye las categorías propias de cada plan: anterior y posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro y «gana fijo».
-- **Fuera, por ahora:** Bogotá y Meta tienen protección anti-robots, que no se evade. Cundinamarca y Cruz Roja solo publican actas escaneadas: leerlas exigiría OCR, y un error de lectura daría un «No cayó» falso.
+- **Fuera, por ahora:** Bogotá y Meta tienen protección anti-robots, que no se evade. Cundinamarca, Manizales y Cruz Roja solo publican actas o imágenes escaneadas: leerlas exigiría OCR, y un error de lectura daría un «No cayó» falso.
 
 ## Cómo se sostiene sola
 No hay servidor, base de datos, claves ni IA. Un recolector en Python (solo biblioteca estándar) corre cada noche en GitHub Actions, trae los sorteos nuevos de las fuentes oficiales y los guarda como JSON en `datos/`. La página es estática (GitHub Pages) y hace todo el cálculo en el navegador.
