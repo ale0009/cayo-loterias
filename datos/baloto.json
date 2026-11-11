@@ -2,6 +2,936 @@
  "juego": "Baloto y Revancha",
  "fuente": "https://www.baloto.com/resultados",
  "sorteos": {
+  "2563": {
+   "fecha": "2025-10-08",
+   "baloto": {
+    "numeros": [
+     3,
+     10,
+     30,
+     32,
+     38
+    ],
+    "sb": 8,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 4,
+      "por_ganador": 1625150
+     },
+     "4": {
+      "ganadores": 42,
+      "por_ganador": 169300
+     },
+     "3+SB": {
+      "ganadores": 125,
+      "por_ganador": 49300
+     },
+     "3": {
+      "ganadores": 1569,
+      "por_ganador": 12800
+     },
+     "2+SB": {
+      "ganadores": 1632,
+      "por_ganador": 9850
+     },
+     "0+SB": {
+      "ganadores": 18253,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$23.700 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     5,
+     6,
+     25,
+     26,
+     32
+    ],
+    "sb": 14,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 1,
+      "por_ganador": 3015050
+     },
+     "4": {
+      "ganadores": 22,
+      "por_ganador": 149900
+     },
+     "3+SB": {
+      "ganadores": 66,
+      "por_ganador": 43300
+     },
+     "3": {
+      "ganadores": 1385,
+      "por_ganador": 6750
+     },
+     "2+SB": {
+      "ganadores": 1183,
+      "por_ganador": 6300
+     },
+     "0+SB": {
+      "ganadores": 12259,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$4.800 MILLONES"
+   }
+  },
+  "2564": {
+   "fecha": "2025-10-11",
+   "baloto": {
+    "numeros": [
+     10,
+     13,
+     14,
+     28,
+     38
+    ],
+    "sb": 12,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 2,
+      "por_ganador": 4385100
+     },
+     "4": {
+      "ganadores": 34,
+      "por_ganador": 282150
+     },
+     "3+SB": {
+      "ganadores": 121,
+      "por_ganador": 68700
+     },
+     "3": {
+      "ganadores": 1848,
+      "por_ganador": 14700
+     },
+     "2+SB": {
+      "ganadores": 1989,
+      "por_ganador": 10900
+     },
+     "0+SB": {
+      "ganadores": 23159,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$24.100 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     1,
+     6,
+     15,
+     25,
+     38
+    ],
+    "sb": 14,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 3,
+      "por_ganador": 1356400
+     },
+     "4": {
+      "ganadores": 30,
+      "por_ganador": 148350
+     },
+     "3+SB": {
+      "ganadores": 134,
+      "por_ganador": 28800
+     },
+     "3": {
+      "ganadores": 1826,
+      "por_ganador": 6900
+     },
+     "2+SB": {
+      "ganadores": 1575,
+      "por_ganador": 6400
+     },
+     "0+SB": {
+      "ganadores": 17033,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$4.900 MILLONES"
+   }
+  },
+  "2565": {
+   "fecha": "2025-10-13",
+   "baloto": {
+    "numeros": [
+     11,
+     17,
+     18,
+     20,
+     34
+    ],
+    "sb": 7,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 2,
+      "por_ganador": 914450
+     },
+     "4": {
+      "ganadores": 10,
+      "por_ganador": 200050
+     },
+     "3+SB": {
+      "ganadores": 49,
+      "por_ganador": 35400
+     },
+     "3": {
+      "ganadores": 420,
+      "por_ganador": 13450
+     },
+     "2+SB": {
+      "ganadores": 534,
+      "por_ganador": 8450
+     },
+     "0+SB": {
+      "ganadores": 5697,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$24.500 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     9,
+     21,
+     27,
+     29,
+     41
+    ],
+    "sb": 13,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 1,
+      "por_ganador": 838750
+     },
+     "4": {
+      "ganadores": 16,
+      "por_ganador": 57350
+     },
+     "3+SB": {
+      "ganadores": 48,
+      "por_ganador": 16550
+     },
+     "3": {
+      "ganadores": 607,
+      "por_ganador": 4250
+     },
+     "2+SB": {
+      "ganadores": 588,
+      "por_ganador": 3500
+     },
+     "0+SB": {
+      "ganadores": 4493,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.000 MILLONES"
+   }
+  },
+  "2566": {
+   "fecha": "2025-10-15",
+   "baloto": {
+    "numeros": [
+     2,
+     21,
+     25,
+     37,
+     43
+    ],
+    "sb": 9,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 10,
+      "por_ganador": 660700
+     },
+     "4": {
+      "ganadores": 97,
+      "por_ganador": 74500
+     },
+     "3+SB": {
+      "ganadores": 191,
+      "por_ganador": 32800
+     },
+     "3": {
+      "ganadores": 2364,
+      "por_ganador": 8650
+     },
+     "2+SB": {
+      "ganadores": 1943,
+      "por_ganador": 8400
+     },
+     "0+SB": {
+      "ganadores": 18095,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$25.000 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     4,
+     18,
+     37,
+     38,
+     40
+    ],
+    "sb": 15,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 4,
+      "por_ganador": 765250
+     },
+     "4": {
+      "ganadores": 78,
+      "por_ganador": 42900
+     },
+     "3+SB": {
+      "ganadores": 129,
+      "por_ganador": 22500
+     },
+     "3": {
+      "ganadores": 2039,
+      "por_ganador": 4650
+     },
+     "2+SB": {
+      "ganadores": 1416,
+      "por_ganador": 5350
+     },
+     "0+SB": {
+      "ganadores": 13546,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.100 MILLONES"
+   }
+  },
+  "2567": {
+   "fecha": "2025-10-18",
+   "baloto": {
+    "numeros": [
+     27,
+     31,
+     33,
+     34,
+     41
+    ],
+    "sb": 5,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4": {
+      "ganadores": 43,
+      "por_ganador": 236150
+     },
+     "3+SB": {
+      "ganadores": 115,
+      "por_ganador": 76550
+     },
+     "3": {
+      "ganadores": 2144,
+      "por_ganador": 13400
+     },
+     "2+SB": {
+      "ganadores": 1807,
+      "por_ganador": 12700
+     },
+     "0+SB": {
+      "ganadores": 21516,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$25.400 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     6,
+     14,
+     26,
+     40,
+     41
+    ],
+    "sb": 7,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 2,
+      "por_ganador": 2154650
+     },
+     "4": {
+      "ganadores": 47,
+      "por_ganador": 100300
+     },
+     "3+SB": {
+      "ganadores": 146,
+      "por_ganador": 28000
+     },
+     "3": {
+      "ganadores": 1637,
+      "por_ganador": 8150
+     },
+     "2+SB": {
+      "ganadores": 1987,
+      "por_ganador": 5350
+     },
+     "0+SB": {
+      "ganadores": 27161,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.200 MILLONES"
+   }
+  },
+  "2568": {
+   "fecha": "2025-10-20",
+   "baloto": {
+    "numeros": [
+     9,
+     11,
+     15,
+     23,
+     29
+    ],
+    "sb": 4,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 2,
+      "por_ganador": 1461700
+     },
+     "4": {
+      "ganadores": 31,
+      "por_ganador": 103150
+     },
+     "3+SB": {
+      "ganadores": 61,
+      "por_ganador": 45450
+     },
+     "3": {
+      "ganadores": 1137,
+      "por_ganador": 7950
+     },
+     "2+SB": {
+      "ganadores": 733,
+      "por_ganador": 9850
+     },
+     "0+SB": {
+      "ganadores": 5728,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$25.800 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     6,
+     8,
+     12,
+     19,
+     36
+    ],
+    "sb": 16,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 6,
+      "por_ganador": 225000
+     },
+     "4": {
+      "ganadores": 46,
+      "por_ganador": 32100
+     },
+     "3+SB": {
+      "ganadores": 112,
+      "por_ganador": 11450
+     },
+     "3": {
+      "ganadores": 1256,
+      "por_ganador": 3350
+     },
+     "2+SB": {
+      "ganadores": 844,
+      "por_ganador": 3950
+     },
+     "0+SB": {
+      "ganadores": 6307,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.400 MILLONES"
+   }
+  },
+  "2569": {
+   "fecha": "2025-10-22",
+   "baloto": {
+    "numeros": [
+     3,
+     5,
+     14,
+     19,
+     26
+    ],
+    "sb": 6,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 1,
+      "por_ganador": 32236750
+     },
+     "4+SB": {
+      "ganadores": 8,
+      "por_ganador": 807600
+     },
+     "4": {
+      "ganadores": 92,
+      "por_ganador": 76800
+     },
+     "3+SB": {
+      "ganadores": 162,
+      "por_ganador": 37800
+     },
+     "3": {
+      "ganadores": 2489,
+      "por_ganador": 8050
+     },
+     "2+SB": {
+      "ganadores": 1664,
+      "por_ganador": 9600
+     },
+     "0+SB": {
+      "ganadores": 13805,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$26.200 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     1,
+     21,
+     23,
+     30,
+     42
+    ],
+    "sb": 16,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 1,
+      "por_ganador": 14952050
+     },
+     "4+SB": {
+      "ganadores": 9,
+      "por_ganador": 332950
+     },
+     "4": {
+      "ganadores": 59,
+      "por_ganador": 55550
+     },
+     "3+SB": {
+      "ganadores": 106,
+      "por_ganador": 26800
+     },
+     "3": {
+      "ganadores": 1611,
+      "por_ganador": 5750
+     },
+     "2+SB": {
+      "ganadores": 1517,
+      "por_ganador": 4900
+     },
+     "0+SB": {
+      "ganadores": 13875,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.600 MILLONES"
+   }
+  },
+  "2570": {
+   "fecha": "2025-10-25",
+   "baloto": {
+    "numeros": [
+     17,
+     18,
+     21,
+     32,
+     37
+    ],
+    "sb": 14,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 7,
+      "por_ganador": 1253000
+     },
+     "4": {
+      "ganadores": 63,
+      "por_ganador": 152300
+     },
+     "3+SB": {
+      "ganadores": 138,
+      "por_ganador": 60250
+     },
+     "3": {
+      "ganadores": 2393,
+      "por_ganador": 11350
+     },
+     "2+SB": {
+      "ganadores": 1968,
+      "por_ganador": 11000
+     },
+     "0+SB": {
+      "ganadores": 18997,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$26.600 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     1,
+     14,
+     36,
+     37,
+     39
+    ],
+    "sb": 13,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4": {
+      "ganadores": 13,
+      "por_ganador": 342700
+     },
+     "3+SB": {
+      "ganadores": 57,
+      "por_ganador": 67750
+     },
+     "3": {
+      "ganadores": 839,
+      "por_ganador": 15000
+     },
+     "2+SB": {
+      "ganadores": 1140,
+      "por_ganador": 8850
+     },
+     "0+SB": {
+      "ganadores": 21740,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$5.800 MILLONES"
+   }
+  },
+  "2571": {
+   "fecha": "2025-10-27",
+   "baloto": {
+    "numeros": [
+     3,
+     9,
+     32,
+     35,
+     36
+    ],
+    "sb": 10,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4": {
+      "ganadores": 15,
+      "por_ganador": 228150
+     },
+     "3+SB": {
+      "ganadores": 64,
+      "por_ganador": 46350
+     },
+     "3": {
+      "ganadores": 719,
+      "por_ganador": 13450
+     },
+     "2+SB": {
+      "ganadores": 657,
+      "por_ganador": 11750
+     },
+     "0+SB": {
+      "ganadores": 7598,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$27.000 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     5,
+     18,
+     22,
+     24,
+     31
+    ],
+    "sb": 7,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 1,
+      "por_ganador": 1445300
+     },
+     "4": {
+      "ganadores": 38,
+      "por_ganador": 41600
+     },
+     "3+SB": {
+      "ganadores": 103,
+      "por_ganador": 13300
+     },
+     "3": {
+      "ganadores": 1218,
+      "por_ganador": 3650
+     },
+     "2+SB": {
+      "ganadores": 1025,
+      "por_ganador": 3500
+     },
+     "0+SB": {
+      "ganadores": 8933,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$6.000 MILLONES"
+   }
+  },
+  "2572": {
+   "fecha": "2025-10-29",
+   "baloto": {
+    "numeros": [
+     2,
+     14,
+     22,
+     25,
+     29
+    ],
+    "sb": 13,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 7,
+      "por_ganador": 895700
+     },
+     "4": {
+      "ganadores": 55,
+      "por_ganador": 124700
+     },
+     "3+SB": {
+      "ganadores": 121,
+      "por_ganador": 49100
+     },
+     "3": {
+      "ganadores": 1781,
+      "por_ganador": 10900
+     },
+     "2+SB": {
+      "ganadores": 1446,
+      "por_ganador": 10700
+     },
+     "0+SB": {
+      "ganadores": 15984,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$27.400 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     7,
+     9,
+     13,
+     21,
+     42
+    ],
+    "sb": 3,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 7,
+      "por_ganador": 416000
+     },
+     "4": {
+      "ganadores": 99,
+      "por_ganador": 32150
+     },
+     "3+SB": {
+      "ganadores": 152,
+      "por_ganador": 18150
+     },
+     "3": {
+      "ganadores": 2447,
+      "por_ganador": 3700
+     },
+     "2+SB": {
+      "ganadores": 1596,
+      "por_ganador": 4500
+     },
+     "0+SB": {
+      "ganadores": 11668,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$6.200 MILLONES"
+   }
+  },
   "2573": {
    "fecha": "2025-11-01",
    "baloto": {
