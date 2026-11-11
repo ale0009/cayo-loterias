@@ -9,11 +9,11 @@
 - **Clear verdict:** net prize per fraction, prize category, claim deadline with a countdown, and where to claim.
 - **Wallet:** tickets are saved in your browser. Tickets for future draws are checked automatically when results arrive. Export and import supported.
 - **When did my number hit?:** search a 4-digit number across every jackpot and seco of the last year.
-- **11 games supported:** Baloto, Revancha, and the Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda and Extra de Colombia lotteries, including each plan's special categories.
-- **Not yet:** Bogotá and Meta use anti-bot protection (never bypassed); Cundinamarca, Manizales and Cruz Roja only publish scanned records or images.
+- **13 games supported:** Baloto, Revancha, and the Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda, Cundinamarca, Manizales and Extra de Colombia lotteries. Cundinamarca and Manizales only publish images and are read with Tesseract OCR (majority voting + checks), flagged in the UI.
+- **Not yet:** Bogotá and Meta use anti-bot protection (never bypassed); Cruz Roja only publishes photos of records, with gaps.
 
 ## Self-sustaining by design
-No server, no database, no API keys, no AI. A Python collector (standard library only) runs nightly on GitHub Actions. It fetches new draws from the official sources and commits them as JSON in `datos/`. The page is static (GitHub Pages) and does all the math in the browser.
+No server, no database, no API keys; no AI makes decisions. The only recognition step is the open-source Tesseract OCR, for the two lotteries that publish images. A Python collector (standard library only) runs nightly on GitHub Actions. It fetches new draws from the official sources and commits them as JSON in `datos/`. The page is static (GitHub Pages) and does all the math in the browser.
 
 ## Local use
 ```bash

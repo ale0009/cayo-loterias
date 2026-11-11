@@ -216,3 +216,5 @@ input::placeholder { color: var(--tinta-suave); opacity: 0.55; }
 .fracc .meta { font-size: 0.85rem; color: var(--tinta-suave); }
 .aviso-fuente { background: var(--rojo-tenue); padding: 0.4rem 0.6rem 0.4rem 1.6rem !important; border-left: 4px solid var(--rojo); }
 .aviso-fuente::before { left: 0.5rem !important; }
+.alerta-datos { max-width: 1248px; margin: 0.4rem auto 0; padding: 0.6rem 0.9rem; border: var(--borde); background: var(--rojo-tenue); font-weight: 700; box-shadow: 3px 3px 0 var(--tinta); }
+@media (max-width: 1280px) { .alerta-datos { margin: 0.4rem 16px 0; } }

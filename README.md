@@ -9,11 +9,11 @@
 - **Veredicto claro:** ¡Cayó! o No cayó, el valor neto por fracción, la categoría, la fecha límite para cobrar con un medidor de días y dónde cobrarlo.
 - **Billetera:** guarda tus boletos en el navegador. Los de sorteos futuros se revisan solos cuando llegan los resultados. Se puede exportar e importar.
 - **¿Cuándo cayó mi número?:** busca un número de 4 cifras en todos los mayores y secos del último año.
-- **Soporta 11 juegos:** Baloto, Revancha y las loterías de Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda y el Extra de Colombia. Incluye las categorías propias de cada plan: anterior y posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro y «gana fijo».
-- **Fuera, por ahora:** Bogotá y Meta tienen protección anti-robots, que no se evade. Cundinamarca, Manizales y Cruz Roja solo publican actas o imágenes escaneadas: leerlas exigiría OCR, y un error de lectura daría un «No cayó» falso.
+- **Soporta 13 juegos:** Baloto, Revancha y las loterías de Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda, Cundinamarca, Manizales y el Extra de Colombia. Cundinamarca y Manizales solo publican imágenes: se leen con OCR (Tesseract) con voto y verificación, y la página lo avisa. Incluye las categorías propias de cada plan: anterior y posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro y «gana fijo».
+- **Fuera, por ahora:** Bogotá y Meta tienen protección anti-robots, que no se evade. Cruz Roja solo publica fotos de actas y con huecos.
 
 ## Cómo se sostiene sola
-No hay servidor, base de datos, claves ni IA. Un recolector en Python (solo biblioteca estándar) corre cada noche en GitHub Actions, trae los sorteos nuevos de las fuentes oficiales y los guarda como JSON en `datos/`. La página es estática (GitHub Pages) y hace todo el cálculo en el navegador.
+No hay servidor, base de datos ni claves, y la IA no decide nada. La única pieza de reconocimiento es el OCR libre Tesseract, solo para las dos loterías que publican imágenes. Un recolector en Python (solo biblioteca estándar) corre cada noche en GitHub Actions, trae los sorteos nuevos de las fuentes oficiales y los guarda como JSON en `datos/`. La página es estática (GitHub Pages) y hace todo el cálculo en el navegador.
 
 ```
 recolectores/actualizar.py   → datos/<juego>.json                    (cada noche)
@@ -27,6 +27,7 @@ js/motor.js                  → reglas de premios (funciones puras, con pruebas
 python3 -m http.server 8000         # abre http://localhost:8000
 node --test                         # pruebas del motor y las gráficas
 python3 recolectores/actualizar.py  # actualizar los datos a mano
+# Para Cundinamarca y Manizales: sudo dnf|apt install tesseract (+ español) poppler-utils; pip install pillow
 ```
 
 ## Agregar una lotería

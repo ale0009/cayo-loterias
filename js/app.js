@@ -158,11 +158,21 @@ function revisarBillete(b) {
   const ev = evaluar(ultimo);
   if (ev.estado === 'pendiente') {
     const ult = listaSorteos(D[lot])[0];
+    const ilegible = D.estado.ilegibles?.[lot]?.[String(b.sorteo)];
+    if (ilegible) {
+      $('#veredicto').innerHTML = '<span class="pend">Revísalo en la fuente</span>';
+      $('#detalle').innerHTML = `<p class="error">${esc(plan.nombre)} · sorteo ${esc(b.sorteo)}: la lotería solo lo publicó como imagen y no se pudo leer de forma confiable después de varios intentos. Para no darte un resultado dudoso, consúltalo en la <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">fuente oficial</a>.</p>`;
+      return;
+    }
     const futuro = Number(b.sorteo) > Number(ult.id);
     $('#veredicto').innerHTML = `<span class="pend">${futuro ? 'Aún no se juega' : 'Sin datos de ese sorteo'}</span>`;
+    const primero = listaSorteos(D[lot]).at(-1);
+    const hueco = !futuro && Number(b.sorteo) >= Number(primero.id);
     $('#detalle').innerHTML = `<p>${esc(plan.nombre)} · sorteo ${esc(b.sorteo)}. ${futuro
       ? `El último sorteo con resultados es el ${ult.id} (${fechaLarga(ult.fecha)}). Guárdalo en tu billetera y se revisará solo.`
-      : 'Ese sorteo es anterior al año de datos que guarda la herramienta (los premios vencen al año).'}</p>
+      : hueco
+        ? `Ese sorteo todavía no se ha podido leer de la fuente${plan.ocr ? ' (se publica como imagen y se reintenta cada noche)' : ''}. Guárdalo en tu billetera y se revisará solo; mientras tanto, consulta la <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">fuente oficial</a>.`
+        : 'Ese sorteo es anterior al año de datos que guarda la herramienta (los premios vencen al año).'}</p>
       <div class="acciones"><button class="boton-linea" id="guardar" type="button">Guardar en mi billetera</button></div>`;
     $('#guardar').onclick = guardarUltimo; return;
   }
@@ -185,6 +195,7 @@ function revisarBillete(b) {
     </dl>
     <ul class="datos-cobro">
       <li>${esc(plan.nombre)} · sorteo ${s.id} · ${fechaLarga(s.fecha)} · ${s.secos.length} secos revisados.</li>
+      ${plan.ocr ? `<li class="aviso-fuente"><b>Leído con OCR:</b> ${esc(plan.aviso_ocr)} <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">Ver resultados oficiales</a>.</li>` : ''}
       ${s.aviso ? `<li class="aviso-fuente"><b>Ojo:</b> ${esc(s.aviso)}. ${r.gano ? '' : 'Revisa el acta oficial antes de botar el billete.'}</li>` : ''}
       ${bloqueVence(s.fecha, r.gano)}
       ${r.gano ? `<li>${esc(plan.cobro)} Lleva el billete original, entero y legible: es un documento al portador.</li>` : ''}
@@ -324,6 +335,14 @@ function pintarUltimos() {
   $('#ultimos').innerHTML = `<div class="tarjeta"><h3>Baloto</h3><div class="meta">Sorteo ${bal.id} · ${fechaLarga(bal.fecha)}</div>${bolas(bal.baloto)}</div>
     <div class="tarjeta"><h3>Revancha</h3><div class="meta">Sorteo ${bal.id}</div>${bolas(bal.revancha)}</div>${lot}`;
   const est = D.estado;
+  // Aviso visible si los datos se quedaron viejos o alguna fuente está fallando (la página se vigila sola).
+  const horas = est.actualizado ? (Date.now() - new Date(est.actualizado)) / 36e5 : Infinity;
+  const caidas = Object.entries(est.fuentes || {}).filter(([k, v]) => !v.ok && (D.planes.loterias[k] || k === 'baloto'))
+    .map(([k]) => D.planes.loterias[k]?.nombre ?? 'Baloto');
+  const partes = [];
+  if (horas > 72) partes.push(`Los resultados no se actualizan desde hace ${Math.floor(horas / 24)} días.`);
+  if (caidas.length) partes.push(`Fuente con problemas: ${caidas.join(', ')}. Sus últimos sorteos pueden faltar; el aviso ya se registró automáticamente.`);
+  if (partes.length) { $('#alerta-datos').textContent = partes.join(' '); $('#alerta-datos').hidden = false; }
   const fuentes = Object.entries(est.fuentes || {}).map(([k, v]) => `<span><span class="punto ${v.ok ? '' : 'mal'}"></span>${k}</span>`).join(' · ');
   $('#estado-datos').innerHTML = `Datos actualizados: ${est.actualizado ? new Date(est.actualizado).toLocaleString('es-CO', { dateStyle: 'medium', timeStyle: 'short' }) : '—'} · ${fuentes}`;
 }

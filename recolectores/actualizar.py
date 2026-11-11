@@ -13,6 +13,7 @@ Uso:
 import datetime as dt
 import html
 import json
+import os
 import pathlib
 import re
 import sys
@@ -55,7 +56,17 @@ def fecha_es(texto):
     m = re.search(r"(\d{1,2})\s*(?:de|/)\s*([A-Za-zñáéíóú]+)\s*(?:de|/)\s*(\d{4})", texto)
     if not m:
         return None
-    return dt.date(int(m[3]), MESES[m[2].lower()], int(m[1])).isoformat()
+    mes = m[2].lower()
+    if mes not in MESES:  # tolera errores de OCR o de digitación: «junlo» → junio, «setiembre» → septiembre
+        import difflib
+        parecido = difflib.get_close_matches(mes, MESES, n=1, cutoff=0.7)
+        if not parecido:
+            return None
+        mes = parecido[0]
+    try:
+        return dt.date(int(m[3]), MESES[mes], int(m[1])).isoformat()
+    except ValueError:  # día imposible (p. ej. 31 de junio): mejor sin fecha que una fecha falsa
+        return None
 
 
 def pesos(texto):
@@ -114,16 +125,26 @@ def ultimo_baloto():
 def actualizar_baloto(desde):
     db = cargar("baloto", {"juego": "Baloto y Revancha", "fuente": BALOTO + "/resultados", "sorteos": {}})
     tope = ultimo_baloto()
-    hechos = [int(k) for k in db["sorteos"]]
-    inicio = max(hechos) + 1 if hechos else tope - 170  # ~1 año (3 sorteos por semana)
     nuevos = 0
-    for s in range(inicio, tope + 1):
-        b = baloto_pagina("baloto", s); time.sleep(PAUSA)
+    # Recorre toda la ventana (~400 días, 3 sorteos por semana) y pide solo lo que falta:
+    # así un sorteo que falló una noche se vuelve a intentar la siguiente.
+    for s in range(tope - 172, tope + 1):
+        if str(s) in db["sorteos"]:
+            continue
+        try:
+            b = baloto_pagina("baloto", s)
+        except Exception as e:  # una página rara no frena al resto
+            print(f"  baloto {s}: error al leer ({str(e)[:80]})", flush=True); b = None
+        time.sleep(PAUSA)
         if not b:
             continue
         if desde and b["fecha"] < desde:
             continue
-        r = baloto_pagina("revancha", s); time.sleep(PAUSA)
+        try:
+            r = baloto_pagina("revancha", s)
+        except Exception:
+            r = None
+        time.sleep(PAUSA)
         db["sorteos"][str(s)] = {"fecha": b["fecha"], "baloto": {k: v for k, v in b.items() if k != "fecha"},
                                  "revancha": {k: v for k, v in (r or {}).items() if k != "fecha"} or None}
         nuevos += 1
@@ -167,7 +188,11 @@ def actualizar_medellin(desde):
     for s, fecha in medellin_lista():
         if str(s) in db["sorteos"] or (desde and fecha < desde):
             continue
-        r = medellin_sorteo(s); time.sleep(PAUSA)
+        try:
+            r = medellin_sorteo(s)
+        except Exception as e:
+            print(f"  medellin {s}: error al leer ({str(e)[:80]})", flush=True); r = None
+        time.sleep(PAUSA)
         if r:
             db["sorteos"][str(s)] = {"fecha": fecha, **r}
             nuevos += 1
@@ -224,7 +249,11 @@ def actualizar_boyaca(desde):
     for f in boyaca_fechas():
         if f in ya or f < limite:
             continue
-        r = boyaca_fecha(f); time.sleep(PAUSA)
+        try:
+            r = boyaca_fecha(f)
+        except Exception as e:
+            print(f"  boyaca {f}: error al leer ({str(e)[:80]})", flush=True); r = None
+        time.sleep(PAUSA)
         if r and r[0] < 1000:  # sorteo extraordinario: otro plan de premios, aún no soportado
             print(f"  boyaca extraordinario {r[0]} {f}: omitido", flush=True)
             continue
@@ -239,22 +268,63 @@ def actualizar_boyaca(desde):
 # ---------------------------------------------------------------- loterías en módulos aparte
 # Cada archivo recolectores/loterias/<id>.py define:
 #   NOMBRE, FUENTE, lista() -> [(sorteo, 'AAAA-MM-DD')], sorteo(s, fecha) -> {"mayor": {...}, "secos": [...]} | None
+REINTENTOS = 5         # noches que se reintenta un sorteo que no se pudo leer antes de marcarlo ilegible
+PRESUPUESTO = int(os.environ.get("CAYO_PRESUPUESTO", 12 * 60))  # segundos máximos por fuente y por noche; lo que falte sigue la noche siguiente
+ESTADO = {}            # se llena en main(); guarda reintentos y sorteos ilegibles entre noches
+
+
 def actualizar_modulo(ident, desde):
     import importlib
     mod = importlib.import_module(f"loterias.{ident}")
     db = cargar(ident, {"juego": mod.NOMBRE, "fuente": mod.FUENTE, "sorteos": {}})
-    nuevos = 0
-    for s, fecha in mod.lista():
-        if str(s) in db["sorteos"] or fecha < desde or fecha > dt.date.today().isoformat():
-            continue
-        r = mod.sorteo(s, fecha); time.sleep(PAUSA)
-        if r and r.get("mayor", {}).get("numero"):
-            r = corregir_fecha(r)
-            db["sorteos"][str(s)] = {"fecha": fecha, **r}
-            nuevos += 1
-            print(f"  {ident} {s} {fecha}", flush=True)
-    guardar(ident, db)
+    reint = ESTADO.setdefault("reintentos", {}).setdefault(ident, {})
+    ilegibles = ESTADO.setdefault("ilegibles", {}).setdefault(ident, {})
+    inicio, nuevos, fallidos = time.monotonic(), 0, 0
+    hoy = dt.date.today().isoformat()
+    try:
+        for s, fecha in mod.lista():
+            k = str(s)
+            if k in db["sorteos"] or k in ilegibles or fecha < desde or fecha > hoy:
+                continue
+            if time.monotonic() - inicio > PRESUPUESTO:
+                print(f"  {ident}: se acabó el tiempo de esta noche; sigue mañana", flush=True)
+                break
+            try:
+                r = mod.sorteo(s, fecha)
+            except Exception as e:  # una página rara no frena al resto de sorteos
+                r = {"completo": False}
+                print(f"  {ident} {s}: error al leer ({str(e)[:80]})", flush=True)
+            time.sleep(PAUSA)
+            if r and r.get("completo") is False:
+                fallidos += 1
+                reint[k] = reint.get(k, 0) + 1
+                if reint[k] >= REINTENTOS:
+                    ilegibles[k] = {"fecha": fecha, "desde": hoy}
+                    reint.pop(k, None)
+                    print(f"  {ident} {s}: ilegible tras {REINTENTOS} noches; se remite a la fuente oficial", flush=True)
+                else:
+                    print(f"  {ident} {s}: lectura incompleta ({reint[k]}/{REINTENTOS}), se reintenta otra noche", flush=True)
+                continue
+            if r and r.get("mayor", {}).get("numero"):
+                r = corregir_fecha(r)
+                # Solo se guardan campos de resultados: nunca texto crudo (las actas traen nombres y cédulas).
+                r = {kk: v for kk, v in r.items() if kk in CAMPOS}
+                if getattr(mod, "OCR", False):
+                    r["ocr"] = True
+                db["sorteos"][k] = {"fecha": fecha, **r}
+                reint.pop(k, None)
+                nuevos += 1
+                print(f"  {ident} {s} {fecha}", flush=True)
+    finally:
+        guardar(ident, db)  # lo leído se conserva aunque la fuente falle a mitad de camino
+        corte = limite_por_defecto()
+        for d in (reint, ilegibles):
+            for k in [k for k, v in d.items() if isinstance(v, dict) and v.get("fecha", "9") < corte]:
+                d.pop(k)
     return nuevos
+
+
+CAMPOS = {"fecha", "mayor", "secos", "aviso", "ganafijo", "especiales"}
 
 
 def corregir_fecha(r):
@@ -290,19 +360,22 @@ def main(argv):
     elegidos = argv or list(JUEGOS)
     DATOS.mkdir(exist_ok=True)
     estado = cargar("estado", {"fuentes": {}})
+    ESTADO.clear(); ESTADO.update(estado)
     fallos = 0
+    ahora = lambda: dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
     for j in elegidos:
         print(f"[{j}]", flush=True)
+        previo = ESTADO["fuentes"].get(j, {})
         try:
             n = JUEGOS[j](desde)
-            estado["fuentes"][j] = {"ok": True, "nuevos": n, "revisado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")}
+            ESTADO["fuentes"][j] = {"ok": True, "nuevos": n, "revisado": ahora(), "ultimo_ok": ahora(), "fallos_seguidos": 0}
         except Exception as e:  # una fuente caída no detiene a las demás
             fallos += 1
-            estado["fuentes"][j] = {**estado["fuentes"].get(j, {}), "ok": False, "error": str(e)[:200],
-                                    "revisado": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")}
+            ESTADO["fuentes"][j] = {**previo, "ok": False, "error": str(e)[:200], "revisado": ahora(),
+                                    "fallos_seguidos": previo.get("fallos_seguidos", 0) + 1}
             print(f"  ERROR {j}: {e}", flush=True)
-    estado["actualizado"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes")
-    (DATOS / "estado.json").write_text(json.dumps(estado, ensure_ascii=False, indent=1) + "\n")
+    ESTADO["actualizado"] = ahora()
+    (DATOS / "estado.json").write_text(json.dumps(ESTADO, ensure_ascii=False, indent=1) + "\n")
     return 1 if fallos == len(elegidos) else 0
 
 

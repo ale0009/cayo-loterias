@@ -54,7 +54,32 @@
    "ok": true,
    "nuevos": 55,
    "revisado": "2026-11-10T23:55+00:00"
+  },
+  "cundinamarca": {
+   "ok": true,
+   "nuevos": 38,
+   "revisado": "2026-11-11T01:19+00:00",
+   "ultimo_ok": "2026-11-11T01:19+00:00",
+   "fallos_seguidos": 0
+  },
+  "manizales": {
+   "ok": true,
+   "nuevos": 22,
+   "revisado": "2026-11-11T01:02+00:00"
   }
  },
- "actualizado": "2026-11-10T23:56+00:00"
+ "actualizado": "2026-11-11T01:19+00:00",
+ "reintentos": {
+  "cundinamarca": {
+   "4786": 1,
+   "4792": 1,
+   "4810": 1,
+   "4813": 1,
+   "4817": 1,
+   "4821": 1
+  }
+ },
+ "ilegibles": {
+  "cundinamarca": {}
+ }
 }

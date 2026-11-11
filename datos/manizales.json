@@ -1,0 +1,5906 @@
+{
+ "juego": "Lotería de Manizales",
+ "fuente": "https://loteriademanizales.com/resultados-anteriores/",
+ "sorteos": {
+  "4929": {
+   "fecha": "2025-11-12",
+   "mayor": {
+    "numero": "3917",
+    "serie": "137"
+   },
+   "secos": [
+    {
+     "numero": "9362",
+     "serie": "297",
+     "valor": 300000000
+    },
+    {
+     "numero": "1217",
+     "serie": "031",
+     "valor": 300000000
+    },
+    {
+     "numero": "0819",
+     "serie": "042",
+     "valor": 200000000
+    },
+    {
+     "numero": "3457",
+     "serie": "019",
+     "valor": 200000000
+    },
+    {
+     "numero": "1233",
+     "serie": "129",
+     "valor": 200000000
+    },
+    {
+     "numero": "4352",
+     "serie": "300",
+     "valor": 100000000
+    },
+    {
+     "numero": "6262",
+     "serie": "031",
+     "valor": 100000000
+    },
+    {
+     "numero": "1389",
+     "serie": "121",
+     "valor": 100000000
+    },
+    {
+     "numero": "6795",
+     "serie": "253",
+     "valor": 100000000
+    },
+    {
+     "numero": "1399",
+     "serie": "049",
+     "valor": 100000000
+    },
+    {
+     "numero": "2877",
+     "serie": "075",
+     "valor": 80000000
+    },
+    {
+     "numero": "9505",
+     "serie": "233",
+     "valor": 80000000
+    },
+    {
+     "numero": "9652",
+     "serie": "310",
+     "valor": 80000000
+    },
+    {
+     "numero": "6253",
+     "serie": "148",
+     "valor": 80000000
+    },
+    {
+     "numero": "6903",
+     "serie": "335",
+     "valor": 80000000
+    },
+    {
+     "numero": "8075",
+     "serie": "324",
+     "valor": 80000000
+    },
+    {
+     "numero": "0390",
+     "serie": "063",
+     "valor": 80000000
+    },
+    {
+     "numero": "2797",
+     "serie": "244",
+     "valor": 80000000
+    },
+    {
+     "numero": "5785",
+     "serie": "258",
+     "valor": 80000000
+    },
+    {
+     "numero": "1792",
+     "serie": "193",
+     "valor": 80000000
+    },
+    {
+     "numero": "3108",
+     "serie": "226",
+     "valor": 60000000
+    },
+    {
+     "numero": "5026",
+     "serie": "329",
+     "valor": 60000000
+    },
+    {
+     "numero": "8412",
+     "serie": "179",
+     "valor": 60000000
+    },
+    {
+     "numero": "4087",
+     "serie": "317",
+     "valor": 60000000
+    },
+    {
+     "numero": "9097",
+     "serie": "139",
+     "valor": 60000000
+    },
+    {
+     "numero": "5191",
+     "serie": "077",
+     "valor": 60000000
+    },
+    {
+     "numero": "4981",
+     "serie": "105",
+     "valor": 60000000
+    },
+    {
+     "numero": "6358",
+     "serie": "215",
+     "valor": 60000000
+    },
+    {
+     "numero": "8356",
+     "serie": "147",
+     "valor": 60000000
+    },
+    {
+     "numero": "9348",
+     "serie": "130",
+     "valor": 60000000
+    },
+    {
+     "numero": "3360",
+     "serie": "284",
+     "valor": 50000000
+    },
+    {
+     "numero": "5021",
+     "serie": "137",
+     "valor": 50000000
+    },
+    {
+     "numero": "7827",
+     "serie": "035",
+     "valor": 50000000
+    },
+    {
+     "numero": "1374",
+     "serie": "220",
+     "valor": 50000000
+    },
+    {
+     "numero": "1523",
+     "serie": "001",
+     "valor": 50000000
+    },
+    {
+     "numero": "2373",
+     "serie": "021",
+     "valor": 50000000
+    },
+    {
+     "numero": "1068",
+     "serie": "130",
+     "valor": 50000000
+    },
+    {
+     "numero": "6310",
+     "serie": "209",
+     "valor": 50000000
+    },
+    {
+     "numero": "9535",
+     "serie": "046",
+     "valor": 50000000
+    },
+    {
+     "numero": "5931",
+     "serie": "000",
+     "valor": 50000000
+    },
+    {
+     "numero": "8527",
+     "serie": "043",
+     "valor": 40000000
+    },
+    {
+     "numero": "8782",
+     "serie": "140",
+     "valor": 40000000
+    },
+    {
+     "numero": "9767",
+     "serie": "109",
+     "valor": 40000000
+    },
+    {
+     "numero": "0519",
+     "serie": "241",
+     "valor": 40000000
+    },
+    {
+     "numero": "2027",
+     "serie": "268",
+     "valor": 40000000
+    },
+    {
+     "numero": "5347",
+     "serie": "003",
+     "valor": 40000000
+    },
+    {
+     "numero": "2983",
+     "serie": "320",
+     "valor": 40000000
+    },
+    {
+     "numero": "4044",
+     "serie": "233",
+     "valor": 40000000
+    },
+    {
+     "numero": "9167",
+     "serie": "304",
+     "valor": 40000000
+    },
+    {
+     "numero": "9086",
+     "serie": "085",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "5427",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4930": {
+   "fecha": "2025-11-19",
+   "mayor": {
+    "numero": "3018",
+    "serie": "218"
+   },
+   "secos": [
+    {
+     "numero": "1084",
+     "serie": "277",
+     "valor": 300000000
+    },
+    {
+     "numero": "1762",
+     "serie": "067",
+     "valor": 300000000
+    },
+    {
+     "numero": "2378",
+     "serie": "287",
+     "valor": 200000000
+    },
+    {
+     "numero": "6826",
+     "serie": "003",
+     "valor": 200000000
+    },
+    {
+     "numero": "5060",
+     "serie": "043",
+     "valor": 200000000
+    },
+    {
+     "numero": "3924",
+     "serie": "293",
+     "valor": 100000000
+    },
+    {
+     "numero": "5372",
+     "serie": "009",
+     "valor": 100000000
+    },
+    {
+     "numero": "3655",
+     "serie": "266",
+     "valor": 100000000
+    },
+    {
+     "numero": "9611",
+     "serie": "189",
+     "valor": 100000000
+    },
+    {
+     "numero": "2688",
+     "serie": "294",
+     "valor": 100000000
+    },
+    {
+     "numero": "5407",
+     "serie": "334",
+     "valor": 80000000
+    },
+    {
+     "numero": "6066",
+     "serie": "043",
+     "valor": 80000000
+    },
+    {
+     "numero": "8707",
+     "serie": "255",
+     "valor": 80000000
+    },
+    {
+     "numero": "5524",
+     "serie": "067",
+     "valor": 80000000
+    },
+    {
+     "numero": "6613",
+     "serie": "149",
+     "valor": 80000000
+    },
+    {
+     "numero": "1475",
+     "serie": "033",
+     "valor": 80000000
+    },
+    {
+     "numero": "0460",
+     "serie": "323",
+     "valor": 80000000
+    },
+    {
+     "numero": "6814",
+     "serie": "036",
+     "valor": 80000000
+    },
+    {
+     "numero": "8653",
+     "serie": "310",
+     "valor": 80000000
+    },
+    {
+     "numero": "0130",
+     "serie": "250",
+     "valor": 80000000
+    },
+    {
+     "numero": "1167",
+     "serie": "117",
+     "valor": 60000000
+    },
+    {
+     "numero": "6018",
+     "serie": "037",
+     "valor": 60000000
+    },
+    {
+     "numero": "7159",
+     "serie": "221",
+     "valor": 60000000
+    },
+    {
+     "numero": "2709",
+     "serie": "316",
+     "valor": 60000000
+    },
+    {
+     "numero": "3578",
+     "serie": "240",
+     "valor": 60000000
+    },
+    {
+     "numero": "8936",
+     "serie": "132",
+     "valor": 60000000
+    },
+    {
+     "numero": "2484",
+     "serie": "070",
+     "valor": 60000000
+    },
+    {
+     "numero": "2998",
+     "serie": "062",
+     "valor": 60000000
+    },
+    {
+     "numero": "4165",
+     "serie": "029",
+     "valor": 60000000
+    },
+    {
+     "numero": "4122",
+     "serie": "134",
+     "valor": 60000000
+    },
+    {
+     "numero": "2270",
+     "serie": "220",
+     "valor": 50000000
+    },
+    {
+     "numero": "6257",
+     "serie": "327",
+     "valor": 50000000
+    },
+    {
+     "numero": "6321",
+     "serie": "103",
+     "valor": 50000000
+    },
+    {
+     "numero": "5214",
+     "serie": "240",
+     "valor": 50000000
+    },
+    {
+     "numero": "5714",
+     "serie": "200",
+     "valor": 50000000
+    },
+    {
+     "numero": "6043",
+     "serie": "010",
+     "valor": 50000000
+    },
+    {
+     "numero": "1194",
+     "serie": "098",
+     "valor": 50000000
+    },
+    {
+     "numero": "5071",
+     "serie": "192",
+     "valor": 50000000
+    },
+    {
+     "numero": "9053",
+     "serie": "062",
+     "valor": 50000000
+    },
+    {
+     "numero": "0125",
+     "serie": "167",
+     "valor": 50000000
+    },
+    {
+     "numero": "7884",
+     "serie": "195",
+     "valor": 40000000
+    },
+    {
+     "numero": "8692",
+     "serie": "274",
+     "valor": 40000000
+    },
+    {
+     "numero": "9798",
+     "serie": "076",
+     "valor": 40000000
+    },
+    {
+     "numero": "3274",
+     "serie": "338",
+     "valor": 40000000
+    },
+    {
+     "numero": "7725",
+     "serie": "014",
+     "valor": 40000000
+    },
+    {
+     "numero": "8565",
+     "serie": "259",
+     "valor": 40000000
+    },
+    {
+     "numero": "2950",
+     "serie": "328",
+     "valor": 40000000
+    },
+    {
+     "numero": "4589",
+     "serie": "000",
+     "valor": 40000000
+    },
+    {
+     "numero": "8008",
+     "serie": "250",
+     "valor": 40000000
+    },
+    {
+     "numero": "8157",
+     "serie": "317",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "0550",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4931": {
+   "fecha": "2025-11-26",
+   "mayor": {
+    "numero": "0697",
+    "serie": "264"
+   },
+   "secos": [
+    {
+     "numero": "6414",
+     "serie": "156",
+     "valor": 300000000
+    },
+    {
+     "numero": "5049",
+     "serie": "316",
+     "valor": 300000000
+    },
+    {
+     "numero": "1712",
+     "serie": "336",
+     "valor": 200000000
+    },
+    {
+     "numero": "6628",
+     "serie": "082",
+     "valor": 200000000
+    },
+    {
+     "numero": "5320",
+     "serie": "031",
+     "valor": 200000000
+    },
+    {
+     "numero": "0402",
+     "serie": "066",
+     "valor": 100000000
+    },
+    {
+     "numero": "8276",
+     "serie": "256",
+     "valor": 100000000
+    },
+    {
+     "numero": "6751",
+     "serie": "212",
+     "valor": 100000000
+    },
+    {
+     "numero": "6894",
+     "serie": "302",
+     "valor": 100000000
+    },
+    {
+     "numero": "6234",
+     "serie": "102",
+     "valor": 100000000
+    },
+    {
+     "numero": "3735",
+     "serie": "286",
+     "valor": 80000000
+    },
+    {
+     "numero": "7105",
+     "serie": "110",
+     "valor": 80000000
+    },
+    {
+     "numero": "8901",
+     "serie": "077",
+     "valor": 80000000
+    },
+    {
+     "numero": "3590",
+     "serie": "342",
+     "valor": 80000000
+    },
+    {
+     "numero": "3660",
+     "serie": "283",
+     "valor": 80000000
+    },
+    {
+     "numero": "7075",
+     "serie": "024",
+     "valor": 80000000
+    },
+    {
+     "numero": "2895",
+     "serie": "072",
+     "valor": 80000000
+    },
+    {
+     "numero": "6946",
+     "serie": "265",
+     "valor": 80000000
+    },
+    {
+     "numero": "9811",
+     "serie": "275",
+     "valor": 80000000
+    },
+    {
+     "numero": "1142",
+     "serie": "263",
+     "valor": 80000000
+    },
+    {
+     "numero": "6723",
+     "serie": "071",
+     "valor": 60000000
+    },
+    {
+     "numero": "8490",
+     "serie": "347",
+     "valor": 60000000
+    },
+    {
+     "numero": "9166",
+     "serie": "040",
+     "valor": 60000000
+    },
+    {
+     "numero": "0293",
+     "serie": "004",
+     "valor": 60000000
+    },
+    {
+     "numero": "9673",
+     "serie": "327",
+     "valor": 60000000
+    },
+    {
+     "numero": "9710",
+     "serie": "152",
+     "valor": 60000000
+    },
+    {
+     "numero": "2306",
+     "serie": "245",
+     "valor": 60000000
+    },
+    {
+     "numero": "6604",
+     "serie": "229",
+     "valor": 60000000
+    },
+    {
+     "numero": "7842",
+     "serie": "224",
+     "valor": 60000000
+    },
+    {
+     "numero": "5597",
+     "serie": "065",
+     "valor": 60000000
+    },
+    {
+     "numero": "3801",
+     "serie": "106",
+     "valor": 50000000
+    },
+    {
+     "numero": "3925",
+     "serie": "087",
+     "valor": 50000000
+    },
+    {
+     "numero": "8298",
+     "serie": "061",
+     "valor": 50000000
+    },
+    {
+     "numero": "1905",
+     "serie": "071",
+     "valor": 50000000
+    },
+    {
+     "numero": "4656",
+     "serie": "156",
+     "valor": 50000000
+    },
+    {
+     "numero": "8359",
+     "serie": "210",
+     "valor": 50000000
+    },
+    {
+     "numero": "0285",
+     "serie": "014",
+     "valor": 50000000
+    },
+    {
+     "numero": "3711",
+     "serie": "077",
+     "valor": 50000000
+    },
+    {
+     "numero": "5597",
+     "serie": "026",
+     "valor": 50000000
+    },
+    {
+     "numero": "6465",
+     "serie": "328",
+     "valor": 50000000
+    },
+    {
+     "numero": "0811",
+     "serie": "026",
+     "valor": 40000000
+    },
+    {
+     "numero": "4679",
+     "serie": "068",
+     "valor": 40000000
+    },
+    {
+     "numero": "8582",
+     "serie": "139",
+     "valor": 40000000
+    },
+    {
+     "numero": "6513",
+     "serie": "113",
+     "valor": 40000000
+    },
+    {
+     "numero": "8290",
+     "serie": "339",
+     "valor": 40000000
+    },
+    {
+     "numero": "8916",
+     "serie": "019",
+     "valor": 40000000
+    },
+    {
+     "numero": "2472",
+     "serie": "240",
+     "valor": 40000000
+    },
+    {
+     "numero": "4298",
+     "serie": "293",
+     "valor": 40000000
+    },
+    {
+     "numero": "7031",
+     "serie": "038",
+     "valor": 40000000
+    },
+    {
+     "numero": "8972",
+     "serie": "148",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "2881",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4935": {
+   "fecha": "2025-12-24",
+   "mayor": {
+    "numero": "0676",
+    "serie": "050"
+   },
+   "secos": [
+    {
+     "numero": "2279",
+     "serie": "292",
+     "valor": 300000000
+    },
+    {
+     "numero": "7002",
+     "serie": "056",
+     "valor": 300000000
+    },
+    {
+     "numero": "1606",
+     "serie": "087",
+     "valor": 200000000
+    },
+    {
+     "numero": "7731",
+     "serie": "148",
+     "valor": 200000000
+    },
+    {
+     "numero": "1923",
+     "serie": "040",
+     "valor": 200000000
+    },
+    {
+     "numero": "3005",
+     "serie": "280",
+     "valor": 100000000
+    },
+    {
+     "numero": "4490",
+     "serie": "079",
+     "valor": 100000000
+    },
+    {
+     "numero": "5747",
+     "serie": "255",
+     "valor": 100000000
+    },
+    {
+     "numero": "9249",
+     "serie": "243",
+     "valor": 100000000
+    },
+    {
+     "numero": "5383",
+     "serie": "048",
+     "valor": 100000000
+    },
+    {
+     "numero": "4597",
+     "serie": "061",
+     "valor": 80000000
+    },
+    {
+     "numero": "5596",
+     "serie": "060",
+     "valor": 80000000
+    },
+    {
+     "numero": "9798",
+     "serie": "263",
+     "valor": 80000000
+    },
+    {
+     "numero": "0510",
+     "serie": "332",
+     "valor": 80000000
+    },
+    {
+     "numero": "2661",
+     "serie": "142",
+     "valor": 80000000
+    },
+    {
+     "numero": "9587",
+     "serie": "238",
+     "valor": 80000000
+    },
+    {
+     "numero": "2174",
+     "serie": "037",
+     "valor": 80000000
+    },
+    {
+     "numero": "3682",
+     "serie": "184",
+     "valor": 80000000
+    },
+    {
+     "numero": "6511",
+     "serie": "300",
+     "valor": 80000000
+    },
+    {
+     "numero": "1536",
+     "serie": "114",
+     "valor": 80000000
+    },
+    {
+     "numero": "1502",
+     "serie": "165",
+     "valor": 60000000
+    },
+    {
+     "numero": "8124",
+     "serie": "314",
+     "valor": 60000000
+    },
+    {
+     "numero": "8277",
+     "serie": "076",
+     "valor": 60000000
+    },
+    {
+     "numero": "0581",
+     "serie": "016",
+     "valor": 60000000
+    },
+    {
+     "numero": "5446",
+     "serie": "028",
+     "valor": 60000000
+    },
+    {
+     "numero": "5620",
+     "serie": "276",
+     "valor": 60000000
+    },
+    {
+     "numero": "4033",
+     "serie": "229",
+     "valor": 60000000
+    },
+    {
+     "numero": "0389",
+     "serie": "168",
+     "valor": 60000000
+    },
+    {
+     "numero": "4644",
+     "serie": "121",
+     "valor": 60000000
+    },
+    {
+     "numero": "3365",
+     "serie": "034",
+     "valor": 60000000
+    },
+    {
+     "numero": "0112",
+     "serie": "337",
+     "valor": 50000000
+    },
+    {
+     "numero": "1357",
+     "serie": "105",
+     "valor": 50000000
+    },
+    {
+     "numero": "2071",
+     "serie": "207",
+     "valor": 50000000
+    },
+    {
+     "numero": "2720",
+     "serie": "090",
+     "valor": 50000000
+    },
+    {
+     "numero": "4811",
+     "serie": "190",
+     "valor": 50000000
+    },
+    {
+     "numero": "8521",
+     "serie": "277",
+     "valor": 50000000
+    },
+    {
+     "numero": "1465",
+     "serie": "348",
+     "valor": 50000000
+    },
+    {
+     "numero": "5499",
+     "serie": "050",
+     "valor": 50000000
+    },
+    {
+     "numero": "9315",
+     "serie": "329",
+     "valor": 50000000
+    },
+    {
+     "numero": "5357",
+     "serie": "210",
+     "valor": 50000000
+    },
+    {
+     "numero": "3264",
+     "serie": "055",
+     "valor": 40000000
+    },
+    {
+     "numero": "7517",
+     "serie": "315",
+     "valor": 40000000
+    },
+    {
+     "numero": "9998",
+     "serie": "332",
+     "valor": 40000000
+    },
+    {
+     "numero": "3260",
+     "serie": "084",
+     "valor": 40000000
+    },
+    {
+     "numero": "8499",
+     "serie": "138",
+     "valor": 40000000
+    },
+    {
+     "numero": "7615",
+     "serie": "010",
+     "valor": 40000000
+    },
+    {
+     "numero": "0640",
+     "serie": "222",
+     "valor": 40000000
+    },
+    {
+     "numero": "2434",
+     "serie": "285",
+     "valor": 40000000
+    },
+    {
+     "numero": "4409",
+     "serie": "114",
+     "valor": 40000000
+    },
+    {
+     "numero": "5346",
+     "serie": "317",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "4772",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4938": {
+   "fecha": "2026-01-14",
+   "mayor": {
+    "numero": "6379",
+    "serie": "023"
+   },
+   "secos": [
+    {
+     "numero": "5916",
+     "serie": "230",
+     "valor": 300000000
+    },
+    {
+     "numero": "1671",
+     "serie": "254",
+     "valor": 300000000
+    },
+    {
+     "numero": "4470",
+     "serie": "228",
+     "valor": 200000000
+    },
+    {
+     "numero": "5217",
+     "serie": "142",
+     "valor": 200000000
+    },
+    {
+     "numero": "1061",
+     "serie": "004",
+     "valor": 200000000
+    },
+    {
+     "numero": "7847",
+     "serie": "142",
+     "valor": 100000000
+    },
+    {
+     "numero": "7916",
+     "serie": "334",
+     "valor": 100000000
+    },
+    {
+     "numero": "0036",
+     "serie": "072",
+     "valor": 100000000
+    },
+    {
+     "numero": "5070",
+     "serie": "282",
+     "valor": 100000000
+    },
+    {
+     "numero": "4395",
+     "serie": "016",
+     "valor": 100000000
+    },
+    {
+     "numero": "0852",
+     "serie": "326",
+     "valor": 80000000
+    },
+    {
+     "numero": "4724",
+     "serie": "153",
+     "valor": 80000000
+    },
+    {
+     "numero": "9054",
+     "serie": "310",
+     "valor": 80000000
+    },
+    {
+     "numero": "4965",
+     "serie": "179",
+     "valor": 80000000
+    },
+    {
+     "numero": "5477",
+     "serie": "201",
+     "valor": 80000000
+    },
+    {
+     "numero": "9079",
+     "serie": "039",
+     "valor": 80000000
+    },
+    {
+     "numero": "0012",
+     "serie": "079",
+     "valor": 80000000
+    },
+    {
+     "numero": "4450",
+     "serie": "131",
+     "valor": 80000000
+    },
+    {
+     "numero": "5066",
+     "serie": "087",
+     "valor": 80000000
+    },
+    {
+     "numero": "1519",
+     "serie": "009",
+     "valor": 80000000
+    },
+    {
+     "numero": "5287",
+     "serie": "329",
+     "valor": 60000000
+    },
+    {
+     "numero": "5848",
+     "serie": "140",
+     "valor": 60000000
+    },
+    {
+     "numero": "6684",
+     "serie": "143",
+     "valor": 60000000
+    },
+    {
+     "numero": "4557",
+     "serie": "003",
+     "valor": 60000000
+    },
+    {
+     "numero": "4909",
+     "serie": "090",
+     "valor": 60000000
+    },
+    {
+     "numero": "7490",
+     "serie": "166",
+     "valor": 60000000
+    },
+    {
+     "numero": "0805",
+     "serie": "119",
+     "valor": 60000000
+    },
+    {
+     "numero": "3649",
+     "serie": "193",
+     "valor": 60000000
+    },
+    {
+     "numero": "3899",
+     "serie": "294",
+     "valor": 60000000
+    },
+    {
+     "numero": "0563",
+     "serie": "323",
+     "valor": 60000000
+    },
+    {
+     "numero": "2295",
+     "serie": "042",
+     "valor": 50000000
+    },
+    {
+     "numero": "3024",
+     "serie": "307",
+     "valor": 50000000
+    },
+    {
+     "numero": "9364",
+     "serie": "148",
+     "valor": 50000000
+    },
+    {
+     "numero": "2817",
+     "serie": "002",
+     "valor": 50000000
+    },
+    {
+     "numero": "5330",
+     "serie": "028",
+     "valor": 50000000
+    },
+    {
+     "numero": "6914",
+     "serie": "310",
+     "valor": 50000000
+    },
+    {
+     "numero": "1079",
+     "serie": "274",
+     "valor": 50000000
+    },
+    {
+     "numero": "8063",
+     "serie": "174",
+     "valor": 50000000
+    },
+    {
+     "numero": "8212",
+     "serie": "144",
+     "valor": 50000000
+    },
+    {
+     "numero": "5046",
+     "serie": "272",
+     "valor": 50000000
+    },
+    {
+     "numero": "5725",
+     "serie": "324",
+     "valor": 40000000
+    },
+    {
+     "numero": "7868",
+     "serie": "116",
+     "valor": 40000000
+    },
+    {
+     "numero": "9842",
+     "serie": "087",
+     "valor": 40000000
+    },
+    {
+     "numero": "8296",
+     "serie": "291",
+     "valor": 40000000
+    },
+    {
+     "numero": "1668",
+     "serie": "248",
+     "valor": 40000000
+    },
+    {
+     "numero": "9107",
+     "serie": "115",
+     "valor": 40000000
+    },
+    {
+     "numero": "1325",
+     "serie": "246",
+     "valor": 40000000
+    },
+    {
+     "numero": "2640",
+     "serie": "344",
+     "valor": 40000000
+    },
+    {
+     "numero": "6234",
+     "serie": "119",
+     "valor": 40000000
+    },
+    {
+     "numero": "6473",
+     "serie": "220",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "6143",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4939": {
+   "fecha": "2026-01-21",
+   "mayor": {
+    "numero": "3018",
+    "serie": "241"
+   },
+   "secos": [
+    {
+     "numero": "8256",
+     "serie": "232",
+     "valor": 300000000
+    },
+    {
+     "numero": "8738",
+     "serie": "302",
+     "valor": 300000000
+    },
+    {
+     "numero": "0121",
+     "serie": "119",
+     "valor": 200000000
+    },
+    {
+     "numero": "7786",
+     "serie": "043",
+     "valor": 200000000
+    },
+    {
+     "numero": "0729",
+     "serie": "343",
+     "valor": 200000000
+    },
+    {
+     "numero": "1666",
+     "serie": "182",
+     "valor": 100000000
+    },
+    {
+     "numero": "7409",
+     "serie": "036",
+     "valor": 100000000
+    },
+    {
+     "numero": "3484",
+     "serie": "248",
+     "valor": 100000000
+    },
+    {
+     "numero": "4892",
+     "serie": "011",
+     "valor": 100000000
+    },
+    {
+     "numero": "5858",
+     "serie": "105",
+     "valor": 100000000
+    },
+    {
+     "numero": "3730",
+     "serie": "145",
+     "valor": 80000000
+    },
+    {
+     "numero": "4447",
+     "serie": "348",
+     "valor": 80000000
+    },
+    {
+     "numero": "6446",
+     "serie": "199",
+     "valor": 80000000
+    },
+    {
+     "numero": "1287",
+     "serie": "229",
+     "valor": 80000000
+    },
+    {
+     "numero": "3541",
+     "serie": "091",
+     "valor": 80000000
+    },
+    {
+     "numero": "5427",
+     "serie": "322",
+     "valor": 80000000
+    },
+    {
+     "numero": "5380",
+     "serie": "319",
+     "valor": 80000000
+    },
+    {
+     "numero": "5652",
+     "serie": "056",
+     "valor": 80000000
+    },
+    {
+     "numero": "8678",
+     "serie": "115",
+     "valor": 80000000
+    },
+    {
+     "numero": "3966",
+     "serie": "344",
+     "valor": 80000000
+    },
+    {
+     "numero": "2964",
+     "serie": "326",
+     "valor": 60000000
+    },
+    {
+     "numero": "6900",
+     "serie": "059",
+     "valor": 60000000
+    },
+    {
+     "numero": "8505",
+     "serie": "290",
+     "valor": 60000000
+    },
+    {
+     "numero": "2157",
+     "serie": "255",
+     "valor": 60000000
+    },
+    {
+     "numero": "3218",
+     "serie": "052",
+     "valor": 60000000
+    },
+    {
+     "numero": "3405",
+     "serie": "045",
+     "valor": 60000000
+    },
+    {
+     "numero": "4379",
+     "serie": "049",
+     "valor": 60000000
+    },
+    {
+     "numero": "4503",
+     "serie": "085",
+     "valor": 60000000
+    },
+    {
+     "numero": "7513",
+     "serie": "104",
+     "valor": 60000000
+    },
+    {
+     "numero": "5234",
+     "serie": "300",
+     "valor": 60000000
+    },
+    {
+     "numero": "0633",
+     "serie": "288",
+     "valor": 50000000
+    },
+    {
+     "numero": "3407",
+     "serie": "125",
+     "valor": 50000000
+    },
+    {
+     "numero": "5487",
+     "serie": "189",
+     "valor": 50000000
+    },
+    {
+     "numero": "0860",
+     "serie": "001",
+     "valor": 50000000
+    },
+    {
+     "numero": "1969",
+     "serie": "184",
+     "valor": 50000000
+    },
+    {
+     "numero": "3966",
+     "serie": "204",
+     "valor": 50000000
+    },
+    {
+     "numero": "1037",
+     "serie": "006",
+     "valor": 50000000
+    },
+    {
+     "numero": "6510",
+     "serie": "343",
+     "valor": 50000000
+    },
+    {
+     "numero": "7880",
+     "serie": "346",
+     "valor": 50000000
+    },
+    {
+     "numero": "1836",
+     "serie": "241",
+     "valor": 50000000
+    },
+    {
+     "numero": "6449",
+     "serie": "182",
+     "valor": 40000000
+    },
+    {
+     "numero": "7897",
+     "serie": "104",
+     "valor": 40000000
+    },
+    {
+     "numero": "9781",
+     "serie": "150",
+     "valor": 40000000
+    },
+    {
+     "numero": "0797",
+     "serie": "103",
+     "valor": 40000000
+    },
+    {
+     "numero": "1378",
+     "serie": "324",
+     "valor": 40000000
+    },
+    {
+     "numero": "4604",
+     "serie": "136",
+     "valor": 40000000
+    },
+    {
+     "numero": "7258",
+     "serie": "155",
+     "valor": 40000000
+    },
+    {
+     "numero": "5431",
+     "serie": "139",
+     "valor": 40000000
+    },
+    {
+     "numero": "9191",
+     "serie": "114",
+     "valor": 40000000
+    },
+    {
+     "numero": "2495",
+     "serie": "203",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "4469",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4942": {
+   "fecha": "2026-02-11",
+   "mayor": {
+    "numero": "4572",
+    "serie": "028"
+   },
+   "secos": [
+    {
+     "numero": "0717",
+     "serie": "244",
+     "valor": 300000000
+    },
+    {
+     "numero": "4028",
+     "serie": "120",
+     "valor": 300000000
+    },
+    {
+     "numero": "3858",
+     "serie": "055",
+     "valor": 200000000
+    },
+    {
+     "numero": "3971",
+     "serie": "256",
+     "valor": 200000000
+    },
+    {
+     "numero": "2861",
+     "serie": "340",
+     "valor": 200000000
+    },
+    {
+     "numero": "3250",
+     "serie": "211",
+     "valor": 100000000
+    },
+    {
+     "numero": "5510",
+     "serie": "282",
+     "valor": 100000000
+    },
+    {
+     "numero": "3210",
+     "serie": "313",
+     "valor": 100000000
+    },
+    {
+     "numero": "9620",
+     "serie": "209",
+     "valor": 100000000
+    },
+    {
+     "numero": "0528",
+     "serie": "052",
+     "valor": 100000000
+    },
+    {
+     "numero": "4048",
+     "serie": "021",
+     "valor": 80000000
+    },
+    {
+     "numero": "8907",
+     "serie": "260",
+     "valor": 80000000
+    },
+    {
+     "numero": "3434",
+     "serie": "132",
+     "valor": 80000000
+    },
+    {
+     "numero": "0743",
+     "serie": "319",
+     "valor": 80000000
+    },
+    {
+     "numero": "1439",
+     "serie": "085",
+     "valor": 80000000
+    },
+    {
+     "numero": "9045",
+     "serie": "184",
+     "valor": 80000000
+    },
+    {
+     "numero": "3044",
+     "serie": "131",
+     "valor": 80000000
+    },
+    {
+     "numero": "5781",
+     "serie": "097",
+     "valor": 80000000
+    },
+    {
+     "numero": "8197",
+     "serie": "043",
+     "valor": 80000000
+    },
+    {
+     "numero": "4304",
+     "serie": "182",
+     "valor": 80000000
+    },
+    {
+     "numero": "3400",
+     "serie": "173",
+     "valor": 60000000
+    },
+    {
+     "numero": "7033",
+     "serie": "185",
+     "valor": 60000000
+    },
+    {
+     "numero": "9856",
+     "serie": "341",
+     "valor": 60000000
+    },
+    {
+     "numero": "9874",
+     "serie": "247",
+     "valor": 60000000
+    },
+    {
+     "numero": "2004",
+     "serie": "267",
+     "valor": 60000000
+    },
+    {
+     "numero": "4047",
+     "serie": "018",
+     "valor": 60000000
+    },
+    {
+     "numero": "0005",
+     "serie": "054",
+     "valor": 60000000
+    },
+    {
+     "numero": "0743",
+     "serie": "034",
+     "valor": 60000000
+    },
+    {
+     "numero": "3068",
+     "serie": "231",
+     "valor": 60000000
+    },
+    {
+     "numero": "0783",
+     "serie": "270",
+     "valor": 60000000
+    },
+    {
+     "numero": "0537",
+     "serie": "181",
+     "valor": 50000000
+    },
+    {
+     "numero": "9168",
+     "serie": "296",
+     "valor": 50000000
+    },
+    {
+     "numero": "9496",
+     "serie": "151",
+     "valor": 50000000
+    },
+    {
+     "numero": "0939",
+     "serie": "157",
+     "valor": 50000000
+    },
+    {
+     "numero": "8277",
+     "serie": "228",
+     "valor": 50000000
+    },
+    {
+     "numero": "9797",
+     "serie": "298",
+     "valor": 50000000
+    },
+    {
+     "numero": "0411",
+     "serie": "322",
+     "valor": 50000000
+    },
+    {
+     "numero": "4731",
+     "serie": "134",
+     "valor": 50000000
+    },
+    {
+     "numero": "8693",
+     "serie": "138",
+     "valor": 50000000
+    },
+    {
+     "numero": "3019",
+     "serie": "247",
+     "valor": 50000000
+    },
+    {
+     "numero": "0458",
+     "serie": "199",
+     "valor": 40000000
+    },
+    {
+     "numero": "5425",
+     "serie": "113",
+     "valor": 40000000
+    },
+    {
+     "numero": "7198",
+     "serie": "216",
+     "valor": 40000000
+    },
+    {
+     "numero": "1071",
+     "serie": "057",
+     "valor": 40000000
+    },
+    {
+     "numero": "4322",
+     "serie": "033",
+     "valor": 40000000
+    },
+    {
+     "numero": "9801",
+     "serie": "176",
+     "valor": 40000000
+    },
+    {
+     "numero": "5723",
+     "serie": "321",
+     "valor": 40000000
+    },
+    {
+     "numero": "8472",
+     "serie": "192",
+     "valor": 40000000
+    },
+    {
+     "numero": "8805",
+     "serie": "259",
+     "valor": 40000000
+    },
+    {
+     "numero": "2097",
+     "serie": "189",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "0868",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4948": {
+   "fecha": "2026-03-25",
+   "mayor": {
+    "numero": "6375",
+    "serie": "067"
+   },
+   "secos": [
+    {
+     "numero": "4608",
+     "serie": "013",
+     "valor": 300000000
+    },
+    {
+     "numero": "5720",
+     "serie": "234",
+     "valor": 300000000
+    },
+    {
+     "numero": "1256",
+     "serie": "141",
+     "valor": 200000000
+    },
+    {
+     "numero": "5420",
+     "serie": "024",
+     "valor": 200000000
+    },
+    {
+     "numero": "1175",
+     "serie": "314",
+     "valor": 200000000
+    },
+    {
+     "numero": "5044",
+     "serie": "199",
+     "valor": 100000000
+    },
+    {
+     "numero": "9604",
+     "serie": "249",
+     "valor": 100000000
+    },
+    {
+     "numero": "0608",
+     "serie": "154",
+     "valor": 100000000
+    },
+    {
+     "numero": "9896",
+     "serie": "309",
+     "valor": 100000000
+    },
+    {
+     "numero": "4936",
+     "serie": "187",
+     "valor": 100000000
+    },
+    {
+     "numero": "1819",
+     "serie": "125",
+     "valor": 80000000
+    },
+    {
+     "numero": "2537",
+     "serie": "029",
+     "valor": 80000000
+    },
+    {
+     "numero": "4771",
+     "serie": "100",
+     "valor": 80000000
+    },
+    {
+     "numero": "4397",
+     "serie": "087",
+     "valor": 80000000
+    },
+    {
+     "numero": "7309",
+     "serie": "286",
+     "valor": 80000000
+    },
+    {
+     "numero": "9268",
+     "serie": "116",
+     "valor": 80000000
+    },
+    {
+     "numero": "4150",
+     "serie": "057",
+     "valor": 80000000
+    },
+    {
+     "numero": "7247",
+     "serie": "050",
+     "valor": 80000000
+    },
+    {
+     "numero": "9000",
+     "serie": "123",
+     "valor": 80000000
+    },
+    {
+     "numero": "8239",
+     "serie": "102",
+     "valor": 80000000
+    },
+    {
+     "numero": "0481",
+     "serie": "042",
+     "valor": 60000000
+    },
+    {
+     "numero": "2855",
+     "serie": "272",
+     "valor": 60000000
+    },
+    {
+     "numero": "8829",
+     "serie": "333",
+     "valor": 60000000
+    },
+    {
+     "numero": "1878",
+     "serie": "106",
+     "valor": 60000000
+    },
+    {
+     "numero": "3529",
+     "serie": "074",
+     "valor": 60000000
+    },
+    {
+     "numero": "4254",
+     "serie": "299",
+     "valor": 60000000
+    },
+    {
+     "numero": "5294",
+     "serie": "010",
+     "valor": 60000000
+    },
+    {
+     "numero": "7304",
+     "serie": "292",
+     "valor": 60000000
+    },
+    {
+     "numero": "7993",
+     "serie": "058",
+     "valor": 60000000
+    },
+    {
+     "numero": "7091",
+     "serie": "342",
+     "valor": 60000000
+    },
+    {
+     "numero": "1899",
+     "serie": "232",
+     "valor": 50000000
+    },
+    {
+     "numero": "3931",
+     "serie": "132",
+     "valor": 50000000
+    },
+    {
+     "numero": "6022",
+     "serie": "024",
+     "valor": 50000000
+    },
+    {
+     "numero": "2147",
+     "serie": "161",
+     "valor": 50000000
+    },
+    {
+     "numero": "7100",
+     "serie": "148",
+     "valor": 50000000
+    },
+    {
+     "numero": "9900",
+     "serie": "076",
+     "valor": 50000000
+    },
+    {
+     "numero": "1252",
+     "serie": "111",
+     "valor": 50000000
+    },
+    {
+     "numero": "4495",
+     "serie": "204",
+     "valor": 50000000
+    },
+    {
+     "numero": "7896",
+     "serie": "113",
+     "valor": 50000000
+    },
+    {
+     "numero": "6902",
+     "serie": "025",
+     "valor": 50000000
+    },
+    {
+     "numero": "4240",
+     "serie": "271",
+     "valor": 40000000
+    },
+    {
+     "numero": "9002",
+     "serie": "110",
+     "valor": 40000000
+    },
+    {
+     "numero": "9249",
+     "serie": "176",
+     "valor": 40000000
+    },
+    {
+     "numero": "0432",
+     "serie": "196",
+     "valor": 40000000
+    },
+    {
+     "numero": "2861",
+     "serie": "092",
+     "valor": 40000000
+    },
+    {
+     "numero": "4424",
+     "serie": "066",
+     "valor": 40000000
+    },
+    {
+     "numero": "5200",
+     "serie": "146",
+     "valor": 40000000
+    },
+    {
+     "numero": "4487",
+     "serie": "157",
+     "valor": 40000000
+    },
+    {
+     "numero": "8275",
+     "serie": "072",
+     "valor": 40000000
+    },
+    {
+     "numero": "9804",
+     "serie": "252",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "3350",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4949": {
+   "fecha": "2026-04-01",
+   "mayor": {
+    "numero": "2944",
+    "serie": "329"
+   },
+   "secos": [
+    {
+     "numero": "5059",
+     "serie": "136",
+     "valor": 300000000
+    },
+    {
+     "numero": "2008",
+     "serie": "286",
+     "valor": 300000000
+    },
+    {
+     "numero": "1265",
+     "serie": "320",
+     "valor": 200000000
+    },
+    {
+     "numero": "8725",
+     "serie": "332",
+     "valor": 200000000
+    },
+    {
+     "numero": "6705",
+     "serie": "321",
+     "valor": 200000000
+    },
+    {
+     "numero": "7219",
+     "serie": "221",
+     "valor": 100000000
+    },
+    {
+     "numero": "7233",
+     "serie": "273",
+     "valor": 100000000
+    },
+    {
+     "numero": "2222",
+     "serie": "179",
+     "valor": 100000000
+    },
+    {
+     "numero": "6911",
+     "serie": "181",
+     "valor": 100000000
+    },
+    {
+     "numero": "4221",
+     "serie": "046",
+     "valor": 100000000
+    },
+    {
+     "numero": "0744",
+     "serie": "257",
+     "valor": 80000000
+    },
+    {
+     "numero": "3678",
+     "serie": "121",
+     "valor": 80000000
+    },
+    {
+     "numero": "4712",
+     "serie": "301",
+     "valor": 80000000
+    },
+    {
+     "numero": "2548",
+     "serie": "279",
+     "valor": 80000000
+    },
+    {
+     "numero": "2862",
+     "serie": "039",
+     "valor": 80000000
+    },
+    {
+     "numero": "4230",
+     "serie": "338",
+     "valor": 80000000
+    },
+    {
+     "numero": "1460",
+     "serie": "319",
+     "valor": 80000000
+    },
+    {
+     "numero": "3574",
+     "serie": "095",
+     "valor": 80000000
+    },
+    {
+     "numero": "6469",
+     "serie": "281",
+     "valor": 80000000
+    },
+    {
+     "numero": "4349",
+     "serie": "312",
+     "valor": 80000000
+    },
+    {
+     "numero": "1310",
+     "serie": "342",
+     "valor": 60000000
+    },
+    {
+     "numero": "2885",
+     "serie": "259",
+     "valor": 60000000
+    },
+    {
+     "numero": "8537",
+     "serie": "001",
+     "valor": 60000000
+    },
+    {
+     "numero": "3697",
+     "serie": "117",
+     "valor": 60000000
+    },
+    {
+     "numero": "6406",
+     "serie": "058",
+     "valor": 60000000
+    },
+    {
+     "numero": "8878",
+     "serie": "099",
+     "valor": 60000000
+    },
+    {
+     "numero": "4601",
+     "serie": "076",
+     "valor": 60000000
+    },
+    {
+     "numero": "4876",
+     "serie": "257",
+     "valor": 60000000
+    },
+    {
+     "numero": "8181",
+     "serie": "141",
+     "valor": 60000000
+    },
+    {
+     "numero": "0686",
+     "serie": "000",
+     "valor": 60000000
+    },
+    {
+     "numero": "1178",
+     "serie": "173",
+     "valor": 50000000
+    },
+    {
+     "numero": "7549",
+     "serie": "086",
+     "valor": 50000000
+    },
+    {
+     "numero": "9879",
+     "serie": "331",
+     "valor": 50000000
+    },
+    {
+     "numero": "2995",
+     "serie": "127",
+     "valor": 50000000
+    },
+    {
+     "numero": "5601",
+     "serie": "078",
+     "valor": 50000000
+    },
+    {
+     "numero": "7851",
+     "serie": "177",
+     "valor": 50000000
+    },
+    {
+     "numero": "3566",
+     "serie": "230",
+     "valor": 50000000
+    },
+    {
+     "numero": "3575",
+     "serie": "187",
+     "valor": 50000000
+    },
+    {
+     "numero": "3859",
+     "serie": "069",
+     "valor": 50000000
+    },
+    {
+     "numero": "6042",
+     "serie": "334",
+     "valor": 50000000
+    },
+    {
+     "numero": "2809",
+     "serie": "319",
+     "valor": 40000000
+    },
+    {
+     "numero": "4808",
+     "serie": "245",
+     "valor": 40000000
+    },
+    {
+     "numero": "7311",
+     "serie": "235",
+     "valor": 40000000
+    },
+    {
+     "numero": "6741",
+     "serie": "200",
+     "valor": 40000000
+    },
+    {
+     "numero": "9315",
+     "serie": "142",
+     "valor": 40000000
+    },
+    {
+     "numero": "9508",
+     "serie": "329",
+     "valor": 40000000
+    },
+    {
+     "numero": "4762",
+     "serie": "274",
+     "valor": 40000000
+    },
+    {
+     "numero": "7736",
+     "serie": "322",
+     "valor": 40000000
+    },
+    {
+     "numero": "8280",
+     "serie": "001",
+     "valor": 40000000
+    },
+    {
+     "numero": "7156",
+     "serie": "114",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "8695",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4950": {
+   "fecha": "2026-04-08",
+   "mayor": {
+    "numero": "2752",
+    "serie": "136"
+   },
+   "secos": [
+    {
+     "numero": "1205",
+     "serie": "124",
+     "valor": 300000000
+    },
+    {
+     "numero": "5569",
+     "serie": "207",
+     "valor": 300000000
+    },
+    {
+     "numero": "4321",
+     "serie": "283",
+     "valor": 200000000
+    },
+    {
+     "numero": "0322",
+     "serie": "325",
+     "valor": 200000000
+    },
+    {
+     "numero": "7033",
+     "serie": "035",
+     "valor": 200000000
+    },
+    {
+     "numero": "0390",
+     "serie": "137",
+     "valor": 100000000
+    },
+    {
+     "numero": "5960",
+     "serie": "101",
+     "valor": 100000000
+    },
+    {
+     "numero": "1375",
+     "serie": "309",
+     "valor": 100000000
+    },
+    {
+     "numero": "5819",
+     "serie": "020",
+     "valor": 100000000
+    },
+    {
+     "numero": "0962",
+     "serie": "291",
+     "valor": 100000000
+    },
+    {
+     "numero": "1246",
+     "serie": "110",
+     "valor": 80000000
+    },
+    {
+     "numero": "5565",
+     "serie": "234",
+     "valor": 80000000
+    },
+    {
+     "numero": "6549",
+     "serie": "254",
+     "valor": 80000000
+    },
+    {
+     "numero": "0656",
+     "serie": "312",
+     "valor": 80000000
+    },
+    {
+     "numero": "3344",
+     "serie": "311",
+     "valor": 80000000
+    },
+    {
+     "numero": "7350",
+     "serie": "050",
+     "valor": 80000000
+    },
+    {
+     "numero": "5917",
+     "serie": "166",
+     "valor": 80000000
+    },
+    {
+     "numero": "8049",
+     "serie": "349",
+     "valor": 80000000
+    },
+    {
+     "numero": "8623",
+     "serie": "162",
+     "valor": 80000000
+    },
+    {
+     "numero": "9216",
+     "serie": "292",
+     "valor": 80000000
+    },
+    {
+     "numero": "4184",
+     "serie": "337",
+     "valor": 60000000
+    },
+    {
+     "numero": "5552",
+     "serie": "096",
+     "valor": 60000000
+    },
+    {
+     "numero": "5553",
+     "serie": "119",
+     "valor": 60000000
+    },
+    {
+     "numero": "3155",
+     "serie": "155",
+     "valor": 60000000
+    },
+    {
+     "numero": "4819",
+     "serie": "217",
+     "valor": 60000000
+    },
+    {
+     "numero": "8256",
+     "serie": "083",
+     "valor": 60000000
+    },
+    {
+     "numero": "4938",
+     "serie": "003",
+     "valor": 60000000
+    },
+    {
+     "numero": "6256",
+     "serie": "010",
+     "valor": 60000000
+    },
+    {
+     "numero": "6873",
+     "serie": "193",
+     "valor": 60000000
+    },
+    {
+     "numero": "1143",
+     "serie": "132",
+     "valor": 60000000
+    },
+    {
+     "numero": "3239",
+     "serie": "052",
+     "valor": 50000000
+    },
+    {
+     "numero": "4453",
+     "serie": "280",
+     "valor": 50000000
+    },
+    {
+     "numero": "9544",
+     "serie": "325",
+     "valor": 50000000
+    },
+    {
+     "numero": "0399",
+     "serie": "260",
+     "valor": 50000000
+    },
+    {
+     "numero": "6520",
+     "serie": "220",
+     "valor": 50000000
+    },
+    {
+     "numero": "9228",
+     "serie": "003",
+     "valor": 50000000
+    },
+    {
+     "numero": "2535",
+     "serie": "003",
+     "valor": 50000000
+    },
+    {
+     "numero": "5501",
+     "serie": "110",
+     "valor": 50000000
+    },
+    {
+     "numero": "6046",
+     "serie": "145",
+     "valor": 50000000
+    },
+    {
+     "numero": "3518",
+     "serie": "060",
+     "valor": 50000000
+    },
+    {
+     "numero": "1735",
+     "serie": "297",
+     "valor": 40000000
+    },
+    {
+     "numero": "5994",
+     "serie": "078",
+     "valor": 40000000
+    },
+    {
+     "numero": "9628",
+     "serie": "327",
+     "valor": 40000000
+    },
+    {
+     "numero": "1290",
+     "serie": "237",
+     "valor": 40000000
+    },
+    {
+     "numero": "6713",
+     "serie": "084",
+     "valor": 40000000
+    },
+    {
+     "numero": "7745",
+     "serie": "264",
+     "valor": 40000000
+    },
+    {
+     "numero": "7531",
+     "serie": "119",
+     "valor": 40000000
+    },
+    {
+     "numero": "7633",
+     "serie": "041",
+     "valor": 40000000
+    },
+    {
+     "numero": "9048",
+     "serie": "098",
+     "valor": 40000000
+    },
+    {
+     "numero": "3122",
+     "serie": "098",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "2431",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4954": {
+   "fecha": "2026-05-06",
+   "mayor": {
+    "numero": "7002",
+    "serie": "208"
+   },
+   "secos": [
+    {
+     "numero": "1260",
+     "serie": "302",
+     "valor": 300000000
+    },
+    {
+     "numero": "2139",
+     "serie": "113",
+     "valor": 300000000
+    },
+    {
+     "numero": "1042",
+     "serie": "044",
+     "valor": 200000000
+    },
+    {
+     "numero": "7331",
+     "serie": "076",
+     "valor": 200000000
+    },
+    {
+     "numero": "9144",
+     "serie": "116",
+     "valor": 200000000
+    },
+    {
+     "numero": "4788",
+     "serie": "275",
+     "valor": 100000000
+    },
+    {
+     "numero": "8649",
+     "serie": "021",
+     "valor": 100000000
+    },
+    {
+     "numero": "4427",
+     "serie": "176",
+     "valor": 100000000
+    },
+    {
+     "numero": "0252",
+     "serie": "262",
+     "valor": 100000000
+    },
+    {
+     "numero": "9449",
+     "serie": "244",
+     "valor": 100000000
+    },
+    {
+     "numero": "3419",
+     "serie": "288",
+     "valor": 80000000
+    },
+    {
+     "numero": "6460",
+     "serie": "259",
+     "valor": 80000000
+    },
+    {
+     "numero": "8800",
+     "serie": "256",
+     "valor": 80000000
+    },
+    {
+     "numero": "0370",
+     "serie": "009",
+     "valor": 80000000
+    },
+    {
+     "numero": "3265",
+     "serie": "233",
+     "valor": 80000000
+    },
+    {
+     "numero": "4290",
+     "serie": "187",
+     "valor": 80000000
+    },
+    {
+     "numero": "0898",
+     "serie": "091",
+     "valor": 80000000
+    },
+    {
+     "numero": "4372",
+     "serie": "151",
+     "valor": 80000000
+    },
+    {
+     "numero": "5306",
+     "serie": "063",
+     "valor": 80000000
+    },
+    {
+     "numero": "7024",
+     "serie": "057",
+     "valor": 80000000
+    },
+    {
+     "numero": "1794",
+     "serie": "227",
+     "valor": 60000000
+    },
+    {
+     "numero": "1983",
+     "serie": "003",
+     "valor": 60000000
+    },
+    {
+     "numero": "2766",
+     "serie": "304",
+     "valor": 60000000
+    },
+    {
+     "numero": "0143",
+     "serie": "312",
+     "valor": 60000000
+    },
+    {
+     "numero": "2170",
+     "serie": "054",
+     "valor": 60000000
+    },
+    {
+     "numero": "5883",
+     "serie": "030",
+     "valor": 60000000
+    },
+    {
+     "numero": "1662",
+     "serie": "208",
+     "valor": 60000000
+    },
+    {
+     "numero": "1701",
+     "serie": "122",
+     "valor": 60000000
+    },
+    {
+     "numero": "4313",
+     "serie": "036",
+     "valor": 60000000
+    },
+    {
+     "numero": "8318",
+     "serie": "098",
+     "valor": 60000000
+    },
+    {
+     "numero": "8255",
+     "serie": "063",
+     "valor": 50000000
+    },
+    {
+     "numero": "9375",
+     "serie": "205",
+     "valor": 50000000
+    },
+    {
+     "numero": "9918",
+     "serie": "336",
+     "valor": 50000000
+    },
+    {
+     "numero": "1626",
+     "serie": "103",
+     "valor": 50000000
+    },
+    {
+     "numero": "1939",
+     "serie": "325",
+     "valor": 50000000
+    },
+    {
+     "numero": "7895",
+     "serie": "279",
+     "valor": 50000000
+    },
+    {
+     "numero": "2928",
+     "serie": "116",
+     "valor": 50000000
+    },
+    {
+     "numero": "3528",
+     "serie": "135",
+     "valor": 50000000
+    },
+    {
+     "numero": "7073",
+     "serie": "087",
+     "valor": 50000000
+    },
+    {
+     "numero": "1224",
+     "serie": "204",
+     "valor": 50000000
+    },
+    {
+     "numero": "1081",
+     "serie": "181",
+     "valor": 40000000
+    },
+    {
+     "numero": "1931",
+     "serie": "057",
+     "valor": 40000000
+    },
+    {
+     "numero": "5444",
+     "serie": "227",
+     "valor": 40000000
+    },
+    {
+     "numero": "1931",
+     "serie": "220",
+     "valor": 40000000
+    },
+    {
+     "numero": "2252",
+     "serie": "098",
+     "valor": 40000000
+    },
+    {
+     "numero": "6356",
+     "serie": "012",
+     "valor": 40000000
+    },
+    {
+     "numero": "1829",
+     "serie": "030",
+     "valor": 40000000
+    },
+    {
+     "numero": "5231",
+     "serie": "016",
+     "valor": 40000000
+    },
+    {
+     "numero": "8218",
+     "serie": "248",
+     "valor": 40000000
+    },
+    {
+     "numero": "9428",
+     "serie": "193",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "1097",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4959": {
+   "fecha": "2026-06-10",
+   "mayor": {
+    "numero": "6641",
+    "serie": "300"
+   },
+   "secos": [
+    {
+     "numero": "2075",
+     "serie": "292",
+     "valor": 300000000
+    },
+    {
+     "numero": "8539",
+     "serie": "242",
+     "valor": 300000000
+    },
+    {
+     "numero": "2984",
+     "serie": "229",
+     "valor": 200000000
+    },
+    {
+     "numero": "4668",
+     "serie": "349",
+     "valor": 200000000
+    },
+    {
+     "numero": "2239",
+     "serie": "037",
+     "valor": 200000000
+    },
+    {
+     "numero": "6813",
+     "serie": "240",
+     "valor": 100000000
+    },
+    {
+     "numero": "8752",
+     "serie": "133",
+     "valor": 100000000
+    },
+    {
+     "numero": "4128",
+     "serie": "250",
+     "valor": 100000000
+    },
+    {
+     "numero": "7106",
+     "serie": "217",
+     "valor": 100000000
+    },
+    {
+     "numero": "7901",
+     "serie": "164",
+     "valor": 100000000
+    },
+    {
+     "numero": "0126",
+     "serie": "231",
+     "valor": 80000000
+    },
+    {
+     "numero": "1707",
+     "serie": "081",
+     "valor": 80000000
+    },
+    {
+     "numero": "4608",
+     "serie": "164",
+     "valor": 80000000
+    },
+    {
+     "numero": "5384",
+     "serie": "028",
+     "valor": 80000000
+    },
+    {
+     "numero": "7354",
+     "serie": "343",
+     "valor": 80000000
+    },
+    {
+     "numero": "8107",
+     "serie": "112",
+     "valor": 80000000
+    },
+    {
+     "numero": "0543",
+     "serie": "101",
+     "valor": 80000000
+    },
+    {
+     "numero": "1921",
+     "serie": "179",
+     "valor": 80000000
+    },
+    {
+     "numero": "7521",
+     "serie": "277",
+     "valor": 80000000
+    },
+    {
+     "numero": "9954",
+     "serie": "013",
+     "valor": 80000000
+    },
+    {
+     "numero": "4326",
+     "serie": "115",
+     "valor": 60000000
+    },
+    {
+     "numero": "6825",
+     "serie": "202",
+     "valor": 60000000
+    },
+    {
+     "numero": "7778",
+     "serie": "236",
+     "valor": 60000000
+    },
+    {
+     "numero": "2585",
+     "serie": "091",
+     "valor": 60000000
+    },
+    {
+     "numero": "3670",
+     "serie": "213",
+     "valor": 60000000
+    },
+    {
+     "numero": "6851",
+     "serie": "200",
+     "valor": 60000000
+    },
+    {
+     "numero": "0263",
+     "serie": "075",
+     "valor": 60000000
+    },
+    {
+     "numero": "2768",
+     "serie": "133",
+     "valor": 60000000
+    },
+    {
+     "numero": "7248",
+     "serie": "240",
+     "valor": 60000000
+    },
+    {
+     "numero": "0657",
+     "serie": "053",
+     "valor": 60000000
+    },
+    {
+     "numero": "4041",
+     "serie": "343",
+     "valor": 50000000
+    },
+    {
+     "numero": "1288",
+     "serie": "083",
+     "valor": 50000000
+    },
+    {
+     "numero": "7651",
+     "serie": "154",
+     "valor": 50000000
+    },
+    {
+     "numero": "4222",
+     "serie": "241",
+     "valor": 50000000
+    },
+    {
+     "numero": "8299",
+     "serie": "292",
+     "valor": 50000000
+    },
+    {
+     "numero": "9938",
+     "serie": "279",
+     "valor": 50000000
+    },
+    {
+     "numero": "1489",
+     "serie": "174",
+     "valor": 50000000
+    },
+    {
+     "numero": "4683",
+     "serie": "298",
+     "valor": 50000000
+    },
+    {
+     "numero": "6717",
+     "serie": "108",
+     "valor": 50000000
+    },
+    {
+     "numero": "1118",
+     "serie": "141",
+     "valor": 50000000
+    },
+    {
+     "numero": "4257",
+     "serie": "049",
+     "valor": 40000000
+    },
+    {
+     "numero": "4356",
+     "serie": "010",
+     "valor": 40000000
+    },
+    {
+     "numero": "2909",
+     "serie": "273",
+     "valor": 40000000
+    },
+    {
+     "numero": "1346",
+     "serie": "107",
+     "valor": 40000000
+    },
+    {
+     "numero": "4431",
+     "serie": "258",
+     "valor": 40000000
+    },
+    {
+     "numero": "6885",
+     "serie": "315",
+     "valor": 40000000
+    },
+    {
+     "numero": "1133",
+     "serie": "081",
+     "valor": 40000000
+    },
+    {
+     "numero": "3874",
+     "serie": "324",
+     "valor": 40000000
+    },
+    {
+     "numero": "8481",
+     "serie": "261",
+     "valor": 40000000
+    },
+    {
+     "numero": "2491",
+     "serie": "004",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "8357",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4960": {
+   "fecha": "2026-06-17",
+   "mayor": {
+    "numero": "8197",
+    "serie": "015"
+   },
+   "secos": [
+    {
+     "numero": "1456",
+     "serie": "206",
+     "valor": 300000000
+    },
+    {
+     "numero": "4435",
+     "serie": "163",
+     "valor": 300000000
+    },
+    {
+     "numero": "3958",
+     "serie": "091",
+     "valor": 200000000
+    },
+    {
+     "numero": "4735",
+     "serie": "016",
+     "valor": 200000000
+    },
+    {
+     "numero": "6101",
+     "serie": "291",
+     "valor": 200000000
+    },
+    {
+     "numero": "7066",
+     "serie": "005",
+     "valor": 100000000
+    },
+    {
+     "numero": "8735",
+     "serie": "023",
+     "valor": 100000000
+    },
+    {
+     "numero": "1285",
+     "serie": "244",
+     "valor": 100000000
+    },
+    {
+     "numero": "2510",
+     "serie": "124",
+     "valor": 100000000
+    },
+    {
+     "numero": "2677",
+     "serie": "088",
+     "valor": 100000000
+    },
+    {
+     "numero": "2404",
+     "serie": "330",
+     "valor": 80000000
+    },
+    {
+     "numero": "4958",
+     "serie": "062",
+     "valor": 80000000
+    },
+    {
+     "numero": "8116",
+     "serie": "265",
+     "valor": 80000000
+    },
+    {
+     "numero": "1345",
+     "serie": "161",
+     "valor": 80000000
+    },
+    {
+     "numero": "2569",
+     "serie": "126",
+     "valor": 80000000
+    },
+    {
+     "numero": "9969",
+     "serie": "055",
+     "valor": 80000000
+    },
+    {
+     "numero": "2823",
+     "serie": "327",
+     "valor": 80000000
+    },
+    {
+     "numero": "5204",
+     "serie": "070",
+     "valor": 80000000
+    },
+    {
+     "numero": "9282",
+     "serie": "241",
+     "valor": 80000000
+    },
+    {
+     "numero": "1477",
+     "serie": "347",
+     "valor": 80000000
+    },
+    {
+     "numero": "2263",
+     "serie": "243",
+     "valor": 60000000
+    },
+    {
+     "numero": "9497",
+     "serie": "282",
+     "valor": 60000000
+    },
+    {
+     "numero": "9821",
+     "serie": "314",
+     "valor": 60000000
+    },
+    {
+     "numero": "4339",
+     "serie": "260",
+     "valor": 60000000
+    },
+    {
+     "numero": "9771",
+     "serie": "026",
+     "valor": 60000000
+    },
+    {
+     "numero": "9883",
+     "serie": "214",
+     "valor": 60000000
+    },
+    {
+     "numero": "2148",
+     "serie": "101",
+     "valor": 60000000
+    },
+    {
+     "numero": "7229",
+     "serie": "046",
+     "valor": 60000000
+    },
+    {
+     "numero": "9856",
+     "serie": "182",
+     "valor": 60000000
+    },
+    {
+     "numero": "6070",
+     "serie": "084",
+     "valor": 60000000
+    },
+    {
+     "numero": "7481",
+     "serie": "058",
+     "valor": 50000000
+    },
+    {
+     "numero": "0470",
+     "serie": "208",
+     "valor": 50000000
+    },
+    {
+     "numero": "9965",
+     "serie": "052",
+     "valor": 50000000
+    },
+    {
+     "numero": "1236",
+     "serie": "066",
+     "valor": 50000000
+    },
+    {
+     "numero": "1289",
+     "serie": "254",
+     "valor": 50000000
+    },
+    {
+     "numero": "1973",
+     "serie": "043",
+     "valor": 50000000
+    },
+    {
+     "numero": "1401",
+     "serie": "016",
+     "valor": 50000000
+    },
+    {
+     "numero": "4284",
+     "serie": "341",
+     "valor": 50000000
+    },
+    {
+     "numero": "6174",
+     "serie": "028",
+     "valor": 50000000
+    },
+    {
+     "numero": "3386",
+     "serie": "295",
+     "valor": 50000000
+    },
+    {
+     "numero": "2111",
+     "serie": "060",
+     "valor": 40000000
+    },
+    {
+     "numero": "2430",
+     "serie": "147",
+     "valor": 40000000
+    },
+    {
+     "numero": "7383",
+     "serie": "226",
+     "valor": 40000000
+    },
+    {
+     "numero": "0699",
+     "serie": "149",
+     "valor": 40000000
+    },
+    {
+     "numero": "2589",
+     "serie": "246",
+     "valor": 40000000
+    },
+    {
+     "numero": "3484",
+     "serie": "144",
+     "valor": 40000000
+    },
+    {
+     "numero": "0627",
+     "serie": "275",
+     "valor": 40000000
+    },
+    {
+     "numero": "1774",
+     "serie": "210",
+     "valor": 40000000
+    },
+    {
+     "numero": "2443",
+     "serie": "310",
+     "valor": 40000000
+    },
+    {
+     "numero": "5533",
+     "serie": "331",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "2164",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4963": {
+   "fecha": "2026-07-08",
+   "mayor": {
+    "numero": "5704",
+    "serie": "217"
+   },
+   "secos": [
+    {
+     "numero": "1669",
+     "serie": "050",
+     "valor": 300000000
+    },
+    {
+     "numero": "8056",
+     "serie": "038",
+     "valor": 300000000
+    },
+    {
+     "numero": "1248",
+     "serie": "308",
+     "valor": 200000000
+    },
+    {
+     "numero": "9675",
+     "serie": "015",
+     "valor": 200000000
+    },
+    {
+     "numero": "9142",
+     "serie": "156",
+     "valor": 200000000
+    },
+    {
+     "numero": "2922",
+     "serie": "220",
+     "valor": 100000000
+    },
+    {
+     "numero": "3886",
+     "serie": "317",
+     "valor": 100000000
+    },
+    {
+     "numero": "2307",
+     "serie": "332",
+     "valor": 100000000
+    },
+    {
+     "numero": "2980",
+     "serie": "058",
+     "valor": 100000000
+    },
+    {
+     "numero": "4885",
+     "serie": "200",
+     "valor": 100000000
+    },
+    {
+     "numero": "1423",
+     "serie": "328",
+     "valor": 80000000
+    },
+    {
+     "numero": "6192",
+     "serie": "131",
+     "valor": 80000000
+    },
+    {
+     "numero": "7188",
+     "serie": "324",
+     "valor": 80000000
+    },
+    {
+     "numero": "2330",
+     "serie": "257",
+     "valor": 80000000
+    },
+    {
+     "numero": "3733",
+     "serie": "170",
+     "valor": 80000000
+    },
+    {
+     "numero": "7671",
+     "serie": "012",
+     "valor": 80000000
+    },
+    {
+     "numero": "1406",
+     "serie": "013",
+     "valor": 80000000
+    },
+    {
+     "numero": "1898",
+     "serie": "313",
+     "valor": 80000000
+    },
+    {
+     "numero": "7041",
+     "serie": "055",
+     "valor": 80000000
+    },
+    {
+     "numero": "0812",
+     "serie": "059",
+     "valor": 80000000
+    },
+    {
+     "numero": "0339",
+     "serie": "008",
+     "valor": 60000000
+    },
+    {
+     "numero": "1027",
+     "serie": "162",
+     "valor": 60000000
+    },
+    {
+     "numero": "4905",
+     "serie": "199",
+     "valor": 60000000
+    },
+    {
+     "numero": "2182",
+     "serie": "233",
+     "valor": 60000000
+    },
+    {
+     "numero": "6280",
+     "serie": "124",
+     "valor": 60000000
+    },
+    {
+     "numero": "7492",
+     "serie": "256",
+     "valor": 60000000
+    },
+    {
+     "numero": "0592",
+     "serie": "140",
+     "valor": 60000000
+    },
+    {
+     "numero": "1249",
+     "serie": "304",
+     "valor": 60000000
+    },
+    {
+     "numero": "4954",
+     "serie": "135",
+     "valor": 60000000
+    },
+    {
+     "numero": "9167",
+     "serie": "100",
+     "valor": 60000000
+    },
+    {
+     "numero": "6308",
+     "serie": "108",
+     "valor": 50000000
+    },
+    {
+     "numero": "4188",
+     "serie": "208",
+     "valor": 50000000
+    },
+    {
+     "numero": "6530",
+     "serie": "007",
+     "valor": 50000000
+    },
+    {
+     "numero": "2764",
+     "serie": "013",
+     "valor": 50000000
+    },
+    {
+     "numero": "5852",
+     "serie": "243",
+     "valor": 50000000
+    },
+    {
+     "numero": "7873",
+     "serie": "068",
+     "valor": 50000000
+    },
+    {
+     "numero": "1751",
+     "serie": "172",
+     "valor": 50000000
+    },
+    {
+     "numero": "5833",
+     "serie": "019",
+     "valor": 50000000
+    },
+    {
+     "numero": "4920",
+     "serie": "201",
+     "valor": 50000000
+    },
+    {
+     "numero": "5602",
+     "serie": "333",
+     "valor": 50000000
+    },
+    {
+     "numero": "0339",
+     "serie": "208",
+     "valor": 40000000
+    },
+    {
+     "numero": "1469",
+     "serie": "115",
+     "valor": 40000000
+    },
+    {
+     "numero": "2037",
+     "serie": "277",
+     "valor": 40000000
+    },
+    {
+     "numero": "2502",
+     "serie": "125",
+     "valor": 40000000
+    },
+    {
+     "numero": "3455",
+     "serie": "310",
+     "valor": 40000000
+    },
+    {
+     "numero": "4276",
+     "serie": "096",
+     "valor": 40000000
+    },
+    {
+     "numero": "0230",
+     "serie": "349",
+     "valor": 40000000
+    },
+    {
+     "numero": "4585",
+     "serie": "208",
+     "valor": 40000000
+    },
+    {
+     "numero": "2271",
+     "serie": "219",
+     "valor": 40000000
+    },
+    {
+     "numero": "7561",
+     "serie": "315",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "7386",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4968": {
+   "fecha": "2026-08-14",
+   "mayor": {
+    "numero": "8703",
+    "serie": "379"
+   },
+   "secos": [
+    {
+     "numero": "9249",
+     "serie": "348",
+     "valor": 300000000
+    },
+    {
+     "numero": "4206",
+     "serie": "367",
+     "valor": 300000000
+    },
+    {
+     "numero": "9792",
+     "serie": "031",
+     "valor": 200000000
+    },
+    {
+     "numero": "8982",
+     "serie": "144",
+     "valor": 200000000
+    },
+    {
+     "numero": "7718",
+     "serie": "016",
+     "valor": 200000000
+    },
+    {
+     "numero": "9071",
+     "serie": "049",
+     "valor": 100000000
+    },
+    {
+     "numero": "0942",
+     "serie": "018",
+     "valor": 100000000
+    },
+    {
+     "numero": "8739",
+     "serie": "359",
+     "valor": 100000000
+    },
+    {
+     "numero": "9289",
+     "serie": "261",
+     "valor": 100000000
+    },
+    {
+     "numero": "1619",
+     "serie": "310",
+     "valor": 100000000
+    },
+    {
+     "numero": "1699",
+     "serie": "048",
+     "valor": 100000000
+    },
+    {
+     "numero": "0999",
+     "serie": "016",
+     "valor": 80000000
+    },
+    {
+     "numero": "3568",
+     "serie": "074",
+     "valor": 80000000
+    },
+    {
+     "numero": "7233",
+     "serie": "073",
+     "valor": 80000000
+    },
+    {
+     "numero": "7029",
+     "serie": "233",
+     "valor": 80000000
+    },
+    {
+     "numero": "1679",
+     "serie": "199",
+     "valor": 80000000
+    },
+    {
+     "numero": "8113",
+     "serie": "297",
+     "valor": 80000000
+    },
+    {
+     "numero": "3904",
+     "serie": "202",
+     "valor": 80000000
+    },
+    {
+     "numero": "7998",
+     "serie": "026",
+     "valor": 80000000
+    },
+    {
+     "numero": "9412",
+     "serie": "027",
+     "valor": 80000000
+    },
+    {
+     "numero": "2193",
+     "serie": "314",
+     "valor": 80000000
+    },
+    {
+     "numero": "1941",
+     "serie": "177",
+     "valor": 60000000
+    },
+    {
+     "numero": "4713",
+     "serie": "299",
+     "valor": 60000000
+    },
+    {
+     "numero": "5811",
+     "serie": "022",
+     "valor": 60000000
+    },
+    {
+     "numero": "2039",
+     "serie": "109",
+     "valor": 60000000
+    },
+    {
+     "numero": "3071",
+     "serie": "257",
+     "valor": 60000000
+    },
+    {
+     "numero": "9948",
+     "serie": "263",
+     "valor": 60000000
+    },
+    {
+     "numero": "1590",
+     "serie": "368",
+     "valor": 60000000
+    },
+    {
+     "numero": "4781",
+     "serie": "232",
+     "valor": 60000000
+    },
+    {
+     "numero": "6682",
+     "serie": "070",
+     "valor": 60000000
+    },
+    {
+     "numero": "2579",
+     "serie": "183",
+     "valor": 60000000
+    },
+    {
+     "numero": "0272",
+     "serie": "095",
+     "valor": 50000000
+    },
+    {
+     "numero": "5064",
+     "serie": "259",
+     "valor": 50000000
+    },
+    {
+     "numero": "4894",
+     "serie": "329",
+     "valor": 50000000
+    },
+    {
+     "numero": "9135",
+     "serie": "197",
+     "valor": 50000000
+    },
+    {
+     "numero": "3051",
+     "serie": "380",
+     "valor": 50000000
+    },
+    {
+     "numero": "5991",
+     "serie": "017",
+     "valor": 50000000
+    },
+    {
+     "numero": "2858",
+     "serie": "047",
+     "valor": 50000000
+    },
+    {
+     "numero": "3824",
+     "serie": "205",
+     "valor": 50000000
+    },
+    {
+     "numero": "9058",
+     "serie": "202",
+     "valor": 50000000
+    },
+    {
+     "numero": "9597",
+     "serie": "338",
+     "valor": 50000000
+    },
+    {
+     "numero": "1407",
+     "serie": "092",
+     "valor": 40000000
+    },
+    {
+     "numero": "4261",
+     "serie": "222",
+     "valor": 40000000
+    },
+    {
+     "numero": "5856",
+     "serie": "354",
+     "valor": 40000000
+    },
+    {
+     "numero": "0287",
+     "serie": "163",
+     "valor": 40000000
+    },
+    {
+     "numero": "5513",
+     "serie": "256",
+     "valor": 40000000
+    },
+    {
+     "numero": "7272",
+     "serie": "010",
+     "valor": 40000000
+    },
+    {
+     "numero": "4355",
+     "serie": "118",
+     "valor": 40000000
+    },
+    {
+     "numero": "4695",
+     "serie": "233",
+     "valor": 40000000
+    },
+    {
+     "numero": "8036",
+     "serie": "214",
+     "valor": 40000000
+    },
+    {
+     "numero": "7077",
+     "serie": "185",
+     "valor": 40000000
+    }
+   ],
+   "ocr": true
+  },
+  "4969": {
+   "fecha": "2026-08-19",
+   "mayor": {
+    "numero": "1725",
+    "serie": "071"
+   },
+   "secos": [
+    {
+     "numero": "6137",
+     "serie": "239",
+     "valor": 300000000
+    },
+    {
+     "numero": "5127",
+     "serie": "122",
+     "valor": 300000000
+    },
+    {
+     "numero": "9163",
+     "serie": "004",
+     "valor": 200000000
+    },
+    {
+     "numero": "9573",
+     "serie": "039",
+     "valor": 200000000
+    },
+    {
+     "numero": "5538",
+     "serie": "287",
+     "valor": 200000000
+    },
+    {
+     "numero": "3601",
+     "serie": "250",
+     "valor": 100000000
+    },
+    {
+     "numero": "9822",
+     "serie": "071",
+     "valor": 100000000
+    },
+    {
+     "numero": "6211",
+     "serie": "237",
+     "valor": 100000000
+    },
+    {
+     "numero": "2603",
+     "serie": "386",
+     "valor": 100000000
+    },
+    {
+     "numero": "6946",
+     "serie": "160",
+     "valor": 100000000
+    },
+    {
+     "numero": "0199",
+     "serie": "260",
+     "valor": 100000000
+    },
+    {
+     "numero": "1209",
+     "serie": "310",
+     "valor": 80000000
+    },
+    {
+     "numero": "7940",
+     "serie": "180",
+     "valor": 80000000
+    },
+    {
+     "numero": "4130",
+     "serie": "258",
+     "valor": 80000000
+    },
+    {
+     "numero": "3984",
+     "serie": "257",
+     "valor": 80000000
+    },
+    {
+     "numero": "9812",
+     "serie": "020",
+     "valor": 80000000
+    },
+    {
+     "numero": "9964",
+     "serie": "368",
+     "valor": 80000000
+    },
+    {
+     "numero": "0436",
+     "serie": "273",
+     "valor": 80000000
+    },
+    {
+     "numero": "4326",
+     "serie": "067",
+     "valor": 80000000
+    },
+    {
+     "numero": "4624",
+     "serie": "266",
+     "valor": 80000000
+    },
+    {
+     "numero": "2175",
+     "serie": "146",
+     "valor": 80000000
+    },
+    {
+     "numero": "5324",
+     "serie": "271",
+     "valor": 60000000
+    },
+    {
+     "numero": "5471",
+     "serie": "051",
+     "valor": 60000000
+    },
+    {
+     "numero": "7405",
+     "serie": "237",
+     "valor": 60000000
+    },
+    {
+     "numero": "2887",
+     "serie": "100",
+     "valor": 60000000
+    },
+    {
+     "numero": "7511",
+     "serie": "110",
+     "valor": 60000000
+    },
+    {
+     "numero": "9037",
+     "serie": "180",
+     "valor": 60000000
+    },
+    {
+     "numero": "2010",
+     "serie": "065",
+     "valor": 60000000
+    },
+    {
+     "numero": "6135",
+     "serie": "208",
+     "valor": 60000000
+    },
+    {
+     "numero": "6539",
+     "serie": "256",
+     "valor": 60000000
+    },
+    {
+     "numero": "9959",
+     "serie": "228",
+     "valor": 60000000
+    },
+    {
+     "numero": "2933",
+     "serie": "358",
+     "valor": 50000000
+    },
+    {
+     "numero": "3508",
+     "serie": "297",
+     "valor": 50000000
+    },
+    {
+     "numero": "3874",
+     "serie": "215",
+     "valor": 50000000
+    },
+    {
+     "numero": "4267",
+     "serie": "295",
+     "valor": 50000000
+    },
+    {
+     "numero": "6656",
+     "serie": "029",
+     "valor": 50000000
+    },
+    {
+     "numero": "9307",
+     "serie": "231",
+     "valor": 50000000
+    },
+    {
+     "numero": "2386",
+     "serie": "350",
+     "valor": 50000000
+    },
+    {
+     "numero": "4962",
+     "serie": "096",
+     "valor": 50000000
+    },
+    {
+     "numero": "8983",
+     "serie": "224",
+     "valor": 50000000
+    },
+    {
+     "numero": "2281",
+     "serie": "357",
+     "valor": 50000000
+    },
+    {
+     "numero": "5456",
+     "serie": "334",
+     "valor": 40000000
+    },
+    {
+     "numero": "6230",
+     "serie": "022",
+     "valor": 40000000
+    },
+    {
+     "numero": "6645",
+     "serie": "029",
+     "valor": 40000000
+    },
+    {
+     "numero": "1746",
+     "serie": "325",
+     "valor": 40000000
+    },
+    {
+     "numero": "3859",
+     "serie": "000",
+     "valor": 40000000
+    },
+    {
+     "numero": "6512",
+     "serie": "222",
+     "valor": 40000000
+    },
+    {
+     "numero": "1064",
+     "serie": "212",
+     "valor": 40000000
+    },
+    {
+     "numero": "7285",
+     "serie": "067",
+     "valor": 40000000
+    },
+    {
+     "numero": "9460",
+     "serie": "294",
+     "valor": 40000000
+    },
+    {
+     "numero": "9180",
+     "serie": "252",
+     "valor": 40000000
+    }
+   ],
+   "ocr": true
+  },
+  "4971": {
+   "fecha": "2026-09-02",
+   "mayor": {
+    "numero": "8587",
+    "serie": "223"
+   },
+   "secos": [
+    {
+     "numero": "8198",
+     "serie": "379",
+     "valor": 300000000
+    },
+    {
+     "numero": "7207",
+     "serie": "009",
+     "valor": 300000000
+    },
+    {
+     "numero": "7660",
+     "serie": "045",
+     "valor": 200000000
+    },
+    {
+     "numero": "2883",
+     "serie": "015",
+     "valor": 200000000
+    },
+    {
+     "numero": "8394",
+     "serie": "112",
+     "valor": 200000000
+    },
+    {
+     "numero": "8962",
+     "serie": "275",
+     "valor": 100000000
+    },
+    {
+     "numero": "9777",
+     "serie": "318",
+     "valor": 100000000
+    },
+    {
+     "numero": "2704",
+     "serie": "256",
+     "valor": 100000000
+    },
+    {
+     "numero": "7924",
+     "serie": "294",
+     "valor": 100000000
+    },
+    {
+     "numero": "1190",
+     "serie": "217",
+     "valor": 100000000
+    },
+    {
+     "numero": "6416",
+     "serie": "352",
+     "valor": 100000000
+    },
+    {
+     "numero": "1557",
+     "serie": "034",
+     "valor": 80000000
+    },
+    {
+     "numero": "2222",
+     "serie": "267",
+     "valor": 80000000
+    },
+    {
+     "numero": "9896",
+     "serie": "229",
+     "valor": 80000000
+    },
+    {
+     "numero": "9038",
+     "serie": "178",
+     "valor": 80000000
+    },
+    {
+     "numero": "1520",
+     "serie": "286",
+     "valor": 80000000
+    },
+    {
+     "numero": "7215",
+     "serie": "192",
+     "valor": 80000000
+    },
+    {
+     "numero": "4245",
+     "serie": "260",
+     "valor": 80000000
+    },
+    {
+     "numero": "4671",
+     "serie": "297",
+     "valor": 80000000
+    },
+    {
+     "numero": "6066",
+     "serie": "094",
+     "valor": 80000000
+    },
+    {
+     "numero": "1360",
+     "serie": "006",
+     "valor": 80000000
+    },
+    {
+     "numero": "1041",
+     "serie": "184",
+     "valor": 60000000
+    },
+    {
+     "numero": "4783",
+     "serie": "133",
+     "valor": 60000000
+    },
+    {
+     "numero": "6099",
+     "serie": "160",
+     "valor": 60000000
+    },
+    {
+     "numero": "3156",
+     "serie": "276",
+     "valor": 60000000
+    },
+    {
+     "numero": "4731",
+     "serie": "050",
+     "valor": 60000000
+    },
+    {
+     "numero": "8313",
+     "serie": "092",
+     "valor": 60000000
+    },
+    {
+     "numero": "3739",
+     "serie": "342",
+     "valor": 60000000
+    },
+    {
+     "numero": "7497",
+     "serie": "080",
+     "valor": 60000000
+    },
+    {
+     "numero": "8740",
+     "serie": "338",
+     "valor": 60000000
+    },
+    {
+     "numero": "0145",
+     "serie": "133",
+     "valor": 60000000
+    },
+    {
+     "numero": "3635",
+     "serie": "219",
+     "valor": 50000000
+    },
+    {
+     "numero": "6602",
+     "serie": "242",
+     "valor": 50000000
+    },
+    {
+     "numero": "9720",
+     "serie": "039",
+     "valor": 50000000
+    },
+    {
+     "numero": "4873",
+     "serie": "262",
+     "valor": 50000000
+    },
+    {
+     "numero": "0802",
+     "serie": "270",
+     "valor": 50000000
+    },
+    {
+     "numero": "4232",
+     "serie": "218",
+     "valor": 50000000
+    },
+    {
+     "numero": "0129",
+     "serie": "388",
+     "valor": 50000000
+    },
+    {
+     "numero": "5779",
+     "serie": "243",
+     "valor": 50000000
+    },
+    {
+     "numero": "6826",
+     "serie": "112",
+     "valor": 50000000
+    },
+    {
+     "numero": "3842",
+     "serie": "287",
+     "valor": 50000000
+    },
+    {
+     "numero": "3446",
+     "serie": "245",
+     "valor": 40000000
+    },
+    {
+     "numero": "7122",
+     "serie": "085",
+     "valor": 40000000
+    },
+    {
+     "numero": "6994",
+     "serie": "099",
+     "valor": 40000000
+    },
+    {
+     "numero": "0332",
+     "serie": "282",
+     "valor": 40000000
+    },
+    {
+     "numero": "1094",
+     "serie": "042",
+     "valor": 40000000
+    },
+    {
+     "numero": "3805",
+     "serie": "176",
+     "valor": 40000000
+    },
+    {
+     "numero": "2061",
+     "serie": "018",
+     "valor": 40000000
+    },
+    {
+     "numero": "3540",
+     "serie": "304",
+     "valor": 40000000
+    },
+    {
+     "numero": "7900",
+     "serie": "274",
+     "valor": 40000000
+    },
+    {
+     "numero": "5416",
+     "serie": "304",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "8102",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4975": {
+   "fecha": "2026-09-30",
+   "mayor": {
+    "numero": "6602",
+    "serie": "333"
+   },
+   "secos": [
+    {
+     "numero": "2701",
+     "serie": "146",
+     "valor": 300000000
+    },
+    {
+     "numero": "3760",
+     "serie": "352",
+     "valor": 300000000
+    },
+    {
+     "numero": "3724",
+     "serie": "043",
+     "valor": 200000000
+    },
+    {
+     "numero": "8604",
+     "serie": "215",
+     "valor": 200000000
+    },
+    {
+     "numero": "0418",
+     "serie": "142",
+     "valor": 200000000
+    },
+    {
+     "numero": "4722",
+     "serie": "141",
+     "valor": 100000000
+    },
+    {
+     "numero": "5043",
+     "serie": "310",
+     "valor": 100000000
+    },
+    {
+     "numero": "1831",
+     "serie": "158",
+     "valor": 100000000
+    },
+    {
+     "numero": "9313",
+     "serie": "122",
+     "valor": 100000000
+    },
+    {
+     "numero": "6376",
+     "serie": "225",
+     "valor": 100000000
+    },
+    {
+     "numero": "2329",
+     "serie": "366",
+     "valor": 100000000
+    },
+    {
+     "numero": "4159",
+     "serie": "136",
+     "valor": 80000000
+    },
+    {
+     "numero": "3579",
+     "serie": "203",
+     "valor": 80000000
+    },
+    {
+     "numero": "6798",
+     "serie": "206",
+     "valor": 80000000
+    },
+    {
+     "numero": "4600",
+     "serie": "061",
+     "valor": 80000000
+    },
+    {
+     "numero": "5520",
+     "serie": "357",
+     "valor": 80000000
+    },
+    {
+     "numero": "8133",
+     "serie": "387",
+     "valor": 80000000
+    },
+    {
+     "numero": "5237",
+     "serie": "339",
+     "valor": 80000000
+    },
+    {
+     "numero": "7430",
+     "serie": "356",
+     "valor": 80000000
+    },
+    {
+     "numero": "7471",
+     "serie": "339",
+     "valor": 80000000
+    },
+    {
+     "numero": "5102",
+     "serie": "059",
+     "valor": 80000000
+    },
+    {
+     "numero": "0672",
+     "serie": "061",
+     "valor": 60000000
+    },
+    {
+     "numero": "2284",
+     "serie": "323",
+     "valor": 60000000
+    },
+    {
+     "numero": "4478",
+     "serie": "271",
+     "valor": 60000000
+    },
+    {
+     "numero": "3197",
+     "serie": "330",
+     "valor": 60000000
+    },
+    {
+     "numero": "7786",
+     "serie": "032",
+     "valor": 60000000
+    },
+    {
+     "numero": "9082",
+     "serie": "077",
+     "valor": 60000000
+    },
+    {
+     "numero": "6040",
+     "serie": "086",
+     "valor": 60000000
+    },
+    {
+     "numero": "7944",
+     "serie": "306",
+     "valor": 60000000
+    },
+    {
+     "numero": "8225",
+     "serie": "211",
+     "valor": 60000000
+    },
+    {
+     "numero": "5251",
+     "serie": "320",
+     "valor": 60000000
+    },
+    {
+     "numero": "3158",
+     "serie": "253",
+     "valor": 50000000
+    },
+    {
+     "numero": "6883",
+     "serie": "097",
+     "valor": 50000000
+    },
+    {
+     "numero": "8485",
+     "serie": "237",
+     "valor": 50000000
+    },
+    {
+     "numero": "1470",
+     "serie": "077",
+     "valor": 50000000
+    },
+    {
+     "numero": "9872",
+     "serie": "201",
+     "valor": 50000000
+    },
+    {
+     "numero": "0150",
+     "serie": "352",
+     "valor": 50000000
+    },
+    {
+     "numero": "4841",
+     "serie": "316",
+     "valor": 50000000
+    },
+    {
+     "numero": "5680",
+     "serie": "209",
+     "valor": 50000000
+    },
+    {
+     "numero": "6472",
+     "serie": "067",
+     "valor": 50000000
+    },
+    {
+     "numero": "2398",
+     "serie": "300",
+     "valor": 50000000
+    },
+    {
+     "numero": "6495",
+     "serie": "054",
+     "valor": 40000000
+    },
+    {
+     "numero": "7062",
+     "serie": "053",
+     "valor": 40000000
+    },
+    {
+     "numero": "9584",
+     "serie": "243",
+     "valor": 40000000
+    },
+    {
+     "numero": "0525",
+     "serie": "133",
+     "valor": 40000000
+    },
+    {
+     "numero": "7872",
+     "serie": "349",
+     "valor": 40000000
+    },
+    {
+     "numero": "6702",
+     "serie": "391",
+     "valor": 40000000
+    },
+    {
+     "numero": "0512",
+     "serie": "094",
+     "valor": 40000000
+    },
+    {
+     "numero": "2491",
+     "serie": "236",
+     "valor": 40000000
+    },
+    {
+     "numero": "9914",
+     "serie": "077",
+     "valor": 40000000
+    },
+    {
+     "numero": "9559",
+     "serie": "220",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "3754",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4976": {
+   "fecha": "2026-10-07",
+   "mayor": {
+    "numero": "9797",
+    "serie": "365"
+   },
+   "secos": [
+    {
+     "numero": "3772",
+     "serie": "217",
+     "valor": 300000000
+    },
+    {
+     "numero": "5586",
+     "serie": "150",
+     "valor": 300000000
+    },
+    {
+     "numero": "9335",
+     "serie": "232",
+     "valor": 200000000
+    },
+    {
+     "numero": "0158",
+     "serie": "231",
+     "valor": 200000000
+    },
+    {
+     "numero": "2900",
+     "serie": "119",
+     "valor": 200000000
+    },
+    {
+     "numero": "0235",
+     "serie": "317",
+     "valor": 100000000
+    },
+    {
+     "numero": "2435",
+     "serie": "138",
+     "valor": 100000000
+    },
+    {
+     "numero": "5972",
+     "serie": "352",
+     "valor": 100000000
+    },
+    {
+     "numero": "7555",
+     "serie": "043",
+     "valor": 100000000
+    },
+    {
+     "numero": "0544",
+     "serie": "190",
+     "valor": 100000000
+    },
+    {
+     "numero": "3885",
+     "serie": "301",
+     "valor": 100000000
+    },
+    {
+     "numero": "0993",
+     "serie": "211",
+     "valor": 80000000
+    },
+    {
+     "numero": "1934",
+     "serie": "194",
+     "valor": 80000000
+    },
+    {
+     "numero": "4124",
+     "serie": "330",
+     "valor": 80000000
+    },
+    {
+     "numero": "0113",
+     "serie": "095",
+     "valor": 80000000
+    },
+    {
+     "numero": "2661",
+     "serie": "197",
+     "valor": 80000000
+    },
+    {
+     "numero": "8202",
+     "serie": "040",
+     "valor": 80000000
+    },
+    {
+     "numero": "1341",
+     "serie": "067",
+     "valor": 80000000
+    },
+    {
+     "numero": "1881",
+     "serie": "228",
+     "valor": 80000000
+    },
+    {
+     "numero": "5768",
+     "serie": "274",
+     "valor": 80000000
+    },
+    {
+     "numero": "6948",
+     "serie": "150",
+     "valor": 80000000
+    },
+    {
+     "numero": "4752",
+     "serie": "087",
+     "valor": 60000000
+    },
+    {
+     "numero": "5341",
+     "serie": "354",
+     "valor": 60000000
+    },
+    {
+     "numero": "7089",
+     "serie": "162",
+     "valor": 60000000
+    },
+    {
+     "numero": "5119",
+     "serie": "082",
+     "valor": 60000000
+    },
+    {
+     "numero": "8119",
+     "serie": "256",
+     "valor": 60000000
+    },
+    {
+     "numero": "9641",
+     "serie": "120",
+     "valor": 60000000
+    },
+    {
+     "numero": "2288",
+     "serie": "104",
+     "valor": 60000000
+    },
+    {
+     "numero": "3167",
+     "serie": "065",
+     "valor": 60000000
+    },
+    {
+     "numero": "4944",
+     "serie": "313",
+     "valor": 60000000
+    },
+    {
+     "numero": "1611",
+     "serie": "134",
+     "valor": 60000000
+    },
+    {
+     "numero": "1666",
+     "serie": "211",
+     "valor": 50000000
+    },
+    {
+     "numero": "2879",
+     "serie": "184",
+     "valor": 50000000
+    },
+    {
+     "numero": "3019",
+     "serie": "064",
+     "valor": 50000000
+    },
+    {
+     "numero": "5372",
+     "serie": "008",
+     "valor": 50000000
+    },
+    {
+     "numero": "0246",
+     "serie": "208",
+     "valor": 50000000
+    },
+    {
+     "numero": "7919",
+     "serie": "181",
+     "valor": 50000000
+    },
+    {
+     "numero": "3000",
+     "serie": "186",
+     "valor": 50000000
+    },
+    {
+     "numero": "7853",
+     "serie": "091",
+     "valor": 50000000
+    },
+    {
+     "numero": "8965",
+     "serie": "126",
+     "valor": 50000000
+    },
+    {
+     "numero": "5089",
+     "serie": "184",
+     "valor": 50000000
+    },
+    {
+     "numero": "1024",
+     "serie": "356",
+     "valor": 40000000
+    },
+    {
+     "numero": "7850",
+     "serie": "267",
+     "valor": 40000000
+    },
+    {
+     "numero": "8297",
+     "serie": "001",
+     "valor": 40000000
+    },
+    {
+     "numero": "3874",
+     "serie": "328",
+     "valor": 40000000
+    },
+    {
+     "numero": "7934",
+     "serie": "144",
+     "valor": 40000000
+    },
+    {
+     "numero": "9689",
+     "serie": "289",
+     "valor": 40000000
+    },
+    {
+     "numero": "8771",
+     "serie": "091",
+     "valor": 40000000
+    },
+    {
+     "numero": "9033",
+     "serie": "315",
+     "valor": 40000000
+    },
+    {
+     "numero": "9280",
+     "serie": "252",
+     "valor": 40000000
+    },
+    {
+     "numero": "5552",
+     "serie": "353",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "1655",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4977": {
+   "fecha": "2026-10-14",
+   "mayor": {
+    "numero": "2024",
+    "serie": "015"
+   },
+   "secos": [
+    {
+     "numero": "1102",
+     "serie": "353",
+     "valor": 300000000
+    },
+    {
+     "numero": "3253",
+     "serie": "259",
+     "valor": 300000000
+    },
+    {
+     "numero": "5436",
+     "serie": "159",
+     "valor": 200000000
+    },
+    {
+     "numero": "3051",
+     "serie": "220",
+     "valor": 200000000
+    },
+    {
+     "numero": "5490",
+     "serie": "041",
+     "valor": 200000000
+    },
+    {
+     "numero": "8070",
+     "serie": "091",
+     "valor": 100000000
+    },
+    {
+     "numero": "4743",
+     "serie": "002",
+     "valor": 100000000
+    },
+    {
+     "numero": "0074",
+     "serie": "295",
+     "valor": 100000000
+    },
+    {
+     "numero": "0193",
+     "serie": "128",
+     "valor": 100000000
+    },
+    {
+     "numero": "9610",
+     "serie": "274",
+     "valor": 100000000
+    },
+    {
+     "numero": "3405",
+     "serie": "344",
+     "valor": 100000000
+    },
+    {
+     "numero": "0252",
+     "serie": "373",
+     "valor": 80000000
+    },
+    {
+     "numero": "5113",
+     "serie": "347",
+     "valor": 80000000
+    },
+    {
+     "numero": "7044",
+     "serie": "105",
+     "valor": 80000000
+    },
+    {
+     "numero": "2838",
+     "serie": "325",
+     "valor": 80000000
+    },
+    {
+     "numero": "6816",
+     "serie": "100",
+     "valor": 80000000
+    },
+    {
+     "numero": "9477",
+     "serie": "036",
+     "valor": 80000000
+    },
+    {
+     "numero": "5469",
+     "serie": "144",
+     "valor": 80000000
+    },
+    {
+     "numero": "5773",
+     "serie": "183",
+     "valor": 80000000
+    },
+    {
+     "numero": "6726",
+     "serie": "232",
+     "valor": 80000000
+    },
+    {
+     "numero": "4466",
+     "serie": "108",
+     "valor": 80000000
+    },
+    {
+     "numero": "6162",
+     "serie": "112",
+     "valor": 60000000
+    },
+    {
+     "numero": "7264",
+     "serie": "348",
+     "valor": 60000000
+    },
+    {
+     "numero": "7373",
+     "serie": "158",
+     "valor": 60000000
+    },
+    {
+     "numero": "0171",
+     "serie": "375",
+     "valor": 60000000
+    },
+    {
+     "numero": "0598",
+     "serie": "122",
+     "valor": 60000000
+    },
+    {
+     "numero": "5201",
+     "serie": "177",
+     "valor": 60000000
+    },
+    {
+     "numero": "1316",
+     "serie": "033",
+     "valor": 60000000
+    },
+    {
+     "numero": "8881",
+     "serie": "327",
+     "valor": 60000000
+    },
+    {
+     "numero": "9048",
+     "serie": "034",
+     "valor": 60000000
+    },
+    {
+     "numero": "2002",
+     "serie": "034",
+     "valor": 60000000
+    },
+    {
+     "numero": "0098",
+     "serie": "118",
+     "valor": 50000000
+    },
+    {
+     "numero": "6536",
+     "serie": "283",
+     "valor": 50000000
+    },
+    {
+     "numero": "8770",
+     "serie": "144",
+     "valor": 50000000
+    },
+    {
+     "numero": "8801",
+     "serie": "015",
+     "valor": 50000000
+    },
+    {
+     "numero": "0996",
+     "serie": "286",
+     "valor": 50000000
+    },
+    {
+     "numero": "6744",
+     "serie": "321",
+     "valor": 50000000
+    },
+    {
+     "numero": "4085",
+     "serie": "220",
+     "valor": 50000000
+    },
+    {
+     "numero": "4274",
+     "serie": "352",
+     "valor": 50000000
+    },
+    {
+     "numero": "8885",
+     "serie": "295",
+     "valor": 50000000
+    },
+    {
+     "numero": "1709",
+     "serie": "278",
+     "valor": 50000000
+    },
+    {
+     "numero": "2807",
+     "serie": "358",
+     "valor": 40000000
+    },
+    {
+     "numero": "7691",
+     "serie": "326",
+     "valor": 40000000
+    },
+    {
+     "numero": "7781",
+     "serie": "327",
+     "valor": 40000000
+    },
+    {
+     "numero": "0597",
+     "serie": "233",
+     "valor": 40000000
+    },
+    {
+     "numero": "2500",
+     "serie": "145",
+     "valor": 40000000
+    },
+    {
+     "numero": "4721",
+     "serie": "065",
+     "valor": 40000000
+    },
+    {
+     "numero": "4664",
+     "serie": "163",
+     "valor": 40000000
+    },
+    {
+     "numero": "5224",
+     "serie": "282",
+     "valor": 40000000
+    },
+    {
+     "numero": "5652",
+     "serie": "055",
+     "valor": 40000000
+    },
+    {
+     "numero": "0187",
+     "serie": "147",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "9703",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4978": {
+   "fecha": "2026-10-21",
+   "mayor": {
+    "numero": "2624",
+    "serie": "288"
+   },
+   "secos": [
+    {
+     "numero": "1247",
+     "serie": "208",
+     "valor": 300000000
+    },
+    {
+     "numero": "5218",
+     "serie": "173",
+     "valor": 300000000
+    },
+    {
+     "numero": "4715",
+     "serie": "013",
+     "valor": 200000000
+    },
+    {
+     "numero": "5202",
+     "serie": "136",
+     "valor": 200000000
+    },
+    {
+     "numero": "8861",
+     "serie": "362",
+     "valor": 200000000
+    },
+    {
+     "numero": "2240",
+     "serie": "295",
+     "valor": 100000000
+    },
+    {
+     "numero": "5759",
+     "serie": "130",
+     "valor": 100000000
+    },
+    {
+     "numero": "3303",
+     "serie": "367",
+     "valor": 100000000
+    },
+    {
+     "numero": "6482",
+     "serie": "191",
+     "valor": 100000000
+    },
+    {
+     "numero": "0148",
+     "serie": "161",
+     "valor": 100000000
+    },
+    {
+     "numero": "6319",
+     "serie": "099",
+     "valor": 100000000
+    },
+    {
+     "numero": "0225",
+     "serie": "022",
+     "valor": 80000000
+    },
+    {
+     "numero": "6099",
+     "serie": "206",
+     "valor": 80000000
+    },
+    {
+     "numero": "9871",
+     "serie": "037",
+     "valor": 80000000
+    },
+    {
+     "numero": "6335",
+     "serie": "338",
+     "valor": 80000000
+    },
+    {
+     "numero": "2539",
+     "serie": "157",
+     "valor": 80000000
+    },
+    {
+     "numero": "9764",
+     "serie": "187",
+     "valor": 80000000
+    },
+    {
+     "numero": "3954",
+     "serie": "237",
+     "valor": 80000000
+    },
+    {
+     "numero": "4342",
+     "serie": "240",
+     "valor": 80000000
+    },
+    {
+     "numero": "7769",
+     "serie": "367",
+     "valor": 80000000
+    },
+    {
+     "numero": "9202",
+     "serie": "251",
+     "valor": 80000000
+    },
+    {
+     "numero": "1138",
+     "serie": "137",
+     "valor": 60000000
+    },
+    {
+     "numero": "7654",
+     "serie": "355",
+     "valor": 60000000
+    },
+    {
+     "numero": "9619",
+     "serie": "365",
+     "valor": 60000000
+    },
+    {
+     "numero": "0161",
+     "serie": "352",
+     "valor": 60000000
+    },
+    {
+     "numero": "1832",
+     "serie": "316",
+     "valor": 60000000
+    },
+    {
+     "numero": "2328",
+     "serie": "361",
+     "valor": 60000000
+    },
+    {
+     "numero": "0350",
+     "serie": "062",
+     "valor": 60000000
+    },
+    {
+     "numero": "1216",
+     "serie": "097",
+     "valor": 60000000
+    },
+    {
+     "numero": "1389",
+     "serie": "104",
+     "valor": 60000000
+    },
+    {
+     "numero": "9531",
+     "serie": "171",
+     "valor": 60000000
+    },
+    {
+     "numero": "1586",
+     "serie": "178",
+     "valor": 50000000
+    },
+    {
+     "numero": "4762",
+     "serie": "018",
+     "valor": 50000000
+    },
+    {
+     "numero": "8690",
+     "serie": "141",
+     "valor": 50000000
+    },
+    {
+     "numero": "2211",
+     "serie": "265",
+     "valor": 50000000
+    },
+    {
+     "numero": "7975",
+     "serie": "239",
+     "valor": 50000000
+    },
+    {
+     "numero": "8909",
+     "serie": "355",
+     "valor": 50000000
+    },
+    {
+     "numero": "5859",
+     "serie": "394",
+     "valor": 50000000
+    },
+    {
+     "numero": "7733",
+     "serie": "202",
+     "valor": 50000000
+    },
+    {
+     "numero": "8564",
+     "serie": "086",
+     "valor": 50000000
+    },
+    {
+     "numero": "5492",
+     "serie": "088",
+     "valor": 50000000
+    },
+    {
+     "numero": "7120",
+     "serie": "359",
+     "valor": 40000000
+    },
+    {
+     "numero": "9860",
+     "serie": "335",
+     "valor": 40000000
+    },
+    {
+     "numero": "6116",
+     "serie": "271",
+     "valor": 40000000
+    },
+    {
+     "numero": "0613",
+     "serie": "373",
+     "valor": 40000000
+    },
+    {
+     "numero": "1166",
+     "serie": "387",
+     "valor": 40000000
+    },
+    {
+     "numero": "4080",
+     "serie": "011",
+     "valor": 40000000
+    },
+    {
+     "numero": "0111",
+     "serie": "383",
+     "valor": 40000000
+    },
+    {
+     "numero": "6886",
+     "serie": "354",
+     "valor": 40000000
+    },
+    {
+     "numero": "9338",
+     "serie": "357",
+     "valor": 40000000
+    },
+    {
+     "numero": "1529",
+     "serie": "143",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "4510",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  },
+  "4980": {
+   "fecha": "2026-11-04",
+   "mayor": {
+    "numero": "2570",
+    "serie": "334"
+   },
+   "secos": [
+    {
+     "numero": "9501",
+     "serie": "196",
+     "valor": 300000000
+    },
+    {
+     "numero": "7322",
+     "serie": "263",
+     "valor": 300000000
+    },
+    {
+     "numero": "5908",
+     "serie": "177",
+     "valor": 200000000
+    },
+    {
+     "numero": "2173",
+     "serie": "259",
+     "valor": 200000000
+    },
+    {
+     "numero": "8809",
+     "serie": "154",
+     "valor": 200000000
+    },
+    {
+     "numero": "0696",
+     "serie": "070",
+     "valor": 100000000
+    },
+    {
+     "numero": "6998",
+     "serie": "200",
+     "valor": 100000000
+    },
+    {
+     "numero": "1229",
+     "serie": "090",
+     "valor": 100000000
+    },
+    {
+     "numero": "3756",
+     "serie": "049",
+     "valor": 100000000
+    },
+    {
+     "numero": "3109",
+     "serie": "025",
+     "valor": 100000000
+    },
+    {
+     "numero": "4885",
+     "serie": "212",
+     "valor": 100000000
+    },
+    {
+     "numero": "9466",
+     "serie": "354",
+     "valor": 80000000
+    },
+    {
+     "numero": "9530",
+     "serie": "038",
+     "valor": 80000000
+    },
+    {
+     "numero": "9676",
+     "serie": "277",
+     "valor": 80000000
+    },
+    {
+     "numero": "0909",
+     "serie": "008",
+     "valor": 80000000
+    },
+    {
+     "numero": "9470",
+     "serie": "336",
+     "valor": 80000000
+    },
+    {
+     "numero": "3891",
+     "serie": "288",
+     "valor": 80000000
+    },
+    {
+     "numero": "1793",
+     "serie": "321",
+     "valor": 80000000
+    },
+    {
+     "numero": "7640",
+     "serie": "275",
+     "valor": 80000000
+    },
+    {
+     "numero": "8657",
+     "serie": "041",
+     "valor": 80000000
+    },
+    {
+     "numero": "0007",
+     "serie": "191",
+     "valor": 80000000
+    },
+    {
+     "numero": "7011",
+     "serie": "064",
+     "valor": 60000000
+    },
+    {
+     "numero": "4724",
+     "serie": "269",
+     "valor": 60000000
+    },
+    {
+     "numero": "5357",
+     "serie": "281",
+     "valor": 60000000
+    },
+    {
+     "numero": "5370",
+     "serie": "019",
+     "valor": 60000000
+    },
+    {
+     "numero": "5958",
+     "serie": "239",
+     "valor": 60000000
+    },
+    {
+     "numero": "7954",
+     "serie": "191",
+     "valor": 60000000
+    },
+    {
+     "numero": "6005",
+     "serie": "028",
+     "valor": 60000000
+    },
+    {
+     "numero": "6451",
+     "serie": "260",
+     "valor": 60000000
+    },
+    {
+     "numero": "7432",
+     "serie": "113",
+     "valor": 60000000
+    },
+    {
+     "numero": "2180",
+     "serie": "240",
+     "valor": 60000000
+    },
+    {
+     "numero": "6298",
+     "serie": "261",
+     "valor": 50000000
+    },
+    {
+     "numero": "6814",
+     "serie": "353",
+     "valor": 50000000
+    },
+    {
+     "numero": "6501",
+     "serie": "248",
+     "valor": 50000000
+    },
+    {
+     "numero": "1687",
+     "serie": "274",
+     "valor": 50000000
+    },
+    {
+     "numero": "0605",
+     "serie": "167",
+     "valor": 50000000
+    },
+    {
+     "numero": "2786",
+     "serie": "127",
+     "valor": 50000000
+    },
+    {
+     "numero": "8199",
+     "serie": "037",
+     "valor": 50000000
+    },
+    {
+     "numero": "2158",
+     "serie": "022",
+     "valor": 50000000
+    },
+    {
+     "numero": "9436",
+     "serie": "113",
+     "valor": 50000000
+    },
+    {
+     "numero": "3672",
+     "serie": "220",
+     "valor": 50000000
+    },
+    {
+     "numero": "2270",
+     "serie": "297",
+     "valor": 40000000
+    },
+    {
+     "numero": "3584",
+     "serie": "114",
+     "valor": 40000000
+    },
+    {
+     "numero": "4710",
+     "serie": "221",
+     "valor": 40000000
+    },
+    {
+     "numero": "8060",
+     "serie": "128",
+     "valor": 40000000
+    },
+    {
+     "numero": "5851",
+     "serie": "227",
+     "valor": 40000000
+    },
+    {
+     "numero": "7139",
+     "serie": "182",
+     "valor": 40000000
+    },
+    {
+     "numero": "4290",
+     "serie": "255",
+     "valor": 40000000
+    },
+    {
+     "numero": "5986",
+     "serie": "134",
+     "valor": 40000000
+    },
+    {
+     "numero": "4008",
+     "serie": "360",
+     "valor": 40000000
+    },
+    {
+     "numero": "4391",
+     "serie": "345",
+     "valor": 40000000
+    }
+   ],
+   "especiales": [
+    {
+     "numero": "3524",
+     "sin_serie": true,
+     "nombre": "Premio Gana Siempre"
+    }
+   ],
+   "ocr": true
+  }
+ }
+}

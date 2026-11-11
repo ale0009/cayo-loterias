@@ -361,6 +361,73 @@
     "dos_primeras_y_ultima_sin_serie": 21000,
     "primera_y_dos_ultimas_sin_serie": 21000
    }
+  },
+  "cundinamarca": {
+   "nombre": "Lotería de Cundinamarca",
+   "codigo_barras": null,
+   "dia": "lunes (martes cuando el lunes es festivo)",
+   "fracciones": 4,
+   "fuente_plan": "https://www.loteriadecundinamarca.com.co/plan-de-premios",
+   "fuente_resultados": "https://www.loteriadecundinamarca.com.co/actas-resultados",
+   "cobro": "Trámite «Cobro de premios» de la Subgerencia General, presencial (SUIT: http://visor.suit.gov.co/VisorSUIT/index.jsf?FI=25940); sede en Calle 90 # 18-16, Bogotá, lunes a viernes 8:00–13:00 y 14:00–17:00. Línea 01 8000 413 672.",
+   "factor_neto_secos": 0.664,
+   "neto_billete": {
+    "mayor": 6640000000,
+    "tres_primeras_con_serie": 10000000,
+    "tres_ultimas_con_serie": 10000000,
+    "dos_primeras_con_serie": 1600000,
+    "dos_ultimas_con_serie": 1600000,
+    "ultima_con_serie": 160000,
+    "serie_mayor": 30000,
+    "mayor_sin_serie": 6250000,
+    "tres_primeras_sin_serie": 100000,
+    "tres_ultimas_sin_serie": 100000,
+    "dos_primeras_sin_serie": 30000,
+    "dos_ultimas_sin_serie": 30000,
+    "ultima_sin_serie": 20000,
+    "seco_sin_serie": 20000
+   },
+   "ocr": true,
+   "aviso_ocr": "Esta lotería solo publica sus resultados como actas escaneadas en PDF. Se leen con OCR: varias lecturas por cifra y voto; si algo no cuadra con el plan, el sorteo no se guarda. Aun así, confirma en la fuente oficial antes de cobrar o de botar el billete."
+  },
+  "manizales": {
+   "nombre": "Lotería de Manizales",
+   "codigo_barras": null,
+   "dia": "miércoles",
+   "fracciones": 4,
+   "precio_billete": 12000,
+   "precio_fraccion": 3000,
+   "fuente_plan": "https://loteriademanizales.com/plan-de-premios-2026/",
+   "fuente_resultados": "https://loteriademanizales.com/resultados-anteriores/",
+   "cobro": "Aproximaciones pequeñas con el lotero; hasta 10 millones netos con cualquier distribuidor autorizado del país; más de 10 millones en la Tesorería de la Lotería de Manizales (enviar por correo copia del billete, cédula, RUT y certificación bancaria; pago por transferencia dentro de los 30 días siguientes).",
+   "factor_neto_secos": 0.664,
+   "neto_billete": {
+    "mayor": 1992000000,
+    "tres_primeras_con_serie": 9000000,
+    "tres_ultimas_con_serie": 9000000,
+    "dos_primeras_con_serie": 2000000,
+    "dos_ultimas_con_serie": 2000000,
+    "ultima_con_serie": 300000,
+    "serie_mayor": 0,
+    "mayor_sin_serie": 2000000,
+    "tres_primeras_sin_serie": 60000,
+    "tres_ultimas_sin_serie": 60000,
+    "dos_primeras_sin_serie": 24000,
+    "dos_ultimas_sin_serie": 24000,
+    "ultima_sin_serie": 12000,
+    "seco_sin_serie": 24000
+   },
+   "neto_billete_extra": {
+    "dos_primeras_y_ultima_con_serie": 9000000,
+    "primera_y_dos_ultimas_con_serie": 9000000,
+    "combinado_con_serie": 10000000,
+    "dos_primeras_y_ultima_sin_serie": 60000,
+    "primera_y_dos_ultimas_sin_serie": 60000,
+    "especial_sin_serie": 2000000
+   },
+   "nota": "Plan vigente desde el sorteo 4964 (15-jul-2026). Valores NETOS por billete completo tal como los publica la lotería (el billete trae 4 fracciones). 'serie_mayor' no existe en este plan (0). 'combinado_con_serie' = «Mayor cualquier orden» (misma serie). 'especial_sin_serie' = «Premio Gana Siempre» (un número de 4 cifras, cualquier serie). Antes del 4964 el mayor era de 2.600 millones brutos, el Gana Siempre de 1,5 millones y había 5 secos de 100 millones (ahora 6).",
+   "ocr": true,
+   "aviso_ocr": "Esta lotería solo publica sus resultados como imágenes. Se leen con OCR: varias lecturas por cifra y voto; si algo no cuadra con el plan, el sorteo no se guarda. Aun así, confirma en la fuente oficial antes de cobrar o de botar el billete."
   }
  },
  "baloto": {

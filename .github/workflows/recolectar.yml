@@ -14,6 +14,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 concurrency:
   group: recolectar
@@ -23,25 +24,43 @@ jobs:
   recolectar:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Herramientas de OCR (Cundinamarca y Manizales solo publican imágenes)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq --no-install-recommends tesseract-ocr tesseract-ocr-spa poppler-utils
+          pip install --quiet pillow
       - name: Traer sorteos nuevos
         run: python3 recolectores/actualizar.py
-      - name: Guardar si hay cambios
+      - name: Guardar datos y estado
+        if: always()
+        # Se guarda cada noche (el estado cambia siempre): así el repositorio nunca queda
+        # inactivo 60 días, que es cuando GitHub apaga las tareas programadas.
         run: |
           git config user.name "cayo-recolector"
           git config user.email "cayo-recolector@users.noreply.github.com"
           git add datos/
-          if git diff --cached --quiet -- datos/baloto.json datos/medellin.json datos/boyaca.json; then
-            echo "Sin sorteos nuevos."
-          else
-            git commit -m "Datos: resultados del $(date -u +%F)"
-            git push
-          fi
+          git diff --cached --quiet || git commit -m "Datos: resultados del $(date -u +%F)"
+          git pull --rebase --quiet origin main
+          git push
+      - name: Avisar por issue si una fuente falla o hay sorteos ilegibles
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 recolectores/avisos.py | while IFS=$'\t' read -r accion titulo texto; do
+            abierto=$(gh issue list --state open --search "\"$titulo\" in:title" --json number,title --jq ".[] | select(.title==\"$titulo\") | .number" | head -1)
+            if [ "$accion" = "ABRIR" ] && [ -z "$abierto" ]; then
+              gh issue create --title "$titulo" --body "$(printf '%b' "$texto")"
+            elif [ "$accion" = "CERRAR" ] && [ -n "$abierto" ]; then
+              gh issue close "$abierto" --comment "$texto"
+            fi
+          done
 
   publicar:
     needs: recolectar
