@@ -19,6 +19,6 @@ jobs:
       - name: Pruebas del motor de premios y las gráficas
         run: node --test
       - name: El recolector compila
-        run: python3 -m py_compile recolectores/actualizar.py recolectores/avisos.py recolectores/loterias/*.py
+        run: python3 -m py_compile recolectores/actualizar.py recolectores/avisos.py recolectores/auditar.py recolectores/loterias/*.py
       - name: Pruebas del recolector (reintentos, ilegibles, tiempo, avisos)
         run: python3 -m unittest discover -s test -p "test_*.py"

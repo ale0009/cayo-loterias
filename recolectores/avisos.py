@@ -32,3 +32,15 @@ for fuente, sorteos in sorted(estado.get("ilegibles", {}).items()):
               "La página remite a la fuente oficial para esos sorteos. Si el formato de las imágenes cambió, hay que ajustar el lector.")
     else:
         print(f"CERRAR\t{titulo}\tYa no hay sorteos ilegibles.")
+
+# Auditoría nocturna (recolectores/auditar.py): lo guardado no coincide con la fuente en vivo.
+for fuente, info in sorted(estado.get("auditoria", {}).items()):
+    titulo = f"Datos inconsistentes: {fuente}"
+    inc = info.get("inconsistentes") or {}
+    if inc:
+        detalle = "; ".join(f"sorteo {s} ({v.get('fecha')}): {v['diferencias'][0]}" for s, v in sorted(inc.items()))
+        print(f"ABRIR\t{titulo}\tLa auditoría nocturna volvió a pedir sorteos ya guardados y no coinciden con la fuente: {detalle}. "
+              "Puede ser una corrección de la lotería o un cambio de formato que el lector no entiende. Revisa el sorteo en la web oficial; "
+              "este aviso se cierra solo cuando una auditoría de esa fuente salga limpia.")
+    elif info.get("muestra") and len(info.get("no_verificables", [])) < len(info["muestra"]):
+        print(f"CERRAR\t{titulo}\tLa auditoría del {info.get('revisado', '')[:10]} coincidió con la fuente. Cerrado automáticamente.")

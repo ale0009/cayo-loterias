@@ -24,7 +24,7 @@ jobs:
   recolectar:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -37,6 +37,9 @@ jobs:
           pip install --quiet pillow
       - name: Traer sorteos nuevos
         run: python3 recolectores/actualizar.py
+      - name: Auditar una muestra (doble confirmación contra la fuente en vivo)
+        continue-on-error: true
+        run: python3 recolectores/auditar.py
       - name: Guardar datos y estado
         if: always()
         # Se guarda cada noche (el estado cambia siempre): así el repositorio nunca queda

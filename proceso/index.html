@@ -216,6 +216,7 @@
             <li>Un sorteo que no se puede leer en 5 noches se marca «ilegible», y la página remite al acta oficial en vez de inventar un resultado.</li>
             <li>Cada fuente tiene un tope de 12 minutos por noche, para que una lenta no tumbe a las demás.</li>
           </ul></li>
+        <li><b>Se audita sola (doble confirmación):</b> después de recolectar, el robot elige al azar 2 sorteos ya guardados de cada fuente, los vuelve a pedir en vivo y compara el mayor y los secos. Si algo no coincide, abre el issue «Datos inconsistentes», y lo cierra cuando la siguiente auditoría sale limpia. La primera auditoría (11 nov 2026) revisó 22 sorteos de 11 fuentes: <b>22 coincidieron</b>. Nació de una petición real: confirmar dos veces los resultados de 40 boletos.</li>
         <li><b>Se avisa sola:</b> si una fuente falla 3 noches seguidas o hay sorteos ilegibles, el robot abre un <i>issue</i> en GitHub, que llega por correo. Cuando la fuente se recupera, lo cierra solo. La página también muestra un aviso si los datos tienen más de 3 días.</li>
         <li><b>No se apaga:</b> GitHub desactiva las tareas programadas de un repositorio sin actividad durante 60 días. El robot guarda su estado cada noche, así que siempre hay actividad.</li>
         <li><b>Agregar una lotería</b> es escribir su recolector y su plan en <code>datos/planes.json</code>. Es una tarea pequeña e independiente, ideal para quien contribuye por primera vez.</li>

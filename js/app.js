@@ -217,6 +217,8 @@ function revisarBillete(b) {
       <li>${esc(plan.nombre)} · sorteo ${s.id} · ${fechaLarga(s.fecha)} · ${s.secos.length} secos revisados.</li>
       ${plan.ocr ? `<li class="aviso-fuente"><b>Leído con OCR:</b> ${esc(plan.aviso_ocr)} <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">Ver resultados oficiales</a>.</li>` : ''}
       ${s.aviso ? `<li class="aviso-fuente"><b>Ojo:</b> ${esc(s.aviso)}. ${r.gano ? '' : 'Revisa el acta oficial antes de botar el billete.'}</li>` : ''}
+      ${D.estado.auditoria?.[lot]?.inconsistentes?.[s.id] ? `<li class="aviso-fuente"><b>Verificación nocturna:</b> al volver a consultar este sorteo, la fuente mostró algo distinto a lo guardado. Confírmalo en la <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">web oficial</a>.</li>` : ''}
+      ${D.estado.auditoria?.[lot]?.muestra?.includes(s.id) && !D.estado.auditoria[lot].inconsistentes?.[s.id] ? '<li>Este sorteo se volvió a verificar contra la fuente en la auditoría nocturna y coincide.</li>' : ''}
       ${bloqueVence(s.fecha, r.gano)}
       ${r.gano ? `<li>${esc(plan.cobro)} Lleva el billete original, entero y legible: es un documento al portador.</li>` : ''}
       <li>Fuente: <a href="${plan.fuente_resultados}" target="_blank" rel="noopener">${new URL(plan.fuente_resultados).hostname}</a></li>

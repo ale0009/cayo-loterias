@@ -140,5 +140,118 @@
   "santander": {},
   "tolima": {},
   "valle": {}
+ },
+ "auditoria": {
+  "baloto": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [
+    "2599",
+    "2568"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "medellin": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [
+    "4834",
+    "4858"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "boyaca": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [
+    "4621",
+    "4594"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "cauca": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [
+    "2633",
+    "2625"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "cundinamarca": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "extra": {
+   "revisado": "2026-11-11T22:58+00:00",
+   "muestra": [
+    "2253",
+    "2248"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "huila": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "4741",
+    "4764"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "manizales": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "quindio": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "3016",
+    "3007"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "risaralda": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "2962",
+    "2959"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "santander": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "5070",
+    "5058"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "tolima": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "4145",
+    "4159"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  },
+  "valle": {
+   "revisado": "2026-11-11T22:59+00:00",
+   "muestra": [
+    "4861",
+    "4865"
+   ],
+   "inconsistentes": {},
+   "no_verificables": []
+  }
  }
 }
