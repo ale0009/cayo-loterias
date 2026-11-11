@@ -120,6 +120,7 @@
           <tr><td>Medellín</td><td class="mono">9 016 0004831 8057 160 02</td><td>sorteo 4831 · 8057 · serie 160 · fracción 2</td></tr>
           <tr><td>Medellín</td><td class="mono">9 016 0004851 3785 294 01</td><td>sorteo 4851 · 3785 · serie 294 · fracción 1</td></tr>
           <tr><td>Boyacá</td><td class="mono">9 004 0004616 1675 185 02</td><td>sorteo 4616 · 1675 · serie 185 · fracción 2</td></tr>
+          <tr><td>Bogotá</td><td class="mono">9 020 0002852 2859 124 03</td><td>sorteo 2852 · 2859 · serie 124 · fracción 3 (código 020, descubierto en la segunda tanda de boletos)</td></tr>
         </tbody>
       </table>
       <h3 class="sub">¿Y leerlo desde la foto?</h3>
@@ -229,6 +230,7 @@
         <li>Cundinamarca y Manizales dependen de OCR. Es muy improbable un error que pase el voto y la verificación, pero no imposible. Por eso cada resultado de esas loterías enlaza su fuente oficial.</li>
         <li>El código de barras solo se ha comprobado en billetes reales de Medellín (016) y Boyacá (004). Las demás loterías se revisan con el formulario «Lotería a mano».</li>
         <li>Algunas loterías pagan categorías propias: anterior o posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro, «gana fijo». El motor las revisa solo si el plan de esa lotería las define. Algunos premios dependen de un número preimpreso extra en el billete (Escalera de Risaralda, bonos del Extra) y no se revisan.</li>
+        <li><b>Billetes de Medellín de $24.000 («Raspa Ya»):</b> en 2026 algunos sorteos se vendieron a $24.000 en 2 fracciones, pero la lotería solo publica el plan del billete de $21.000. Si el premio es un reintegro (última cifra o serie), la herramienta lo muestra como un rango «a confirmar» ($10.500–$12.000 por fracción) y recuerda raspar el recuadro del promocional. Lo encontró una prueba real: el billete 4835 del sorteo 4824.</li>
         <li>Los valores de las loterías son los <b>netos del plan vigente</b>. Si una lotería cambia su plan, hay que actualizar <code>planes.json</code>.</li>
         <li>Los valores de los secos de Medellín se asignan por el <b>orden</b> en que la plantilla oficial los publica (2 de $1.000 M, 2 de $700 M… 15 de $10 M). Si el conteo no da 44, el valor queda en blanco en lugar de inventarse.</li>
         <li>La fila «0 + SB» de Baloto se interpreta como "0 o 1 acierto + Superbalota" (ver la gráfica de la sección 5). Es una inferencia a partir de los datos, no una regla publicada.</li>

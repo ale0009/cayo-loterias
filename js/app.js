@@ -3,8 +3,9 @@ import { cargarDatos, listaSorteos } from './datos.js';
 import { iniciarEscaner, detenerEscaner } from './escaner.js';
 import {
   leerCodigo, revisarLoteria, revisarBaloto, validarBaloto, buscarSorteo,
-  cifrasFinalesIguales, vence, diasHasta, pesos, codigosDesdePlanes,
+  cifrasFinalesIguales, vence, diasHasta, pesos, codigosDesdePlanes, aplicarVariante, varianteDe,
 } from './motor.js';
+import * as Billetera from './billetera.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -37,7 +38,8 @@ tabs.forEach((t, i) => {
 
 // ------------------------------------------------------------------ código de 20 dígitos
 let CODS = {};
-const nombreCorto = id => (D?.planes.loterias[id]?.nombre ?? id).replace(/^Lotería (de |del )?/, '');
+const nombreDe = id => D?.planes.loterias[id]?.nombre ?? D?.sinDatos?.[id]?.nombre ?? id;
+const nombreCorto = id => nombreDe(id).replace(/^Lotería (de |de la |del )?/, '');
 function pintarPartes() {
   const v = $('#codigo').value.replace(/\D/g, '');
   const c = leerCodigo(v, CODS);
@@ -137,11 +139,16 @@ function evaluar(b) {
     const total = r.reduce((a, x) => a + (x.premio || 0), 0);
     return { estado: r.some(x => x.categoria) ? 'gano' : 'no', total, r, sorteo: s };
   }
+  if (!D[b.loteria]) return { estado: 'sin-datos', total: 0, info: D.sinDatos[b.loteria] };
   const s = buscarSorteo(D[b.loteria], { sorteo: b.sorteo });
   if (!s) return { estado: 'pendiente', total: 0 };
   const plan = D.planes.loterias[b.loteria];
-  const r = revisarLoteria(b, s, plan);
-  return { estado: r.gano ? 'gano' : 'no', total: r.netoFraccion, r, sorteo: s, plan };
+  // Si se eligió un precio con variante (p. ej. $24.000) y no se sabe cuántas fracciones tiene, se usan las de esa variante.
+  const v = varianteDe(plan, b.precio);
+  const bb = v && !b.fracciones ? { ...b, fracciones: v.fracciones } : b;
+  const r = aplicarVariante(revisarLoteria(bb, s, plan), plan, b.precio);
+  // Si el valor es un rango «a confirmar», se cuenta el mínimo (lo seguro).
+  return { estado: r.gano ? 'gano' : 'no', total: r.netoFraccionMin ?? r.netoFraccion, max: r.netoFraccionMax, r, sorteo: s, plan };
 }
 
 function bloqueVence(fecha, gano) {
@@ -156,6 +163,15 @@ function revisarBillete(b) {
   const lot = b.loteria; const plan = D.planes.loterias[lot];
   ultimo = { tipo: 'loteria', ...b };
   const ev = evaluar(ultimo);
+  if (ev.estado === 'sin-datos') {
+    const info = ev.info ?? { nombre: lot };
+    $('#veredicto').innerHTML = '<span class="pend">Aún sin resultados</span>';
+    $('#detalle').innerHTML = `<p><b>${esc(info.nombre)}</b> · sorteo ${esc(b.sorteo)} · ${esc(b.numero)} serie ${esc(b.serie)}${b.fraccion ? ` · fracción ${b.fraccion}` : ''}.</p>
+      <p>Todavía no tenemos los resultados de esta lotería${info.motivo ? `: ${esc(info.motivo)}` : '.'} ${info.fuente_resultados ? `Consúltalo en la <a href="${info.fuente_resultados}" target="_blank" rel="noopener">web oficial</a>.` : ''}</p>
+      <p class="ayuda">Guárdalo en tu billetera: se revisará solo cuando la herramienta tenga sus resultados.</p>
+      <div class="acciones"><button class="boton-linea" id="guardar" type="button">Guardar en mi billetera</button></div>`;
+    $('#guardar').onclick = guardarUltimo; return;
+  }
   if (ev.estado === 'pendiente') {
     const ult = listaSorteos(D[lot])[0];
     const ilegible = D.estado.ilegibles?.[lot]?.[String(b.sorteo)];
@@ -185,9 +201,13 @@ function revisarBillete(b) {
   $('#veredicto').innerHTML = r.gano ? '<span class="si">¡Cayó!</span>' : '<span class="no">No cayó</span>';
   $('#detalle').innerHTML = `${r.gano ? ESTALLIDO : ''}
     ${r.gano && r.desconocido ? `<p class="monto">Premio seco <small>la fuente no publica su valor: confírmalo en ${esc(new URL(plan.fuente_resultados).hostname)}</small></p>` : ''}
-    ${r.gano && !r.desconocido ? `<p class="monto">${pesos(r.netoFraccion)} <small>neto por fracción · ${pesos(r.netoBillete)} el billete completo</small></p>
+    ${r.gano && !r.desconocido ? `<p class="monto">${r.netoFraccionMax ? `${pesos(r.netoFraccionMin)} – ${pesos(r.netoFraccionMax)}` : pesos(r.netoFraccion)} <small>${r.aConfirmar ? 'por fracción · <b>a confirmar al cobrar</b>' : `neto por fracción · ${pesos(r.netoBillete)} el billete completo`}</small></p>
       <div class="en-linea fracc" role="group" aria-label="Fracciones del billete"><span class="meta">Tu billete es de</span>${[1, 2, 3, 4].map(n =>
         `<button type="button" class="mini" data-fr="${n}" aria-pressed="${n === r.fracciones}">${n} fracc.</button>`).join('')}</div>
+      ${plan.variantes?.length ? `<div class="en-linea fracc" role="group" aria-label="Precio del billete"><span class="meta">Pagaste</span>
+        <button type="button" class="mini" data-precio="" aria-pressed="${!b.precio}">el precio del plan</button>${plan.variantes.map(v =>
+        `<button type="button" class="mini" data-precio="${v.precio_billete}" aria-pressed="${Number(b.precio) === v.precio_billete}">${pesos(v.precio_billete)} el billete</button>`).join('')}</div>` : ''}
+      ${r.variante ? `<p class="aviso-fuente">${esc(r.variante.nota)}</p>` : ''}
       <p><b>${esc(etq[r.categoria] || r.categoria)}</b>${r.otras.length ? ` · también cumple: ${r.otras.map(o => esc(etq[o.clave])).join(', ')} (no se suman)` : ''}</p>` : ''}
     <dl class="comparar">
       <dt>Tu billete</dt><dd class="cifras">${dig(b.numero, marca)}<small>serie ${esc(b.serie)}${b.fraccion ? ` · fracción ${b.fraccion}` : ''}</small></dd>
@@ -204,6 +224,7 @@ function revisarBillete(b) {
     <div class="acciones"><button class="boton-linea" id="guardar" type="button">Guardar en mi billetera</button></div>`;
   $('#guardar').onclick = guardarUltimo;
   document.querySelectorAll('[data-fr]').forEach(x => x.onclick = () => revisarBillete({ ...b, fracciones: Number(x.dataset.fr) }));
+  document.querySelectorAll('[data-precio]').forEach(x => x.onclick = () => revisarBillete({ ...b, precio: Number(x.dataset.precio) || undefined }));
 }
 
 function revisarTiquete(t) {
@@ -234,73 +255,79 @@ function revisarTiquete(t) {
   $('#guardar').onclick = guardarUltimo;
 }
 
-// ------------------------------------------------------------------ billetera (localStorage)
-const CLAVE = 'cayo-billetera';
-function leerBilletera() { try { return JSON.parse(localStorage.getItem(CLAVE)) || []; } catch { return []; } }
-function escribirBilletera(l) { try { localStorage.setItem(CLAVE, JSON.stringify(l)); } catch { /* sin almacenamiento */ } }
-let billetera = leerBilletera();
-const firma = b => b.tipo === 'baloto' ? `b|${b.sorteo}|${b.numeros.join('-')}|${b.sb}` : `l|${b.loteria}|${b.sorteo}|${b.numero}|${b.serie}|${b.fraccion ?? ''}`;
+// ------------------------------------------------------------------ billetera v2 (localStorage, ver js/billetera.js)
+let cartera = Billetera.leer();
+const guardarCartera = () => Billetera.escribir(cartera);
 
 function guardarUltimo() {
   if (!ultimo) return;
-  if (!billetera.some(b => firma(b) === firma(ultimo))) { billetera.unshift({ ...ultimo, agregado: new Date().toISOString().slice(0, 10) }); escribirBilletera(billetera); }
+  const r = Billetera.fusionar(cartera.boletos, [ultimo], 'manual');
+  if (r.agregados) { cartera = { ...cartera, boletos: r.lista }; guardarCartera(); }
   pintarBilletera();
-  $('#guardar').textContent = 'Guardado ✓'; $('#guardar').disabled = true;
+  $('#guardar').textContent = r.agregados ? 'Guardado ✓' : 'Ya estaba guardado'; $('#guardar').disabled = true;
+}
+
+const ORDEN_ESTADO = { gano: 0, pendiente: 1, 'sin-datos': 2, no: 3 };
+function evaluarGrupo(g) {
+  const evs = g.boletos.map(b => ({ b, ev: evaluar(b) }));
+  const gano = evs.filter(x => x.ev.estado === 'gano');
+  const estado = gano.length ? 'gano' : evs.some(x => x.ev.estado === 'pendiente') ? 'pendiente' : evs[0].ev.estado;
+  const total = gano.reduce((a, x) => a + x.ev.total, 0);
+  const max = gano.some(x => x.ev.max) ? gano.reduce((a, x) => a + (x.ev.max ?? x.ev.total), 0) : null;
+  return { g, evs, estado, total, max, sorteo: evs.find(x => x.ev.sorteo)?.ev.sorteo };
 }
 
 function pintarBilletera() {
-  const filas = billetera.map((b, i) => ({ b, i, ev: evaluar(b) }));
-  const ganados = filas.filter(f => f.ev.estado === 'gano');
-  const vigentes = ganados.filter(f => diasHasta(vence(f.ev.sorteo.fecha)) > 0);
-  const prox = vigentes.map(f => diasHasta(vence(f.ev.sorteo.fecha))).sort((a, b) => a - b)[0];
-  $('#hud').innerHTML = `<span class="pieza"><b>${billetera.length}</b> boletos</span>
+  const grupos = Billetera.agrupar(cartera.boletos).map(evaluarGrupo);
+  const ganados = grupos.filter(x => x.estado === 'gano');
+  const vigentes = ganados.filter(x => diasHasta(vence(x.sorteo.fecha)) > 0);
+  const prox = vigentes.map(x => diasHasta(vence(x.sorteo.fecha))).sort((a, b) => a - b)[0];
+  const suma = vigentes.reduce((a, x) => a + x.total, 0);
+  const sumaMax = vigentes.reduce((a, x) => a + (x.max ?? x.total), 0);
+  $('#hud').innerHTML = `<span class="pieza"><b>${cartera.boletos.length}</b> boletos</span>
     <span class="pieza oro"><b>${ganados.length}</b> con premio</span>
-    <span class="pieza"><b>${pesos(vigentes.reduce((a, f) => a + f.ev.total, 0))}</b> por cobrar</span>
+    <span class="pieza"><b>${pesos(suma)}${sumaMax > suma ? ` – ${pesos(sumaMax)}` : ''}</b> por cobrar</span>
     ${prox !== undefined ? `<span class="pieza">vence en <b>${prox}</b> días</span>` : ''}`;
-  if (!filas.length) { $('#lista').innerHTML = '<li class="vacio">Aún no guardas boletos. Revisa uno y toca «Guardar en mi billetera».</li>'; return; }
-  filas.sort((x, y) => ({ gano: 0, pendiente: 1, no: 2 }[x.ev.estado] - { gano: 0, pendiente: 1, no: 2 }[y.ev.estado]));
-  $('#lista').innerHTML = filas.map(({ b, i, ev }) => {
-    const titulo = b.tipo === 'baloto' ? 'Baloto + Revancha' : D.planes.loterias[b.loteria]?.nombre ?? b.loteria;
-    const linea = b.tipo === 'baloto' ? `${b.numeros.map(n => String(n).padStart(2, '0')).join(' ')} + ${String(b.sb).padStart(2, '0')}` : `${b.numero} · serie ${b.serie}${b.fraccion ? ` · fr. ${b.fraccion}` : ''}`;
-    const est = ev.estado === 'gano' ? `Ganó ${pesos(ev.total)} · cobra antes del ${fechaLarga(vence(ev.sorteo.fecha))}`
-      : ev.estado === 'pendiente' ? 'Pendiente: aún sin resultados' : 'Sin premio';
-    return `<li class="boleto ${ev.estado === 'gano' ? 'gano' : ev.estado === 'pendiente' ? 'pend' : 'no'}">
-      <button class="quitar" data-i="${i}" aria-label="Quitar boleto ${esc(linea)}">×</button>
+  if (!grupos.length) { $('#lista').innerHTML = '<li class="vacio">Aún no guardas boletos. Revisa uno y toca «Guardar en mi billetera».</li>'; return; }
+  grupos.sort((x, y) => ORDEN_ESTADO[x.estado] - ORDEN_ESTADO[y.estado]);
+  $('#lista').innerHTML = grupos.map(({ g, evs, estado, total, max, sorteo }) => {
+    const b = g.boletos[0];
+    const titulo = b.tipo === 'baloto' ? 'Baloto + Revancha' : nombreDe(b.loteria);
+    const fr = g.boletos.map(x => x.fraccion).filter(Boolean);
+    const linea = b.tipo === 'baloto' ? `${b.numeros.map(n => String(n).padStart(2, '0')).join(' ')} + ${String(b.sb).padStart(2, '0')}`
+      : `${b.numero} · serie ${b.serie}${fr.length ? ` · fr. ${fr.join(', ')}${b.fracciones ? ` de ${b.fracciones}` : ''}` : ''}`;
+    const monto = max && max > total ? `${pesos(total)} – ${pesos(max)} (a confirmar)` : pesos(total);
+    const est = estado === 'gano' ? `Ganó ${monto}${g.boletos.length > 1 ? ` en ${evs.filter(x => x.ev.estado === 'gano').length} fracciones` : ''} · cobra antes del ${fechaLarga(vence(sorteo.fecha))}`
+      : estado === 'pendiente' ? 'Pendiente: aún sin resultados'
+      : estado === 'sin-datos' ? 'Sin datos de esta lotería: consúltalo en la web oficial' : 'Sin premio';
+    return `<li class="boleto ${estado === 'gano' ? 'gano' : estado === 'no' ? 'no' : 'pend'}">
+      <button class="quitar" data-ids="${g.boletos.map(x => x.id).join(',')}" aria-label="Quitar ${esc(titulo)} ${esc(linea)}">×</button>
       <h3>${esc(titulo)}</h3><div class="linea">${esc(linea)}</div>
-      <div class="meta">Sorteo ${esc(b.sorteo)}${ev.sorteo ? ` · ${fechaLarga(ev.sorteo.fecha)}` : ''}</div>
+      <div class="meta">Sorteo ${esc(b.sorteo)}${sorteo ? ` · ${fechaLarga(sorteo.fecha)}` : ''}${b.precio ? ` · billete de ${pesos(b.precio)}` : ''}</div>
       <div class="meta"><b>${esc(est)}</b></div></li>`;
   }).join('');
 }
 $('#lista').addEventListener('click', e => {
-  const i = e.target.dataset.i; if (i === undefined) return;
-  billetera.splice(Number(i), 1); escribirBilletera(billetera); pintarBilletera();
+  const ids = e.target.dataset.ids; if (!ids) return;
+  const quitar = new Set(ids.split(','));
+  cartera = { ...cartera, boletos: cartera.boletos.filter(b => !quitar.has(b.id)) }; guardarCartera(); pintarBilletera();
 });
 $('#vaciar').addEventListener('click', () => {
-  if (billetera.length && confirm('¿Quitar todos los boletos de la billetera de este navegador?')) { billetera = []; escribirBilletera(billetera); pintarBilletera(); }
+  if (cartera.boletos.length && confirm('¿Quitar todos los boletos de la billetera de este navegador?')) { cartera = { version: 2, boletos: [] }; guardarCartera(); pintarBilletera(); }
 });
 $('#exportar').addEventListener('click', () => {
   const a = document.createElement('a');
-  a.href = URL.createObjectURL(new Blob([JSON.stringify(billetera, null, 1)], { type: 'application/json' }));
+  a.href = URL.createObjectURL(new Blob([JSON.stringify(cartera, null, 1)], { type: 'application/json' }));
   a.download = `mis-boletos-${new Date().toISOString().slice(0, 10)}.json`; a.click(); URL.revokeObjectURL(a.href);
 });
 $('#importar').addEventListener('change', async e => {
   const f = e.target.files[0]; if (!f) return;
   try {
-    const j = JSON.parse(await f.text());
-    // Acepta la billetera exportada o el formato {baloto:[...], loterias:[...]}
-    const nuevos = Array.isArray(j) ? j : [
-      ...(j.baloto ?? []).map(b => ({ tipo: 'baloto', sorteo: b.sorteo, numeros: b.numeros, sb: b.superbalota ?? b.sb })),
-      ...(j.loterias ?? []).map(l => ({ tipo: 'loteria', loteria: String(l.loteria).toLowerCase().normalize('NFD').replace(/\p{Diacritic}/gu, ''),
-        sorteo: l.sorteo, numero: l.numero, serie: l.serie, fraccion: parseInt(l.fraccion) || undefined, fracciones: parseInt(String(l.fraccion).split('de')[1]) || undefined })),
-    ];
-    const conocidas = new Set(['baloto', ...Object.keys(D.planes.loterias)]);
-    let n = 0;
-    for (const b of nuevos) {
-      if (b.tipo === 'loteria' && !conocidas.has(b.loteria)) continue;
-      if (!billetera.some(x => firma(x) === firma(b))) { billetera.push(b); n++; }
-    }
-    escribirBilletera(billetera); pintarBilletera();
-    alert(`Se importaron ${n} boletos${nuevos.length - n ? ` (${nuevos.length - n} repetidos o de loterías aún no soportadas)` : ''}.`);
+    const nuevos = Billetera.normalizarImportado(JSON.parse(await f.text()));
+    const r = Billetera.fusionar(cartera.boletos, nuevos, 'importado');
+    cartera = { ...cartera, boletos: r.lista }; guardarCartera(); pintarBilletera();
+    const sinDatos = nuevos.filter(b => b.tipo === 'loteria' && !D[b.loteria]).length;
+    alert(`Se importaron ${r.agregados} boletos${r.repetidos ? ` (${r.repetidos} repetidos omitidos)` : ''}.${sinDatos ? ` ${sinDatos} son de loterías que aún no tienen resultados: quedan guardados y se revisarán cuando los haya.` : ''}`);
   } catch { alert('No se pudo leer ese archivo. Debe ser un JSON exportado desde esta herramienta.'); }
   e.target.value = '';
 });

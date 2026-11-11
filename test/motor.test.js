@@ -145,3 +145,32 @@ test('premio especial en cualquier serie (Travieso del Tolima)', () => {
   assert.equal(r.categoria, 'especial_sin_serie');
   assert.equal(r.netoFraccion, 300000);
 });
+
+test('código de barras 020 = Lotería de Bogotá (conocida, aún sin datos)', async () => {
+  const { codigosDesdePlanes } = await import('../js/motor.js');
+  const cods = codigosDesdePlanes(planes);
+  assert.equal(leerCodigo('90200002852285912403', cods).loteria, 'bogota');
+  assert.equal(leerCodigo('90200002852285912403', cods).numero, '2859');
+});
+
+test('Medellín $24.000 con «Raspa Ya»: la última cifra da un rango a confirmar (caso real 4824)', async () => {
+  const { aplicarVariante } = await import('../js/motor.js');
+  const s = { mayor: { numero: '8885', serie: '150' }, secos: [] };
+  const base = revisarLoteria({ numero: '4835', serie: '102', fracciones: 2 }, s, MED);
+  assert.equal(base.netoFraccion, 10500);
+  const r = aplicarVariante(base, MED, 24000);
+  assert.equal(r.aConfirmar, true);
+  assert.equal(r.netoFraccionMin, 10500);
+  assert.equal(r.netoFraccionMax, 12000);
+  assert.equal(aplicarVariante(base, MED, undefined), base, 'sin precio no cambia nada');
+  const noGana = revisarLoteria({ numero: '1234', serie: '000' }, s, MED);
+  assert.equal(aplicarVariante(noGana, MED, 24000).gano, false);
+});
+
+test('variante sin fracciones conocidas usa las de la variante (código de barras del 4824)', async () => {
+  const { aplicarVariante, varianteDe } = await import('../js/motor.js');
+  const s = { mayor: { numero: '8885', serie: '150' }, secos: [] };
+  const v = varianteDe(MED, 24000);
+  const r = aplicarVariante(revisarLoteria({ numero: '4835', serie: '102', fracciones: v.fracciones }, s, MED), MED, 24000);
+  assert.deepEqual([r.netoFraccionMin, r.netoFraccionMax], [10500, 12000]);
+});

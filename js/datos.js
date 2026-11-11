@@ -8,13 +8,14 @@ async function leer(base, nombre) {
 
 export async function cargarDatos(base = './datos/') {
   const [planes, estado, baloto] = await Promise.all(['planes', 'estado', 'baloto'].map(n => leer(base, n)));
-  const D = { planes, estado, baloto };
+  // sinDatos: loterías conocidas (nombre, código de barras, web oficial) cuyos resultados no tenemos.
+  const D = { planes, estado, baloto, sinDatos: { ...(planes.loterias_sin_datos ?? {}) } };
   const ids = Object.keys(planes.loterias);
   const lotes = await Promise.all(ids.map(id => leer(base, id).catch(() => null)));
   ids.forEach((id, i) => {
-    // Una lotería sin datos (fuente caída desde el inicio) no rompe la página: se oculta.
+    // Una lotería sin datos (fuente caída desde el inicio) no rompe la página: pasa a «sin datos».
     if (lotes[i] && Object.keys(lotes[i].sorteos).length) D[id] = lotes[i];
-    else delete planes.loterias[id];
+    else { D.sinDatos[id] = { ...planes.loterias[id], motivo: 'Todavía no hay resultados descargados.' }; delete planes.loterias[id]; }
   });
   return D;
 }

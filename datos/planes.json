@@ -25,7 +25,20 @@
     "dos_ultimas_sin_serie": 30000,
     "ultima_sin_serie": 21000,
     "seco_sin_serie": 30000
-   }
+   },
+   "variantes": [
+    {
+     "id": "raspa-24000",
+     "precio_billete": 24000,
+     "fracciones": 2,
+     "reintegros": [
+      "ultima_sin_serie",
+      "serie_mayor"
+     ],
+     "confirmado": false,
+     "nota": "Algunos sorteos de 2026 se vendieron a $24.000 (2 fracciones de $12.000) con el promocional «Raspa Ya». La lotería solo publica el plan del billete de $21.000: el premio por la última cifra o la serie podría ser el del plan ($10.500 por fracción) o el precio pagado ($12.000). Confírmalo al cobrar, y raspa el recuadro «¡Raspa aquí!»: puede tener un premio instantáneo aparte."
+    }
+   ]
   },
   "boyaca": {
    "nombre": "Lotería de Boyacá",
@@ -471,5 +484,28 @@
   "dos_del_centro_con_serie": "Dos cifras del centro, con serie",
   "dos_del_centro_sin_serie": "Dos cifras del centro",
   "especial_sin_serie": "Premio especial (en cualquier serie)"
+ },
+ "loterias_sin_datos": {
+  "bogota": {
+   "nombre": "Lotería de Bogotá",
+   "codigo_barras": "020",
+   "dia": "jueves",
+   "fuente_resultados": "https://www.loteriadebogota.com/",
+   "motivo": "Su web oficial bloquea las consultas automáticas (Cloudflare)."
+  },
+  "meta": {
+   "nombre": "Lotería del Meta",
+   "codigo_barras": null,
+   "dia": "miércoles",
+   "fuente_resultados": "https://loteriadelmeta.gov.co/",
+   "motivo": "Su web oficial pide una verificación anti-robots."
+  },
+  "cruzroja": {
+   "nombre": "Lotería de la Cruz Roja",
+   "codigo_barras": null,
+   "dia": "martes",
+   "fuente_resultados": "https://lotecruz.org.co/",
+   "motivo": "Solo publica fotos de las actas."
+  }
  }
 }

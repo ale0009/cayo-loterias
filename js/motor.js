@@ -170,9 +170,30 @@ export function validarBaloto(numeros, sb) {
   return null;
 }
 
-/** Mapa código de barras → id de lotería a partir de planes.json. */
+/** Mapa código de barras → id de lotería a partir de planes.json (incluye las conocidas sin datos). */
 export function codigosDesdePlanes(planes) {
   const m = { ...CODIGOS };
-  for (const [id, p] of Object.entries(planes.loterias)) if (p.codigo_barras) m[p.codigo_barras] = id;
+  for (const grupo of [planes.loterias, planes.loterias_sin_datos ?? {}])
+    for (const [id, p] of Object.entries(grupo)) if (p.codigo_barras) m[p.codigo_barras] = id;
   return m;
+}
+
+/**
+ * Billetes con precio distinto al del plan publicado (p. ej. Medellín $24.000 con «Raspa Ya»).
+ * Si el premio es un reintegro (devuelve el precio), el valor real queda entre el del plan publicado
+ * y el precio pagado por fracción: se muestra como rango «a confirmar».
+ */
+export function varianteDe(plan, precio) {
+  return (plan.variantes ?? []).find(v => Number(v.precio_billete) === Number(precio)) ?? null;
+}
+
+export function aplicarVariante(r, plan, precio) {
+  const v = varianteDe(plan, precio);
+  if (!v || !r.gano) return v ? { ...r, variante: v } : r;
+  const base = { ...r, variante: v, aConfirmar: true };
+  if ((v.reintegros ?? []).includes(r.categoria)) {
+    const max = Math.round(Number(v.precio_billete) / (Number(r.fracciones) || v.fracciones));
+    return { ...base, netoFraccionMin: r.netoFraccion, netoFraccionMax: Math.max(max, r.netoFraccion) };
+  }
+  return base;
 }
