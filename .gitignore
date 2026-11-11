@@ -9,3 +9,7 @@ __pycache__/
 *.jpg
 *.jpeg
 *.heic
+*.png
+*.webp
+*.avif
+*.gif

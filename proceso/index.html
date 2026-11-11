@@ -124,13 +124,13 @@
         </tbody>
       </table>
       <h3 class="sub">¿Y leerlo desde la foto?</h3>
-      <p>Se probó con <a href="https://github.com/zxing-js/library">ZXing</a> sobre las fotos originales (1280 × 960 px), completas y recortadas por franjas ampliadas al doble. <b>No funcionó</b>. En una foto tomada de lejos, el código de barras ocupa unos 250 px para 20 dígitos: no hay resolución suficiente. Peor aún, el lector devolvió una lectura <b>falsa e idéntica</b> en los tres billetes (formato RSS-14).</p>
-      <p>De ahí salieron tres decisiones:</p>
-      <ol class="puntos">
-        <li>La cámara se usa <b>en vivo y de cerca</b>, no sobre una foto ya tomada.</li>
-        <li>Solo se acepta una lectura con la estructura exacta de 20 dígitos que empieza por 9. Las lecturas falsas se descartan solas.</li>
-        <li>La forma principal de consulta es <b>escribir los 20 números</b>, que están impresos en texto: no falla nunca.</li>
-      </ol>
+      <p><b>Primer intento (equivocado):</b> con el port de ZXing para JavaScript sobre las fotos originales (1280 × 960 px), completas y por franjas ampliadas, no se leyó ningún código. Incluso devolvió una lectura <b>falsa e idéntica</b> en tres billetes (formato RSS-14). Concluimos, mal, que en fotos tomadas de lejos el código no se podía leer.</p>
+      <p><b>Lo que pasó en realidad:</b> al construir la billetera con fotos, ese lector tampoco leyó un código sintético grande y nítido. El problema era la librería. Con <a href="https://github.com/zxing-cpp/zxing-cpp">zxing-cpp</a>, compilado a WebAssembly e incluido en el repositorio:</p>
+      <ul class="puntos">
+        <li>se leyeron los 3 billetes sintéticos de prueba (cerca, lejos y girado) en 0,3 s;</li>
+        <li>de las <b>40 fotos reales</b> de Mario se leyeron <b>7</b>, y las 7 coinciden con la lectura hecha a mano. Las otras 33 no muestran el código: 20 son tiquetes de Baloto, que no lo tienen, y 13 son billetes fotografiados por el frente. En la práctica se leyeron todas las fotos donde el código se veía, incluido un billete de Bogotá que reveló su código, 020.</li>
+      </ul>
+      <p>Decisiones que se mantienen: solo se acepta una lectura con la estructura exacta de 20 dígitos, y junto a cada foto siempre hay un formulario para escribir los datos si no se leyó.</p>
       <p class="nota">El código no dice <i>de cuántas</i> fracciones es el billete (Medellín vendió en 2026 billetes de 2 y de 3). Por eso el resultado pregunta ese dato con un clic.</p>
     </section>
 
@@ -241,6 +241,7 @@
       <h3 class="sub">Fe de erratas</h3>
       <ul class="puntos">
         <li><b>Plan de Boyacá, tabla de 2 fracciones:</b> en la misma tabla, "tres primeras cifras, diferente serie" aparece con $18.072 bruto / $15.000 neto por fracción, y "tres últimas cifras, diferente serie" con $36.145 / $30.000. Ambas tienen el mismo valor por billete ($72.289). La primera fila parece copiada de la tabla de 4 fracciones. La herramienta usa el neto por billete y lo divide entre las fracciones, así que no hereda el error.</li>
+        <li><b>«En fotos lejanas el código no se lee»:</b> era falso. Fallaba la librería (el port de ZXing para JavaScript), no las fotos. Con zxing-cpp se leyeron todas las fotos reales donde el código era visible (ver la sección 4).</li>
         <li><b>Informe del piloto:</b> decía "56 secos revisados" en Boyacá. Al automatizar se contaron <b>59</b>. El resultado no cambia: el billete no estaba entre ellos.</li>
         <li><b>Plan de Santander:</b> la columna «neto billete» descuenta siempre el 33,6 %. Pero la lotería liquida por fracción, y cuando el premio por fracción no supera 48 UVT solo descuenta el 17 %. Por eso el seco de $5 millones paga $4,15 millones por billete y no $3,32 millones. La herramienta usa 3 × el neto por fracción.</li>
         <li><b>Plan del Huila:</b> las tres primeras cifras con serie pagan $7,8 millones y las tres últimas con serie $5,4 millones. Parece un error, pero así lo dice el plan oficial.</li>

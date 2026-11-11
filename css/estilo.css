@@ -86,7 +86,7 @@ a:hover { color: var(--rojo-texto); }
 .consulta { grid-area: consulta; } .veredicto-caja { grid-area: veredicto; } .billetera { grid-area: billetera; }
 .buscador { grid-area: buscador; } .ultimos { grid-area: ultimos; }
 @media (min-width: 920px) {
-  .tablero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-areas: "consulta veredicto" "billetera buscador" "ultimos ultimos"; align-items: start; }
+  .tablero { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-areas: "consulta veredicto" "billetera billetera" "buscador buscador" "ultimos ultimos"; align-items: start; }
 }
 
 /* ---------- pestañas ---------- */
@@ -218,3 +218,27 @@ input::placeholder { color: var(--tinta-suave); opacity: 0.55; }
 .aviso-fuente::before { left: 0.5rem !important; }
 .alerta-datos { max-width: 1248px; margin: 0.4rem auto 0; padding: 0.6rem 0.9rem; border: var(--borde); background: var(--rojo-tenue); font-weight: 700; box-shadow: 3px 3px 0 var(--tinta); }
 @media (max-width: 1280px) { .alerta-datos { margin: 0.4rem 16px 0; } }
+
+/* ---------- billetera con fotos ---------- */
+.subir { margin-top: 0.6rem; }
+.boton.archivo { cursor: pointer; }
+.bandeja { border: 2px dashed var(--rojo); border-radius: 3px; padding: 0.7rem; margin-top: 0.8rem; background: color-mix(in srgb, var(--rojo-tenue) 50%, var(--papel)); }
+.sub-b { font-size: 1.3rem; margin: 0 0 0.3rem; color: var(--rojo-texto); }
+.lista-bandeja { list-style: none; padding: 0; margin: 0.6rem 0 0; display: grid; gap: 0.7rem; }
+.pendiente-foto { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 0.8rem; border: 2px solid var(--tinta); border-radius: 3px; padding: 0.6rem; background: var(--papel); }
+.pendiente-foto img { width: 100%; border: 2px solid var(--tinta); cursor: zoom-in; display: block; }
+.pendiente-foto .campos { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); }
+.pendiente-foto .lectura { font: 600 0.8rem var(--fuente-num); margin: 0 0 0.4rem; }
+.pendiente-foto .lectura.ok { color: var(--verde); }
+.vista-controles { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.5rem; margin-top: 0.9rem; }
+.filtros { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.filtros button { font: 700 0.85rem var(--fuente); border: 2px solid var(--tinta); background: var(--papel-2); color: var(--tinta); padding: 0.35rem 0.7rem; border-radius: 3px; cursor: pointer; }
+.filtros button[aria-pressed="true"] { background: var(--tinta); color: var(--papel); }
+.lista-boletos.con-fotos { grid-template-columns: repeat(auto-fill, minmax(min(100%, 330px), 1fr)); }
+.boleto .miniatura { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border: 2px solid var(--tinta); margin: 0.2rem 0 0.4rem; cursor: zoom-in; background: #000; }
+.boleto .sin-foto { display: grid; place-items: center; aspect-ratio: 4 / 3; border: 2px dashed var(--tinta-suave); margin: 0.2rem 0 0.4rem; font-size: 0.8rem; color: var(--tinta-suave); }
+.zoom-foto { border: var(--borde); padding: 0.5rem; max-width: min(96vw, 1100px); max-height: 94vh; background: var(--papel); }
+.zoom-foto::backdrop { background: rgba(0, 0, 0, 0.85); }
+.zoom-foto img { max-width: 100%; max-height: 84vh; display: block; margin: 0 auto; }
+.zoom-foto form { text-align: right; margin-bottom: 0.4rem; }
+@media (max-width: 560px) { .pendiente-foto { grid-template-columns: 1fr; } }

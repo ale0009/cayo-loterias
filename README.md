@@ -7,6 +7,7 @@
 ## Qué hace
 - **Tres formas de consulta:** código de 20 dígitos (lotería, sorteo, número, serie y fracción en uno), cámara en vivo, o formulario a mano (lotería o Baloto con bolillero).
 - **Veredicto claro:** ¡Cayó! o No cayó, el valor neto por fracción, la categoría, la fecha límite para cobrar con un medidor de días y dónde cobrarlo.
+- **Billetera con fotos:** sube muchas fotos de golpe. Las repetidas se omiten, el código de barras se lee solo cuando se ve en la foto (zxing-cpp en WebAssembly) y, si no, escribes los datos al lado de la foto. Las fotos se guardan solo en tu navegador (IndexedDB) y nunca se suben a ningún servidor.
 - **Billetera:** guarda tus boletos en el navegador. Los de sorteos futuros se revisan solos cuando llegan los resultados. Se puede exportar e importar.
 - **¿Cuándo cayó mi número?:** busca un número de 4 cifras en todos los mayores y secos del último año.
 - **Soporta 13 juegos:** Baloto, Revancha y las loterías de Medellín, Boyacá, Valle, Huila, Santander, Cauca, Tolima, Quindío, Risaralda, Cundinamarca, Manizales y el Extra de Colombia. Cundinamarca y Manizales solo publican imágenes: se leen con OCR (Tesseract) con voto y verificación, y la página lo avisa. Incluye las categorías propias de cada plan: anterior y posterior al mayor, mayor invertido, cifras en otro orden, cifras del centro y «gana fijo».
@@ -46,4 +47,4 @@ Herramienta independiente: no está afiliada a ninguna lotería ni a Coljuegos. 
 ## Créditos
 [Mario Puerta «ale0009»](https://github.com/ale0009) × [David Rincón «Kuronoma»](https://www.linkedin.com/in/davidalexanderrinconcorredorkuronoma/)
 
-Lector de códigos de barras: [ZXing](https://github.com/zxing-js/library) (MIT), incluido en `vendor/`. Licencia del código: MIT. Los resultados son información pública de cada lotería.
+Lectores de códigos de barras incluidos en `vendor/`: [zxing-cpp](https://github.com/zxing-cpp/zxing-cpp) vía [zxing-wasm](https://github.com/Sec-ant/zxing-wasm) (MIT/Apache 2.0) para fotos y para la cámara en vivo. Licencia del código: MIT. Los resultados son información pública de cada lotería.

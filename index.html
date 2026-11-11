@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bangers&family=IBM+Plex+Mono:wght@400;600&display=swap">
   <link rel="stylesheet" href="css/estilo.css">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F9F9F7'/%3E%3Crect x='4' y='8' width='24' height='16' rx='2' fill='none' stroke='%230A090A' stroke-width='2.5'/%3E%3Cpath d='M9 12v8M12 12v8M14 12v8M18 12v8M21 12v8M23 12v8' stroke='%23CB433E' stroke-width='1.6'/%3E%3C/svg%3E">
-  <script src="vendor/zxing.min.js" defer></script>
   <script type="module" src="js/app.js"></script>
 </head>
 <body>
@@ -127,14 +126,35 @@
         <h2 id="t-billetera" class="rotulo">Mi billetera</h2>
         <div class="hud" id="hud"></div>
       </div>
-      <p class="ayuda">Se guarda solo en este navegador. Los boletos de sorteos que aún no se juegan se revisan solos cuando lleguen los resultados.</p>
+      <p class="ayuda">Se guarda solo en este navegador, con las fotos incluidas: nada se sube a ningún servidor. Los boletos de sorteos que aún no se juegan se revisan solos cuando lleguen los resultados.</p>
+      <div class="acciones subir">
+        <label class="boton archivo">Subir fotos de boletos<input type="file" id="subir-fotos" accept="image/*" multiple hidden></label>
+        <span class="ayuda" id="estado-fotos" aria-live="polite"></span>
+      </div>
+      <div class="bandeja" id="bandeja" hidden>
+        <h3 class="sub-b">Fotos por completar <span id="bandeja-cuenta"></span></h3>
+        <p class="ayuda">Si la herramienta leyó el código de barras, el formulario viene lleno: solo confírmalo. Si no (pasa con fotos tomadas de lejos), escribe los datos que ves en la foto.</p>
+        <ol class="lista-bandeja" id="lista-bandeja"></ol>
+      </div>
+      <div class="vista-controles">
+        <div class="filtros" role="group" aria-label="Cómo ver la billetera" id="modo-vista">
+          <button type="button" data-vista="lista" aria-pressed="true">Lista</button>
+          <button type="button" data-vista="fotos" aria-pressed="false">Con fotos</button>
+        </div>
+        <div class="filtros" role="group" aria-label="Filtrar boletos" id="filtros-billetera"></div>
+      </div>
       <ol class="lista-boletos" id="lista"></ol>
       <div class="acciones">
         <button type="button" class="mini" id="exportar">Exportar</button>
         <label class="mini archivo">Importar<input type="file" id="importar" accept="application/json" hidden></label>
         <button type="button" class="mini" id="vaciar">Vaciar</button>
+        <span class="ayuda">Exportar guarda los datos de los boletos, no las fotos.</span>
       </div>
     </section>
+    <dialog class="zoom-foto" id="zoom-foto" aria-label="Foto del boleto ampliada">
+      <form method="dialog"><button class="mini cerrar-zoom" aria-label="Cerrar">Cerrar ×</button></form>
+      <img alt="">
+    </dialog>
 
     <!-- ===================== ¿CUÁNDO CAYÓ? ===================== -->
     <section class="buscador vineta" aria-labelledby="t-buscar">

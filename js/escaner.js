@@ -1,5 +1,5 @@
 // Escáner de código de barras con la cámara. Usa el lector nativo del navegador si existe
-// (BarcodeDetector) y, si no, ZXing (vendor/zxing.min.js, MIT). Solo acepta lecturas con la
+// (BarcodeDetector) y, si no, zxing-cpp en WebAssembly (vendor/zxing-wasm). Solo acepta lecturas con la
 // forma del código de 20 dígitos: así se descartan las lecturas falsas.
 import { leerCodigo } from './motor.js';
 
@@ -38,18 +38,28 @@ export async function iniciarEscaner(video, alLeer, alEstado) {
       return;
     }
   }
-  if (!window.ZXing) { alEstado('No se cargó el lector de códigos. Escribe los 20 números a mano.'); return; }
-  const Z = window.ZXing;
-  const hints = new Map([[Z.DecodeHintType.TRY_HARDER, true],
-    [Z.DecodeHintType.POSSIBLE_FORMATS, [Z.BarcodeFormat.CODE_128, Z.BarcodeFormat.ITF, Z.BarcodeFormat.CODE_39, Z.BarcodeFormat.CODABAR]]]);
-  const lector = new Z.BrowserMultiFormatReader(hints, 250);
-  parar = () => lector.reset();
+  // Sin lector nativo: zxing-cpp (WebAssembly, incluido en vendor/) sobre cuadros del video.
+  const { prepareZXingModule, readBarcodes } = await import('../vendor/zxing-wasm/es/reader/index.js');
+  prepareZXingModule({ overrides: { locateFile: (r, pre) => r.endsWith('.wasm') ? new URL('../vendor/zxing-wasm/zxing_reader.wasm', import.meta.url).href : pre + r }, fireImmediately: false });
+  const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: 'environment', width: { ideal: 1920 } } });
+  video.srcObject = stream; await video.play();
+  const lienzo = document.createElement('canvas'); const g = lienzo.getContext('2d', { willReadFrequently: true });
+  let vivo = true;
+  parar = () => { vivo = false; stream.getTracks().forEach(t => t.stop()); video.srcObject = null; lienzo.width = 0; };
   alEstado('Buscando el código… acércalo hasta que llene el recuadro.');
-  await lector.decodeFromVideoDevice(undefined, video, (res) => {
-    if (!res) return;
-    const v = valido(res.getText());
-    if (v) { detenerEscaner(); alLeer(v); }
-  });
+  const ciclo = async () => {
+    if (!vivo || !video.videoWidth) { if (vivo) setTimeout(ciclo, 200); return; }
+    lienzo.width = video.videoWidth; lienzo.height = video.videoHeight;
+    g.drawImage(video, 0, 0);
+    try {
+      for (const r of await readBarcodes(g.getImageData(0, 0, lienzo.width, lienzo.height), { formats: ['Code128', 'ITF', 'Code39', 'Codabar'], tryHarder: true, maxNumberOfSymbols: 4 })) {
+        const v = valido(r.text);
+        if (v) { detenerEscaner(); alLeer(v); return; }
+      }
+    } catch { /* cuadro sin código */ }
+    if (vivo) setTimeout(ciclo, 250);
+  };
+  ciclo();
 }
 
 export function detenerEscaner() {

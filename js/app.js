@@ -6,6 +6,8 @@ import {
   cifrasFinalesIguales, vence, diasHasta, pesos, codigosDesdePlanes, aplicarVariante, varianteDe,
 } from './motor.js';
 import * as Billetera from './billetera.js';
+import * as Fotos from './fotos.js';
+import { leerCodigoEnFoto } from './lector-foto.js';
 
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -290,9 +292,13 @@ function pintarBilletera() {
     <span class="pieza oro"><b>${ganados.length}</b> con premio</span>
     <span class="pieza"><b>${pesos(suma)}${sumaMax > suma ? ` – ${pesos(sumaMax)}` : ''}</b> por cobrar</span>
     ${prox !== undefined ? `<span class="pieza">vence en <b>${prox}</b> días</span>` : ''}`;
-  if (!grupos.length) { $('#lista').innerHTML = '<li class="vacio">Aún no guardas boletos. Revisa uno y toca «Guardar en mi billetera».</li>'; return; }
+  pintarFiltros(grupos);
+  $('#lista').classList.toggle('con-fotos', vista === 'fotos');
+  if (!grupos.length) { $('#lista').innerHTML = '<li class="vacio">Aún no guardas boletos. Revisa uno y toca «Guardar en mi billetera», o sube fotos de tus boletos.</li>'; return; }
   grupos.sort((x, y) => ORDEN_ESTADO[x.estado] - ORDEN_ESTADO[y.estado]);
-  $('#lista').innerHTML = grupos.map(({ g, evs, estado, total, max, sorteo }) => {
+  const visibles = grupos.filter(x => filtroB === 'todos' || (filtroB === 'pendiente' ? ['pendiente', 'sin-datos'].includes(x.estado) : x.estado === filtroB));
+  liberarUrls();
+  $('#lista').innerHTML = visibles.map(({ g, evs, estado, total, max, sorteo }) => {
     const b = g.boletos[0];
     const titulo = b.tipo === 'baloto' ? 'Baloto + Revancha' : nombreDe(b.loteria);
     const fr = g.boletos.map(x => x.fraccion).filter(Boolean);
@@ -302,20 +308,151 @@ function pintarBilletera() {
     const est = estado === 'gano' ? `Ganó ${monto}${g.boletos.length > 1 ? ` en ${evs.filter(x => x.ev.estado === 'gano').length} fracciones` : ''} · cobra antes del ${fechaLarga(vence(sorteo.fecha))}`
       : estado === 'pendiente' ? 'Pendiente: aún sin resultados'
       : estado === 'sin-datos' ? 'Sin datos de esta lotería: consúltalo en la web oficial' : 'Sin premio';
+    const foto = g.boletos.find(x => x.fotoId)?.fotoId;
+    const img = vista !== 'fotos' ? '' : foto
+      ? `<img class="miniatura" data-foto="${foto}" alt="Foto del boleto: ${esc(titulo)} ${esc(linea)}" tabindex="0">`
+      : '<div class="sin-foto">Sin foto</div>';
     return `<li class="boleto ${estado === 'gano' ? 'gano' : estado === 'no' ? 'no' : 'pend'}">
       <button class="quitar" data-ids="${g.boletos.map(x => x.id).join(',')}" aria-label="Quitar ${esc(titulo)} ${esc(linea)}">×</button>
-      <h3>${esc(titulo)}</h3><div class="linea">${esc(linea)}</div>
+      ${img}<h3>${esc(titulo)}</h3><div class="linea">${esc(linea)}</div>
       <div class="meta">Sorteo ${esc(b.sorteo)}${sorteo ? ` · ${fechaLarga(sorteo.fecha)}` : ''}${b.precio ? ` · billete de ${pesos(b.precio)}` : ''}</div>
       <div class="meta"><b>${esc(est)}</b></div></li>`;
-  }).join('');
+  }).join('') || '<li class="vacio">Ningún boleto con ese filtro.</li>';
+  if (vista === 'fotos') pintarMiniaturas();
 }
+
+// ------------------------------------------------------------------ vista con fotos, filtros y zoom
+let vista = 'lista', filtroB = 'todos';
+const urls = [];
+function liberarUrls() { while (urls.length) URL.revokeObjectURL(urls.pop()); }
+const urlDe = blob => { const u = URL.createObjectURL(blob); urls.push(u); return u; };
+async function pintarMiniaturas() {
+  for (const img of document.querySelectorAll('#lista img[data-foto]')) {
+    const f = await Fotos.leer(img.dataset.foto).catch(() => null);
+    if (f?.mini) img.src = urlDe(f.mini); else img.replaceWith(Object.assign(document.createElement('div'), { className: 'sin-foto', textContent: 'Foto no encontrada en este navegador' }));
+  }
+}
+function pintarFiltros(grupos) {
+  const n = k => grupos.filter(x => k === 'todos' || (k === 'pendiente' ? ['pendiente', 'sin-datos'].includes(x.estado) : x.estado === k)).length;
+  $('#filtros-billetera').innerHTML = [['todos', 'Todos'], ['gano', 'Con premio'], ['pendiente', 'Pendientes o sin datos'], ['no', 'Sin premio']]
+    .map(([k, txt]) => `<button type="button" data-filtro="${k}" aria-pressed="${k === filtroB}">${txt} (${n(k)})</button>`).join('');
+}
+$('#filtros-billetera').addEventListener('click', e => { const f = e.target.closest('[data-filtro]')?.dataset.filtro; if (f) { filtroB = f; pintarBilletera(); } });
+$('#modo-vista').addEventListener('click', e => {
+  const v = e.target.closest('[data-vista]')?.dataset.vista; if (!v) return;
+  vista = v; document.querySelectorAll('#modo-vista button').forEach(b => b.setAttribute('aria-pressed', b.dataset.vista === v));
+  pintarBilletera();
+});
+async function ampliar(hash) {
+  const f = await Fotos.leer(hash).catch(() => null);
+  if (!f) return;
+  const d = $('#zoom-foto'); const img = d.querySelector('img');
+  img.src = urlDe(f.blob); img.alt = 'Foto del boleto ampliada';
+  d.showModal();
+}
+document.addEventListener('click', e => { const h = e.target.closest('img[data-foto]')?.dataset.foto; if (h) ampliar(h); });
+document.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches?.('img[data-foto]')) ampliar(e.target.dataset.foto); });
+
+// ------------------------------------------------------------------ subir fotos (solo local)
+$('#subir-fotos').addEventListener('change', async e => {
+  const archivos = [...e.target.files]; e.target.value = '';
+  if (!archivos.length) return;
+  const usadas = new Set(cartera.boletos.map(b => b.fotoId).filter(Boolean));
+  let nuevas = 0, repetidas = 0, leidas = 0;
+  await Fotos.espacio();
+  for (const [i, f] of archivos.entries()) {
+    $('#estado-fotos').textContent = `Procesando foto ${i + 1} de ${archivos.length}…`;
+    try {
+      const hash = await Fotos.huella(f);
+      if (usadas.has(hash) || await Fotos.existe(hash)) { repetidas++; continue; }
+      const { mini, ancho, alto } = await Fotos.miniatura(f);
+      const lectura = await leerCodigoEnFoto(f, CODS);
+      if (lectura) leidas++;
+      await Fotos.guardar({ hash, blob: f, mini, ancho, alto, nombre: f.name, agregado: new Date().toISOString(), estado: 'pendiente', lectura });
+      nuevas++;
+    } catch { /* foto ilegible o formato no soportado (p. ej. HEIC fuera de Safari): se omite */ }
+  }
+  $('#estado-fotos').textContent = `${nuevas} foto${nuevas === 1 ? '' : 's'} nueva${nuevas === 1 ? '' : 's'}${repetidas ? ` · ${repetidas} repetida${repetidas === 1 ? '' : 's'} omitida${repetidas === 1 ? '' : 's'}` : ''}${nuevas ? ` · código leído en ${leidas}` : ''}.`;
+  pintarBandeja();
+});
+
+const opcionesLoteria = sel => [...Object.entries(D.planes.loterias), ...Object.entries(D.sinDatos)]
+  .map(([k, v]) => `<option value="${k}" ${k === sel ? 'selected' : ''}>${esc(v.nombre)}${D[k] ? '' : ' (sin datos)'}</option>`).join('');
+
+async function pintarBandeja() {
+  const pendientes = (await Fotos.listar().catch(() => [])).filter(f => f.estado === 'pendiente');
+  $('#bandeja').hidden = !pendientes.length;
+  $('#bandeja-cuenta').textContent = pendientes.length ? `(${pendientes.length})` : '';
+  $('#lista-bandeja').innerHTML = pendientes.map(f => {
+    const c = f.lectura ? leerCodigo(f.lectura.codigo, CODS) : null;
+    return `<li class="pendiente-foto" data-hash="${f.hash}">
+      <img data-foto="${f.hash}" data-mini="1" alt="Foto subida ${esc(f.nombre || '')}" tabindex="0">
+      <form class="form-foto" autocomplete="off">
+        <p class="lectura ${c ? 'ok' : ''}">${c ? `Código leído (${esc(f.lectura.via)}): revisa y guarda.` : 'No se pudo leer el código de barras: escribe los datos.'}</p>
+        <div class="campos">
+          <label>Tipo <select name="tipo"><option value="loteria">Lotería</option><option value="baloto">Baloto</option></select></label>
+          <label class="solo-lot">Lotería <select name="loteria">${opcionesLoteria(c?.loteria ?? 'medellin')}</select></label>
+          <label>Sorteo <input name="sorteo" inputmode="numeric" value="${c?.sorteo ?? ''}" required></label>
+          <label class="solo-lot">Número <input name="numero" class="num4" inputmode="numeric" maxlength="4" value="${c?.numero ?? ''}"></label>
+          <label class="solo-lot">Serie <input name="serie" class="num3" inputmode="numeric" maxlength="3" value="${c?.serie ?? ''}"></label>
+          <label class="solo-lot">Fracción <input name="fraccion" inputmode="numeric" maxlength="2" value="${c?.fraccion ?? ''}"></label>
+          <label class="solo-lot">De (fracciones) <input name="fracciones" inputmode="numeric" maxlength="2"></label>
+          <label class="solo-bal" hidden>Números (5) <input name="numeros" placeholder="01 06 08 15 41"></label>
+          <label class="solo-bal" hidden>Superbalota <input name="sb" inputmode="numeric" maxlength="2"></label>
+        </div>
+        <div class="acciones"><button class="boton" type="submit">Guardar boleto</button><button class="boton-texto" type="button" data-descartar>Descartar foto</button></div>
+        <p class="error" hidden></p>
+      </form></li>`;
+  }).join('');
+  liberarUrls();
+  for (const img of document.querySelectorAll('#lista-bandeja img[data-foto]')) {
+    const f = pendientes.find(x => x.hash === img.dataset.foto); if (f?.mini) img.src = urlDe(f.mini);
+  }
+}
+$('#lista-bandeja').addEventListener('change', e => {
+  if (e.target.name !== 'tipo') return;
+  const form = e.target.form, bal = e.target.value === 'baloto';
+  form.querySelectorAll('.solo-lot').forEach(x => { x.hidden = bal; });
+  form.querySelectorAll('.solo-bal').forEach(x => { x.hidden = !bal; });
+});
+$('#lista-bandeja').addEventListener('click', async e => {
+  if (!e.target.matches('[data-descartar]')) return;
+  const hash = e.target.closest('[data-hash]').dataset.hash;
+  await Fotos.borrar(hash); pintarBandeja();
+});
+$('#lista-bandeja').addEventListener('submit', async e => {
+  e.preventDefault();
+  const form = e.target, hash = form.closest('[data-hash]').dataset.hash, d = Object.fromEntries(new FormData(form));
+  const err = m => { const p = form.querySelector('.error'); p.textContent = m; p.hidden = false; };
+  let boleto;
+  if (d.tipo === 'baloto') {
+    const numeros = (d.numeros.match(/\d+/g) || []).map(Number).sort((a, b) => a - b);
+    const problema = validarBaloto(numeros, d.sb);
+    if (problema) return err(problema);
+    boleto = { tipo: 'baloto', sorteo: Number(d.sorteo), numeros, sb: Number(d.sb) };
+  } else {
+    if (!/^\d{1,4}$/.test(d.numero) || !/^\d{1,3}$/.test(d.serie) || !/^\d+$/.test(d.sorteo)) return err('Revisa el sorteo, el número (4 cifras) y la serie (3 cifras).');
+    boleto = { tipo: 'loteria', loteria: d.loteria, sorteo: Number(d.sorteo), numero: d.numero.padStart(4, '0'), serie: d.serie.padStart(3, '0'),
+      fraccion: Number(d.fraccion) || undefined, fracciones: Number(d.fracciones) || undefined };
+  }
+  const r = Billetera.fusionar(cartera.boletos, [{ ...boleto, fotoId: hash }], 'foto');
+  if (!r.agregados) return err('Ese boleto ya estaba en tu billetera.');
+  cartera = { ...cartera, boletos: r.lista }; guardarCartera();
+  const f = await Fotos.leer(hash); await Fotos.guardar({ ...f, estado: 'asignada' });
+  vista = 'fotos'; document.querySelectorAll('#modo-vista button').forEach(b => b.setAttribute('aria-pressed', b.dataset.vista === 'fotos'));
+  pintarBandeja(); pintarBilletera();
+});
 $('#lista').addEventListener('click', e => {
   const ids = e.target.dataset.ids; if (!ids) return;
   const quitar = new Set(ids.split(','));
+  const fotos = cartera.boletos.filter(b => quitar.has(b.id) && b.fotoId).map(b => b.fotoId);
   cartera = { ...cartera, boletos: cartera.boletos.filter(b => !quitar.has(b.id)) }; guardarCartera(); pintarBilletera();
+  for (const h of fotos) if (!cartera.boletos.some(b => b.fotoId === h)) Fotos.borrar(h).catch(() => {});
 });
 $('#vaciar').addEventListener('click', () => {
-  if (cartera.boletos.length && confirm('¿Quitar todos los boletos de la billetera de este navegador?')) { cartera = { version: 2, boletos: [] }; guardarCartera(); pintarBilletera(); }
+  if (confirm('¿Quitar todos los boletos y sus fotos de la billetera de este navegador? No se puede deshacer.')) {
+    cartera = { version: 2, boletos: [] }; guardarCartera(); Fotos.vaciar().catch(() => {}); pintarBilletera(); pintarBandeja();
+  }
 });
 $('#exportar').addEventListener('click', () => {
   const a = document.createElement('a');
@@ -390,7 +527,7 @@ function pintarUltimos() {
   $('#m-loteria').innerHTML = Object.entries(D.planes.loterias).map(([k, v]) => `<option value="${k}">${esc(v.nombre)}</option>`).join('');
   llenarSorteos();
   $('#b-sorteo').innerHTML = listaSorteos(D.baloto).map(s => `<option value="${s.id}">${s.id} · ${fechaLarga(s.fecha)}</option>`).join('');
-  pintarBolillero(); pintarUltimos(); pintarBilletera();
+  pintarBolillero(); pintarUltimos(); pintarBilletera(); pintarBandeja();
   // Abre en un estado útil: el ejemplo real del piloto (un billete con premio pequeño).
   $('#codigo').value = '9 016 0004850 1048 367 02'; pintarPartes();
   $('#sello').hidden = false;
