@@ -64,6 +64,16 @@ class Recolector(unittest.TestCase):
         self.correr(mod)
         self.assertEqual(llamadas, [], "un sorteo ilegible no se vuelve a pedir")
 
+    def test_ocr_que_devuelve_nada_cuenta_como_intento(self):
+        mod = falso({14: None})
+        mod.OCR = True
+        for _ in range(a.REINTENTOS):
+            self.correr(mod)
+        self.assertIn("14", a.ESTADO["ilegibles"]["falsa"])
+        normal = falso({15: None})  # en una fuente normal, None = aún no publicado: no cuenta
+        self.correr(normal)
+        self.assertNotIn("15", a.ESTADO["reintentos"]["falsa"])
+
     def test_presupuesto_de_tiempo(self):
         viejo = a.PRESUPUESTO
         a.PRESUPUESTO = -1  # sin tiempo: no debe pedir nada, pero sí guardar el archivo

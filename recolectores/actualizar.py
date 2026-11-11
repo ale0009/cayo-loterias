@@ -295,6 +295,8 @@ def actualizar_modulo(ident, desde):
                 r = {"completo": False}
                 print(f"  {ident} {s}: error al leer ({str(e)[:80]})", flush=True)
             time.sleep(PAUSA)
+            if r is None and getattr(mod, "OCR", False):
+                r = {"completo": False}  # en las fuentes con OCR, «nada» es una lectura fallida: cuenta como intento
             if r and r.get("completo") is False:
                 fallidos += 1
                 reint[k] = reint.get(k, 0) + 1
