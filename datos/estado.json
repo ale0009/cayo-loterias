@@ -2,126 +2,124 @@
  "fuentes": {
   "baloto": {
    "ok": true,
-   "nuevos": 0,
-   "revisado": "2026-11-11T23:01+00:00",
-   "ultimo_ok": "2026-11-11T23:01+00:00",
+   "nuevos": 1,
+   "revisado": "2026-11-12T13:29+00:00",
+   "ultimo_ok": "2026-11-12T13:29+00:00",
    "fallos_seguidos": 0
   },
   "medellin": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:01+00:00",
-   "ultimo_ok": "2026-11-11T23:01+00:00",
+   "revisado": "2026-11-12T13:29+00:00",
+   "ultimo_ok": "2026-11-12T13:29+00:00",
    "fallos_seguidos": 0
   },
   "boyaca": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:01+00:00",
-   "ultimo_ok": "2026-11-11T23:01+00:00",
+   "revisado": "2026-11-12T13:30+00:00",
+   "ultimo_ok": "2026-11-12T13:30+00:00",
    "fallos_seguidos": 0
   },
   "valle": {
    "ok": true,
-   "nuevos": 0,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "nuevos": 1,
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   },
   "huila": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:04+00:00",
-   "ultimo_ok": "2026-11-11T23:04+00:00",
+   "revisado": "2026-11-12T13:32+00:00",
+   "ultimo_ok": "2026-11-12T13:32+00:00",
    "fallos_seguidos": 0
   },
   "santander": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   },
   "cauca": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:01+00:00",
-   "ultimo_ok": "2026-11-11T23:01+00:00",
+   "revisado": "2026-11-12T13:30+00:00",
+   "ultimo_ok": "2026-11-12T13:30+00:00",
    "fallos_seguidos": 0
   },
   "tolima": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   },
   "extra": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:04+00:00",
-   "ultimo_ok": "2026-11-11T23:04+00:00",
+   "revisado": "2026-11-12T13:32+00:00",
+   "ultimo_ok": "2026-11-12T13:32+00:00",
    "fallos_seguidos": 0
   },
   "quindio": {
    "ok": true,
    "nuevos": 1,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   },
   "risaralda": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   },
   "cundinamarca": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:04+00:00",
-   "ultimo_ok": "2026-11-11T23:04+00:00",
+   "revisado": "2026-11-12T13:32+00:00",
+   "ultimo_ok": "2026-11-12T13:32+00:00",
    "fallos_seguidos": 0
   },
   "manizales": {
    "ok": true,
    "nuevos": 0,
-   "revisado": "2026-11-11T23:16+00:00",
-   "ultimo_ok": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
+   "ultimo_ok": "2026-11-12T13:45+00:00",
    "fallos_seguidos": 0
   }
  },
- "actualizado": "2026-11-11T23:16+00:00",
+ "actualizado": "2026-11-12T13:45+00:00",
  "reintentos": {
   "cundinamarca": {
-   "4786": 4,
-   "4792": 4,
-   "4810": 4,
-   "4813": 4,
-   "4817": 4,
-   "4821": 4,
-   "4820": 2
+   "4820": 3
   },
   "cauca": {},
   "extra": {},
   "huila": {},
   "manizales": {
-   "4928": 2,
-   "4932": 2,
-   "4933": 2,
-   "4934": 2,
-   "4937": 2,
-   "4941": 2,
-   "4943": 2,
-   "4944": 2,
-   "4945": 2,
-   "4946": 2,
-   "4947": 2,
-   "4951": 2,
-   "4952": 2,
-   "4953": 2,
-   "4955": 2
+   "4928": 3,
+   "4932": 3,
+   "4933": 3,
+   "4934": 3,
+   "4937": 3,
+   "4941": 3,
+   "4943": 3,
+   "4944": 3,
+   "4945": 3,
+   "4946": 3,
+   "4947": 3,
+   "4951": 3,
+   "4952": 3,
+   "4953": 3,
+   "4955": 3,
+   "4956": 1,
+   "4957": 1,
+   "4958": 1,
+   "4961": 1
   },
   "quindio": {},
   "risaralda": {},
@@ -130,7 +128,32 @@
   "valle": {}
  },
  "ilegibles": {
-  "cundinamarca": {},
+  "cundinamarca": {
+   "4786": {
+    "fecha": "2026-01-19",
+    "desde": "2026-11-12"
+   },
+   "4792": {
+    "fecha": "2026-03-02",
+    "desde": "2026-11-12"
+   },
+   "4810": {
+    "fecha": "2026-07-06",
+    "desde": "2026-11-12"
+   },
+   "4813": {
+    "fecha": "2026-07-27",
+    "desde": "2026-11-12"
+   },
+   "4817": {
+    "fecha": "2026-08-24",
+    "desde": "2026-11-12"
+   },
+   "4821": {
+    "fecha": "2026-09-21",
+    "desde": "2026-11-12"
+   }
+  },
   "cauca": {},
   "extra": {},
   "huila": {},
@@ -143,112 +166,112 @@
  },
  "auditoria": {
   "baloto": {
-   "revisado": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "2599",
-    "2568"
+    "2644",
+    "2584"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "medellin": {
-   "revisado": "2026-11-11T23:16+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "4834",
-    "4858"
+    "4818",
+    "4834"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "boyaca": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "4621",
-    "4594"
+    "4611",
+    "4614"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "cauca": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "2633",
-    "2625"
+    "2613",
+    "2585"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "cundinamarca": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [],
    "inconsistentes": {},
    "no_verificables": []
   },
   "extra": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "2253",
-    "2248"
+    "2248",
+    "2255"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "huila": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "4741",
-    "4764"
+    "4744",
+    "4767"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "manizales": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [],
    "inconsistentes": {},
    "no_verificables": []
   },
   "quindio": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:45+00:00",
    "muestra": [
-    "3016",
-    "3007"
+    "3013",
+    "3010"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "risaralda": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:46+00:00",
    "muestra": [
-    "2962",
-    "2959"
+    "2952",
+    "2969"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "santander": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:46+00:00",
    "muestra": [
-    "5070",
-    "5058"
+    "5073",
+    "5055"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "tolima": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:46+00:00",
    "muestra": [
-    "4145",
-    "4159"
+    "4166",
+    "4147"
    ],
    "inconsistentes": {},
    "no_verificables": []
   },
   "valle": {
-   "revisado": "2026-11-11T23:17+00:00",
+   "revisado": "2026-11-12T13:46+00:00",
    "muestra": [
-    "4861",
-    "4865"
+    "4866",
+    "4873"
    ],
    "inconsistentes": {},
    "no_verificables": []
