@@ -15811,6 +15811,99 @@
     },
     "acumulado": "$5.600 MILLONES"
    }
+  },
+  "2736": {
+   "fecha": "2026-11-16",
+   "baloto": {
+    "numeros": [
+     2,
+     12,
+     19,
+     25,
+     42
+    ],
+    "sb": 7,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 4,
+      "por_ganador": 717550
+     },
+     "4": {
+      "ganadores": 56,
+      "por_ganador": 56050
+     },
+     "3+SB": {
+      "ganadores": 128,
+      "por_ganador": 21250
+     },
+     "3": {
+      "ganadores": 1573,
+      "por_ganador": 6000
+     },
+     "2+SB": {
+      "ganadores": 1214,
+      "por_ganador": 6000
+     },
+     "0+SB": {
+      "ganadores": 8392,
+      "por_ganador": 6000
+     }
+    },
+    "acumulado": "$20.800 MILLONES"
+   },
+   "revancha": {
+    "numeros": [
+     2,
+     17,
+     27,
+     33,
+     37
+    ],
+    "sb": 10,
+    "premios": {
+     "5+SB": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "5": {
+      "ganadores": 0,
+      "por_ganador": 0
+     },
+     "4+SB": {
+      "ganadores": 1,
+      "por_ganador": 1277850
+     },
+     "4": {
+      "ganadores": 14,
+      "por_ganador": 99850
+     },
+     "3+SB": {
+      "ganadores": 30,
+      "por_ganador": 40400
+     },
+     "3": {
+      "ganadores": 483,
+      "por_ganador": 8200
+     },
+     "2+SB": {
+      "ganadores": 431,
+      "por_ganador": 7350
+     },
+     "0+SB": {
+      "ganadores": 6161,
+      "por_ganador": 3000
+     }
+    },
+    "acumulado": "$2.000 MILLONES"
+   }
   }
  }
 }
