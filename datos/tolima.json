@@ -2,183 +2,6 @@
  "juego": "Lotería del Tolima",
  "fuente": "https://loteriadeltolima.com/resultados/",
  "sorteos": {
-  "4139": {
-   "fecha": "2025-10-14",
-   "mayor": {
-    "numero": "2241",
-    "serie": "079"
-   },
-   "secos": [
-    {
-     "numero": "7209",
-     "serie": "049",
-     "valor": 270000000
-    },
-    {
-     "numero": "6970",
-     "serie": "218",
-     "valor": 240000000
-    },
-    {
-     "numero": "9506",
-     "serie": "150",
-     "valor": 150000000
-    },
-    {
-     "numero": "0982",
-     "serie": "267",
-     "valor": 150000000
-    },
-    {
-     "numero": "1855",
-     "serie": "128",
-     "valor": 60000000
-    },
-    {
-     "numero": "3859",
-     "serie": "129",
-     "valor": 60000000
-    },
-    {
-     "numero": "6669",
-     "serie": "091",
-     "valor": 60000000
-    },
-    {
-     "numero": "9058",
-     "serie": "277",
-     "valor": 45000000
-    },
-    {
-     "numero": "5326",
-     "serie": "096",
-     "valor": 45000000
-    },
-    {
-     "numero": "5279",
-     "serie": "010",
-     "valor": 45000000
-    },
-    {
-     "numero": "3153",
-     "serie": "205",
-     "valor": 45000000
-    },
-    {
-     "numero": "2100",
-     "serie": "187",
-     "valor": 21000000
-    },
-    {
-     "numero": "9469",
-     "serie": "079",
-     "valor": 21000000
-    },
-    {
-     "numero": "9352",
-     "serie": "102",
-     "valor": 21000000
-    },
-    {
-     "numero": "9686",
-     "serie": "235",
-     "valor": 21000000
-    },
-    {
-     "numero": "5749",
-     "serie": "080",
-     "valor": 21000000
-    },
-    {
-     "numero": "1123",
-     "serie": "023",
-     "valor": 21000000
-    },
-    {
-     "numero": "9871",
-     "serie": "267",
-     "valor": 21000000
-    },
-    {
-     "numero": "2834",
-     "serie": "039",
-     "valor": 21000000
-    },
-    {
-     "numero": "3536",
-     "serie": "014",
-     "valor": 21000000
-    },
-    {
-     "numero": "9135",
-     "serie": "153",
-     "valor": 15000000
-    },
-    {
-     "numero": "4750",
-     "serie": "109",
-     "valor": 15000000
-    },
-    {
-     "numero": "0542",
-     "serie": "175",
-     "valor": 15000000
-    },
-    {
-     "numero": "6381",
-     "serie": "160",
-     "valor": 15000000
-    },
-    {
-     "numero": "0699",
-     "serie": "159",
-     "valor": 15000000
-    },
-    {
-     "numero": "1599",
-     "serie": "201",
-     "valor": 15000000
-    },
-    {
-     "numero": "3534",
-     "serie": "151",
-     "valor": 15000000
-    },
-    {
-     "numero": "1850",
-     "serie": "002",
-     "valor": 15000000
-    },
-    {
-     "numero": "4466",
-     "serie": "050",
-     "valor": 15000000
-    },
-    {
-     "numero": "2185",
-     "serie": "148",
-     "valor": 15000000
-    },
-    {
-     "numero": "7716",
-     "serie": "212",
-     "valor": 15000000
-    },
-    {
-     "numero": "8091",
-     "serie": "198",
-     "valor": 15000000
-    }
-   ],
-   "especiales": [
-    {
-     "nombre": "EL TRAVIESO DEL TOLIMA",
-     "numero": "2578",
-     "valor": 1084337,
-     "sin_serie": true
-    }
-   ]
-  },
   "4140": {
    "fecha": "2025-10-20",
    "mayor": {
@@ -10086,6 +9909,183 @@
     {
      "nombre": "EL TRAVIESO DEL TOLIMA",
      "numero": "6941",
+     "valor": 1084337,
+     "sin_serie": true
+    }
+   ]
+  },
+  "4196": {
+   "fecha": "2026-11-17",
+   "mayor": {
+    "numero": "7565",
+    "serie": "133"
+   },
+   "secos": [
+    {
+     "numero": "8609",
+     "serie": "118",
+     "valor": 270000000
+    },
+    {
+     "numero": "6968",
+     "serie": "074",
+     "valor": 240000000
+    },
+    {
+     "numero": "2281",
+     "serie": "142",
+     "valor": 150000000
+    },
+    {
+     "numero": "2421",
+     "serie": "088",
+     "valor": 150000000
+    },
+    {
+     "numero": "0870",
+     "serie": "070",
+     "valor": 60000000
+    },
+    {
+     "numero": "8046",
+     "serie": "078",
+     "valor": 60000000
+    },
+    {
+     "numero": "1582",
+     "serie": "192",
+     "valor": 60000000
+    },
+    {
+     "numero": "8304",
+     "serie": "163",
+     "valor": 45000000
+    },
+    {
+     "numero": "1139",
+     "serie": "271",
+     "valor": 45000000
+    },
+    {
+     "numero": "0897",
+     "serie": "028",
+     "valor": 45000000
+    },
+    {
+     "numero": "6991",
+     "serie": "167",
+     "valor": 45000000
+    },
+    {
+     "numero": "9689",
+     "serie": "168",
+     "valor": 21000000
+    },
+    {
+     "numero": "4794",
+     "serie": "277",
+     "valor": 21000000
+    },
+    {
+     "numero": "9315",
+     "serie": "208",
+     "valor": 21000000
+    },
+    {
+     "numero": "8500",
+     "serie": "153",
+     "valor": 21000000
+    },
+    {
+     "numero": "2400",
+     "serie": "058",
+     "valor": 21000000
+    },
+    {
+     "numero": "7599",
+     "serie": "194",
+     "valor": 21000000
+    },
+    {
+     "numero": "4165",
+     "serie": "059",
+     "valor": 21000000
+    },
+    {
+     "numero": "8156",
+     "serie": "234",
+     "valor": 21000000
+    },
+    {
+     "numero": "3844",
+     "serie": "139",
+     "valor": 21000000
+    },
+    {
+     "numero": "0290",
+     "serie": "022",
+     "valor": 15000000
+    },
+    {
+     "numero": "4223",
+     "serie": "157",
+     "valor": 15000000
+    },
+    {
+     "numero": "3204",
+     "serie": "061",
+     "valor": 15000000
+    },
+    {
+     "numero": "6283",
+     "serie": "147",
+     "valor": 15000000
+    },
+    {
+     "numero": "5685",
+     "serie": "223",
+     "valor": 15000000
+    },
+    {
+     "numero": "6109",
+     "serie": "167",
+     "valor": 15000000
+    },
+    {
+     "numero": "8460",
+     "serie": "102",
+     "valor": 15000000
+    },
+    {
+     "numero": "4754",
+     "serie": "150",
+     "valor": 15000000
+    },
+    {
+     "numero": "4501",
+     "serie": "077",
+     "valor": 15000000
+    },
+    {
+     "numero": "5151",
+     "serie": "035",
+     "valor": 15000000
+    },
+    {
+     "numero": "3659",
+     "serie": "023",
+     "valor": 15000000
+    },
+    {
+     "numero": "9531",
+     "serie": "076",
+     "valor": 15000000
+    }
+   ],
+   "especiales": [
+    {
+     "nombre": "EL TRAVIESO DEL TOLIMA",
+     "numero": "4058",
      "valor": 1084337,
      "sin_serie": true
     }
