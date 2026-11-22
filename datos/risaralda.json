@@ -2,175 +2,6 @@
  "juego": "Lotería del Risaralda",
  "fuente": "https://loteriadelrisaralda.com/resultados",
  "sorteos": {
-  "2921": {
-   "fecha": "2025-10-17",
-   "mayor": {
-    "numero": "8187",
-    "serie": "156"
-   },
-   "secos": [
-    {
-     "numero": "0648",
-     "serie": "292",
-     "valor": 300000000
-    },
-    {
-     "numero": "0729",
-     "serie": "172",
-     "valor": 200000000
-    },
-    {
-     "numero": "5352",
-     "serie": "024",
-     "valor": 150000000
-    },
-    {
-     "numero": "4986",
-     "serie": "272",
-     "valor": 80000000
-    },
-    {
-     "numero": "4601",
-     "serie": "114",
-     "valor": 60000000
-    },
-    {
-     "numero": "6480",
-     "serie": "046",
-     "valor": 60000000
-    },
-    {
-     "numero": "0913",
-     "serie": "159",
-     "valor": 60000000
-    },
-    {
-     "numero": "0903",
-     "serie": "103",
-     "valor": 60000000
-    },
-    {
-     "numero": "6479",
-     "serie": "121",
-     "valor": 50000000
-    },
-    {
-     "numero": "5858",
-     "serie": "118",
-     "valor": 50000000
-    },
-    {
-     "numero": "6921",
-     "serie": "224",
-     "valor": 50000000
-    },
-    {
-     "numero": "6366",
-     "serie": "238",
-     "valor": 50000000
-    },
-    {
-     "numero": "5482",
-     "serie": "297",
-     "valor": 50000000
-    },
-    {
-     "numero": "9341",
-     "serie": "112",
-     "valor": 40000000
-    },
-    {
-     "numero": "8931",
-     "serie": "210",
-     "valor": 40000000
-    },
-    {
-     "numero": "6960",
-     "serie": "252",
-     "valor": 40000000
-    },
-    {
-     "numero": "5988",
-     "serie": "238",
-     "valor": 35000000
-    },
-    {
-     "numero": "1866",
-     "serie": "160",
-     "valor": 35000000
-    },
-    {
-     "numero": "1019",
-     "serie": "257",
-     "valor": 35000000
-    },
-    {
-     "numero": "2384",
-     "serie": "186",
-     "valor": 35000000
-    },
-    {
-     "numero": "7152",
-     "serie": "231",
-     "valor": 35000000
-    },
-    {
-     "numero": "6540",
-     "serie": "298",
-     "valor": 30000000
-    },
-    {
-     "numero": "4138",
-     "serie": "063",
-     "valor": 30000000
-    },
-    {
-     "numero": "3784",
-     "serie": "188",
-     "valor": 30000000
-    },
-    {
-     "numero": "9452",
-     "serie": "251",
-     "valor": 30000000
-    },
-    {
-     "numero": "3853",
-     "serie": "096",
-     "valor": 30000000
-    },
-    {
-     "numero": "3106",
-     "serie": "113",
-     "valor": 30000000
-    },
-    {
-     "numero": "6625",
-     "serie": "114",
-     "valor": 30000000
-    },
-    {
-     "numero": "3169",
-     "serie": "154",
-     "valor": 30000000
-    },
-    {
-     "numero": "0282",
-     "serie": "138",
-     "valor": 30000000
-    },
-    {
-     "numero": "8721",
-     "serie": "252",
-     "valor": 30000000
-    },
-    {
-     "numero": "9911",
-     "serie": "064",
-     "valor": 30000000
-    }
-   ]
-  },
   "2922": {
    "fecha": "2025-10-24",
    "mayor": {
@@ -9462,6 +9293,175 @@
     {
      "numero": "4228",
      "serie": "189",
+     "valor": 30000000
+    }
+   ]
+  },
+  "2977": {
+   "fecha": "2026-11-20",
+   "mayor": {
+    "numero": "5781",
+    "serie": "040"
+   },
+   "secos": [
+    {
+     "numero": "6462",
+     "serie": "096",
+     "valor": 300000000
+    },
+    {
+     "numero": "6418",
+     "serie": "100",
+     "valor": 200000000
+    },
+    {
+     "numero": "8562",
+     "serie": "049",
+     "valor": 150000000
+    },
+    {
+     "numero": "7882",
+     "serie": "217",
+     "valor": 80000000
+    },
+    {
+     "numero": "4427",
+     "serie": "232",
+     "valor": 60000000
+    },
+    {
+     "numero": "4182",
+     "serie": "085",
+     "valor": 60000000
+    },
+    {
+     "numero": "5459",
+     "serie": "152",
+     "valor": 60000000
+    },
+    {
+     "numero": "2855",
+     "serie": "056",
+     "valor": 60000000
+    },
+    {
+     "numero": "4422",
+     "serie": "068",
+     "valor": 50000000
+    },
+    {
+     "numero": "3614",
+     "serie": "164",
+     "valor": 50000000
+    },
+    {
+     "numero": "8780",
+     "serie": "146",
+     "valor": 50000000
+    },
+    {
+     "numero": "2783",
+     "serie": "161",
+     "valor": 50000000
+    },
+    {
+     "numero": "2351",
+     "serie": "290",
+     "valor": 50000000
+    },
+    {
+     "numero": "7113",
+     "serie": "096",
+     "valor": 40000000
+    },
+    {
+     "numero": "0140",
+     "serie": "160",
+     "valor": 40000000
+    },
+    {
+     "numero": "0282",
+     "serie": "263",
+     "valor": 40000000
+    },
+    {
+     "numero": "1770",
+     "serie": "199",
+     "valor": 35000000
+    },
+    {
+     "numero": "9552",
+     "serie": "159",
+     "valor": 35000000
+    },
+    {
+     "numero": "9511",
+     "serie": "209",
+     "valor": 35000000
+    },
+    {
+     "numero": "8528",
+     "serie": "180",
+     "valor": 35000000
+    },
+    {
+     "numero": "9862",
+     "serie": "283",
+     "valor": 35000000
+    },
+    {
+     "numero": "3704",
+     "serie": "277",
+     "valor": 30000000
+    },
+    {
+     "numero": "8734",
+     "serie": "052",
+     "valor": 30000000
+    },
+    {
+     "numero": "2002",
+     "serie": "037",
+     "valor": 30000000
+    },
+    {
+     "numero": "7364",
+     "serie": "097",
+     "valor": 30000000
+    },
+    {
+     "numero": "7624",
+     "serie": "120",
+     "valor": 30000000
+    },
+    {
+     "numero": "4879",
+     "serie": "297",
+     "valor": 30000000
+    },
+    {
+     "numero": "7941",
+     "serie": "298",
+     "valor": 30000000
+    },
+    {
+     "numero": "5128",
+     "serie": "143",
+     "valor": 30000000
+    },
+    {
+     "numero": "3663",
+     "serie": "041",
+     "valor": 30000000
+    },
+    {
+     "numero": "9464",
+     "serie": "186",
+     "valor": 30000000
+    },
+    {
+     "numero": "3054",
+     "serie": "159",
      "valor": 30000000
     }
    ]

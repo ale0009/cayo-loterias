@@ -2,235 +2,6 @@
  "juego": "Lotería de Medellín",
  "fuente": "https://loteriademedellin.com.co/historico-de-resultados/",
  "sorteos": {
-  "4805": {
-   "fecha": "2025-10-17",
-   "mayor": {
-    "numero": "0903",
-    "serie": "296"
-   },
-   "secos": [
-    {
-     "numero": "8187",
-     "serie": "018",
-     "valor": 1000000000
-    },
-    {
-     "numero": "9749",
-     "serie": "371",
-     "valor": 1000000000
-    },
-    {
-     "numero": "4317",
-     "serie": "283",
-     "valor": 700000000
-    },
-    {
-     "numero": "7852",
-     "serie": "359",
-     "valor": 700000000
-    },
-    {
-     "numero": "2837",
-     "serie": "201",
-     "valor": 500000000
-    },
-    {
-     "numero": "5673",
-     "serie": "349",
-     "valor": 500000000
-    },
-    {
-     "numero": "2407",
-     "serie": "133",
-     "valor": 100000000
-    },
-    {
-     "numero": "4050",
-     "serie": "254",
-     "valor": 100000000
-    },
-    {
-     "numero": "4336",
-     "serie": "319",
-     "valor": 100000000
-    },
-    {
-     "numero": "6348",
-     "serie": "447",
-     "valor": 100000000
-    },
-    {
-     "numero": "6785",
-     "serie": "319",
-     "valor": 100000000
-    },
-    {
-     "numero": "7280",
-     "serie": "318",
-     "valor": 100000000
-    },
-    {
-     "numero": "1845",
-     "serie": "418",
-     "valor": 50000000
-    },
-    {
-     "numero": "2147",
-     "serie": "134",
-     "valor": 50000000
-    },
-    {
-     "numero": "3597",
-     "serie": "108",
-     "valor": 50000000
-    },
-    {
-     "numero": "4554",
-     "serie": "274",
-     "valor": 50000000
-    },
-    {
-     "numero": "5142",
-     "serie": "147",
-     "valor": 50000000
-    },
-    {
-     "numero": "6533",
-     "serie": "368",
-     "valor": 50000000
-    },
-    {
-     "numero": "9403",
-     "serie": "209",
-     "valor": 50000000
-    },
-    {
-     "numero": "0230",
-     "serie": "356",
-     "valor": 20000000
-    },
-    {
-     "numero": "0332",
-     "serie": "353",
-     "valor": 20000000
-    },
-    {
-     "numero": "3859",
-     "serie": "218",
-     "valor": 20000000
-    },
-    {
-     "numero": "4361",
-     "serie": "097",
-     "valor": 20000000
-    },
-    {
-     "numero": "5773",
-     "serie": "201",
-     "valor": 20000000
-    },
-    {
-     "numero": "6715",
-     "serie": "199",
-     "valor": 20000000
-    },
-    {
-     "numero": "7187",
-     "serie": "332",
-     "valor": 20000000
-    },
-    {
-     "numero": "8605",
-     "serie": "296",
-     "valor": 20000000
-    },
-    {
-     "numero": "9059",
-     "serie": "293",
-     "valor": 20000000
-    },
-    {
-     "numero": "9626",
-     "serie": "219",
-     "valor": 20000000
-    },
-    {
-     "numero": "0930",
-     "serie": "018",
-     "valor": 10000000
-    },
-    {
-     "numero": "1176",
-     "serie": "368",
-     "valor": 10000000
-    },
-    {
-     "numero": "1530",
-     "serie": "119",
-     "valor": 10000000
-    },
-    {
-     "numero": "1675",
-     "serie": "388",
-     "valor": 10000000
-    },
-    {
-     "numero": "3263",
-     "serie": "235",
-     "valor": 10000000
-    },
-    {
-     "numero": "3931",
-     "serie": "274",
-     "valor": 10000000
-    },
-    {
-     "numero": "4354",
-     "serie": "113",
-     "valor": 10000000
-    },
-    {
-     "numero": "4448",
-     "serie": "437",
-     "valor": 10000000
-    },
-    {
-     "numero": "5259",
-     "serie": "172",
-     "valor": 10000000
-    },
-    {
-     "numero": "5866",
-     "serie": "101",
-     "valor": 10000000
-    },
-    {
-     "numero": "6756",
-     "serie": "218",
-     "valor": 10000000
-    },
-    {
-     "numero": "6932",
-     "serie": "379",
-     "valor": 10000000
-    },
-    {
-     "numero": "6988",
-     "serie": "089",
-     "valor": 10000000
-    },
-    {
-     "numero": "7241",
-     "serie": "337",
-     "valor": 10000000
-    },
-    {
-     "numero": "8796",
-     "serie": "137",
-     "valor": 10000000
-    }
-   ]
-  },
   "4806": {
    "fecha": "2025-10-24",
    "mayor": {
@@ -13051,6 +12822,235 @@
     {
      "numero": "9480",
      "serie": "189",
+     "valor": 10000000
+    }
+   ]
+  },
+  "4862": {
+   "fecha": "2026-11-20",
+   "mayor": {
+    "numero": "6586",
+    "serie": "106"
+   },
+   "secos": [
+    {
+     "numero": "0349",
+     "serie": "022",
+     "valor": 1000000000
+    },
+    {
+     "numero": "6762",
+     "serie": "342",
+     "valor": 1000000000
+    },
+    {
+     "numero": "4021",
+     "serie": "241",
+     "valor": 700000000
+    },
+    {
+     "numero": "8940",
+     "serie": "342",
+     "valor": 700000000
+    },
+    {
+     "numero": "4330",
+     "serie": "048",
+     "valor": 500000000
+    },
+    {
+     "numero": "8409",
+     "serie": "367",
+     "valor": 500000000
+    },
+    {
+     "numero": "0583",
+     "serie": "409",
+     "valor": 100000000
+    },
+    {
+     "numero": "1498",
+     "serie": "079",
+     "valor": 100000000
+    },
+    {
+     "numero": "5318",
+     "serie": "280",
+     "valor": 100000000
+    },
+    {
+     "numero": "5945",
+     "serie": "214",
+     "valor": 100000000
+    },
+    {
+     "numero": "8258",
+     "serie": "203",
+     "valor": 100000000
+    },
+    {
+     "numero": "9994",
+     "serie": "080",
+     "valor": 100000000
+    },
+    {
+     "numero": "3045",
+     "serie": "208",
+     "valor": 50000000
+    },
+    {
+     "numero": "3281",
+     "serie": "114",
+     "valor": 50000000
+    },
+    {
+     "numero": "3578",
+     "serie": "190",
+     "valor": 50000000
+    },
+    {
+     "numero": "6434",
+     "serie": "291",
+     "valor": 50000000
+    },
+    {
+     "numero": "7641",
+     "serie": "279",
+     "valor": 50000000
+    },
+    {
+     "numero": "8583",
+     "serie": "243",
+     "valor": 50000000
+    },
+    {
+     "numero": "9722",
+     "serie": "172",
+     "valor": 50000000
+    },
+    {
+     "numero": "0221",
+     "serie": "149",
+     "valor": 20000000
+    },
+    {
+     "numero": "1552",
+     "serie": "490",
+     "valor": 20000000
+    },
+    {
+     "numero": "1785",
+     "serie": "499",
+     "valor": 20000000
+    },
+    {
+     "numero": "1863",
+     "serie": "250",
+     "valor": 20000000
+    },
+    {
+     "numero": "4032",
+     "serie": "495",
+     "valor": 20000000
+    },
+    {
+     "numero": "5321",
+     "serie": "293",
+     "valor": 20000000
+    },
+    {
+     "numero": "6062",
+     "serie": "326",
+     "valor": 20000000
+    },
+    {
+     "numero": "6067",
+     "serie": "287",
+     "valor": 20000000
+    },
+    {
+     "numero": "6935",
+     "serie": "199",
+     "valor": 20000000
+    },
+    {
+     "numero": "9503",
+     "serie": "061",
+     "valor": 20000000
+    },
+    {
+     "numero": "0134",
+     "serie": "074",
+     "valor": 10000000
+    },
+    {
+     "numero": "0883",
+     "serie": "140",
+     "valor": 10000000
+    },
+    {
+     "numero": "1869",
+     "serie": "305",
+     "valor": 10000000
+    },
+    {
+     "numero": "1999",
+     "serie": "386",
+     "valor": 10000000
+    },
+    {
+     "numero": "2673",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "2747",
+     "serie": "485",
+     "valor": 10000000
+    },
+    {
+     "numero": "3226",
+     "serie": "340",
+     "valor": 10000000
+    },
+    {
+     "numero": "4291",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "5568",
+     "serie": "474",
+     "valor": 10000000
+    },
+    {
+     "numero": "6964",
+     "serie": "308",
+     "valor": 10000000
+    },
+    {
+     "numero": "7149",
+     "serie": "352",
+     "valor": 10000000
+    },
+    {
+     "numero": "7265",
+     "serie": "154",
+     "valor": 10000000
+    },
+    {
+     "numero": "7383",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "7950",
+     "serie": "286",
+     "valor": 10000000
+    },
+    {
+     "numero": "8600",
+     "serie": "440",
      "valor": 10000000
     }
    ]
