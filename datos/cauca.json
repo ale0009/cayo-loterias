@@ -9491,6 +9491,186 @@
     }
    ],
    "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Noviembre/Acta%202637.pdf"
+  },
+  "2638": {
+   "fecha": "2026-11-24",
+   "mayor": {
+    "numero": "2151",
+    "serie": "020"
+   },
+   "secos": [
+    {
+     "numero": "2173",
+     "serie": "241",
+     "valor": 300000000
+    },
+    {
+     "numero": "3794",
+     "serie": "246",
+     "valor": 200000000
+    },
+    {
+     "numero": "3273",
+     "serie": "070",
+     "valor": 100000000
+    },
+    {
+     "numero": "1055",
+     "serie": "221",
+     "valor": 100000000
+    },
+    {
+     "numero": "1885",
+     "serie": "147",
+     "valor": 50000000
+    },
+    {
+     "numero": "5587",
+     "serie": "085",
+     "valor": 50000000
+    },
+    {
+     "numero": "9027",
+     "serie": "122",
+     "valor": 50000000
+    },
+    {
+     "numero": "5269",
+     "serie": "184",
+     "valor": 10000000
+    },
+    {
+     "numero": "6966",
+     "serie": "115",
+     "valor": 10000000
+    },
+    {
+     "numero": "6890",
+     "serie": "180",
+     "valor": 10000000
+    },
+    {
+     "numero": "7961",
+     "serie": "131",
+     "valor": 10000000
+    },
+    {
+     "numero": "7871",
+     "serie": "112",
+     "valor": 10000000
+    },
+    {
+     "numero": "7713",
+     "serie": "228",
+     "valor": 10000000
+    },
+    {
+     "numero": "1790",
+     "serie": "143",
+     "valor": 10000000
+    },
+    {
+     "numero": "9091",
+     "serie": "303",
+     "valor": 10000000
+    },
+    {
+     "numero": "9003",
+     "serie": "082",
+     "valor": 10000000
+    },
+    {
+     "numero": "1524",
+     "serie": "245",
+     "valor": 10000000
+    },
+    {
+     "numero": "5027",
+     "serie": "124",
+     "valor": 10000000
+    },
+    {
+     "numero": "0616",
+     "serie": "073",
+     "valor": 10000000
+    },
+    {
+     "numero": "1497",
+     "serie": "101",
+     "valor": 10000000
+    },
+    {
+     "numero": "9513",
+     "serie": "035",
+     "valor": 10000000
+    },
+    {
+     "numero": "0701",
+     "serie": "009",
+     "valor": 10000000
+    },
+    {
+     "numero": "4077",
+     "serie": "257",
+     "valor": 10000000
+    },
+    {
+     "numero": "9991",
+     "serie": "290",
+     "valor": 10000000
+    },
+    {
+     "numero": "2656",
+     "serie": "207",
+     "valor": 10000000
+    },
+    {
+     "numero": "5532",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "6447",
+     "serie": "006",
+     "valor": 10000000
+    },
+    {
+     "numero": "4148",
+     "serie": "086",
+     "valor": 10000000
+    },
+    {
+     "numero": "2629",
+     "serie": "063",
+     "valor": 10000000
+    },
+    {
+     "numero": "7773",
+     "serie": "203",
+     "valor": 10000000
+    },
+    {
+     "numero": "1954",
+     "serie": "005",
+     "valor": 10000000
+    },
+    {
+     "numero": "6936",
+     "serie": "241",
+     "valor": 10000000
+    },
+    {
+     "numero": "7444",
+     "serie": "115",
+     "valor": 10000000
+    },
+    {
+     "numero": "6769",
+     "serie": "143",
+     "valor": 10000000
+    }
+   ],
+   "aviso": "faltan 2 de 36 secos: ver el acta https://www.loteriadelcauca.gov.co/phocadownload/actaresultados/2026/Noviembre/Acta%202638.pdf"
   }
  }
 }
