@@ -8345,6 +8345,155 @@
     "serie": null,
     "valor": 4518072
    }
+  },
+  "4783": {
+   "fecha": "2026-11-24",
+   "mayor": {
+    "numero": "2227",
+    "serie": "051"
+   },
+   "secos": [
+    {
+     "numero": "7430",
+     "serie": "123",
+     "valor": 100000000
+    },
+    {
+     "numero": "9237",
+     "serie": "162",
+     "valor": 60000000
+    },
+    {
+     "numero": "6903",
+     "serie": "094",
+     "valor": 20000000
+    },
+    {
+     "numero": "0297",
+     "serie": "062",
+     "valor": 20000000
+    },
+    {
+     "numero": "8774",
+     "serie": "050",
+     "valor": 20000000
+    },
+    {
+     "numero": "2389",
+     "serie": "030",
+     "valor": 20000000
+    },
+    {
+     "numero": "5529",
+     "serie": "160",
+     "valor": 20000000
+    },
+    {
+     "numero": "7371",
+     "serie": "088",
+     "valor": 20000000
+    },
+    {
+     "numero": "5585",
+     "serie": "141",
+     "valor": 20000000
+    },
+    {
+     "numero": "4508",
+     "serie": "078",
+     "valor": 20000000
+    },
+    {
+     "numero": "7952",
+     "serie": "164",
+     "valor": 20000000
+    },
+    {
+     "numero": "6178",
+     "serie": "042",
+     "valor": 20000000
+    },
+    {
+     "numero": "2537",
+     "serie": "173",
+     "valor": 10000000
+    },
+    {
+     "numero": "0550",
+     "serie": "093",
+     "valor": 10000000
+    },
+    {
+     "numero": "1755",
+     "serie": "165",
+     "valor": 10000000
+    },
+    {
+     "numero": "0503",
+     "serie": "167",
+     "valor": 10000000
+    },
+    {
+     "numero": "6013",
+     "serie": "090",
+     "valor": 10000000
+    },
+    {
+     "numero": "6217",
+     "serie": "176",
+     "valor": 10000000
+    },
+    {
+     "numero": "9589",
+     "serie": "122",
+     "valor": 10000000
+    },
+    {
+     "numero": "5099",
+     "serie": "025",
+     "valor": 10000000
+    },
+    {
+     "numero": "0279",
+     "serie": "031",
+     "valor": 10000000
+    },
+    {
+     "numero": "2188",
+     "serie": "158",
+     "valor": 10000000
+    },
+    {
+     "numero": "9903",
+     "serie": "014",
+     "valor": 10000000
+    },
+    {
+     "numero": "9755",
+     "serie": "041",
+     "valor": 10000000
+    },
+    {
+     "numero": "7606",
+     "serie": "085",
+     "valor": 10000000
+    },
+    {
+     "numero": "4574",
+     "serie": "096",
+     "valor": 10000000
+    },
+    {
+     "numero": "6431",
+     "serie": "108",
+     "valor": 10000000
+    }
+   ],
+   "ganafijo": {
+    "numero": "4741",
+    "serie": null,
+    "valor": 4518072
+   }
   }
  }
 }
